@@ -1,1 +1,751 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Project Mirror Labyrinth - Códigos, Builds e Cartas",
+      "description": "Encontre códigos de Project Mirror Labyrinth, dicas para iniciantes, cartas, Outfits, Reflections, passivas, masmorras e notas de atualização do Roblox em um guia organizado.",
+      "keywords": "Project Mirror Labyrinth, Roblox, códigos, cartas, Outfits, Reflections, passivas",
+      "ogTitle": "Wiki de Project Mirror Labyrinth - Códigos, Builds e Cartas",
+      "ogDescription": "Encontre códigos de Project Mirror Labyrinth, dicas para iniciantes, cartas, Outfits, Reflections, passivas, masmorras e notas de atualização do Roblox em um guia organizado.",
+      "twitterTitle": "Wiki de Project Mirror Labyrinth - Códigos, Builds e Cartas",
+      "twitterDescription": "Códigos, builds, cartas, Outfits, Reflections, EGO e guias de masmorras para Project Mirror Labyrinth no Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "tierList": "Tier List",
+    "build": "Build",
+    "items": "Itens",
+    "bosses": "Chefes",
+    "modes": "Modos"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG Roguelite de Construção de Baralhos",
+    "title": "Wiki de Project Mirror Labyrinth",
+    "description": "Explore códigos, Reflections, Outfits, cartas, rotas de masmorras e dicas de deck-building de Project Mirror Labyrinth para o RPG do Roblox inspirado em Project Moon.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "8,3M+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "481",
+        "label": "Jogadores Ativos"
+      },
+      "stat3": {
+        "value": "30.777",
+        "label": "Favoritos"
+      },
+      "stat4": {
+        "value": "29/06/2026",
+        "label": "Última Atualização"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Project Mirror Labyrinth",
+    "description": "Entre em masmorras em estilo labirinto, crie combos de cartas e obtenha Outfits através de Reflections neste roguelite deck builder de Roblox inspirado em Project Moon."
+  },
+  "tools": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para códigos, Reflections, exploração de masmorras e montagem de decks em Project Mirror Labyrinth",
+    "cards": [
+      {
+        "icon": "Copiar",
+        "title": "Códigos de Project Mirror Labyrinth",
+        "description": "Códigos de resgate ativos e expirados para recompensas gratuitas"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Iniciante de Project Mirror Labyrinth",
+        "description": "Primeiros passos, entrada em masmorras e progressão inicial"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Mecânicas de Project Mirror Labyrinth",
+        "description": "Sistemas de combate de cartas e roguelite deck-building"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Reflections de Project Mirror Labyrinth",
+        "description": "Outfits, tickets, Fragments e Defragmenting"
+      },
+      {
+        "icon": "Package",
+        "title": "Moedas de Project Mirror Labyrinth",
+        "description": "Fragments, Condense, Seeds of Light e tickets"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guia de Masmorras de Project Mirror Labyrinth",
+        "description": "Inicie explorações de masmorras via menu TAB ou pelo portão NO ENTRY"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações de Project Mirror Labyrinth",
+        "description": "Tags de título, manutenção semanal e rotação de códigos"
+      },
+      {
+        "icon": "Users",
+        "title": "História e Lore de Project Mirror Labyrinth",
+        "description": "Mundo inspirado em Project Moon e inspirações do jogo"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "eyebrow": "Recompensas Gratuitas",
+      "title": "Códigos de Project Mirror Labyrinth",
+      "intro": "Resgate códigos ativos de Project Mirror Labyrinth para Fragments, Condense, Seeds of Light e recompensas relacionadas a Reflection. Os códigos diferenciam maiúsculas de minúsculas e geralmente exigem curtir a experiência no Roblox e entrar na comunidade oficial antes de serem resgatados.",
+      "howTo": "Inicie o Project Mirror Labyrinth, abra o menu de Códigos no lado esquerdo da tela, insira o código exatamente como escrito e pressione Confirmar para resgatar a recompensa.",
+      "activeCodes": [
+        {
+          "code": "UrbanPlague",
+          "reward": "405 Fragments",
+          "note": "Melhor usado para progressão de Reflection e Outfit."
+        },
+        {
+          "code": "OfficeDelay",
+          "reward": "1.620 Fragments",
+          "note": "Uma recompensa maior de Fragment para progressão inicial da conta."
+        },
+        {
+          "code": "NepoOffice",
+          "reward": "405 Fragments",
+          "note": "Insira o código com a capitalização exata mostrada."
+        },
+        {
+          "code": "FauvistStudents",
+          "reward": "405 Fragments",
+          "note": "Útil para economizar para pulls de Outfit e melhorias relacionadas."
+        },
+        {
+          "code": "Welcome",
+          "reward": "350 Fragments, 500 Condense, 3 Seeds of Light",
+          "note": "O código inicial destacado na página do jogo no Roblox."
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "BambooHat",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "MaoAdept",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "EGGRNGFORBRAINROTS",
+          "reward": "1 Mega Reflection Ticket, 910 Fragments"
+        },
+        {
+          "code": "EventAdjustment",
+          "reward": "400 Pontos"
+        },
+        {
+          "code": "5MVisits!",
+          "reward": "1 Ticket Mega SR Garantido"
+        },
+        {
+          "code": "UpperLibrary",
+          "reward": "1 Mega Reflection Ticket"
+        },
+        {
+          "code": "WORKSHOPRELEASE",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "DieciUpscale",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamMiddle",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamIndex",
+          "reward": "405 Fragments"
+        }
+      ],
+      "tips": [
+        "Dê um like na experiência do Roblox e entre na comunidade oficial antes de inserir os códigos.",
+        "Insira cada código com a capitalização exata mostrada, pois os códigos de Project Mirror Labyrinth diferenciam maiúsculas de minúsculas.",
+        "Se um código válido for rejeitado, entre novamente em um servidor novo após uma atualização e tente novamente.",
+        "Resgate os códigos ativos o quanto antes, pois os ciclos de atualização podem remover recompensas mais antigas de rotação."
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Guia para Novos Jogadores",
+      "title": "Como Começar no Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth é um roguelite deck builder do Roblox inspirado em Slay the Spire, Library of Ruina e Limbus Company. Novos jogadores devem focar em iniciar explorações de masmorras, aprender o combate de cartas e usar recompensas de códigos gratuitos antes de buscar uma progressão mais profunda.",
+      "steps": [
+        {
+          "title": "Entre na experiência do Roblox",
+          "description": "Abra o Project Mirror Labyrinth a partir de sua página de jogo no Roblox e inicie a experiência. Ele está listado como um roguelite deck builder com forte inspiração em jogos de estratégia baseados em cartas.",
+          "tip": "O suporte para controle não está listado na página do Roblox, então jogue com teclado e mouse."
+        },
+        {
+          "title": "Dê um like no jogo e junte-se à comunidade oficial",
+          "description": "Curtir a experiência e juntar-se à comunidade oficial de Project Mirror Labyrinth no Roblox são requisitos para o resgate de códigos nos guias de códigos atuais.",
+          "tip": "Faça isso antes de inserir os códigos para que o menu de resgate não rejeite recompensas válidas."
+        },
+        {
+          "title": "Resgate o código inicial",
+          "description": "Use o código Welcome para resgatar recompensas iniciais, incluindo Fragments, Condense e Seeds of Light.",
+          "tip": "Insira os códigos exatamente como escritos, pois os códigos de Project Mirror Labyrinth diferenciam maiúsculas de minúsculas."
+        },
+        {
+          "title": "Inicie sua primeira masmorra",
+          "description": "Pressione Tab e depois Play, ou interaja com o portão NO ENTRY, para iniciar uma exploração de masmorra.",
+          "tip": "As explorações de masmorra são onde o ciclo de deck-building começa."
+        },
+        {
+          "title": "Aprenda sobre as cartas de ataque e defesa",
+          "description": "O combate usa cartas para ataques e defesa. Seu objetivo é construir um combo de deck funcional e jogá-lo com cuidado para sobreviver às fases em forma de labirinto.",
+          "tip": "As explorações iniciais servem para aprender os padrões dos inimigos, o tempo das cartas e quais ferramentas defensivas mantêm você vivo."
+        },
+        {
+          "title": "Gaste recompensas em sistemas de progressão",
+          "description": "Fragments estão atrelados a Reflections, Outfits, habilidades e à progressão geral da conta. Tickets e materiais mais raros ajudam a obter pulls mais fortes ou no crescimento de Outfits.",
+          "tip": "Economize recompensas de tickets de alto valor para a progressão relacionada a Reflections, em vez de gastá-las aleatoriamente."
+        },
+        {
+          "title": "Verifique o horário das atualizações semanais",
+          "description": "A página do Roblox lista a manutenção por volta das 14:00 de toda terça-feira.",
+          "tip": "Se o jogo estiver indisponível por volta desse horário, a manutenção é a primeira coisa a se verificar."
+        }
+      ]
+    },
+    "gameplayMechanics": {
+      "eyebrow": "Sistemas de Combate",
+      "title": "Mecânicas de Jogabilidade de Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth combina explorações de masmorras roguelite com combate de cartas de deck-building. A jogabilidade principal consiste em entrar em masmorras, construir combinações de cartas úteis e usar cartas de ataque e defesa para sobreviver a cada exploração.",
+      "items": [
+        {
+          "system": "Deck builder roguelite",
+          "meaning": "As explorações são baseadas em tentativas repetíveis de masmorras e decisões de deck, em vez de uma única configuração de combate fixa.",
+          "action": "Inicie explorações de masmorras, adapte seu deck e melhore através de tentativas repetidas.",
+          "bestFor": "Jogadores que gostam de tentativas estratégicas, escolhas de cartas e maestria gradual."
+        },
+        {
+          "system": "Entrada da masmorra",
+          "meaning": "Duas maneiras de iniciar uma masmorra: pressione Tab e depois Play, ou interaja com o portão NO ENTRY.",
+          "action": "Use qualquer um dos métodos a partir do lobby para iniciar uma exploração.",
+          "bestFor": "Novos jogadores encontrando o ponto de partida real."
+        },
+        {
+          "system": "Cartas de ataque",
+          "meaning": "Cartas de ataque fazem parte do deck de combate e são usadas para causar dano durante os confrontos.",
+          "action": "Construa um deck que possa causar dano de forma confiável aos inimigos antes que uma exploração fracasse.",
+          "bestFor": "Builds ofensivas e conclusões de masmorras mais rápidas."
+        },
+        {
+          "system": "Cartas de defesa",
+          "meaning": "Cartas de defesa são usadas para sobreviver à pressão do inimigo e reduzir o risco de perder uma exploração precocemente.",
+          "action": "Equilibre as cartas de dano com ferramentas defensivas suficientes para sobreviver a confrontos mais difíceis.",
+          "bestFor": "Explorações iniciais estáveis e progressão mais segura."
+        },
+        {
+          "system": "Combos de deck",
+          "meaning": "O jogo recompensa combinações inteligentes de cartas em vez de jogadas aleatórias.",
+          "action": "Procure por cartas que se apoiem mutuamente em termos de dano, defesa e uso de recursos.",
+          "bestFor": "Jogadores que avançam mais fundo em fases em forma de labirinto."
+        },
+        {
+          "system": "Reflections e Outfits",
+          "meaning": "Fragments são usados para obter Outfits de Targeted e Standard Reflections, e Outfits estão vinculados a atributos e crescimento passivo.",
+          "action": "Colete Fragments e tickets, depois use-os para expandir as opções de progressão.",
+          "bestFor": "Crescimento da conta a longo prazo e variedade de builds."
+        },
+        {
+          "system": "Defragmenting",
+          "meaning": "Condense, Seeds of Light e outras moedas estão conectadas a Defragmenting Outfits e ao desbloqueio de habilidades passivas.",
+          "action": "Use materiais mais raros no crescimento de Outfits após garantir puxadas úteis de Reflection.",
+          "bestFor": "Melhorar bônus passivos e fortalecer futuras explorações de masmorras."
+        },
+        {
+          "system": "Manutenção semanal",
+          "meaning": "A página do Roblox lista a manutenção por volta das 14:00 de toda terça-feira.",
+          "action": "Verifique o horário da atualização antes de presumir que o jogo está com problemas.",
+          "bestFor": "Evitar a solução de problemas durante o período de inatividade programado."
+        }
+      ]
+    },
+    "reflectionsAndOutfits": {
+      "eyebrow": "Sistemas de Progressão",
+      "title": "Reflections e Outfits de Project Mirror Labyrinth",
+      "intro": "Reflections, Outfits, Fragments, tickets, Condense e Seeds of Light são centrais para a progressão de Project Mirror Labyrinth. Esta grade explica para que cada sistema é usado com base em mecânicas confirmadas.",
+      "tiers": [
+        {
+          "tier": "Sistema Principal de Puxadas",
+          "items": [
+            {
+              "name": "Targeted Reflections",
+              "category": "Puxada de Reflection",
+              "use": "Usado para obter Outfits com um alvo de Reflection mais focado.",
+              "focus": "Gaste Fragments aqui ao buscar uma progressão de Outfit específica."
+            },
+            {
+              "name": "Standard Reflections",
+              "category": "Puxada de Reflection",
+              "use": "Usado para obter Outfits através da pool padrão de Reflection.",
+              "focus": "Use como a rota geral de aquisição de Outfits quando nenhuma opção direcionada for o objetivo principal."
+            }
+          ]
+        },
+        {
+          "tier": "Moeda Principal",
+          "items": [
+            {
+              "name": "Fragments",
+              "category": "Moeda",
+              "use": "Necessário para obter Outfits de Targeted e Standard Reflections e vinculado ao aprendizado de habilidades e à melhoria das explorações de masmorras.",
+              "focus": "Resgate os códigos ativos primeiro, depois economize Fragments para a progressão de Reflection e Outfit."
+            }
+          ]
+        },
+        {
+          "tier": "Tickets de Alto Valor",
+          "items": [
+            {
+              "name": "Mega Reflection Ticket",
+              "category": "Ticket",
+              "use": "Uma recompensa em ticket conectada a puxadas de Reflection.",
+              "focus": "Trate como um recurso de puxada de alto valor, em vez de uma moeda comum."
+            },
+            {
+              "name": "SR Guaranteed Mega Ticket",
+              "category": "Ticket",
+              "use": "Uma recompensa de ticket de Reflection mais forte que garante valor SR do sistema Mega Reflection.",
+              "focus": "Use para progressão de Reflection de raridade mais alta."
+            }
+          ]
+        },
+        {
+          "tier": "Crescimento de Outfit",
+          "items": [
+            {
+              "name": "Outfits",
+              "category": "Progressão",
+              "use": "Outfits obtidos através de Reflections concedem novos atributos e contribuem para o crescimento da build.",
+              "focus": "Monte sua build em torno de Outfits que suportem sua estratégia de dungeon preferida."
+            },
+            {
+              "name": "Defragment",
+              "category": "Sistema de upgrade",
+              "use": "Defragmenting Outfits desbloqueia habilidades passivas e usa materiais além dos Fragments comuns.",
+              "focus": "Priorize o Defragmenting assim que tiver um Outfit que valha a pena melhorar."
+            }
+          ]
+        },
+        {
+          "tier": "Materiais de Upgrade",
+          "items": [
+            {
+              "name": "Condense",
+              "category": "Material",
+              "use": "Um material conectado ao Defragmenting e à progressão de habilidades passivas.",
+              "focus": "Guarde para upgrades de Outfit em vez de gastar casualmente."
+            },
+            {
+              "name": "Seeds of Light",
+              "category": "Material",
+              "use": "Um material usado junto com outras moedas para o crescimento de Outfit e desbloqueios passivos.",
+              "focus": "Guarde as recompensas de códigos iniciais para a progressão relacionada a Defragment."
+            }
+          ]
+        }
+      ]
+    },
+    "currenciesAndRewards": {
+      "eyebrow": "Guia de Recursos",
+      "title": "Moedas e Recompensas em Project Mirror Labyrinth",
+      "intro": "As recompensas de Project Mirror Labyrinth são estruturadas principalmente em torno de Fragments, com Condense, Seeds of Light e Tickets aparecendo como extras de maior valor. Os códigos são uma das maneiras mais rápidas de coletar esses recursos antes de avançar mais fundo nas runs de dungeon.",
+      "items": [
+        {
+          "resource": "Fragments",
+          "mainUse": "Usado para comprar Reflections, obter Outfits, aprender habilidades e fortalecer runs de dungeon.",
+          "sources": [
+            "Recompensas de código",
+            "Progressão relacionada a Reflections"
+          ],
+          "examples": [
+            "UrbanPlague: 405 Fragments",
+            "OfficeDelay: 1.620 Fragments",
+            "Welcome: 350 Fragments"
+          ]
+        },
+        {
+          "resource": "Condense",
+          "mainUse": "Usado no caminho de Defragmenting de Outfits, que se conecta a desbloqueios de bônus passivos.",
+          "sources": [
+            "Recompensas de códigos especiais"
+          ],
+          "examples": [
+            "Welcome: 500 Condense"
+          ]
+        },
+        {
+          "resource": "Seeds of Light",
+          "mainUse": "Usado com recompensas de progressão de maior valor vinculadas a Defragmenting Outfits e crescimento passivo.",
+          "sources": [
+            "Recompensas de códigos especiais"
+          ],
+          "examples": [
+            "Welcome: 3 Seeds of Light"
+          ]
+        },
+        {
+          "resource": "Mega Reflection Ticket",
+          "mainUse": "Usado como um cupom de pull de Reflection, economizando Fragments ao realizar pulls nos sistemas de Reflection.",
+          "sources": [
+            "Recompensas de códigos limitados"
+          ],
+          "examples": [
+            "UpperLibrary: 1 Mega Reflection Ticket",
+            "EGGRNGFORBRAINROTS: 1 Mega Reflection Ticket e 910 Fragments"
+          ]
+        },
+        {
+          "resource": "SR Guaranteed Mega Ticket",
+          "mainUse": "Usado para um pull de Reflection de maior valor com garantia de SR.",
+          "sources": [
+            "Recompensas de códigos de marcos"
+          ],
+          "examples": [
+            "5MVisits!: 1 SR Guaranteed Mega Ticket",
+            "1MVisits!: 1 SR Guaranteed Mega Reflection Ticket"
+          ]
+        },
+        {
+          "resource": "EGO Ticket",
+          "mainUse": "Usado como uma recompensa de Ticket especial conectada a opções de progressão mais fortes relacionadas a EGO.",
+          "sources": [
+            "Recompensas de códigos limitados"
+          ],
+          "examples": [
+            "4MFChange: 1 EGO Ticket e 405 Fragments"
+          ]
+        }
+      ]
+    },
+    "dungeonGuide": {
+      "eyebrow": "Início da Dungeon",
+      "title": "Como iniciar uma Dungeon em Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth oferece aos jogadores dois caminhos claros de entrada na dungeon. A página oficial do Roblox lista a rota do menu TAB e a rota do portão NO ENTRY.",
+      "steps": [
+        {
+          "title": "Iniciar Project Mirror Labyrinth",
+          "description": "Abra a página da experiência Roblox e entre no jogo. O suporte para controle não está disponível, então use teclado e mouse."
+        },
+        {
+          "title": "Pressione TAB",
+          "description": "Pressione TAB para abrir o menu do jogo e escolha Play para iniciar uma dungeon."
+        },
+        {
+          "title": "Use o portão NO ENTRY",
+          "description": "Como uma rota alternativa, interaja com o portão NO ENTRY no mundo do jogo para começar uma dungeon."
+        },
+        {
+          "title": "Construa durante a Run",
+          "description": "Project Mirror Labyrinth é um roguelite deck builder, então cada run foca em melhorar as opções de cartas, gerenciar encontros e construir combinações mais fortes."
+        },
+        {
+          "title": "Verifique a Manutenção Semanal",
+          "description": "A manutenção começa por volta das 14:00 de toda terça-feira. O acesso à dungeon, a disponibilidade do servidor e o comportamento da UI podem ser afetados durante as janelas de atualização."
+        },
+        {
+          "title": "Entre novamente após as atualizações",
+          "description": "Quando um menu, código ou caminho de entrada não responder após uma nova atualização, saia da experiência e entre novamente em um servidor atualizado."
+        }
+      ]
+    },
+    "updatesAndMaintenance": {
+      "eyebrow": "Atualizações em tempo real",
+      "title": "Atualizações, Códigos e Manutenção de Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth altera os rótulos de atualização visíveis através do seu título no Roblox e rotaciona as recompensas de códigos conforme patches, marcos e lançamentos de conteúdo. A manutenção semanal também faz parte do ritmo normal.",
+      "items": [
+        {
+          "type": "Atualização de Título",
+          "label": "Tag de Título do Roblox",
+          "title": "[LEI HENG + NOT BINAH]",
+          "description": "O título da experiência Roblox usa atualmente esta tag de atualização, tornando-o o primeiro lugar para verificar o tema de conteúdo ativo.",
+          "impact": "Use a tag de título para identificar se você está vendo a versão mais recente do jogo e o ciclo de códigos."
+        },
+        {
+          "type": "Manutenção",
+          "label": "Manutenção Semanal",
+          "title": "Janela de Manutenção de Terça-feira",
+          "description": "A descrição oficial do Roblox diz que a manutenção começa por volta das 14:00 de toda terça-feira.",
+          "impact": "A entrada na dungeon, o acesso ao servidor e o resgate de recompensas podem ser interrompidos durante a manutenção."
+        },
+        {
+          "type": "Atualização de Códigos",
+          "label": "Rotação de Códigos",
+          "title": "Códigos de Recompensa Ativos",
+          "description": "Listas públicas recentes de códigos incluem UrbanPlague, OfficeDelay, NepoOffice, FauvistStudents e Welcome como fontes de recompensa.",
+          "impact": "Resgate códigos funcionais antes que os ciclos de atualização os removam ou substituam."
+        },
+        {
+          "type": "Comunidade",
+          "label": "Comunidade Oficial",
+          "title": "Atualizações da Comunidade Roblox",
+          "description": "O grupo oficial da comunidade Roblox é o hub principal para atualizações, requisitos de códigos e anúncios do jogo.",
+          "impact": "Entrar na comunidade também é necessário para resgatar códigos."
+        },
+        {
+          "type": "Solução de Problemas",
+          "label": "Estado do Servidor",
+          "title": "Entre novamente para Servidores Novos",
+          "description": "Após novas atualizações, reiniciar a experiência pode mover os jogadores para um servidor mais novo, onde os menus e recompensas funcionam corretamente.",
+          "impact": "Use isso primeiro quando um código novo ou opção de menu não funcionar."
+        }
+      ]
+    },
+    "storyAndInspiration": {
+      "eyebrow": "Guia de Lore",
+      "title": "História, Lore e Inspirações por trás de Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth é um roguelite deck builder do Roblox feito por sua própria comunidade de criadores. Ele extrai forte inspiração de mundos no estilo Project Moon e jogos de batalha de cartas, mantendo-se como uma experiência independente no Roblox.",
+      "faqs": [
+        {
+          "question": "Que tipo de jogo é Project Mirror Labyrinth?",
+          "answer": "Project Mirror Labyrinth é um roguelite deck builder do Roblox. As partidas focam em escolhas baseadas em cartas, progressão de masmorras e na construção de opções mais fortes ao longo de tentativas repetidas."
+        },
+        {
+          "question": "Quais jogos inspiraram Project Mirror Labyrinth?",
+          "answer": "A descrição oficial do Roblox cita Slay the Spire, Library of Ruina e Limbus Company como as principais inspirações de jogabilidade e estilo para Project Mirror Labyrinth."
+        },
+        {
+          "question": "Project Mirror Labyrinth é um jogo oficial da Project Moon?",
+          "answer": "Não. Project Mirror Labyrinth é criado por seu próprio grupo comunitário e é descrito em torno de temas inspirados em Project Moon, não como um lançamento oficial da Project Moon."
+        },
+        {
+          "question": "Onde se passa a história de Project Mirror Labyrinth?",
+          "answer": "A página do Roblox situa a história de Project Mirror Labyrinth logo após os eventos do \"Bad End\" da Angela em Library of Ruina."
+        },
+        {
+          "question": "Project Mirror Labyrinth dá spoilers de Library of Ruina?",
+          "answer": "A descrição oficial do Roblox afirma que Project Mirror Labyrinth não contém spoilers significativos."
+        },
+        {
+          "question": "Os jogadores precisam jogar Library of Ruina antes de Project Mirror Labyrinth?",
+          "answer": "Não. A página do jogo afirma que os jogadores não precisam jogar Library of Ruina para entender Project Mirror Labyrinth."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respostas rápidas sobre códigos, masmorras e progressão de Project Mirror Labyrinth",
+    "questions": [
+      {
+        "question": "O que é Project Mirror Labyrinth?",
+        "answer": "Project Mirror Labyrinth é um roguelite deck builder do Roblox inspirado em Slay the Spire, Library of Ruina e Limbus Company, ambientado em um mundo inspirado em Project Moon."
+      },
+      {
+        "question": "Como resgato códigos no Project Mirror Labyrinth?",
+        "answer": "Inicie o Project Mirror Labyrinth, abra o menu Codes no lado esquerdo da tela, insira o código exatamente como escrito (os códigos diferenciam maiúsculas de minúsculas) e pressione Confirm para resgatar a recompensa."
+      },
+      {
+        "question": "Onde começo uma masmorra no Project Mirror Labyrinth?",
+        "answer": "No Project Mirror Labyrinth, você pode pressionar TAB e depois Play, ou interagir com o portão NO ENTRY, para começar uma partida na masmorra."
+      },
+      {
+        "question": "Para que servem os Fragments no Project Mirror Labyrinth?",
+        "answer": "No Project Mirror Labyrinth, Fragments são usados para obter Outfits de Targeted e Standard Reflections, aprender habilidades e fortalecer as partidas nas masmorras."
+      },
+      {
+        "question": "Quando ocorre a manutenção do Project Mirror Labyrinth?",
+        "answer": "A manutenção do Project Mirror Labyrinth começa por volta das 14:00 de cada terça-feira, o que pode afetar a entrada em masmorras e o resgate de códigos."
+      },
+      {
+        "question": "Project Mirror Labyrinth é um jogo oficial da Project Moon?",
+        "answer": "Não. Project Mirror Labyrinth é uma experiência do Roblox criada por seu próprio grupo comunitário, inspirada em mundos no estilo Project Moon em vez de ser um lançamento oficial da Project Moon."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar o Project Mirror Labyrinth?",
+    "description": "Junte-se à comunidade de Project Mirror Labyrinth no Discord para obter codes, builds, dicas de decks e as últimas atualizações do Roblox!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Project Mirror Labyrinth Wiki",
+    "description": "Seu hub de recursos completo para codes de Project Mirror Labyrinth, Reflections, outfits, cards, EGO e guias de dungeons.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "Jogo no Roblox",
+    "steamCommunity": "Comunidade do Roblox",
+    "steamStore": "Vídeo de Gameplay",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Project Mirror Labyrinth Wiki. Não afiliado aos desenvolvedores de Project Mirror Labyrinth.",
+    "disclaimer": "Website de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes de Project Mirror Labyrinth",
+      "description": "Todos os codes ativos e expirados de Project Mirror Labyrinth, etapas de resgate e detalhes de recompensas em um só lugar.",
+      "metaTitle": "Codes de Project Mirror Labyrinth - Redeem Codes Ativos e Expirados",
+      "metaDescription": "Resgate os codes mais recentes de Project Mirror Labyrinth para obter recompensas de Fragments, Condense, Seeds of Light e Reflection. Lista atualizada de codes ativos e expirados.",
+      "categoryLabel": "RESGATAR CODES",
+      "whatIs": "O que são codes?",
+      "whatIsDescription": "Os codes de Project Mirror Labyrinth são strings de resgate que diferenciam maiúsculas de minúsculas, inseridas no menu Codes do jogo para obter Fragments, materiais e tickets de Reflection gratuitos.",
+      "why": "Por que resgatar codes?",
+      "whySteps": {
+        "step1Title": "Progressão Gratuita",
+        "step1Description": "Os codes concedem Fragments e materiais que aceleram o crescimento de Reflections e Outfits",
+        "step2Title": "Vantagem Inicial",
+        "step2Description": "Recompensas iniciais ajudam novos jogadores a começar suas runs de dungeon com mais recursos",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Os codes mudam com as atualizações, então resgate os ativos antes que expirem"
+      },
+      "featured": "Codes em Destaque",
+      "all": "Todos os Artigos de Codes"
+    },
+    "guide": {
+      "title": "Guia de Project Mirror Labyrinth",
+      "description": "Dicas para iniciantes, passo a passo de como jogar, entrada na dungeon e o básico do combate de cards para Project Mirror Labyrinth.",
+      "metaTitle": "Guia de Project Mirror Labyrinth - Dicas para Iniciantes e Como Jogar",
+      "metaDescription": "Um guia completo de Project Mirror Labyrinth cobrindo os primeiros passos, entrada na dungeon, combate de cards, Reflections e progressão inicial no Roblox.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "Novo no Project Mirror Labyrinth?",
+      "whatIsDescription": "Estes guias cobrem tudo, desde o lançamento da experiência Roblox e resgate de códigos até a entrada em sua primeira dungeon e o aprendizado do loop de combate de cartas.",
+      "why": "Por que ler um guia para iniciantes?",
+      "whySteps": {
+        "step1Title": "Comece Mais Rápido",
+        "step1Description": "Aprenda a entrada na dungeon via menu TAB ou portão NO ENTRY e o loop central de deck-building logo de cara",
+        "step2Title": "Evite Erros Comuns",
+        "step2Description": "Resgate códigos corretamente e gaste Fragments nos sistemas de progressão certos",
+        "step3Title": "Construa uma Base",
+        "step3Description": "Configure Reflections, Outfits e o básico das cartas para o crescimento de longo prazo em dungeons"
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Artigos de Guia"
+    },
+    "tier-list": {
+      "title": "Project Mirror Labyrinth Tier List",
+      "description": "Guias de prioridade com marcação de versão para Outfits, builds e Reflections em Project Mirror Labyrinth.",
+      "metaTitle": "Project Mirror Labyrinth Tier List - Outfits, Builds & Reflections",
+      "metaDescription": "Navegue pelas tier lists e guias de prioridade de Project Mirror Labyrinth para Outfits, builds e Reflections, datados de acordo com a versão atual do jogo.",
+      "categoryLabel": "TIER LISTS",
+      "whatIs": "O que é uma tier list?",
+      "whatIsDescription": "Tier lists classificam Outfits, builds e Reflections por utilidade geral para que os jogadores possam planejar a progressão, pulls e escolhas de deck.",
+      "why": "Por que usar uma tier list?",
+      "whySteps": {
+        "step1Title": "Planeje Seus Pulls",
+        "step1Description": "Priorize Outfits e Reflections de alto valor para seus objetivos de dungeon",
+        "step2Title": "Gaste com Sabedoria",
+        "step2Description": "Economize Fragments e tickets para opções que se ajustem à sua estratégia de build",
+        "step3Title": "Fique Atento à Versão",
+        "step3Description": "Cada tier list é marcada para uma atualização específica do jogo para uma classificação precisa"
+      },
+      "featured": "Tier Lists em Destaque",
+      "all": "Todos os Artigos de Tier List"
+    },
+    "build": {
+      "title": "Project Mirror Labyrinth Build",
+      "description": "Arquétipos de build, decks, passivas e escolhas de EGO Gift para runs de dungeon em Project Mirror Labyrinth.",
+      "metaTitle": "Project Mirror Labyrinth Build - Decks, Passivas & EGO Gifts",
+      "metaDescription": "Aprenda estratégias de build de Project Mirror Labyrinth, incluindo decks de Rupture, Charge e Poise, escolhas de passivas, EGO Gifts e construção de deck para runs de dungeon.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "O que é uma build?",
+      "whatIsDescription": "Uma build em Project Mirror Labyrinth é a combinação de cartas, passivas, Outfits e EGO Gifts que você traz para uma run de dungeon. Arquétipos como Rupture, Charge e Poise moldam como cada run funciona.",
+      "why": "Por que planejar uma build?",
+      "whySteps": {
+        "step1Title": "Crie Sinergia entre Cartas",
+        "step1Description": "Combine cartas de ataque e defesa para que seu deck tenha um desempenho confiável em todos os encontros",
+        "step2Title": "Escolha as Passivas Certas",
+        "step2Description": "Passivas e EGO Gifts amplificam seu arquétipo e mantêm as runs estáveis",
+        "step3Title": "Adapte Cada Run",
+        "step3Description": "Escolha as peças de build que se adaptam às cartas, inimigos e recursos que você encontrar"
+      },
+      "featured": "Guias de Build em Destaque",
+      "all": "Todos os Artigos de Build"
+    },
+    "items": {
+      "title": "Itens de Project Mirror Labyrinth",
+      "description": "Moedas, materiais, Fragments, EGO Gear, Seeds of Light e Defragmenting em Project Mirror Labyrinth.",
+      "metaTitle": "Itens de Project Mirror Labyrinth - Fragments, EGO Gear e Moedas",
+      "metaDescription": "Guias para itens e moedas de Project Mirror Labyrinth: Fragments, Condense, Seeds of Light, EGO Gear, Reward Bags, Cosmetic Vouchers e Defragmenting.",
+      "categoryLabel": "ITENS",
+      "whatIs": "O que são itens e moedas?",
+      "whatIsDescription": "Itens e moedas impulsionam a progressão em Project Mirror Labyrinth. Fragments alimentam Reflections, enquanto Condense, Seeds of Light e EGO Gear sustentam o Defragmenting e o crescimento passivo.",
+      "why": "Por que aprender o sistema de itens?",
+      "whySteps": {
+        "step1Title": "Gaste Fragments com Sabedoria",
+        "step1Description": "Fragments financiam Reflections, Outfits e o crescimento de habilidades, então planeje onde usá-los",
+        "step2Title": "Melhore Através do Defragment",
+        "step2Description": "Condense e Seeds of Light desbloqueiam habilidades passivas em Outfits que valem a pena melhorar",
+        "step3Title": "Rastreie Materiais Raros",
+        "step3Description": "EGO Gear e Reward Bags concedem reforços de alto valor quando usados no momento certo"
+      },
+      "featured": "Guias de Itens em Destaque",
+      "all": "Todos os Artigos de Itens"
+    },
+    "bosses": {
+      "title": "Chefes de Project Mirror Labyrinth",
+      "description": "Guias de encontros com chefes, padrões de ataque e estratégias para explorações de masmorras em Project Mirror Labyrinth.",
+      "metaTitle": "Chefes de Project Mirror Labyrinth - Padrões de Ataque e Estratégias",
+      "metaDescription": "Derrote todos os chefes de Project Mirror Labyrinth com guias que cobrem padrões de ataque, fraquezas, builds recomendadas e prioridades de recompensa para cada encontro.",
+      "categoryLabel": "CHEFES",
+      "whatIs": "O que são chefes?",
+      "whatIsDescription": "Chefes são os principais encontros dentro das masmorras de Project Mirror Labyrinth. Cada chefe possui padrões de ataque e tempos distintos que testam sua construção de deck e jogabilidade de cartas defensivas.",
+      "why": "Por que estudar os chefes?",
+      "whySteps": {
+        "step1Title": "Leia os Padrões de Ataque",
+        "step1Description": "Conhecer os sinais dos chefes ajuda você a cronometrar cartas de defesa e evitar perdas precoces na exploração",
+        "step2Title": "Escolha a Build Certa",
+        "step2Description": "Combine o arquétipo do seu deck e as escolhas de EGO com as fraquezas de cada chefe",
+        "step3Title": "Ganhe Melhores Recompensas",
+        "step3Description": "Derrotar chefes concede Fragments, materiais e moedas de progressão para explorações mais profundas"
+      },
+      "featured": "Guias de Chefes em Destaque",
+      "all": "Todos os Artigos de Chefes"
+    },
+    "modes": {
+      "title": "Modos de Project Mirror Labyrinth",
+      "description": "Modos de jogo, masmorras e rotas, incluindo Library, Upper Library, Detour e Luxcavation.",
+      "metaTitle": "Modos de Project Mirror Labyrinth - Library, Detour e Luxcavation",
+      "metaDescription": "Explore os modos de jogo e rotas de masmorra de Project Mirror Labyrinth: Library, Upper Library, Detour e Luxcavation, com requisitos de entrada, recompensas e prioridades de conclusão.",
+      "categoryLabel": "MODOS",
+      "whatIs": "O que são modos de jogo?",
+      "whatIsDescription": "Modos de jogo são as rotas de dungeon e camadas de conteúdo em Project Mirror Labyrinth. Cada modo oferece diferentes regras de entrada, layouts de inimigos e tiers de recompensa para suas runs.",
+      "why": "Por que explorar todos os modos?",
+      "whySteps": {
+        "step1Title": "Combine com sua Build",
+        "step1Description": "Diferentes rotas favorecem diferentes arquétipos de deck e estágios de progressão",
+        "step2Title": "Recompensas Focadas",
+        "step2Description": "Luxcavation e Upper Library dropam materiais específicos e tickets que você precisa",
+        "step3Title": "Progrida Constantemente",
+        "step3Description": "Limpar cada modo em ordem acumula os recursos para tiers de dungeon mais difíceis"
+      },
+      "featured": "Guias de Modos em Destaque",
+      "all": "Todos os Artigos de Modos"
+    }
+  }
+}

@@ -1,1 +1,751 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Project Mirror Labyrinth Wiki - コード、ビルド＆カード",
+      "description": "Project Mirror Labyrinthのcodes、初心者向けのヒント、cards、outfits、Reflections、passives、ダンジョン、そしてRobloxのアップデートノートを1つのシンプルなガイドにまとめました。",
+      "keywords": "Project Mirror Labyrinth, Roblox, codes, cards, outfits, Reflections, passives",
+      "ogTitle": "Project Mirror Labyrinth Wiki - コード、ビルド＆カード",
+      "ogDescription": "Project Mirror Labyrinthのcodes、初心者向けのヒント、cards、outfits、Reflections、passives、ダンジョン、そしてRobloxのアップデートノートを1つのシンプルなガイドにまとめました。",
+      "twitterTitle": "Project Mirror Labyrinth Wiki - コード、ビルド＆カード",
+      "twitterDescription": "RobloxのProject Mirror Labyrinthにおけるcodes、builds、cards、outfits、Reflections、EGO、そしてダンジョンのガイド。"
+    }
+  },
+  "nav": {
+    "codes": "コード",
+    "guide": "ガイド",
+    "tierList": "ティアリスト",
+    "build": "ビルド",
+    "items": "アイテム",
+    "bosses": "ボス",
+    "modes": "モード"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "ローグライトデッキ構築RPG",
+    "title": "Project Mirror Labyrinth Wiki",
+    "description": "Project MoonにインスパイアされたRoblox RPG「Project Mirror Labyrinth」のcodes、Reflections、outfits、cards、ダンジョンルート、デッキ構築のヒントをチェックしましょう。",
+    "getFreeCodesCTA": "無料コードをゲット",
+    "playOnRobloxCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "8.3M+",
+        "label": "総訪問数"
+      },
+      "stat2": {
+        "value": "481",
+        "label": "アクティブプレイヤー"
+      },
+      "stat3": {
+        "value": "30,777",
+        "label": "お気に入り"
+      },
+      "stat4": {
+        "value": "2026/6/29",
+        "label": "最新アップデート"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Project Mirror Labyrinthのゲームプレイ",
+    "description": "Project MoonにインスパイアされたこのRobloxローグライト・デッキ構築RPGで、迷宮のようなダンジョンに挑み、カードコンボを構築し、Reflectionsを通じてOutfitsを手に入れましょう。"
+  },
+  "tools": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "リソース",
+    "subtitle": "Project Mirror Labyrinthのコード、Reflections、ダンジョン攻略、デッキ構築に必要なすべての情報",
+    "cards": [
+      {
+        "icon": "コピー",
+        "title": "Project Mirror Labyrinth コード",
+        "description": "無料報酬のための有効なコードと期限切れのコード"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Project Mirror Labyrinth 初心者ガイド",
+        "description": "初めのステップ、ダンジョンへの入場、序盤の進行について"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Project Mirror Labyrinthのメカニクス",
+        "description": "ローグライトなデッキ構築とカード戦闘システム"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Project Mirror Labyrinth Reflections",
+        "description": "Outfits、tickets、Fragments、そしてDefragmentingについて"
+      },
+      {
+        "icon": "Package",
+        "title": "Project Mirror Labyrinthの通貨",
+        "description": "Fragments、Condense、Seeds of Light、およびtickets"
+      },
+      {
+        "icon": "Eye",
+        "title": "Project Mirror Labyrinth ダンジョンガイド",
+        "description": "TABメニューまたはNO ENTRYゲートからダンジョン攻略を開始"
+      },
+      {
+        "icon": "Clock",
+        "title": "Project Mirror Labyrinth アップデート",
+        "description": "称号タグ、毎週のメンテナンス、コードの入れ替えについて"
+      },
+      {
+        "icon": "Users",
+        "title": "Project Mirror Labyrinthのストーリーと世界観",
+        "description": "Project Moonにインスパイアされた世界観とゲームの着想"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "eyebrow": "無料報酬",
+      "title": "Project Mirror Labyrinth コード",
+      "intro": "有効なProject Mirror Labyrinthのコードを引き換えて、Fragments、Condense、Seeds of Light、およびReflection関連の報酬を獲得しましょう。コードは大文字と小文字を区別し、通常はRobloxのエクスペリエンスに「いいね」をし、公式コミュニティに参加してからでないと使用できません。",
+      "howTo": "Project Mirror Labyrinthを起動し、画面左側のCodesメニューを開き、コードを正確に入力してConfirmを押すと報酬を受け取れます。",
+      "activeCodes": [
+        {
+          "code": "UrbanPlague",
+          "reward": "405 Fragments",
+          "note": "ReflectionやOutfitの進行に使用するのが最適です。"
+        },
+        {
+          "code": "OfficeDelay",
+          "reward": "1,620 Fragments",
+          "note": "アカウント序盤の進行に役立つ、より多くのFragment報酬。"
+        },
+        {
+          "code": "NepoOffice",
+          "reward": "405 Fragments",
+          "note": "コードは表示されている大文字小文字を正確に入力してください。"
+        },
+        {
+          "code": "FauvistStudents",
+          "reward": "405 Fragments",
+          "note": "Outfitのガチャや関連するアップグレードのために貯めるのに便利です。"
+        },
+        {
+          "code": "Welcome",
+          "reward": "350 Fragments、500 Condense、3 Seeds of Light",
+          "note": "Robloxのゲームページで強調表示されているスターターコード。"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "BambooHat",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "MaoAdept",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "EGGRNGFORBRAINROTS",
+          "reward": "1 Mega Reflection Ticket、910 Fragments"
+        },
+        {
+          "code": "EventAdjustment",
+          "reward": "400ポイント"
+        },
+        {
+          "code": "5MVisits!",
+          "reward": "1 SR確定 Mega Ticket"
+        },
+        {
+          "code": "UpperLibrary",
+          "reward": "1 Mega Reflection Ticket"
+        },
+        {
+          "code": "WORKSHOPRELEASE",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "DieciUpscale",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamMiddle",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamIndex",
+          "reward": "405 Fragments"
+        }
+      ],
+      "tips": [
+        "コードを入力する前に、Robloxのエクスペリエンスにいいねをして、公式コミュニティに参加してください。",
+        "Project Mirror Labyrinthのコードは大文字と小文字を区別するため、各コードは表示されている大文字小文字を正確に入力してください。",
+        "有効なコードが拒否された場合は、アップデート後に新しいサーバーに再参加して、もう一度お試しください。",
+        "アップデートのサイクルによって古い報酬が入れ替わることがあるため、有効なコードは早めに引き換えてください。"
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "新規プレイヤー向けガイド",
+      "title": "Project Mirror Labyrinthの始め方",
+      "intro": "Project Mirror Labyrinthは、Slay the Spire、Library of Ruina、Limbus CompanyにインスパイアされたRobloxのローグライト・デッキ構築ゲームです。新規プレイヤーは、より深いやり込み要素を追う前に、まずダンジョンランを開始し、カード戦闘を学び、無料のコード報酬を使用することに集中すると良いでしょう。",
+      "steps": [
+        {
+          "title": "Robloxのエクスペリエンスに参加する",
+          "description": "RobloxのゲームページからProject Mirror Labyrinthを開き、エクスペリエンスを起動します。このゲームは、カードベースの戦略ゲームから多大な影響を受けたローグライト・デッキ構築ゲームとしてリストされています。",
+          "tip": "Robloxのページにはコントローラー対応の記載がないため、キーボードとマウスでプレイしてください。"
+        },
+        {
+          "title": "ゲームにいいねをして公式コミュニティに参加する",
+          "description": "現在のコードガイドでは、コードを引き換えるために、エクスペリエンスにいいねをして、公式のProject Mirror LabyrinthのRobloxコミュニティに参加する必要があります。",
+          "tip": "引き換えメニューで有効な報酬が拒否されないよう、コードを入力する前にこれを行ってください。"
+        },
+        {
+          "title": "スターターコードを引き換える",
+          "description": "Fragments、Condense、Seeds of Lightなどのスターター報酬を受け取るには、コード「Welcome」を使用してください。",
+          "tip": "Project Mirror Labyrinthのコードは大文字と小文字を区別するため、表示されている通りに正確に入力してください。"
+        },
+        {
+          "title": "最初のダンジョンを開始する",
+          "description": "Tabキーを押してからPlayを選択するか、NO ENTRYゲートをインタラクトしてダンジョンランを開始します。",
+          "tip": "ダンジョンランは、デッキ構築のループが始まる場所です。"
+        },
+        {
+          "title": "攻撃カードと防御カードについて学ぶ",
+          "description": "戦闘では攻撃や防御にカードを使用します。目標は、機能するデッキコンボを構築し、慎重にプレイして迷宮のようなステージを生き延びることです。",
+          "tip": "序盤のランは、敵のパターン、カードを使用するタイミング、そして生存に必要な防御ツールを学ぶためのものです。"
+        },
+        {
+          "title": "報酬を育成・進行システムに使用する",
+          "description": "FragmentsはReflections、Outfits、スキル、およびアカウント全体の進行に関連しています。チケットやより希少な素材は、より強力なガチャやOutfitの成長をサポートします。",
+          "tip": "価値の高いチケット報酬は、無計画に消費するのではなく、Reflection関連の進行のために取っておきましょう。"
+        },
+        {
+          "title": "週次のアップデートのタイミングを確認する",
+          "description": "Robloxのページには、毎週火曜日の午後2:00頃にメンテナンスが行われると記載されています。",
+          "tip": "その時間帯にゲームが利用できない場合は、まずメンテナンスが行われているか確認してください。"
+        }
+      ]
+    },
+    "gameplayMechanics": {
+      "eyebrow": "戦闘システム",
+      "title": "Project Mirror Labyrinthのゲームプレイメカニクス",
+      "intro": "Project Mirror Labyrinthは、ローグライトなダンジョンランとデッキ構築型カードバトルを融合させたゲームです。核となるゲームプレイは、ダンジョンに侵入し、有用なカードの組み合わせを構築し、攻撃カードと防御カードを駆使して各ランを生き延びることです。",
+      "items": [
+        {
+          "system": "ローグライト・デッキビルダー",
+          "meaning": "ランは、単一の固定された戦闘装備ではなく、繰り返しのダンジョン挑戦とデッキの選択を中心に構成されています。",
+          "action": "ダンジョンランを開始し、デッキを適応させ、繰り返しの挑戦を通じて上達しましょう。",
+          "bestFor": "戦略的な再挑戦、カードの選択、および段階的なマスターを好むプレイヤー向け。"
+        },
+        {
+          "system": "ダンジョンへの入場",
+          "meaning": "ダンジョンを開始する方法は2つあります。Tabキーを押してからPlayを選択するか、NO ENTRYゲートをインタラクトします。",
+          "action": "ロビーからどちらかの方法を使用してランを開始します。",
+          "bestFor": "実際のスタート地点を探している新規プレイヤー。"
+        },
+        {
+          "system": "攻撃カード",
+          "meaning": "攻撃カードは戦闘デッキの一部であり、エンカウント中にダメージを与えるために使用されます。",
+          "action": "ランが失敗する前に、敵に確実にダメージを与えられるデッキを構築しましょう。",
+          "bestFor": "攻撃的なビルドと、より迅速なダンジョンクリア。"
+        },
+        {
+          "system": "防御カード",
+          "meaning": "防御カードは、敵の猛攻を生き延び、早期にランが終了してしまうリスクを軽減するために使用されます。",
+          "action": "より困難なエンカウントを生き延びるために、ダメージカードと十分な防御ツールのバランスを取りましょう。",
+          "bestFor": "安定した初心者向けのランと、より安全な進行。"
+        },
+        {
+          "system": "デッキコンボ",
+          "meaning": "このゲームでは、ランダムなプレイよりも、スマートなカードの組み合わせが報われます。",
+          "action": "ダメージ、防御、リソース消費の面で互いを補い合うカードを探しましょう。",
+          "bestFor": "迷宮のようなステージのさらに奥深くへと進むプレイヤー向け。"
+        },
+        {
+          "system": "ReflectionsとOutfits",
+          "meaning": "FragmentsはTargeted ReflectionsおよびStandard ReflectionsからOutfitsを獲得するために使用され、Outfitsはステータスやパッシブの成長に紐づいています。",
+          "action": "Fragmentsとチケットを集め、それらを使って育成の選択肢を広げましょう。",
+          "bestFor": "長期的なアカウントの成長とビルドの多様性。"
+        },
+        {
+          "system": "Defragmenting",
+          "meaning": "Condense、Seeds of Light、およびその他の通貨は、OutfitsのDefragmentingやパッシブアビリティの解放に関連しています。",
+          "action": "有用なReflectionの引きを確保した後、より希少な素材をOutfitの成長に使用します。",
+          "bestFor": "パッシブボーナスの向上と、将来のダンジョンランの強化。"
+        },
+        {
+          "system": "週次メンテナンス",
+          "meaning": "Robloxのページには、毎週火曜日の午後2:00頃にメンテナンスが行われると記載されています。",
+          "action": "ゲームが壊れていると決めつける前に、アップデートのタイミングを確認してください。",
+          "bestFor": "予定されたダウンタイム中のトラブルシューティングを避けること。"
+        }
+      ]
+    },
+    "reflectionsAndOutfits": {
+      "eyebrow": "進行システム",
+      "title": "Project Mirror LabyrinthのReflectionsとOutfits",
+      "intro": "Reflections、Outfits、Fragments、チケット、Condense、そしてSeeds of Lightは、Project Mirror Labyrinthの進行において中心的な要素です。このグリッドでは、確認されたメカニクスに基づいて、各システムが何に使用されるかを説明します。",
+      "tiers": [
+        {
+          "tier": "コアプルシステム",
+          "items": [
+            {
+              "name": "Targeted Reflections",
+              "category": "Reflectionドロー",
+              "use": "より特定のReflectionターゲットに絞ってOutfitsを引くために使用されます。",
+              "focus": "特定のOutfitの育成を進めたい場合は、ここでFragmentsを消費します。"
+            },
+            {
+              "name": "Standard Reflections",
+              "category": "Reflectionドロー",
+              "use": "通常のReflectionプールからOutfitsを引くために使用されます。",
+              "focus": "特定のターゲットオプションが主な目標ではない場合、一般的なOutfit獲得ルートとして使用します。"
+            }
+          ]
+        },
+        {
+          "tier": "主な通貨",
+          "items": [
+            {
+              "name": "Fragments",
+              "category": "通貨",
+              "use": "Targeted ReflectionsおよびStandard ReflectionsからOutfitsを引くために必要で、スキルの習得やダンジョンランの改善に関連しています。",
+              "focus": "まず有効なコードを引き換え、その後はReflectionやOutfitの育成のためにFragmentsを貯めておきましょう。"
+            }
+          ]
+        },
+        {
+          "tier": "価値の高いチケット",
+          "items": [
+            {
+              "name": "Mega Reflection Ticket",
+              "category": "チケット",
+              "use": "Reflectionドローに関連するチケット報酬。",
+              "focus": "通常の通貨としてではなく、価値の高いガチャ資源として扱ってください。"
+            },
+            {
+              "name": "SR Guaranteed Mega Ticket",
+              "category": "チケット",
+              "use": "Mega ReflectionシステムからSRの価値を保証する、より強力なReflectionチケット報酬。",
+              "focus": "より高レアリティのReflection進行に使用します。"
+            }
+          ]
+        },
+        {
+          "tier": "Outfitの成長",
+          "items": [
+            {
+              "name": "Outfits",
+              "category": "進行",
+              "use": "Reflectionsを通じて入手したOutfitsは、新たなステータスを付与し、ビルドの成長に貢献します。",
+              "focus": "好みのダンジョン戦略をサポートするOutfitsを中心にビルドを構築しましょう。"
+            },
+            {
+              "name": "Defragment",
+              "category": "アップグレードシステム",
+              "use": "OutfitsのDefragmentingはパッシブアビリティを解放し、通常のFragments以外の素材を使用します。",
+              "focus": "育成する価値のあるOutfitを手に入れたら、Defragmentingを優先しましょう。"
+            }
+          ]
+        },
+        {
+          "tier": "アップグレード素材",
+          "items": [
+            {
+              "name": "Condense",
+              "category": "素材",
+              "use": "Defragmentingとパッシブアビリティの進行に関連する素材。",
+              "focus": "気軽に消費せず、Outfitのアップグレードのために温存しておきましょう。"
+            },
+            {
+              "name": "Seeds of Light",
+              "category": "素材",
+              "use": "Outfitの成長やパッシブの解放に、他の通貨と併せて使用される素材。",
+              "focus": "初期コードの報酬は、Defragment関連の進行のために取っておきましょう。"
+            }
+          ]
+        }
+      ]
+    },
+    "currenciesAndRewards": {
+      "eyebrow": "リソースガイド",
+      "title": "Project Mirror Labyrinthにおける通貨と報酬",
+      "intro": "Project Mirror Labyrinthの報酬は主にFragmentsを中心に構成されており、Condense、Seeds of Light、Ticketsがより価値の高い追加報酬として登場します。コードは、ダンジョン攻略をさらに進める前に、これらのリソースを収集する最も手っ取り早い方法の1つです。",
+      "items": [
+        {
+          "resource": "Fragments",
+          "mainUse": "Reflectionsの購入、Outfitsの獲得、スキルの習得、およびダンジョン攻略の強化に使用されます。",
+          "sources": [
+            "コード報酬",
+            "Reflection関連の進行"
+          ],
+          "examples": [
+            "UrbanPlague: 405 Fragments",
+            "OfficeDelay: 1,620 Fragments",
+            "Welcome: 350 Fragments"
+          ]
+        },
+        {
+          "resource": "Condense",
+          "mainUse": "パッシブボーナスの解放につながる、OutfitのDefragmentingルートで使用されます。",
+          "sources": [
+            "特別コード報酬"
+          ],
+          "examples": [
+            "Welcome: 500 Condense"
+          ]
+        },
+        {
+          "resource": "Seeds of Light",
+          "mainUse": "OutfitsのDefragmentingやパッシブの成長に関連する、より価値の高い進行報酬と共に使用されます。",
+          "sources": [
+            "特別コード報酬"
+          ],
+          "examples": [
+            "Welcome: 3 Seeds of Light"
+          ]
+        },
+        {
+          "resource": "Mega Reflection Ticket",
+          "mainUse": "Reflectionのガチャチケットとして使用され、Reflectionシステムから引く際のFragmentsを節約できます。",
+          "sources": [
+            "限定コード報酬"
+          ],
+          "examples": [
+            "UpperLibrary: 1 Mega Reflection Ticket",
+            "EGGRNGFORBRAINROTS: 1 Mega Reflection Ticket および 910 Fragments"
+          ]
+        },
+        {
+          "resource": "SR Guaranteed Mega Ticket",
+          "mainUse": "SRが確定する、より価値の高いReflectionガチャに使用されます。",
+          "sources": [
+            "マイルストーンコード報酬"
+          ],
+          "examples": [
+            "5MVisits!: 1 SR Guaranteed Mega Ticket",
+            "1MVisits!: 1 SR Guaranteed Mega Reflection Ticket"
+          ]
+        },
+        {
+          "resource": "EGO Ticket",
+          "mainUse": "より強力なEGO関連の進行要素に繋がる、特別なチケット報酬として使用されます。",
+          "sources": [
+            "期間限定コード報酬"
+          ],
+          "examples": [
+            "4MFChange: EGO Ticket 1枚、Fragments 405個"
+          ]
+        }
+      ]
+    },
+    "dungeonGuide": {
+      "eyebrow": "ダンジョン開始",
+      "title": "Project Mirror Labyrinthでのダンジョンの開始方法",
+      "intro": "Project Mirror Labyrinthでは、ダンジョンへの入場経路が2つ用意されています。Robloxの公式ページには、TABメニューを経由するルートと、NO ENTRYゲートを経由するルートが記載されています。",
+      "steps": [
+        {
+          "title": "Project Mirror Labyrinthを起動する",
+          "description": "Robloxのエクスペリエンスページを開き、ゲームに入ります。コントローラーには対応していないため、キーボードとマウスを使用してください。"
+        },
+        {
+          "title": "TABキーを押す",
+          "description": "TABキーを押してゲーム内メニューを開き、「Play」を選択してダンジョンを開始します。"
+        },
+        {
+          "title": "NO ENTRYゲートを使用する",
+          "description": "別のルートとして、ゲーム内の世界にあるNO ENTRYゲートにインタラクトすることでもダンジョンを開始できます。"
+        },
+        {
+          "title": "ランを通じてビルドを構築する",
+          "description": "Project Mirror Labyrinthはローグライト・デッキ構築ゲームであるため、各ランではカードの選択肢を改善し、エンカウントを管理し、より強力な組み合わせを構築することに焦点を当てます。"
+        },
+        {
+          "title": "定期メンテナンスを確認する",
+          "description": "メンテナンスは毎週火曜日の午後2:00頃に開始されます。アップデートの実施時間中は、ダンジョンへのアクセス、サーバーの可用性、UIの動作に影響が出る場合があります。"
+        },
+        {
+          "title": "アップデート後に再参加する",
+          "description": "新しいアップデート後にメニュー、コード、または入場経路が反応しない場合は、一度エクスペリエンスを退出し、更新されたサーバーに再参加してください。"
+        }
+      ]
+    },
+    "updatesAndMaintenance": {
+      "eyebrow": "ライブアップデート",
+      "title": "Project Mirror Labyrinthのアップデート、コード、メンテナンス",
+      "intro": "Project Mirror Labyrinthは、Robloxのタイトルを通じてアップデートのラベルを変更し、パッチ、マイルストーン、コンテンツ追加に合わせてコード報酬をローテーションします。また、毎週のメンテナンスも通常のサイクルの一部です。",
+      "items": [
+        {
+          "type": "タイトルアップデート",
+          "label": "Robloxタイトルタグ",
+          "title": "[LEI HENG + NOT BINAH]",
+          "description": "現在、Robloxのエクスペリエンスタイトルにはこのアップデートタグが使用されており、現在のアクティブなコンテンツテーマを確認するのに最適な場所となっています。",
+          "impact": "タイトルタグを使用して、最新のゲームバージョンおよびコードサイクルを見ているかどうかを確認してください。"
+        },
+        {
+          "type": "メンテナンス",
+          "label": "毎週のメンテナンス",
+          "title": "火曜日のメンテナンス時間帯",
+          "description": "Robloxの公式説明によると、メンテナンスは毎週火曜日の午後2:00頃に開始されます。",
+          "impact": "メンテナンスの前後では、ダンジョンへの入場、サーバーへのアクセス、報酬の引き換えが中断される場合があります。"
+        },
+        {
+          "type": "コードの更新",
+          "label": "コードのローテーション",
+          "title": "有効な特典コード",
+          "description": "最近公開されたコードリストには、報酬ソースとしてUrbanPlague、OfficeDelay、NepoOffice、FauvistStudents、Welcomeが含まれています。",
+          "impact": "アップデートサイクルによって削除または置き換えられる前に、有効なコードを引き換えてください。"
+        },
+        {
+          "type": "コミュニティ",
+          "label": "公式コミュニティ",
+          "title": "Robloxコミュニティアップデート",
+          "description": "公式Robloxコミュニティグループは、アップデート、コードの要件、およびゲームのお知らせに関するメインハブです。",
+          "impact": "コードを引き換えるには、コミュニティへの参加も必要です。"
+        },
+        {
+          "type": "トラブルシューティング",
+          "label": "サーバーの状態",
+          "title": "新しいサーバーへの再参加",
+          "description": "新しいアップデートの後、エクスペリエンスを再起動することで、メニューや報酬が正しく動作する新しいサーバーに移動できる場合があります。",
+          "impact": "新しいコードやメニューオプションが機能しない場合は、まずこれをお試しください。"
+        }
+      ]
+    },
+    "storyAndInspiration": {
+      "eyebrow": "Loreガイド",
+      "title": "Project Mirror Labyrinthのストーリー、Lore、およびインスピレーション",
+      "intro": "Project Mirror Labyrinthは、独自のクリエイターコミュニティによって制作されたRobloxのローグライトデッキ構築ゲームです。Project Moonスタイルの世界観やカードバトルゲームから強いインスピレーションを受けていますが、独立したRobloxエクスペリエンスとして提供されています。",
+      "faqs": [
+        {
+          "question": "Project Mirror Labyrinthはどのようなゲームですか？",
+          "answer": "Project Mirror LabyrinthはRobloxのローグライトデッキ構築ゲームです。カードベースの選択、ダンジョンの進行、そして繰り返しの挑戦を通じてより強力なオプションを構築することに焦点を当てています。"
+        },
+        {
+          "question": "Project Mirror Labyrinthはどのゲームにインスパイアされていますか？",
+          "answer": "Robloxの公式説明では、Project Mirror Labyrinthのゲームプレイとスタイルの主なインスピレーションとして、Slay the Spire、Library of Ruina、およびLimbus Companyが挙げられています。"
+        },
+        {
+          "question": "Project Mirror LabyrinthはProject Moonの公式ゲームですか？",
+          "answer": "いいえ。Project Mirror Labyrinthは独自のコミュニティグループによって作成されており、Project Moonにインスパイアされたテーマを中心に描かれていますが、Project Moonの公式リリースではありません。"
+        },
+        {
+          "question": "Project Mirror Labyrinthのストーリーはどこで展開されますか？",
+          "answer": "Robloxのページでは、Project Mirror LabyrinthのストーリーはLibrary of RuinaにおけるAngelaのBad Endの出来事の直後とされています。"
+        },
+        {
+          "question": "Project Mirror LabyrinthにはLibrary of Ruinaのネタバレがありますか？",
+          "answer": "Robloxの公式説明によると、Project Mirror Labyrinthには重大なネタバレは含まれていません。"
+        },
+        {
+          "question": "Project Mirror Labyrinthの前にLibrary of Ruinaをプレイする必要がありますか？",
+          "answer": "いいえ。ゲームページには、Project Mirror Labyrinthを理解するためにLibrary of Ruinaをプレイする必要はないと記載されています。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "FAQ",
+    "subtitle": "Project Mirror Labyrinthのコード、ダンジョン、進行に関するクイック回答",
+    "questions": [
+      {
+        "question": "Project Mirror Labyrinthとは何ですか？",
+        "answer": "Project Mirror Labyrinthは、Slay the Spire、Library of Ruina、Limbus Companyにインスパイアされ、Project Moon風の世界を舞台にしたRobloxのローグライトデッキ構築ゲームです。"
+      },
+      {
+        "question": "Project Mirror Labyrinthでコードを引き換えるにはどうすればよいですか？",
+        "answer": "Project Mirror Labyrinthを起動し、画面左側のCodesメニューを開き、コードを正確に入力して（大文字と小文字は区別されます）、Confirmを押して報酬を受け取ります。"
+      },
+      {
+        "question": "Project Mirror Labyrinthでダンジョンを開始するにはどこへ行けばよいですか？",
+        "answer": "Project Mirror Labyrinthでは、TABキーを押してPlayを選択するか、NO ENTRYゲートを調べることでダンジョンランを開始できます。"
+      },
+      {
+        "question": "Project Mirror LabyrinthでFragmentsは何に使用されますか？",
+        "answer": "Project Mirror Labyrinthにおいて、FragmentsはTargetedおよびStandard ReflectionsからOutfitsを抽出したり、スキルを習得したり、ダンジョンランを強化したりするために使用されます。"
+      },
+      {
+        "question": "Project Mirror Labyrinthのメンテナンスはいつですか？",
+        "answer": "Project Mirror Labyrinthのメンテナンスは毎週火曜日の午後2時頃に開始され、ダンジョンへの入場やコードの引き換えに影響を与える可能性があります。"
+      },
+      {
+        "question": "Project Mirror LabyrinthはProject Moonの公式ゲームですか？",
+        "answer": "いいえ。Project Mirror Labyrinthは独自のコミュニティグループによって作成されたRobloxエクスペリエンスであり、Project Moonの公式リリースではなく、Project Moonスタイルの世界観にインスパイアされたものです。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Project Mirror Labyrinthをマスターする準備はできていますか？",
+    "description": "DiscordのProject Mirror Labyrinthコミュニティに参加して、コード、ビルド、デッキのヒント、最新のRobloxアップデートを入手しましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Robloxでプレイする"
+  },
+  "footer": {
+    "title": "Project Mirror Labyrinth Wiki",
+    "description": "Project Mirror Labyrinthのコード、Reflections、Outfits、カード、EGO、ダンジョンガイドを網羅した完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的事項",
+    "discord": "Discord",
+    "twitter": "Robloxゲーム",
+    "steamCommunity": "Robloxコミュニティ",
+    "steamStore": "ゲームプレイ動画",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Project Mirror Labyrinth Wiki. Project Mirror Labyrinthの開発者とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースサイトです。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Project Mirror Labyrinth コード",
+      "description": "すべての有効および期限切れのProject Mirror Labyrinthコード、引き換え手順、報酬の詳細を1か所にまとめています。",
+      "metaTitle": "Project Mirror Labyrinth コード - 有効および期限切れの引き換えコード",
+      "metaDescription": "最新のProject Mirror Labyrinthコードを引き換えて、Fragments、Condense、Seeds of Light、Reflectionの報酬を獲得しましょう。有効および期限切れのコードリストを更新しました。",
+      "categoryLabel": "コードを引き換える",
+      "whatIs": "コードとは何ですか？",
+      "whatIsDescription": "Project Mirror Labyrinthのコードは、ゲーム内のCodesメニューで入力する大文字と小文字を区別する文字列で、無料のFragments、素材、Reflectionチケットを入手できます。",
+      "why": "なぜコードを引き換えるのですか？",
+      "whySteps": {
+        "step1Title": "無料で進行を早める",
+        "step1Description": "コードを使用すると、ReflectionやOutfitの成長を早めるFragmentsや素材が手に入ります。",
+        "step2Title": "序盤の優位性",
+        "step2Description": "スターター報酬により、新規プレイヤーはより多くのリソースを持ってダンジョン攻略を開始できます。",
+        "step3Title": "最新の状態を保つ",
+        "step3Description": "コードはアップデートごとに入れ替わるため、期限が切れる前に有効なものを引き換えてください。"
+      },
+      "featured": "注目のコード",
+      "all": "すべてのコード記事"
+    },
+    "guide": {
+      "title": "Project Mirror Labyrinth ガイド",
+      "description": "Project Mirror Labyrinthの初心者向けヒント、遊び方、ダンジョン入場、カードバトルの基本。",
+      "metaTitle": "Project Mirror Labyrinth ガイド - 初心者向けヒントと遊び方",
+      "metaDescription": "Robloxでの最初の手順、ダンジョン入場、カードバトル、Reflections、序盤の進行を網羅したProject Mirror Labyrinthの完全ガイド。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Project Mirror Labyrinthは初めてですか？",
+      "whatIsDescription": "これらのガイドでは、Robloxのエクスペリエンスの起動やコードの引き換えから、最初のダンジョンへの入場、カード戦闘の基本ループの学習まで、すべてをカバーしています。",
+      "why": "なぜ初心者向けガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "より早く始める",
+        "step1Description": "TABメニューやNO ENTRYゲートからのダンジョン入場方法と、基本となるデッキ構築のループを事前に理解しましょう",
+        "step2Title": "よくある間違いを避ける",
+        "step2Description": "コードを正しく引き換えて、Fragmentsを適切な進行システムに消費しましょう",
+        "step3Title": "基礎を築く",
+        "step3Description": "長期的なダンジョン攻略に向けて、Reflections、Outfits、カードの基本を整えましょう"
+      },
+      "featured": "おすすめガイド",
+      "all": "すべてのガイド記事"
+    },
+    "tier-list": {
+      "title": "Project Mirror Labyrinth ティアリスト",
+      "description": "Project Mirror LabyrinthにおけるOutfits、ビルド、Reflectionsのバージョン別優先度ガイド。",
+      "metaTitle": "Project Mirror Labyrinth ティアリスト - Outfits、ビルド＆Reflections",
+      "metaDescription": "現在のゲームバージョンに対応した、Project Mirror LabyrinthのOutfits、ビルド、Reflectionsのティアリストと優先度ガイドを閲覧できます。",
+      "categoryLabel": "ティアリスト",
+      "whatIs": "ティアリストとは？",
+      "whatIsDescription": "ティアリストは、プレイヤーが育成、ガチャ、デッキの選択を計画できるように、Outfits、ビルド、Reflectionsを一般的な有用性でランク付けしたものです。",
+      "why": "なぜティアリストを使うのか？",
+      "whySteps": {
+        "step1Title": "ガチャの計画を立てる",
+        "step1Description": "ダンジョンの目標に合わせて、価値の高いOutfitsやReflectionsを優先しましょう",
+        "step2Title": "賢く消費する",
+        "step2Description": "自身のビルド戦略に合った選択肢のために、Fragmentsやチケットを温存しましょう",
+        "step3Title": "バージョン情報を把握する",
+        "step3Description": "正確なランキングを提供するため、各ティアリストは特定のゲームアップデート情報と紐づけられています"
+      },
+      "featured": "おすすめティアリスト",
+      "all": "すべてのティアリスト記事"
+    },
+    "build": {
+      "title": "Project Mirror Labyrinth ビルド",
+      "description": "Project Mirror Labyrinthのダンジョン攻略におけるビルドのアーキタイプ、デッキ、パッシブ、EGO Giftの選択。",
+      "metaTitle": "Project Mirror Labyrinth ビルド - デッキ、パッシブ＆EGO Gifts",
+      "metaDescription": "Rupture、Charge、Poiseデッキ、パッシブの選択、EGO Gifts、ダンジョン攻略用のデッキ構築を含む、Project Mirror Labyrinthのビルド戦略を学びましょう。",
+      "categoryLabel": "ビルド",
+      "whatIs": "ビルドとは？",
+      "whatIsDescription": "Project Mirror Labyrinthにおけるビルドとは、ダンジョン攻略に持ち込むカード、パッシブ、Outfits、EGO Giftsの組み合わせのことです。Rupture、Charge、Poiseなどのアーキタイプが、各攻略のプレイスタイルを決定づけます。",
+      "why": "なぜビルドを計画するのか？",
+      "whySteps": {
+        "step1Title": "カードのシナジーを生み出す",
+        "step1Description": "敵との遭遇においてデッキが安定して機能するよう、攻撃カードと防御カードを組み合わせましょう",
+        "step2Title": "適切なパッシブを選ぶ",
+        "step2Description": "パッシブやEGO Giftsはアーキタイプを強化し、攻略を安定させます",
+        "step3Title": "各攻略に適応する",
+        "step3Description": "手に入るカード、敵、リソースに適したビルドパーツを選びましょう"
+      },
+      "featured": "注目のビルドガイド",
+      "all": "すべてのビルド記事"
+    },
+    "items": {
+      "title": "Project Mirror Labyrinth アイテム",
+      "description": "Project Mirror Labyrinthにおける通貨、素材、Fragments、EGO Gear、Seeds of Light、およびDefragmenting。",
+      "metaTitle": "Project Mirror Labyrinth アイテム - Fragments、EGO Gear ＆ 通貨",
+      "metaDescription": "Project Mirror Labyrinthのアイテムと通貨のガイド：Fragments、Condense、Seeds of Light、EGO Gear、Reward Bags、Cosmetic Vouchers、およびDefragmenting。",
+      "categoryLabel": "アイテム",
+      "whatIs": "アイテムと通貨とは？",
+      "whatIsDescription": "アイテムと通貨はProject Mirror Labyrinthにおける進行の原動力となります。FragmentsはReflectionsを強化し、Condense、Seeds of Light、EGO GearはDefragmentingとパッシブな成長に繋がります。",
+      "why": "なぜアイテムシステムを学ぶ必要があるのか？",
+      "whySteps": {
+        "step1Title": "Fragmentsを賢く使おう",
+        "step1Description": "FragmentsはReflections、Outfits、スキルの成長に使用されるため、使い道を計画的に決めましょう",
+        "step2Title": "Defragmentによるアップグレード",
+        "step2Description": "CondenseとSeeds of Lightは、強化する価値のあるOutfitsのパッシブ能力を解放します",
+        "step3Title": "希少な素材を把握しよう",
+        "step3Description": "EGO GearやReward Bagsは、適切なタイミングで使用することで高い効果のブーストをもたらします"
+      },
+      "featured": "注目のアイテムガイド",
+      "all": "すべてのアイテム記事"
+    },
+    "bosses": {
+      "title": "Project Mirror Labyrinth ボス",
+      "description": "Project Mirror Labyrinthのダンジョンランにおけるボス戦ガイド、攻撃パターン、および攻略法。",
+      "metaTitle": "Project Mirror Labyrinth ボス - 攻撃パターン ＆ 攻略法",
+      "metaDescription": "各ボス戦の攻撃パターン、弱点、推奨ビルド、報酬の優先度を網羅したガイドで、Project Mirror Labyrinthのすべてのボスを撃破しましょう。",
+      "categoryLabel": "ボス",
+      "whatIs": "ボスとは？",
+      "whatIsDescription": "ボスはProject Mirror Labyrinthのダンジョン内における主要な戦闘です。各ボスは独自の攻撃パターンとタイミングを持っており、プレイヤーのデッキ構築と防御カードのプレイ技術が試されます。",
+      "why": "なぜボスについて学ぶ必要があるのか？",
+      "whySteps": {
+        "step1Title": "攻撃パターンを見極めよう",
+        "step1Description": "ボスの予兆を知ることで、防御カードを使用するタイミングを合わせやすくなり、ダンジョン攻略の早期敗北を防ぐことができます",
+        "step2Title": "適切なビルドを選ぼう",
+        "step2Description": "デッキのアーキタイプやEGOの選択を、各ボスの弱点に合わせましょう",
+        "step3Title": "より良い報酬を獲得しよう",
+        "step3Description": "ボスを撃破すると、より深い探索に役立つFragments、素材、進行用の通貨がドロップします"
+      },
+      "featured": "注目のボスガイド",
+      "all": "すべてのボス記事"
+    },
+    "modes": {
+      "title": "Project Mirror Labyrinth モード",
+      "description": "Library、Upper Library、Detour、Luxcavationを含むゲームモード、ダンジョン、ルート。",
+      "metaTitle": "Project Mirror Labyrinth モード - Library、Detour ＆ Luxcavation",
+      "metaDescription": "Project Mirror Labyrinthのゲームモードとダンジョンルート（Library、Upper Library、Detour、Luxcavation）を、入場条件、報酬、攻略の優先度と合わせて探索しましょう。",
+      "categoryLabel": "モード",
+      "whatIs": "ゲームモードとは？",
+      "whatIsDescription": "ゲームモードは、Project Mirror Labyrinthにおけるダンジョンルートとコンテンツの階層です。各モードでは、入場ルール、敵の配置、そしてランに対する報酬ティアが異なります。",
+      "why": "なぜすべてのモードを探索するのか？",
+      "whySteps": {
+        "step1Title": "ビルドに合わせる",
+        "step1Description": "ルートによって、適したデッキのアーキタイプや進行段階が異なります",
+        "step2Title": "ターゲット報酬",
+        "step2Description": "LuxcavationやUpper Libraryでは、必要な特定の素材やチケットがドロップします",
+        "step3Title": "着実に進める",
+        "step3Description": "各モードを順番にクリアすることで、より難易度の高いダンジョンのティアに向けたリソースを蓄積できます"
+      },
+      "featured": "注目のモードガイド",
+      "all": "すべてのモード記事"
+    }
+  }
+}

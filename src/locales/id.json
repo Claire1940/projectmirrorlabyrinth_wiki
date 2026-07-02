@@ -1,1 +1,751 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Project Mirror Labyrinth Wiki - Kode, Build & Kartu",
+      "description": "Temukan kode Project Mirror Labyrinth, tips pemula, kartu, Outfits, Reflections, pasif, dungeon, dan catatan pembaruan Roblox dalam satu panduan yang rapi.",
+      "keywords": "Project Mirror Labyrinth, Roblox, kode, kartu, Outfits, Reflections, pasif",
+      "ogTitle": "Project Mirror Labyrinth Wiki - Kode, Build & Kartu",
+      "ogDescription": "Temukan kode Project Mirror Labyrinth, tips pemula, kartu, Outfits, Reflections, pasif, dungeon, dan catatan pembaruan Roblox dalam satu panduan yang rapi.",
+      "twitterTitle": "Project Mirror Labyrinth Wiki - Kode, Build & Kartu",
+      "twitterDescription": "Panduan kode, build, kartu, Outfits, Reflections, EGO, dan dungeon untuk Project Mirror Labyrinth di Roblox."
+    }
+  },
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "tierList": "Tier List",
+    "build": "Build",
+    "items": "Item",
+    "bosses": "Bos",
+    "modes": "Mode"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "RPG Roguelite Deck-Builder",
+    "title": "Project Mirror Labyrinth Wiki",
+    "description": "Jelajahi kode Project Mirror Labyrinth, Reflections, Outfits, kartu, rute dungeon, dan tips deck-building untuk RPG Roblox yang terinspirasi oleh Project Moon.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "8,3Jt+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "481",
+        "label": "Pemain Aktif"
+      },
+      "stat3": {
+        "value": "30.777",
+        "label": "Favorit"
+      },
+      "stat4": {
+        "value": "29/6/2026",
+        "label": "Pembaruan Terbaru"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Project Mirror Labyrinth",
+    "description": "Masuki dungeon seperti labirin, buat kombo kartu, dan tarik Outfits melalui Reflections di game Roblox roguelite deck builder yang terinspirasi oleh Project Moon ini."
+  },
+  "tools": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang kamu butuhkan untuk kode, Reflections, dungeon run, dan deck-building di Project Mirror Labyrinth",
+    "cards": [
+      {
+        "icon": "Salin",
+        "title": "Kode Project Mirror Labyrinth",
+        "description": "Kode redeem aktif dan kedaluwarsa untuk hadiah gratis"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Project Mirror Labyrinth",
+        "description": "Langkah pertama, masuk dungeon, dan progresi awal"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Mekanisme Project Mirror Labyrinth",
+        "description": "Sistem deck-building roguelite dan pertarungan kartu"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Project Mirror Labyrinth Reflections",
+        "description": "Outfits, tiket, Fragments, dan Defragmenting"
+      },
+      {
+        "icon": "Package",
+        "title": "Mata Uang Project Mirror Labyrinth",
+        "description": "Fragments, Condense, Seeds of Light, dan tiket"
+      },
+      {
+        "icon": "Eye",
+        "title": "Panduan Dungeon Project Mirror Labyrinth",
+        "description": "Mulai dungeon run melalui menu TAB atau gerbang NO ENTRY"
+      },
+      {
+        "icon": "Clock",
+        "title": "Pembaruan Project Mirror Labyrinth",
+        "description": "Tag judul, pemeliharaan mingguan, dan rotasi kode"
+      },
+      {
+        "icon": "Users",
+        "title": "Cerita & Lore Project Mirror Labyrinth",
+        "description": "Dunia yang terinspirasi dari Project Moon dan inspirasi game"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "eyebrow": "Hadiah Gratis",
+      "title": "Kode Project Mirror Labyrinth",
+      "intro": "Tukarkan kode Project Mirror Labyrinth aktif untuk mendapatkan Fragments, Condense, Seeds of Light, dan hadiah terkait Reflection. Kode sensitif terhadap huruf besar-kecil dan biasanya mengharuskan Anda menyukai (like) experience Roblox serta bergabung dengan komunitas resmi sebelum dapat ditukarkan.",
+      "howTo": "Luncurkan Project Mirror Labyrinth, buka menu Kode dari sisi kiri layar, masukkan kode persis seperti yang tertulis, lalu tekan Konfirmasi untuk mengklaim hadiah.",
+      "activeCodes": [
+        {
+          "code": "UrbanPlague",
+          "reward": "405 Fragments",
+          "note": "Paling baik digunakan untuk progresi Reflection dan Outfit."
+        },
+        {
+          "code": "OfficeDelay",
+          "reward": "1.620 Fragments",
+          "note": "Hadiah Fragment yang lebih besar untuk progresi akun awal."
+        },
+        {
+          "code": "NepoOffice",
+          "reward": "405 Fragments",
+          "note": "Masukkan kode dengan kapitalisasi tepat seperti yang ditunjukkan."
+        },
+        {
+          "code": "FauvistStudents",
+          "reward": "405 Fragments",
+          "note": "Berguna untuk menabung demi pull Outfit dan peningkatan terkait."
+        },
+        {
+          "code": "Welcome",
+          "reward": "350 Fragments, 500 Condense, 3 Seeds of Light",
+          "note": "Kode pemula yang disorot di halaman game Roblox."
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "BambooHat",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "MaoAdept",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "EGGRNGFORBRAINROTS",
+          "reward": "1 Mega Reflection Ticket, 910 Fragments"
+        },
+        {
+          "code": "EventAdjustment",
+          "reward": "400 Poin"
+        },
+        {
+          "code": "5MVisits!",
+          "reward": "1 SR Guaranteed Mega Ticket"
+        },
+        {
+          "code": "UpperLibrary",
+          "reward": "1 Mega Reflection Ticket"
+        },
+        {
+          "code": "WORKSHOPRELEASE",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "DieciUpscale",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamMiddle",
+          "reward": "405 Fragments"
+        },
+        {
+          "code": "TeamIndex",
+          "reward": "405 Fragments"
+        }
+      ],
+      "tips": [
+        "Sukai game Roblox dan bergabunglah dengan komunitas resmi sebelum memasukkan kode.",
+        "Masukkan setiap kode dengan kapitalisasi tepat seperti yang ditunjukkan, karena kode Project Mirror Labyrinth bersifat sensitif terhadap huruf besar-kecil.",
+        "Jika kode yang valid ditolak, bergabunglah kembali ke server baru setelah pembaruan dan coba lagi.",
+        "Klaim kode aktif lebih awal, karena siklus pembaruan dapat mengganti hadiah yang lebih lama."
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Panduan Pemain Baru",
+      "title": "Cara Memulai Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth adalah game deck builder roguelite Roblox yang terinspirasi oleh Slay the Spire, Library of Ruina, dan Limbus Company. Pemain baru sebaiknya fokus untuk memulai run dungeon, mempelajari pertarungan kartu, dan menggunakan hadiah kode gratis sebelum mengejar progres yang lebih mendalam.",
+      "steps": [
+        {
+          "title": "Bergabunglah dengan game Roblox",
+          "description": "Buka Project Mirror Labyrinth dari halaman game Roblox-nya dan jalankan gamenya. Game ini terdaftar sebagai deck builder roguelite dengan inspirasi kuat dari game strategi berbasis kartu.",
+          "tip": "Dukungan kontroler tidak terdaftar di halaman Roblox, jadi mainkan dengan keyboard dan mouse."
+        },
+        {
+          "title": "Sukai game ini dan bergabunglah dengan komunitas resmi",
+          "description": "Menyukai game ini dan bergabung dengan komunitas resmi Project Mirror Labyrinth di Roblox diperlukan untuk penukaran kode pada panduan kode saat ini.",
+          "tip": "Lakukan ini sebelum memasukkan kode agar menu penukaran tidak menolak hadiah yang valid."
+        },
+        {
+          "title": "Tukarkan kode pemula",
+          "description": "Gunakan kode Welcome untuk mengklaim hadiah pemula termasuk Fragments, Condense, dan Seeds of Light.",
+          "tip": "Masukkan kode persis seperti yang tertulis karena kode Project Mirror Labyrinth sensitif terhadap huruf besar-kecil."
+        },
+        {
+          "title": "Mulai dungeon pertama Anda",
+          "description": "Tekan Tab lalu Play, atau berinteraksilah dengan gerbang NO ENTRY, untuk memulai run dungeon.",
+          "tip": "Run dungeon adalah tempat loop deck-building dimulai."
+        },
+        {
+          "title": "Pelajari kartu attack dan defense",
+          "description": "Pertempuran menggunakan kartu untuk attack dan defense. Tujuan Anda adalah membangun kombo deck yang berfungsi dan memainkannya dengan hati-hati untuk bertahan di tahap yang seperti labirin.",
+          "tip": "Run awal berguna untuk mempelajari pola musuh, timing kartu, dan alat pertahanan mana yang membuat Anda tetap hidup."
+        },
+        {
+          "title": "Habiskan hadiah pada sistem progresi",
+          "description": "Fragments terikat pada Reflections, Outfits, skill, dan progresi akun yang lebih luas. Tiket dan material yang lebih langka mendukung pull yang lebih kuat atau pertumbuhan Outfit.",
+          "tip": "Simpan hadiah tiket bernilai tinggi untuk progresi yang terkait dengan Reflection daripada menghabiskannya secara acak."
+        },
+        {
+          "title": "Periksa waktu pembaruan mingguan",
+          "description": "Halaman Roblox mencantumkan pemeliharaan sekitar pukul 2:00 siang setiap hari Selasa.",
+          "tip": "Jika game tidak tersedia di sekitar waktu tersebut, pemeliharaan adalah hal pertama yang harus diperiksa."
+        }
+      ]
+    },
+    "gameplayMechanics": {
+      "eyebrow": "Sistem Pertempuran",
+      "title": "Mekanisme Gameplay Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth menggabungkan run dungeon roguelite dengan pertempuran kartu deck-building. Gameplay intinya adalah tentang memasuki dungeon, membangun kombinasi kartu yang berguna, dan menggunakan kartu attack dan defense untuk bertahan di setiap run.",
+      "items": [
+        {
+          "system": "Pembangun dek roguelite",
+          "meaning": "Run dibangun di sekitar upaya dungeon yang dapat diulang dan keputusan deck, alih-alih satu loadout pertempuran tetap.",
+          "action": "Mulai run dungeon, sesuaikan deck Anda, dan tingkatkan kemampuan melalui upaya yang berulang.",
+          "bestFor": "Pemain yang menyukai percobaan ulang yang strategis, pilihan kartu, dan penguasaan bertahap."
+        },
+        {
+          "system": "Masuk dungeon",
+          "meaning": "Dua cara untuk memulai dungeon: tekan Tab lalu Play, atau berinteraksilah dengan gerbang NO ENTRY.",
+          "action": "Gunakan salah satu metode dari lobi untuk memulai run.",
+          "bestFor": "Pemain baru yang mencari titik awal yang sebenarnya."
+        },
+        {
+          "system": "Kartu attack",
+          "meaning": "Kartu attack adalah bagian dari deck pertempuran dan digunakan untuk memberikan damage selama pertempuran.",
+          "action": "Bangun deck yang dapat memberikan damage secara andal kepada musuh sebelum run Anda gagal.",
+          "bestFor": "Build ofensif dan penyelesaian dungeon yang lebih cepat."
+        },
+        {
+          "system": "Kartu defense",
+          "meaning": "Kartu defense digunakan untuk bertahan dari tekanan musuh dan mengurangi risiko kalah dalam run lebih awal.",
+          "action": "Seimbangkan kartu damage dengan alat pertahanan yang cukup untuk bertahan dari pertempuran yang lebih sulit.",
+          "bestFor": "Run pemula yang stabil dan progresi yang lebih aman."
+        },
+        {
+          "system": "Kombo deck",
+          "meaning": "Game ini menghargai kombinasi kartu yang cerdas daripada permainan acak.",
+          "action": "Cari kartu yang saling mendukung dalam hal damage, defense, dan penggunaan sumber daya.",
+          "bestFor": "Pemain yang menembus lebih dalam ke tahap yang seperti labirin."
+        },
+        {
+          "system": "Reflections dan Outfits",
+          "meaning": "Fragments digunakan untuk menarik Outfits dari Targeted dan Standard Reflections, dan Outfits terikat pada statistik dan pertumbuhan pasif.",
+          "action": "Kumpulkan Fragments dan tiket, lalu gunakan untuk memperluas opsi progresi.",
+          "bestFor": "Pertumbuhan akun jangka panjang dan variasi build."
+        },
+        {
+          "system": "Defragmenting",
+          "meaning": "Condense, Seeds of Light, dan mata uang lainnya terhubung dengan Defragmenting Outfits dan membuka kemampuan pasif.",
+          "action": "Gunakan material yang lebih langka untuk pertumbuhan Outfit setelah mendapatkan tarikan Reflection yang berguna.",
+          "bestFor": "Meningkatkan bonus pasif dan memperkuat penjelajahan dungeon di masa mendatang."
+        },
+        {
+          "system": "Pemeliharaan mingguan",
+          "meaning": "Halaman Roblox mencantumkan pemeliharaan sekitar pukul 14:00 setiap hari Selasa.",
+          "action": "Periksa waktu pembaruan sebelum berasumsi bahwa game sedang rusak.",
+          "bestFor": "Menghindari pemecahan masalah selama waktu henti yang dijadwalkan."
+        }
+      ]
+    },
+    "reflectionsAndOutfits": {
+      "eyebrow": "Sistem Progresi",
+      "title": "Project Mirror Labyrinth Reflections dan Outfits",
+      "intro": "Reflections, Outfits, Fragments, tiket, Condense, dan Seeds of Light merupakan inti dari progresi Project Mirror Labyrinth. Kisi ini menjelaskan kegunaan setiap sistem berdasarkan mekanik yang telah dikonfirmasi.",
+      "tiers": [
+        {
+          "tier": "Sistem Tarikan Inti",
+          "items": [
+            {
+              "name": "Targeted Reflections",
+              "category": "Tarikan Reflection",
+              "use": "Digunakan untuk menarik Outfits dengan target Reflection yang lebih terfokus.",
+              "focus": "Gunakan Fragments di sini saat mengejar progresi Outfit tertentu."
+            },
+            {
+              "name": "Standard Reflections",
+              "category": "Tarikan Reflection",
+              "use": "Digunakan untuk menarik Outfits melalui kumpulan Reflection standar.",
+              "focus": "Gunakan sebagai rute perolehan Outfit umum saat tidak ada opsi target yang menjadi tujuan utama."
+            }
+          ]
+        },
+        {
+          "tier": "Mata Uang Utama",
+          "items": [
+            {
+              "name": "Fragments",
+              "category": "Mata Uang",
+              "use": "Diperlukan untuk menarik Outfits dari Targeted dan Standard Reflections dan terikat pada mempelajari skill serta meningkatkan penjelajahan dungeon.",
+              "focus": "Tukarkan kode aktif terlebih dahulu, lalu simpan Fragments untuk progresi Reflection dan Outfit."
+            }
+          ]
+        },
+        {
+          "tier": "Tiket Bernilai Tinggi",
+          "items": [
+            {
+              "name": "Mega Reflection Ticket",
+              "category": "Tiket",
+              "use": "Hadiah tiket yang terhubung dengan tarikan Reflection.",
+              "focus": "Anggap sebagai sumber daya tarikan bernilai tinggi daripada mata uang biasa."
+            },
+            {
+              "name": "SR Guaranteed Mega Ticket",
+              "category": "Tiket",
+              "use": "Hadiah tiket Reflection yang lebih kuat yang menjamin nilai SR dari sistem Mega Reflection.",
+              "focus": "Gunakan untuk progresi Reflection kelangkaan lebih tinggi."
+            }
+          ]
+        },
+        {
+          "tier": "Pertumbuhan Outfit",
+          "items": [
+            {
+              "name": "Outfits",
+              "category": "Progresi",
+              "use": "Outfits yang diperoleh melalui Reflections memberikan stat baru dan berkontribusi pada pertumbuhan build.",
+              "focus": "Buat build di sekitar Outfits yang mendukung strategi dungeon pilihanmu."
+            },
+            {
+              "name": "Defragment",
+              "category": "Sistem upgrade",
+              "use": "Defragmenting Outfits membuka kemampuan pasif dan menggunakan material di luar Fragments biasa.",
+              "focus": "Prioritaskan Defragmenting setelah kamu memiliki Outfit yang layak untuk ditingkatkan."
+            }
+          ]
+        },
+        {
+          "tier": "Material Upgrade",
+          "items": [
+            {
+              "name": "Condense",
+              "category": "Material",
+              "use": "Material yang terhubung dengan Defragmenting dan progresi kemampuan pasif.",
+              "focus": "Simpan untuk upgrade Outfit alih-alih menghabiskannya begitu saja."
+            },
+            {
+              "name": "Seeds of Light",
+              "category": "Material",
+              "use": "Material yang digunakan bersama mata uang lain untuk pertumbuhan Outfit dan pembukaan pasif.",
+              "focus": "Simpan hadiah kode pemula untuk progresi terkait Defragment."
+            }
+          ]
+        }
+      ]
+    },
+    "currenciesAndRewards": {
+      "eyebrow": "Panduan Sumber Daya",
+      "title": "Mata Uang dan Hadiah di Project Mirror Labyrinth",
+      "intro": "Hadiah Project Mirror Labyrinth berpusat pada Fragments terlebih dahulu, dengan Condense, Seeds of Light, dan Tickets yang muncul sebagai ekstra bernilai lebih tinggi. Kode adalah salah satu cara tercepat untuk mengumpulkan sumber daya ini sebelum menjelajah lebih dalam ke dungeon run.",
+      "items": [
+        {
+          "resource": "Fragments",
+          "mainUse": "Digunakan untuk membeli Reflections, menarik Outfits, mempelajari skill, dan memperkuat dungeon run.",
+          "sources": [
+            "Hadiah kode",
+            "Progresi terkait Reflection"
+          ],
+          "examples": [
+            "UrbanPlague: 405 Fragments",
+            "OfficeDelay: 1.620 Fragments",
+            "Welcome: 350 Fragments"
+          ]
+        },
+        {
+          "resource": "Condense",
+          "mainUse": "Digunakan dalam jalur Outfit Defragmenting, yang terhubung dengan pembukaan bonus pasif.",
+          "sources": [
+            "Hadiah kode spesial"
+          ],
+          "examples": [
+            "Welcome: 500 Condense"
+          ]
+        },
+        {
+          "resource": "Seeds of Light",
+          "mainUse": "Digunakan dengan hadiah progresi bernilai lebih tinggi yang terkait dengan Defragmenting Outfits dan pertumbuhan pasif.",
+          "sources": [
+            "Hadiah kode spesial"
+          ],
+          "examples": [
+            "Welcome: 3 Seeds of Light"
+          ]
+        },
+        {
+          "resource": "Mega Reflection Ticket",
+          "mainUse": "Digunakan sebagai voucher pull Reflection, menghemat Fragments saat menarik dari sistem Reflection.",
+          "sources": [
+            "Hadiah kode terbatas"
+          ],
+          "examples": [
+            "UpperLibrary: 1 Mega Reflection Ticket",
+            "EGGRNGFORBRAINROTS: 1 Mega Reflection Ticket dan 910 Fragments"
+          ]
+        },
+        {
+          "resource": "SR Guaranteed Mega Ticket",
+          "mainUse": "Digunakan untuk pull Reflection bernilai lebih tinggi dengan jaminan SR.",
+          "sources": [
+            "Hadiah kode milestone"
+          ],
+          "examples": [
+            "5MVisits!: 1 SR Guaranteed Mega Ticket",
+            "1MVisits!: 1 SR Guaranteed Mega Reflection Ticket"
+          ]
+        },
+        {
+          "resource": "EGO Ticket",
+          "mainUse": "Digunakan sebagai hadiah Ticket khusus yang terhubung ke opsi progresi terkait EGO yang lebih kuat.",
+          "sources": [
+            "Hadiah kode terbatas"
+          ],
+          "examples": [
+            "4MFChange: 1 EGO Ticket dan 405 Fragments"
+          ]
+        }
+      ]
+    },
+    "dungeonGuide": {
+      "eyebrow": "Mulai Dungeon",
+      "title": "Cara Memulai Dungeon di Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth memberikan dua jalur masuk dungeon yang jelas kepada pemain. Halaman resmi Roblox mencantumkan rute menu TAB dan rute gerbang NO ENTRY.",
+      "steps": [
+        {
+          "title": "Mulai Project Mirror Labyrinth",
+          "description": "Buka halaman pengalaman Roblox dan masuk ke dalam game. Dukungan kontroler tidak tersedia, jadi gunakan keyboard dan mouse."
+        },
+        {
+          "title": "Tekan TAB",
+          "description": "Tekan TAB untuk membuka menu di dalam game, lalu pilih Play untuk memulai dungeon."
+        },
+        {
+          "title": "Gunakan Gerbang NO ENTRY",
+          "description": "Sebagai rute alternatif, berinteraksilah dengan gerbang NO ENTRY di dalam dunia game untuk memulai dungeon."
+        },
+        {
+          "title": "Membangun Sepanjang Run",
+          "description": "Project Mirror Labyrinth adalah game roguelite deck builder, jadi setiap run berfokus pada peningkatan pilihan kartu, mengelola pertemuan, dan membangun kombinasi yang lebih kuat."
+        },
+        {
+          "title": "Periksa Pemeliharaan Mingguan",
+          "description": "Pemeliharaan dimulai sekitar pukul 14.00 setiap hari Selasa. Akses dungeon, ketersediaan server, dan perilaku UI dapat terpengaruh selama jendela pembaruan."
+        },
+        {
+          "title": "Gabung Kembali Setelah Pembaruan",
+          "description": "Ketika menu, kode, atau jalur masuk tidak merespons setelah pembaruan baru, tinggalkan pengalaman dan bergabung kembali ke server yang telah diperbarui."
+        }
+      ]
+    },
+    "updatesAndMaintenance": {
+      "eyebrow": "Pembaruan Langsung",
+      "title": "Pembaruan, Kode, dan Pemeliharaan Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth mengubah label pembaruan yang terlihat melalui judul Roblox-nya dan merotasi hadiah kode di sekitar patch, milestone, dan perilisan konten. Pemeliharaan mingguan juga merupakan bagian dari ritme normal.",
+      "items": [
+        {
+          "type": "Pembaruan Judul",
+          "label": "Tag Judul Roblox",
+          "title": "[LEI HENG + NOT BINAH]",
+          "description": "Judul pengalaman Roblox saat ini menggunakan tag pembaruan ini, menjadikannya tempat pertama untuk memeriksa tema konten yang aktif.",
+          "impact": "Gunakan tag judul untuk mengidentifikasi apakah Anda sedang melihat versi game dan siklus kode terbaru."
+        },
+        {
+          "type": "Pemeliharaan",
+          "label": "Pemeliharaan Mingguan",
+          "title": "Jendela Pemeliharaan Hari Selasa",
+          "description": "Deskripsi resmi Roblox menyatakan bahwa pemeliharaan dimulai sekitar pukul 14.00 setiap hari Selasa.",
+          "impact": "Masuk dungeon, akses server, dan penukaran hadiah dapat terganggu di sekitar waktu pemeliharaan."
+        },
+        {
+          "type": "Penyegaran Kode",
+          "label": "Rotasi Kode",
+          "title": "Kode Hadiah Aktif",
+          "description": "Daftar kode publik terbaru mencakup UrbanPlague, OfficeDelay, NepoOffice, FauvistStudents, dan Welcome sebagai sumber hadiah.",
+          "impact": "Tukarkan kode yang aktif sebelum siklus pembaruan menghapus atau menggantinya."
+        },
+        {
+          "type": "Komunitas",
+          "label": "Komunitas Resmi",
+          "title": "Pembaruan Komunitas Roblox",
+          "description": "Grup komunitas resmi Roblox adalah pusat utama untuk pembaruan, persyaratan kode, dan pengumuman game.",
+          "impact": "Bergabung dengan komunitas juga diperlukan untuk menukarkan kode."
+        },
+        {
+          "type": "Pemecahan Masalah",
+          "label": "Status Server",
+          "title": "Bergabung Kembali untuk Server Baru",
+          "description": "Setelah pembaruan baru, memulai ulang pengalaman dapat memindahkan pemain ke server yang lebih baru di mana menu dan hadiah berfungsi dengan benar.",
+          "impact": "Gunakan ini terlebih dahulu saat kode baru atau opsi menu tidak berfungsi."
+        }
+      ]
+    },
+    "storyAndInspiration": {
+      "eyebrow": "Panduan Lore",
+      "title": "Cerita, Lore, dan Inspirasi di Balik Project Mirror Labyrinth",
+      "intro": "Project Mirror Labyrinth adalah roguelite deck builder Roblox yang dibuat oleh komunitas pembuatnya sendiri. Game ini mengambil inspirasi kuat dari dunia bergaya Project Moon dan game pertarungan kartu, sementara tetap menjadi pengalaman Roblox yang berdiri sendiri.",
+      "faqs": [
+        {
+          "question": "Game seperti apa Project Mirror Labyrinth itu?",
+          "answer": "Project Mirror Labyrinth adalah roguelite deck builder Roblox. Run berfokus pada pilihan berbasis kartu, progresi dungeon, dan membangun opsi yang lebih kuat melalui percobaan berulang."
+        },
+        {
+          "question": "Game apa saja yang menginspirasi Project Mirror Labyrinth?",
+          "answer": "Deskripsi resmi Roblox menyebut Slay the Spire, Library of Ruina, dan Limbus Company sebagai inspirasi gameplay dan gaya utama untuk Project Mirror Labyrinth."
+        },
+        {
+          "question": "Apakah Project Mirror Labyrinth adalah game resmi dari Project Moon?",
+          "answer": "Tidak. Project Mirror Labyrinth dibuat oleh grup komunitasnya sendiri dan digambarkan dengan tema yang terinspirasi dari Project Moon, bukan sebagai rilis resmi Project Moon."
+        },
+        {
+          "question": "Di mana cerita Project Mirror Labyrinth berlangsung?",
+          "answer": "Halaman Roblox menempatkan cerita Project Mirror Labyrinth sesaat setelah peristiwa Angela's Bad End di Library of Ruina."
+        },
+        {
+          "question": "Apakah Project Mirror Labyrinth mengandung spoiler untuk Library of Ruina?",
+          "answer": "Deskripsi resmi Roblox menyatakan bahwa Project Mirror Labyrinth tidak mengandung spoiler besar."
+        },
+        {
+          "question": "Apakah pemain harus memainkan Library of Ruina sebelum Project Mirror Labyrinth?",
+          "answer": "Tidak. Halaman game menyatakan bahwa pemain tidak harus memainkan Library of Ruina untuk memahami Project Mirror Labyrinth."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Project Mirror Labyrinth",
+    "titleHighlight": "FAQ",
+    "subtitle": "Jawaban cepat tentang kode, dungeon, dan progresi Project Mirror Labyrinth",
+    "questions": [
+      {
+        "question": "Apa itu Project Mirror Labyrinth?",
+        "answer": "Project Mirror Labyrinth adalah roguelite deck builder Roblox yang terinspirasi oleh Slay the Spire, Library of Ruina, dan Limbus Company, berlatar di dunia yang terinspirasi oleh Project Moon."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode di Project Mirror Labyrinth?",
+        "answer": "Luncurkan Project Mirror Labyrinth, buka menu Codes dari sisi kiri layar, masukkan kode persis seperti yang tertulis (kode sensitif terhadap huruf besar-kecil), dan tekan Confirm untuk mengeklaim hadiah."
+      },
+      {
+        "question": "Di mana saya memulai dungeon di Project Mirror Labyrinth?",
+        "answer": "Di Project Mirror Labyrinth Anda dapat menekan TAB lalu Play, atau berinteraksi dengan gerbang NO ENTRY, untuk memulai run dungeon."
+      },
+      {
+        "question": "Untuk apa Fragments digunakan di Project Mirror Labyrinth?",
+        "answer": "Di Project Mirror Labyrinth, Fragments digunakan untuk menarik Outfits dari Targeted dan Standard Reflections, mempelajari skill, dan memperkuat run dungeon."
+      },
+      {
+        "question": "Kapan pemeliharaan Project Mirror Labyrinth dilakukan?",
+        "answer": "Pemeliharaan Project Mirror Labyrinth dimulai sekitar pukul 14.00 setiap hari Selasa, yang dapat memengaruhi masuknya dungeon dan penukaran kode."
+      },
+      {
+        "question": "Apakah Project Mirror Labyrinth adalah game resmi dari Project Moon?",
+        "answer": "Tidak. Project Mirror Labyrinth adalah pengalaman Roblox yang dibuat oleh grup komunitasnya sendiri, terinspirasi oleh dunia bergaya Project Moon alih-alih menjadi rilis resmi Project Moon."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Menguasai Project Mirror Labyrinth?",
+    "description": "Bergabunglah dengan komunitas Project Mirror Labyrinth di Discord untuk kode, build, tips dek, dan pembaruan Roblox terbaru!",
+    "joinCommunity": "Bergabung ke Discord",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Project Mirror Labyrinth",
+    "description": "Pusat sumber daya lengkap Anda untuk kode Project Mirror Labyrinth, Reflections, outfits, kartu, EGO, dan panduan dungeon.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "Game Roblox",
+    "steamCommunity": "Komunitas Roblox",
+    "steamStore": "Video Gameplay",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Project Mirror Labyrinth Wiki. Tidak berafiliasi dengan developer Project Mirror Labyrinth.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Project Mirror Labyrinth",
+      "description": "Semua kode Project Mirror Labyrinth yang aktif dan kedaluwarsa, langkah penukaran, dan detail hadiah di satu tempat.",
+      "metaTitle": "Kode Project Mirror Labyrinth - Kode Penukaran Aktif & Kedaluwarsa",
+      "metaDescription": "Tukarkan kode Project Mirror Labyrinth terbaru untuk hadiah Fragments, Condense, Seeds of Light, dan Reflection. Daftar kode aktif dan kedaluwarsa yang diperbarui.",
+      "categoryLabel": "TUKARKAN KODE",
+      "whatIs": "Apa itu kode?",
+      "whatIsDescription": "Kode Project Mirror Labyrinth adalah string penukaran sensitif huruf besar-kecil yang dimasukkan di menu Codes dalam game untuk mendapatkan Fragments, material, dan tiket Reflection gratis.",
+      "why": "Mengapa menukarkan kode?",
+      "whySteps": {
+        "step1Title": "Progres Gratis",
+        "step1Description": "Kode memberikan Fragments dan material yang mempercepat pertumbuhan Reflection dan Outfit",
+        "step2Title": "Keuntungan Awal",
+        "step2Description": "Hadiah pemula membantu pemain baru memulai penjelajahan dungeon dengan lebih banyak sumber daya",
+        "step3Title": "Tetap Terkini",
+        "step3Description": "Kode berotasi seiring pembaruan, jadi tukarkan kode yang aktif sebelum kedaluwarsa"
+      },
+      "featured": "Kode Unggulan",
+      "all": "Semua Artikel Kode"
+    },
+    "guide": {
+      "title": "Panduan Project Mirror Labyrinth",
+      "description": "Tips pemula, langkah cara bermain, masuk dungeon, dan dasar-dasar pertarungan kartu untuk Project Mirror Labyrinth.",
+      "metaTitle": "Panduan Project Mirror Labyrinth - Tips Pemula & Cara Bermain",
+      "metaDescription": "Panduan lengkap Project Mirror Labyrinth yang mencakup langkah pertama, masuk dungeon, pertarungan kartu, Reflections, dan progres awal di Roblox.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Baru mengenal Project Mirror Labyrinth?",
+      "whatIsDescription": "Panduan ini mencakup segalanya mulai dari meluncurkan pengalaman Roblox dan menukarkan kode hingga memasuki dungeon pertama Anda dan mempelajari loop pertarungan kartu.",
+      "why": "Mengapa membaca panduan pemula?",
+      "whySteps": {
+        "step1Title": "Mulai Lebih Cepat",
+        "step1Description": "Pelajari cara masuk dungeon melalui menu TAB atau gerbang NO ENTRY dan loop pembuatan deck inti sejak awal",
+        "step2Title": "Hindari Kesalahan Umum",
+        "step2Description": "Tukarkan kode dengan benar dan belanjakan Fragments pada sistem progresi yang tepat",
+        "step3Title": "Bangun Fondasi",
+        "step3Description": "Siapkan Reflections, Outfits, dan dasar-dasar kartu untuk pertumbuhan dungeon jangka panjang"
+      },
+      "featured": "Panduan Unggulan",
+      "all": "Semua Artikel Panduan"
+    },
+    "tier-list": {
+      "title": "Tier List Project Mirror Labyrinth",
+      "description": "Panduan prioritas berlabel versi untuk Outfits, build, dan Reflections di Project Mirror Labyrinth.",
+      "metaTitle": "Tier List Project Mirror Labyrinth - Outfits, Build & Reflections",
+      "metaDescription": "Telusuri tier list dan panduan prioritas Project Mirror Labyrinth untuk Outfits, build, dan Reflections, yang disesuaikan dengan versi game saat ini.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "Apa itu tier list?",
+      "whatIsDescription": "Tier list mengurutkan Outfits, build, dan Reflections berdasarkan kegunaan umum sehingga pemain dapat merencanakan progresi, pull, dan pilihan deck.",
+      "why": "Mengapa menggunakan tier list?",
+      "whySteps": {
+        "step1Title": "Rencanakan Pull Anda",
+        "step1Description": "Prioritaskan Outfits dan Reflections bernilai tinggi untuk tujuan dungeon Anda",
+        "step2Title": "Belanjakan dengan Bijak",
+        "step2Description": "Simpan Fragments dan tiket untuk opsi yang sesuai dengan strategi build Anda",
+        "step3Title": "Tetap Perhatikan Versi",
+        "step3Description": "Setiap tier list diberi tag untuk pembaruan game tertentu untuk peringkat yang akurat"
+      },
+      "featured": "Tier List Unggulan",
+      "all": "Semua Artikel Tier List"
+    },
+    "build": {
+      "title": "Build Project Mirror Labyrinth",
+      "description": "Arketipe build, deck, pasif, dan pilihan EGO Gift untuk run dungeon Project Mirror Labyrinth.",
+      "metaTitle": "Build Project Mirror Labyrinth - Deck, Pasif & EGO Gift",
+      "metaDescription": "Pelajari strategi build Project Mirror Labyrinth termasuk deck Rupture, Charge, dan Poise, pilihan pasif, EGO Gift, dan konstruksi deck untuk run dungeon.",
+      "categoryLabel": "BUILD",
+      "whatIs": "Apa itu build?",
+      "whatIsDescription": "Sebuah build di Project Mirror Labyrinth adalah kombinasi kartu, pasif, Outfits, dan EGO Gift yang Anda bawa ke dalam run dungeon. Arketipe seperti Rupture, Charge, dan Poise menentukan bagaimana setiap run dimainkan.",
+      "why": "Mengapa merencanakan build?",
+      "whySteps": {
+        "step1Title": "Sinergikan Kartu",
+        "step1Description": "Cocokkan kartu serangan dan pertahanan agar deck Anda berfungsi dengan andal di setiap pertempuran",
+        "step2Title": "Pilih Pasif yang Tepat",
+        "step2Description": "Pasif dan EGO Gift memperkuat arketipe Anda dan menjaga run tetap stabil",
+        "step3Title": "Sesuaikan Setiap Run",
+        "step3Description": "Pilih komponen build yang sesuai dengan kartu, musuh, dan sumber daya yang kamu temukan"
+      },
+      "featured": "Panduan Build Unggulan",
+      "all": "Semua Artikel Build"
+    },
+    "items": {
+      "title": "Item Project Mirror Labyrinth",
+      "description": "Mata uang, material, Fragments, EGO Gear, Seeds of Light, dan Defragmenting di Project Mirror Labyrinth.",
+      "metaTitle": "Item Project Mirror Labyrinth - Fragments, EGO Gear & Mata Uang",
+      "metaDescription": "Panduan item dan mata uang Project Mirror Labyrinth: Fragments, Condense, Seeds of Light, EGO Gear, Reward Bags, Cosmetic Vouchers, dan Defragmenting.",
+      "categoryLabel": "ITEM",
+      "whatIs": "Apa itu item dan mata uang?",
+      "whatIsDescription": "Item dan mata uang mendorong progres di Project Mirror Labyrinth. Fragments menggerakkan Reflections, sementara Condense, Seeds of Light, dan EGO Gear mendukung Defragmenting dan pertumbuhan pasif.",
+      "why": "Mengapa harus mempelajari sistem item?",
+      "whySteps": {
+        "step1Title": "Gunakan Fragments dengan Bijak",
+        "step1Description": "Fragments mendanai Reflections, Outfits, dan pertumbuhan skill, jadi rencanakan penggunaannya",
+        "step2Title": "Upgrade Melalui Defragment",
+        "step2Description": "Condense dan Seeds of Light membuka kemampuan pasif pada Outfits yang layak ditingkatkan",
+        "step3Title": "Pantau Material Langka",
+        "step3Description": "EGO Gear dan Reward Bags memberikan boost bernilai tinggi jika digunakan di waktu yang tepat"
+      },
+      "featured": "Panduan Item Unggulan",
+      "all": "Semua Artikel Item"
+    },
+    "bosses": {
+      "title": "Boss Project Mirror Labyrinth",
+      "description": "Panduan pertemuan Boss, pola serangan, dan strategi untuk penjelajahan dungeon Project Mirror Labyrinth.",
+      "metaTitle": "Boss Project Mirror Labyrinth - Pola Serangan & Strategi",
+      "metaDescription": "Kalahkan setiap boss Project Mirror Labyrinth dengan panduan yang mencakup pola serangan, kelemahan, build yang direkomendasikan, dan prioritas hadiah untuk setiap pertemuan.",
+      "categoryLabel": "BOSS",
+      "whatIs": "Apa itu boss?",
+      "whatIsDescription": "Boss adalah pertemuan utama di dalam dungeon Project Mirror Labyrinth. Setiap boss memiliki pola serangan dan timing berbeda yang menguji deck-building dan permainan kartu pertahananmu.",
+      "why": "Mengapa harus mempelajari boss?",
+      "whySteps": {
+        "step1Title": "Pelajari Pola Serangan",
+        "step1Description": "Mengetahui pertanda boss membantumu mengatur timing kartu pertahanan dan menghindari kekalahan di awal permainan",
+        "step2Title": "Pilih Build yang Tepat",
+        "step2Description": "Sesuaikan arketipe deck dan pilihan EGO kamu dengan kelemahan setiap boss",
+        "step3Title": "Dapatkan Hadiah Lebih Baik",
+        "step3Description": "Mengalahkan boss menjatuhkan Fragments, material, dan mata uang progres untuk penjelajahan yang lebih dalam"
+      },
+      "featured": "Panduan Boss Unggulan",
+      "all": "Semua Artikel Boss"
+    },
+    "modes": {
+      "title": "Mode Project Mirror Labyrinth",
+      "description": "Mode game, dungeon, dan rute termasuk Library, Upper Library, Detour, dan Luxcavation.",
+      "metaTitle": "Mode Project Mirror Labyrinth - Library, Detour & Luxcavation",
+      "metaDescription": "Jelajahi mode game dan rute dungeon Project Mirror Labyrinth: Library, Upper Library, Detour, dan Luxcavation, lengkap dengan syarat masuk, hadiah, dan prioritas penyelesaian.",
+      "categoryLabel": "MODE",
+      "whatIs": "Apa itu mode game?",
+      "whatIsDescription": "Mode game adalah rute dungeon dan lapisan konten di Project Mirror Labyrinth. Setiap mode menawarkan aturan masuk, tata letak musuh, dan tingkatan hadiah yang berbeda untuk run Anda.",
+      "why": "Mengapa menjelajahi setiap mode?",
+      "whySteps": {
+        "step1Title": "Sesuaikan Build Anda",
+        "step1Description": "Rute yang berbeda mendukung arketipe deck dan tahap progres yang berbeda",
+        "step2Title": "Target Hadiah",
+        "step2Description": "Luxcavation dan Upper Library menjatuhkan material dan tiket spesifik yang Anda butuhkan",
+        "step3Title": "Progres secara Stabil",
+        "step3Description": "Menyelesaikan setiap mode secara berurutan membangun sumber daya untuk tier dungeon yang lebih sulit"
+      },
+      "featured": "Panduan Mode Unggulan",
+      "all": "Semua Artikel Mode"
+    }
+  }
+}
