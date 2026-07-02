@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Walpurgisnacht: Guia de Novas Unidades e Banner",
+  description: "Domine a atualização Project Mirror Labyrinth Walpurgisnacht. Saiba mais sobre a nova ID da Máfia do Polegar do Sul, mecânicas de Ruptura e requisitos de Nível 60.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Walpurgisnacht+Banner+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de Project Mirror Labyrinth",
+  keywords: "project mirror labyrinth, walpurgisnacht, guia, novas unidades, banner, máfia do polegar do sul, ruptura"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Evento Walpurgisnacht**: O primeiro grande banner limitado apresentando IDs de alto nível como a **Máfia do Polegar do Sul**.
+- **Requisito de Nível**: Os jogadores devem atingir o **Nível de Conta 60** para acessar os novos modos de jogo especializados.
+- **Novas Mecânicas**: Introdução da sinergia de **Ruptura e Ferido** (Rupture e Wounded), aumentando significativamente o dano ao longo do tempo.
+- **Gerenciamento de Munição**: Novas unidades utilizam um **sistema de Munição** com 32 cartuchos e habilidades especializadas de "Descarregar" (Unload).
+- **Foco Estratégico**: Priorize **dano de Perfuração** (Pierce) e potência de Ruptura para limpar conteúdos de alto nível de forma eficiente.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral do Evento Project Mirror Labyrinth Walpurgisnacht">
+
+A atualização **project mirror labyrinth walpurgisnacht**, frequentemente referida pela comunidade como "Bloxpurgis", representa o primeiro grande evento de tempo limitado do jogo. Inspirado pelos profundos sistemas táticos de *Limbus Company* e *Library of Ruina*, este evento introduz Identidades (IDs) e EGOs exclusivos que não podem ser obtidos através de banners comuns. O destaque desta atualização é a introdução da ID da Máfia do Polegar do Sul, uma unidade extremamente poderosa que redefine o meta atual de Ruptura.
+
+**Destaques do Vídeo:**
+- **Giros no Banner**: Demonstração do sistema de fragmentos e taxas de drop lendárias para as novas IDs.
+- **Demonstração de Combate**: Análise visual da habilidade "Descarregar" (Unload) da metralhadora e animações de CQC (combate corpo a corpo).
+- **Bloqueio de Nível**: Confirmação do requisito estrito de Nível de Conta 60 para o novo modo de jogo.
+- **Novas IDs**: Visão geral das variantes Juggernaut, Priest e West Liberty.
+
+<YouTubeEmbed videoId="HJZeD2OVZtM" title="Roblox Project Mirror Labyrinth - Novo Banner de Walpurgisnacht" />
+
+O evento foca fortemente no conceito de "Mundo de Espelho" (Mirror World), onde personagens de realidades alternativas são trazidos para o labirinto. Essas IDs frequentemente possuem "IDs Falsas" (Fake IDs) ou passivas únicas que se desviam das progressões padrão de personagens. Os jogadores devem notar que as animações de fundo e os efeitos visuais das unidades de Walpurgisnacht são significativamente mais complexos do que as unidades padrão, apresentando ataques EGO totalmente animados e posturas de combate dinâmicas.
+
+<Callout type="info" title="Acesso ao Evento">
+Certifique-se de que sua conta esteja pelo menos no Nível 60 antes de tentar os novos modos de jogo exclusivos de Walpurgisnacht. Embora você possa girar no banner em qualquer nível, o conteúdo de gameplay é estritamente bloqueado para jogadores veteranos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise da Nova Identidade: Máfia do Polegar do Sul">
+
+A adição de destaque na atualização **project mirror labyrinth walpurgisnacht** é, sem dúvida, a ID da Máfia do Polegar do Sul. Esta unidade introduz um sofisticado sistema de Munição combinado com um foco duplo em efeitos de status. Ao contrário dos atacantes padrão, a Máfia do Polegar do Sul depende de um recurso finito — 32 cartuchos de munição — para executar habilidades de alto impacto.
+
+| Nome da Habilidade | Poder Base | Efeito Principal | Custo de Recurso |
+| :--- | :--- | :--- | :--- |
+| **Knife Combat** | Moderado | Dano genérico de Perfuração | 0 de Munição |
+| **Tommy Burst** | Alto | Aplicação de Ruptura com múltiplos acertos | 2-4 de Munição |
+| **Gut Jab** | 8 de Base | Aplica o status Ferido (Wounded) | 0 de Munição |
+| **Unload** | Massivo | Gasta toda a munição para dano explosivo | Toda a Restante |
+| **Evade** | Defensivo | Rouba 32 cartuchos em caso de sucesso | N/A |
+
+A habilidade passiva, **Double Punishment** (Punição Dupla), é o núcleo da utilidade desta unidade. Ela cria um ciclo de feedback entre os efeitos de status de Ruptura e Ferido. Ao acertar um alvo com Ruptura, mas sem Ferido, ela aplica um acúmulo de Ferido. Por outro lado, acertar um alvo com Ferido, mas sem Ruptura, aplica três acúmulos de Ruptura. Isso torna a Máfia do Polegar do Sul um "Demônio da Ruptura", capaz de acumular multiplicadores de dano massivos em um único turno.
+
+<Callout type="success" title="Dica do Meta">
+A habilidade "Unload" é atualmente um dos finalizadores mais poderosos do jogo. Ao gastar todos os 32 cartuchos, você aplica uma potência de Ruptura igual à munição gasta dividida por dois no turno seguinte, criando uma janela de eliminação inevitável.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Combate: Sinergia de Ruptura e Ferido">
+
+Compreender a interação entre Ruptura e Ferido é essencial para dominar o conteúdo de **project mirror labyrinth walpurgisnacht**. Enquanto o Sangramento (Bleed) causa dano com base em lançamentos de moedas (coin flips), a Ruptura causa dano fixo toda vez que o alvo é atingido. As novas unidades de Walpurgisnacht vão além, introduzindo o status "Ferido" (Wounded), que aumenta a eficácia da aplicação de Ruptura.
+
+| Efeito de Status | Mecânica | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Ruptura** | Dano fixo por acerto | Melhor para habilidades de múltiplos acertos |
+| **Ferido** | Multiplica o ganho de Ruptura | Essencial para confrontos contra chefes |
+| **Sangramento** | Dano ao usar habilidades | Dano de suporte secundário |
+| **Superaquecimento** | Penalidade pelo uso de munição | Limitador de gerenciamento de recursos |
+
+Ao montar uma equipe para os desafios de Walpurgisnacht, você deve equilibrar seu acúmulo de "Superaquecimento de Munição" (Ammo Overheat). Usar habilidades como "Unload" oferece uma enorme vantagem a curto prazo, mas pode deixar a unidade vulnerável se a habilidade "Evade" falhar em reabastecer o estoque de munição. O objetivo é alcançar um estado de mais de 20 de potência de Ruptura, o que efetivamente destrói as barras de vida até dos chefes mais difíceis no Labirinto de Espelho.
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Cuidado com o acúmulo de Superaquecimento (Overheat). Embora a Máfia do Polegar do Sul seja poderosa, falhar no gerenciamento do excesso de munição pode levar a uma redução no poder de moedas em batalhas prolongadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para a Progressão do Evento">
+
+Navegar pelo evento **project mirror labyrinth walpurgisnacht** exige um caminho de progressão específico para maximizar seus ganhos de fragmentos e a eficiência das unidades. Siga estes passos para garantir que você não desperdice recursos limitados.
+
+<Steps>
+  <Step num="1" title="Subir o Nível da Conta">
+    Faça grind nas Masmorras de Espelho (Mirror Dungeons) padrão para atingir o Nível de Conta 60. Este é o requisito obrigatório de entrada para o modo de jogo Walpurgisnacht. Use boosters de experiência, se disponíveis, para acelerar este processo.
+  </Step>
+  <Step num="2" title="Coleta de Fragmentos">
+    Foque em coletar pelo menos 400-450 fragmentos. Os fragmentos são a principal moeda para o banner de Walpurgisnacht, permitindo que você compre diretamente (sistema de pity/spark) as novas IDs caso sua sorte nos giros seja ruim.
+  </Step>
+  <Step num="3" title="Priorização de Banner">
+    Gaste seus giros especificamente no banner de Walpurgisnacht. Essas unidades (Máfia do Polegar do Sul, Juggernaut, Priest) não são adicionadas ao pool geral após o término do evento, tornando-as alvos de alta prioridade.
+  </Step>
+  <Step num="4" title="Melhoria de Habilidades (Uptying)">
+    Assim que adquirir a Máfia do Polegar do Sul, foque em desbloquear suas passivas de Tier 3 ou Tier 4 imediatamente. A passiva "Double Punishment" só atinge seu potencial máximo em tiers de melhoria mais altos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Otimização">
+Se você estiver tendo dificuldades com o bloqueio do Nível 60, foque em completar as missões diárias e os resets semanais de masmorras. Eles fornecem a maior concentração de EXP de Conta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Montagem de Equipe e Comparações de Estratégia">
+
+A atualização de Walpurgisnacht muda o meta em direção ao dano de Perfuração (Pierce) e ao acúmulo de efeitos de status. Comparar as novas unidades com os arquétipos existentes ajuda a decidir onde investir seus recursos.
+
+<CardGrid cols={3}>
+  <Card title="Equipe de Ruptura">
+    - **Núcleo**: Southern Thumb Mafia
+    - **Foco**: Dano fixo por acerto
+    - **Prós**: Derrete chefes de alta defesa
+  </Card>
+  <Card title="Equipe de Sangramento">
+    - **Núcleo**: IDs padrão do Polegar
+    - **Foco**: Dano na ação do inimigo
+    - **Prós**: Dano contínuo consistente
+  </Card>
+  <Card title="Explosão de Perfuração">
+    - **Núcleo**: IDs de Juggernaut e Fixer
+    - **Foco**: Saída de dano bruto
+    - **Prós**: Limpeza rápida de ondas
+  </Card>
+</CardGrid>
+
+Ao escolher entre uma build focada em Ruptura e uma build tradicional de Sangramento (Bleed), considere a quantidade de acertos sofridos pelo inimigo. A Ruptura é significativamente mais eficaz contra inimigos que recebem múltiplos acertos por turno, pois cada golpe ativa o dano de Ruptura.
+
+| Característica | Ruptura (Walpurgisnacht) | Sangramento (Padrão) |
+| :--- | :--- | :--- |
+| **Tipo de Dano** | Dano Fixo / Verdadeiro | Variável / Baseado em Moedas |
+| **Escalonamento** | Acertos por Turno | Ações por Turno |
+| **Tempo de Preparação** | Rápido (via Descarregar Munição) | Lento (Acúmulo) |
+| **Confiabilidade** | Muito Alta | Moderada |
+
+<Checklist
+  id="walpurgis-prep"
+  title="Lista de Preparação para o Evento:"
+  items={[
+    "Atingir o Nível de Conta 60",
+    "Acumular mais de 400 Fragmentos",
+    "Equipar equipamentos com resistência a Perfuração",
+    "Subir o nível de suas unidades de suporte de Ruptura",
+    "Desbloquear a passiva 'Double Punishment'"
+  ]}
+/>
+
+<Callout type="info" title="Recomendação Final">
+A Máfia do Polegar do Sul é um giro obrigatório para qualquer jogador que queira enfrentar o conteúdo de fim de jogo. A combinação de alto poder base (Gut Jab) e o potencial explosivo de Unload a torna a principal unidade de Ruptura do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes (FAQ) de Walpurgisnacht">
+
+<FAQ items={[
+  {
+    question: "A ID da Máfia do Polegar do Sul é limitada a este evento?",
+    answer: "Sim, as IDs de Walpurgisnacht são exclusivas do banner do evento. Embora possam retornar em eventos futuros de Walpurgisnacht, elas não estão disponíveis na seleção de recrutamento padrão."
+  },
+  {
+    question: "Qual é a melhor maneira de gerenciar a Munição das novas unidades?",
+    answer: "Sempre fique de olho na sua contagem de Munição (começando em 32). Use sua habilidade Evade estrategicamente para roubar de volta 32 cartuchos quando estiver com pouca munição, e use 'Unload' apenas quando tiver certeza de que vai derrotar o inimigo ou preparar um acúmulo massivo de Ruptura para o próximo turno."
+  },
+  {
+    question: "Por que não consigo acessar o novo modo de jogo mesmo tendo as unidades?",
+    answer: "O modo de jogo project mirror labyrinth walpurgisnacht tem um requisito estrito de Nível de Conta 60. Você pode obter e usar as unidades em outros modos, mas a masmorra específica do evento está bloqueada por esse nível."
+  },
+  {
+    question: "Como funciona exatamente o efeito de status Ferido (Wounded)?",
+    answer: "O status Ferido (Wounded) age como um catalisador para a Ruptura. Se um alvo estiver Ferido, seus acertos aplicarão significativamente mais potência de Ruptura (geralmente +3 por acerto), permitindo que você atinja o limite de dano muito mais rápido do que usando apenas Ruptura."
+  }
+]} />
+
+</Section>

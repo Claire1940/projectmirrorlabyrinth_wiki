@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Lone Fixer: Panduan Build Solo & Pengaturan",
+  description: "Kuasai build Lone Fixer di Project Mirror Labyrinth. Pelajari pengaturan perlengkapan optimal, rotasi skill, dan strategi bertahan hidup solo.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lone+Fixer+Build+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- Build **project mirror labyrinth lone fixer** berfokus pada hindaran (evasion) tinggi, pemulihan mandiri (self-sustain), dan burst damage target tunggal yang masif.
+- Prioritaskan statistik **Evasion Rate** (Tingkat Hindaran) dan **Critical Strike** (Serangan Kritis) pada semua slot perlengkapan untuk memaksimalkan kemampuan bertahan hidup solo.
+- Lakukan **rotasi Deflect-Counter** (Tangkis-Balas) untuk mengurangi damage bos yang masuk sambil mempertahankan tekanan ofensif yang konsisten.
+- Lengkapi relik **Shadow Cloak** lebih awal untuk mengamankan opsi melarikan diri yang andal selama pertempuran labirin dengan ancaman tinggi.
+</Callout>
+
+<Section icon={Shield} title="Arketipe & Mekanisme Inti Lone Fixer">
+
+Gaya bermain solo dalam game ini membutuhkan pemahaman mendalam tentang mekanisme pertempuran, manajemen sumber daya, dan penentuan posisi musuh. Bermain tanpa party pendukung memicu modifikator lingkungan unik yang secara signifikan mengubah cara kerja pertempuran. Saat memilih untuk bermain solo, pemain harus beradaptasi dengan kurangnya penyembuhan khusus dan crowd control dengan menggunakan konfigurasi build khusus.
+
+Desain inti dari build ini bergantung pada sistem pasif Lone Wolf. Saat memasuki ruang labirin tanpa anggota party yang aktif, game secara otomatis menerapkan peningkatan pasif yang meningkatkan output damage secara keseluruhan dan mengurangi damage yang masuk. Mekanisme ini memastikan bahwa pemain solo dapat membersihkan ruangan dengan efisien tanpa tertinggal dari kurva perkembangan permainan kelompok standar.
+
+Keberhasilan dengan setup ini bergantung pada keseimbangan antara tekanan ofensif dan manuver defensif. Pemain harus menguasai waktu indikator serangan musuh untuk memicu hindaran sempurna (perfect dodge), yang pada gilirannya mengaktifkan serangan balik (counter-attack) yang kuat. Dengan berfokus pada mobilitas dan burst target tunggal yang tinggi, build ini meminimalkan waktu yang dihabiskan dalam pertempuran, mengurangi risiko menerima damage fatal.
+
+<CardGrid cols={3}>
+  <Card title="Fokus Hindaran (Evasion)">
+    - **Mobilitas tinggi**
+    - Mekanisme hindaran sempurna
+    - Bonus damage serangan balik
+  </Card>
+  <Card title="Fokus Lifesteal">
+    - **Pool HP yang berkelanjutan**
+    - Damage fisik yang konsisten
+    - Kelangsungan hidup yang tinggi dalam kelompok monster
+  </Card>
+  <Card title="Fokus Stagger">
+    - **Penghancuran pertahanan yang cepat**
+    - Skill berdampak berat
+    - Crowd control musuh yang diperpanjang
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Peringatan Bertahan Hidup">
+Gagal menghindari serangan bos dengan ancaman tinggi dapat menyebabkan kekalahan instan. Selalu prioritaskan posisi defensif daripada rotasi damage yang lebih serakah saat cooldown defensif Anda tidak aktif.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perlengkapan Optimal & Prioritas Stat">
+
+Memilih atribut perlengkapan yang tepat sangat penting untuk mempertahankan tingkat kelangsungan hidup yang tinggi di lantai labirin yang lebih dalam. Karena pemain solo tidak dapat mengandalkan tank khusus untuk menarik agresi musuh, statistik defensif seperti tingkat hindaran (evasion rate) dan kesehatan maksimum harus diseimbangkan dengan atribut ofensif seperti peluang serangan kritis (critical strike chance) dan penetrasi armor.
+
+Senjata dengan kecepatan serangan dasar yang tinggi lebih disukai untuk setup ini, karena memungkinkan waktu pemulihan yang lebih cepat setelah mengeksekusi skill. Pemulihan cepat ini memudahkan untuk menghindari serangan yang datang dalam sekejap. Fokuslah untuk mendapatkan perlengkapan yang bersinergi dengan penskalaan damage fisik dan pengganda serangan kritis untuk memaksimalkan dampak dari serangan balik Anda.
+
+Tabel berikut menguraikan slot perlengkapan yang direkomendasikan dan peringkat prioritas atribut inti yang diperlukan untuk mengoptimalkan performa build.
+
+| Slot | Nama Item | Statistik Inti | Peringkat Prioritas |
+| :--- | :--- | :--- | :--- |
+| Senjata | **Mirror Shard Blade** | Critical Strike, Kecepatan Serangan | ★★★★★ |
+| Dada | **Stalker Leather Vest** | Evasion Rate, HP Maksimum | ★★★★☆ |
+| Tangan | **Duelist Handguards** | Damage Serangan Balik, Penetrasi Armor | ★★★★☆ |
+| Sepatu | **Swiftstride Boots** | Kecepatan Gerak, Regen Hindaran | ★★★★★ |
+| Cincin | **Slayer Band** | Lifesteal, Damage Kritis | ★★★★☆ |
+
+Mengevaluasi penskalaan atribut sangat penting untuk menyempurnakan performa karakter Anda. Fokuslah untuk mencapai batas lunak (soft cap) statistik defensif sebelum berinvestasi besar-besaran pada opsi yang murni ofensif.
+
+| Atribut | Manfaat Utama | Potensi Penskalaan | Peringkat Prioritas |
+| :--- | :--- | :--- | :--- |
+| **Evasion** | Menghindari damage fisik yang masuk | Penskalaan tinggi batas pada 65% | ★★★★★ |
+| **Critical Strike** | Meningkatkan output burst damage | Penskalaan linear dengan perlengkapan | ★★★★☆ |
+| **Lifesteal** | Memulihkan HP pada serangan fisik | Berskala dengan damage keseluruhan | ★★★★☆ |
+| **Stagger Power** | Memperpendek waktu untuk men-stun elite | Nilai flat per jenis senjata | ★★★☆☆ |
+
+<Callout type="tip" title="Tip Optimalisasi Stat">
+Targetkan untuk mencapai pencapaian 50% Evasion Rate sebelum mencoba Lantai 8. Ini memberikan perlindungan defensif yang andal terhadap serangan fisik berdamage tinggi dari bos elite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Panduan Setup Langkah demi Langkah">
+
+Mengonfigurasi build memerlukan pembukaan node tertentu di pohon perkembangan karakter dan mengumpulkan peralatan awal yang diperlukan. Ikuti langkah-langkah ini untuk mempersiapkan karakter Anda untuk progresi solo melalui lantai labirin.
+
+<Steps>
+  <Step num="1" title="Buka Lisensi Fixer">
+    Mencapai level karakter 30 dan selesaikan uji kualifikasi solo yang terletak di area hub pusat. Ini membuka node pasif dasar yang diperlukan untuk modifikator solo.
+  </Step>
+  <Step num="2" title="Alokasikan Poin Pohon Skill">
+    Investasikan poin secara besar-besaran ke pohon Agility dan Combat. Prioritaskan membuka node pasif yang meningkatkan kecepatan gerak dan mengurangi cooldown hindaran.
+  </Step>
+  <Step num="3" title="Dapatkan Perlengkapan Awal">
+    Farm Lantai 3 dari labirin untuk mendapatkan set perlengkapan dasar Stalker. Set ini menyediakan statistik hindaran dasar yang diperlukan untuk bertahan di lantai dengan tingkat kesulitan yang lebih tinggi.
+  </Step>
+  <Step num="4" title="Konfigurasi Ego Sync Shard">
+    Lengkapi tiga shard tipe Agility yang cocok di menu Ego Sync Anda. Bonus sinergi ini memberikan peningkatan flat pada kecepatan gerak dan serangan Anda secara keseluruhan.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Informasi Ego Sync">
+Bonus sinergi Ego Sync hanya aktif ketika ketiga shard yang dilengkapi memiliki tipe elemen atau atribut yang sama. Mencampur tipe akan menonaktifkan bonus kecepatan pasif.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotasi Pertempuran & Strategi Taktis">
+
+Mengarungi pertempuran sebagai pemain solo membutuhkan kesabaran dan eksekusi yang tepat. Karena Anda adalah satu-satunya target untuk semua musuh di dalam ruangan, memahami cara mengelompokkan monster dan mengelola animasi serangan mereka adalah kunci untuk membersihkan ruangan tanpa menerima damage yang tidak perlu.
+
+Gunakan lingkungan untuk keuntungan Anda dengan menghalangi garis pandang dengan musuh jarak jauh. Ini memaksa mereka untuk berlari menuju posisi Anda, mengelompokkan mereka untuk serangan area-of-effect (AoE) yang efisien. Saat menghadapi monster bos, fokuslah mempelajari pola serangan dan petunjuk visual mereka untuk memaksimalkan waktu serangan balik Anda.
+
+Tabel di bawah ini merinci rotasi skill yang direkomendasikan untuk berbagai skenario pertempuran yang akan Anda temui selama permainan.
+
+| Skenario | Urutan Skill | Tujuan Utama | Tingkat Keberhasilan |
+| :--- | :--- | :--- | :--- |
+| **Pembersihan Monster** | Shadow Step, Sweep, Decisive Strike | Mengelompokkan dan melakukan burst pada target | 90% |
+| **Pertempuran Elite** | Deflect, Counter, Pierce, Evasion | Menghancurkan bar stagger | 85% |
+| **Pertempuran Bos** | Evasion, Focus, Critical Strike, Retreat | Menghindari mekanik, burst | 75% |
+
+<Callout type="success" title="Tip Pertempuran">
+Berhasil melakukan hindaran sempurna memicu buff pemulihan stamina sementara. Gunakan jendela waktu ini untuk memposisikan ulang atau merangkai skill ofensif berbiaya tinggi.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pencapaian Progresi & FAQ">
+
+Melacak progresi karakter membantu menentukan apakah Anda siap menghadapi tantangan yang lebih sulit di lantai labirin yang lebih dalam. Gunakan daftar periksa di bawah ini untuk memantau pencapaian Anda saat mengoptimalkan build.
+
+<Checklist
+  id="lone-fixer-milestones"
+  title="Pencapaian Build:"
+  items={[
+    "Mencapai level karakter 50",
+    "Dapatkan set lengkap Perlengkapan Stalker Tier 4",
+    "Mencapai minimal 50% Evasion Rate",
+    "Kalahkan Warden Lantai 10 secara solo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Apakah build lone fixer project mirror labyrinth layak untuk farming endgame?",
+    answer: "Ya, build ini sangat layak untuk farming solo karena pemulihan mandiri yang luar biasa dan mobilitas tinggi, yang memungkinkan Anda melewati monster kroco yang sulit."
+  },
+  {
+    question: "Apa jenis senjata terbaik untuk build ini?",
+    answer: "Pedang satu tangan dan belati direkomendasikan karena menawarkan animasi serangan tercepat, membuatnya lebih mudah untuk bereaksi dan menghindari serangan yang datang."
+  },
+  {
+    question: "Bagaimana cara memulihkan HP selama pertempuran tanpa healer?",
+    answer: "Anda harus mengandalkan atribut Lifesteal pada cincin dan aksesori Anda, dikombinasikan dengan pasif regenerasi kesehatan yang dipicu oleh hindaran sempurna."
+  }
+]} />
+
+<Callout type="tip" title="Tip Endgame">
+Periksa modifikator labirin mingguan sebelum memulai permainan Anda. Beberapa modifikator mungkin menghukum damage fisik atau hindaran, sehingga memerlukan sedikit penyesuaian pada pengaturan perlengkapan Anda.
+</Callout>
+
+</Section>

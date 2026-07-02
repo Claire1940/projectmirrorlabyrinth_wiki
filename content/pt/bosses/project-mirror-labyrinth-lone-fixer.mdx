@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Lone Fixer: Guia de Build Solo e Configuração",
+  description: "Domine a build de Lone Fixer em Project Mirror Labyrinth. Aprenda as melhores configurações de equipamentos, rotações de habilidades e estratégias de sobrevivência solo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Lone+Fixer+Build+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A build do **project mirror labyrinth lone fixer** foca em alta evasão, autossustento e dano explosivo massivo contra alvos únicos.
+- Priorize os atributos de **Taxa de Evasão** e **Acerto Crítico** em todos os slots de equipamentos para maximizar a capacidade de sobrevivência solo.
+- Execute a **rotação de Desvio e Contra-ataque** para mitigar o dano recebido de chefes enquanto mantém uma pressão ofensiva consistente.
+- Equipe a relíquia **Manto das Sombras** cedo para garantir opções de fuga confiáveis durante encontros de alta ameaça no labirinto.
+</Callout>
+
+<Section icon={Shield} title="Arquétipo do Lone Fixer e Mecânicas Principais">
+
+O estilo de jogo solo neste jogo exige uma compreensão profunda das mecânicas de combate, gerenciamento de recursos e posicionamento do inimigo. Operar sem um grupo de suporte ativa modificadores ambientais únicos que alteram significativamente o funcionamento do combate. Ao optar por jogar solo, os jogadores devem se adaptar à falta de cura dedicada e controle de grupo utilizando uma configuração de build especializada.
+
+O design principal desta build baseia-se no sistema passivo do Lobo Solitário. Ao entrar em uma câmara do labirinto sem membros ativos no grupo, o jogo aplica automaticamente uma melhoria passiva que aumenta o dano causado geral e reduz o dano recebido. Esta mecânica garante que os jogadores solo possam limpar salas com eficiência sem ficar para trás na curva de progressão do jogo em grupo padrão.
+
+O sucesso com esta configuração depende do equilíbrio entre a pressão ofensiva e as manobras defensivas. Os jogadores devem dominar o tempo dos indicadores de ataque inimigos para acionar esquivas perfeitas, que por sua vez ativam contra-ataques poderosos. Ao focar em mobilidade e alto dano explosivo contra alvos únicos, a build minimiza o tempo gasto em combate, reduzindo o risco de sofrer danos fatais.
+
+<CardGrid cols={3}>
+  <Card title="Foco em Evasão">
+    - **Alta mobilidade**
+    - Mecânicas de esquiva perfeita
+    - Bônus de dano de contra-ataque
+  </Card>
+  <Card title="Foco em Roubo de Vida">
+    - **Vida sustentada**
+    - Dano físico consistente
+    - Alta sobrevivência em grupos de monstros
+  </Card>
+  <Card title="Foco em Atordoamento">
+    - **Quebra rápida de defesa**
+    - Habilidades de alto impacto
+    - Controle de grupo inimigo estendido
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Sobrevivência">
+Falhar em esquivar de ataques de chefes de alta ameaça pode resultar em derrota imediata. Sempre priorize o posicionamento defensivo em vez de rotações de dano gananciosas quando seus tempos de recarga defensivos estiverem inativos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamento Ideal e Prioridade de Atributos">
+
+Selecionar os atributos corretos de equipamento é fundamental para manter altas taxas de sobrevivência nos andares mais profundos do labirinto. Como os jogadores solo não podem contar com um tanque dedicado para atrair a agressão dos inimigos, os atributos defensivos, como taxa de evasão e vida máxima, devem ser equilibrados com os atributos ofensivos, como chance de acerto crítico e penetração de armadura.
+
+Armas com alta velocidade de ataque básica são preferidas para esta configuração, pois permitem tempos de recuperação mais rápidos após a execução de habilidades. Essa recuperação rápida facilita a esquiva de ataques recebidos a qualquer momento. Foque em obter equipamentos que tenham sinergia com o escalonamento de dano físico e multiplicadores de acerto crítico para maximizar o impacto de seus contra-ataques.
+
+As tabelas a seguir descrevem os slots de equipamentos recomendados e a classificação de prioridade dos atributos essenciais necessários para otimizar o desempenho da build.
+
+| Slot | Nome do Item | Atributos Principais | Classificação de Prioridade |
+| :--- | :--- | :--- | :--- |
+| Arma | **Lâmina de Fragmento de Espelho** | Acerto Crítico, Velocidade de Ataque | ★★★★★ |
+| Peitoral | **Colete de Couro de Espreitador** | Taxa de Evasão, Vida Máxima | ★★★★☆ |
+| Luvas | **Protetores de Mão de Duelista** | Dano de Contra-ataque, Pen. de Armadura | ★★★★☆ |
+| Botas | **Botas de Passolesto** | Velocidade de Movimento, Regen. de Esquiva | ★★★★★ |
+| Anel | **Anel do Algoz** | Roubo de Vida, Dano Crítico | ★★★★☆ |
+
+Avaliar o escalonamento de atributos é essencial para refinar o desempenho do seu personagem. Foque em atingir os limites flexíveis (soft caps) dos atributos defensivos antes de investir pesadamente em opções puramente ofensivas.
+
+| Atributo | Benefício Principal | Potencial de Escalonamento | Classificação de Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Evasão** | Evita dano físico recebido | Alto escalonamento com limite em 65% | ★★★★★ |
+| **Acerto Crítico** | Aumenta o dano explosivo | Escalonamento linear com equipamento | ★★★★☆ |
+| **Roubo de Vida** | Restaura vida em acertos físicos | Escala com o dano geral | ★★★★☆ |
+| **Poder de Atordoamento** | Reduz o tempo para atordoar elites | Valores fixos por tipo de arma | ★★★☆☆ |
+
+<Callout type="tip" title="Dica de Otimização de Atributos">
+Tente atingir a marca de 50% de Taxa de Evasão antes de tentar o Andar 8. Isso fornece uma barreira defensiva confiável contra os ataques físicos de alto dano dos chefes elites.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Configuração Passo a Passo">
+
+Configurar a build requer desbloquear nós específicos na árvore de progressão do personagem e coletar os equipamentos iniciais necessários. Siga estes passos para preparar seu personagem para a progressão solo pelos andares do labirinto.
+
+<Steps>
+  <Step num="1" title="Desbloquear a Licença de Fixer">
+    Alcance o nível 30 do personagem e conclua o teste de qualificação solo localizado na área do hub central. Isso desbloqueia os nós passivos básicos necessários para os modificadores solo.
+  </Step>
+  <Step num="2" title="Distribuir Pontos na Árvore de Habilidades">
+    Invista pontos massivamente nas árvores de Agilidade e Combate. Priorize o desbloqueio dos nós passivos que aumentam a velocidade de movimento e reduzem os tempos de recarga de esquiva.
+  </Step>
+  <Step num="3" title="Adquirir Equipamento Inicial">
+    Farmar no Andar 3 do labirinto para garantir o conjunto básico de equipamentos de Espreitador. Este conjunto fornece os atributos de evasão fundamentais necessários para sobreviver a andares de maior dificuldade.
+  </Step>
+  <Step num="4" title="Configurar Fragmentos de Ego Sync">
+    Equipe três fragmentos correspondentes do tipo Agilidade no seu menu do Ego Sync. Esse bônus de sinergia concede um aumento fixo à sua velocidade geral de movimento e ataque.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Informações do Ego Sync">
+Os bônus de sinergia do Ego Sync ficam ativos apenas quando todos os três fragmentos equipados compartilham o mesmo tipo elemental ou de atributo. Misturar tipos desativará o bônus passivo de velocidade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotações de Combate e Estratégias Táticas">
+
+Navegar por encontros de combate como um jogador solo exige paciência e execução precisa. Como você é o único alvo de todos os inimigos na sala, entender como agrupar os monstros e gerenciar suas animações de ataque é a chave para limpar salas sem sofrer danos desnecessários.
+
+Use o ambiente a seu favor quebrando a linha de visão com inimigos à distância. Isso os força a correr em direção à sua posição, agrupando-os para ataques eficientes em área de efeito. Ao enfrentar monstros chefes, foque em aprender seus padrões de ataque e pistas visuais para maximizar o tempo de seus contra-ataques.
+
+A tabela abaixo detalha as rotações de habilidades recomendadas para diferentes cenários de combate que você encontrará durante suas rodadas.
+
+| Cenário | Sequência de Habilidades | Objetivo Principal | Taxa de Sucesso |
+| :--- | :--- | :--- | :--- |
+| **Limpeza de Monstros** | Passo Sombrio, Varredura, Golpe Decisivo | Agrupar e explodir alvos | 90% |
+| **Lutas contra Elites** | Desviar, Contra-atacar, Perfurar, Evasão | Quebrar barra de atordoamento | 85% |
+| **Encontros com Chefes** | Evasão, Foco, Acerto Crítico, Recuar | Evitar mecânicas, explodir dano | 75% |
+
+<Callout type="success" title="Dica de Combate">
+Executar com sucesso uma esquiva perfeita ativa um bônus temporário de recuperação de vigor. Use esta janela para se reposicionar ou encadear habilidades ofensivas de alto custo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão e Perguntas Frequentes">
+
+Acompanhar a progressão do seu personagem ajuda a determinar se você está pronto para enfrentar os desafios mais difíceis dos andares mais profundos do labirinto. Use a lista de verificação abaixo para monitorar seus marcos à medida que otimiza sua build.
+
+<Checklist
+  id="lone-fixer-milestones"
+  title="Marcos da Build:"
+  items={[
+    "Alcançar o nível 50 do personagem",
+    "Adquirir um conjunto completo de Equipamento de Espreitador de Grau 4",
+    "Atingir um mínimo de 50% de Taxa de Evasão",
+    "Derrotar o Guardião do Andar 10 solo"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "A build de lone fixer do project mirror labyrinth é viável para farm no endgame?",
+    answer: "Sim, esta build é altamente viável para farm solo devido ao seu autossustento excepcional e alta mobilidade, o que permite que você evite monstros comuns difíceis."
+  },
+  {
+    question: "Qual é o melhor tipo de arma para esta build?",
+    answer: "Espadas de uma mão e adagas são recomendadas porque oferecem as animações de ataque mais rápidas, facilitando a reação e a esquiva de ataques recebidos."
+  },
+  {
+    question: "Como faço para recuperar vida durante o combate sem um curador?",
+    answer: "Você deve contar com o atributo de Roubo de Vida em seus anéis e acessórios, combinado com as passivas de regeneração de vida ativadas por esquivas perfeitas."
+  }
+]} />
+
+<Callout type="tip" title="Dica de Endgame">
+Verifique os modificadores semanais do labirinto antes de iniciar sua rodada. Alguns modificadores podem penalizar o dano físico ou a evasão, exigindo pequenos ajustes na configuração do seu equipamento.
+</Callout>
+
+</Section>
