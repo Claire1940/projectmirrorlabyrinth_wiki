@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinthデッキ：2026年ビルドガイド＆カードティアリスト",
+  description: "2026年最新ガイドでProject Mirror Labyrinthのデッキシステムをマスターしましょう。カードのシナジー、Reflections（鏡映）のパッシブ、そして最適な戦闘戦略について解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Deck+Building+Guide",
+  date: "2026-07-02",
+  author: "project mirror labyrinth Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Project Mirror Labyrinthのデッキ**: 攻略の成否は、高火力の攻撃カードと安定した防御ブロックのバランスにかかっています。
+- **コアメカニクス**: **Fragments（欠片）**を使用して**Reflections（鏡映）**や**Outfits（衣装）**を引き、デッキに不可欠なパッシブバフを獲得しましょう。
+- **最適戦略**: 装備しているOutfitの特定のパッシブ能力を誘発するカードの組み合わせに焦点を当てます。
+- **メンテナンス情報**: 毎週**火曜日の午後2:00（P.M.）**に定期アップデートが行われ、プレイ中のサーバーの安定性に影響を与える可能性があります。
+- **おすすめの選択**: スターターコードの**Welcome**を使用すると、最初の実用的なデッキ構築をすぐに始めるためのリソースが即座に手に入ります。
+</Callout>
+
+<Section icon={Map} title="Project Mirror Labyrinthにおけるデッキ構築の基本メカニクス">
+
+**project mirror labyrinth deck**（プロジェクト ミラー ラビリンス デッキ）システムを理解することは、このゲームの過酷なローグライトダンジョンを生き抜くための第一歩です。ステータスが固定されている従来のRPGとは異なり、このRoblox作品は『Slay the Spire』や『Library of Ruina』といったタイトルにインスパイアされた、ダイナミックなデッキ構築のループを軸にしています。すべての挑戦は基本となるカードセットから始まりますが、ダンジョン内での選択が、最終階層に到達するか、あるいは迷宮の住人に敗れ去るかを決定します。
+
+**動画の見どころ:**
+- **ゲームプレイ概要**: ターン制戦闘とカード選択プロセスの紹介。
+- **デッキシナジー**: Project Moon作品にインスパイアされたメカニクスと、様々なカードがどのように相互作用するか。
+- **ダンジョンの流れ**: 「NO ENTRY」ゲートを通過し、最初の挑戦を開始する方法。
+- **リソース管理**: 攻略進行中におけるFragmentsとCondenseの効果的な活用法。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+デッキは単なる攻撃手段の集まりではなく、戦術的なツールキットです。いつ攻撃的なダメージカードをプレイし、いつ防御的なブロックで身を固めるか、リソースを慎重に管理する必要があります。プレイする各カードはリソースを消費するか、キャラクターの現在の状態と相互作用するため、毎ターンが計算されたリスクとなります。
+
+| メカニクス | 説明 | デッキへの影響 |
+| :--- | :--- | :--- |
+| **攻撃カード** | 敵にダメージを与える主な手段 | 敵との遭遇を素早く突破するために不可欠 |
+| **防御カード** | ブロックやダメージ軽減を提供 | ボスの高火力ターンを生き延びるために極めて重要 |
+| **Reflections** | Outfitやステータスを獲得するガチャシステム | デッキが獲得するパッシブボーナスを決定 |
+| **Fragments** | デッキ成長のための主要通貨 | 新しいReflectionsの獲得やスキルの強化に使用 |
+
+<Callout type="tip" title="プロの秘訣">
+ゲーム序盤は常にバランスの取れたデッキを優先してください。攻撃カードを詰め込むのは効率的に見えるかもしれませんが、防御手段を持たないまま最悪のターンを迎えると、有望な挑戦が途中で終わってしまいます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="最強攻撃・防御カード ティアリスト">
+
+**project mirror labyrinth deck**の強さは、挑戦中にドラフトする具体的なカードによって大きく左右されます。カードプールは装備しているOutfitによって変化しますが、現在の2026年メタにおいて一貫して優れたパフォーマンスを発揮する特定のアーキタイプが存在します。以下に、ダンジョン探索中に狙うべき優秀なカードタイプの分類を示します。
+
+| ティア | カードタイプ | 主な効果 | 戦略の焦点 |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | **多段攻撃** | 複数回の打撃でダメージを与える | 敵のシールド破壊やトリガーの誘発に最適 |
+| **S-Tier** | **ヘビーブロック** | 強力な固定値のダメージ軽減を提供 | ダンジョン終盤を生き抜くために不可欠 |
+| **A-Tier** | **状態異常付与** | 出血や火傷などのデバフを適用 | 長期化するボス戦で非常に有効 |
+| **B-Tier** | **ユーティリティドロー** | 手札にカードを追加で引き込む | コンボの勢いを維持するのに便利 |
+
+デッキを構築する際は、「3対1の法則」を意識してください。攻撃カード3枚に対して、少なくとも1枚は価値の高い防御カードを確保します。この比率を保つことで、攻撃性と安全性の健全なバランスを維持できます。
+
+<Callout type="warning" title="重要">
+カードは特定のパッシブとの相互作用において、大文字・小文字を区別（case-sensitive）します。装備しているOutfitのアビリティ要件と一致しているか、カードの説明を常に注意深く読んで確認してください。
+</Callout>
+
+### カードアーキタイプとシナジー
+
+異なるOutfitは、平凡なカードを強力なカードへと変貌させるユニークなボーナスを提供します。例えば、「Defragmenting（再構成）」に焦点を当てたOutfitは、すべての防御カードの威力を高め、「タートル（要塞）」ビルドを極めて実用的なものにします。逆に、**Standard Reflections**や**Targeted Reflections**から入手できる高レアリティのOutfitは、ダメージを蓄積させることで恩恵を得られる、ハイリスク・ハイリターンな攻撃的プレイスタイルを好む傾向があります。
+
+| アーキタイプ | キーカード | 推奨されるOutfitの焦点 |
+| :--- | :--- | :--- |
+| **アグロ** | 多段ヒット、高クリティカル | Targeted Reflections（攻撃型） |
+| **耐久（ストール）** | ヘビーブロック、回復 | Standard Reflections（防御型） |
+| **テクニカル** | ドローソース、状態異常 | パッシブ解放済みのDefragmented Outfit |
+
+</Section>
+
+<Section icon={Sparkles} title="ReflectionsとOutfits：デッキの強化">
+
+Project Mirror Labyrinthにおいて、デッキは単体で完結するものではありません。**Reflections**システムが主要な育成メカニクスとして機能し、デッキの動作を根本から変える**Outfits**を引くことができます。**Fragments**や、**Mega Reflection Ticket**などの専用チケットを使用することで、強力なパッシブアビリティを備えた新しいスキンを獲得できます。
+
+<CardGrid cols={3}>
+  <Card title="Targeted Reflections（特定鏡映）">
+    - **狙い撃ち**: 特定のOutfitの排出確率がアップ。
+    - **戦略的育成**: 特定のビルドを完成させるのに最適。
+    - **コスト**: Fragmentsまたは専用バウチャーが必要。
+  </Card>
+  <Card title="Standard Reflections（通常鏡映）">
+    - **一般プール**: 幅広い種類のOutfitにアクセス可能。
+    - **リソースに優しい**: 初心者が基礎を築くのに最適。
+    - **多様性**: 新しいプレイスタイルを発見する最良の方法。
+  </Card>
+  <Card title="Defragmentシステム（再構成）">
+    - **パッシブ解放**: CondenseとSeeds of Lightを使用。
+    - **ステータス上昇**: キャラクターの基礎能力値を底上げ。
+    - **エンドゲーム要素**: 高難度ダンジョンに挑むために不可欠。
+  </Card>
+</CardGrid>
+
+デッキとOutfitのシナジーこそが、攻略の成否を分けます。もしOutfitが「斬撃」ダメージに20%のボーナスを与える場合、デッキは自然と斬撃属性を持つカードを中心に構成するべきです。
+
+<Callout type="success" title="ビルドの成功">
+コード**Welcome**を引き換えることが、最初の数回のReflectionsを行う最も手っ取り早い方法です。350 Fragments、500 Condense、3 Seeds of Lightが手に入り、最初のOutfitをDefragmentするのにちょうど必要な分が揃います。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ステップ・バイ・ステップ：最初のデッキ構築">
+
+初めて実用的な**project mirror labyrinth deck**を構築するのは難しく感じるかもしれません。以下の手順に従って、ラビリンスの深層に挑む前に強固な基礎を築きましょう。
+
+<Steps>
+  <Step num="1" title="スターター報酬を受け取る">
+    ゲームを起動し、すぐに**UrbanPlague**や**Welcome**などの有効なコードを使用します。これにより、最初のReflectionsを引くために必要なFragmentsが手に入ります。
+  </Step>
+  <Step num="2" title="最高のOutfitを装備する">
+    Reflectionsから獲得したOutfitがインベントリにあるか確認します。最もレアリティが高いもの、または好みのプレイスタイル（攻撃型 vs 防御型）に合ったパッシブを持つものを装備しましょう。
+  </Step>
+  <Step num="3" title="ダンジョンに入る">
+    **TAB**キーを押して「Play」を選択するか、ロビーにある**NO ENTRY**ゲートを通り抜けます。初期デッキは、あなたの基礎ステータスとOutfitによって決定されます。
+  </Step>
+  <Step num="4" title="戦略的にカードをドラフトする">
+    戦闘に勝利するたびに、カードの選択肢が提示されます。常にOutfitのパッシブを補完するカードを選んでください。防御型のOutfitを使用している場合は、「ブロック」を付与するカードを探します。
+  </Step>
+  <Step num="5" title="Defragmentとアップグレード">
+    挑戦が終了したら（勝敗に関わらず）、獲得したCondenseとSeeds of Lightを使ってOutfitをDefragment（再構成）します。これにより永続的なパッシブバフが解放され、次の挑戦でデッキがさらに強力になります。
+  </Step>
+</Steps>
+
+<Callout type="info">
+このゲームはローグライトであることを忘れないでください。挑戦に失敗することは敗北ではなく、獲得したリソースを使ってキャラクター、そしてデッキを永続的に強化するチャンスです。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="デッキ成長のための通貨とリソース管理">
+
+トップティアの**project mirror labyrinth deck**を維持するためには、複数の異なる通貨を管理する必要があります。各リソースには、新しいカードの獲得（Reflections経由）や、既存カードの強化（Defragmenting経由）といった特定の役割があります。
+
+| リソース | 主な用途 | 入手方法 |
+| :--- | :--- | :--- |
+| **Fragments** | Reflectionsの利用、スキルの習得 | コード、ダンジョン報酬、マイルストーン |
+| **Condense** | OutfitをDefragmentしてパッシブを解放 | 専用コード、高難度ダンジョンのドロップ |
+| **Seeds of Light** | 高度なOutfitのアップグレード | イベントコード、レアダンジョンルート |
+| **EGO Tickets** | 強力なEGOアイテム用の特別ガチャ | 期間限定コード、コミュニティイベント |
+
+これらのリソースを効果的に管理することが、長期的な成功の鍵となります。**Targeted Reflection**バウチャーが手に入るマイルストーンが近い場合は、手持ちのFragmentsをすべてStandard Reflectionsに費やしてしまわないように注意しましょう。
+
+<Callout type="tip" title="貯蓄戦略">
+**SR Guaranteed Mega Tickets**は大型アップデートのために温存しておきましょう。このRobloxタイトルは頻繁にアップデート（例：「[LEI HENG + NOT BINAH]」など）され、より高レアリティの排出が価値を持つ新コンテンツが実装されます。
+</Callout>
+
+<Checklist
+  id="deck-prep-checklist"
+  title="ダンジョン挑戦への準備チェックリスト:"
+  items={[
+    "有効なすべてのコードを引き換えてFragmentsを獲得したか",
+    "カード戦略に合致したOutfitを装備しているか",
+    "利用可能なDefragmentのアップグレードを確認したか",
+    "今日は火曜日（メンテナンス時間帯）ではないか確認したか",
+    "挑戦の目標を設定したか（例：Fragments集め vs 階層更新）"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Project Mirror Labyrinthデッキ FAQ">
+
+<FAQ items={[
+  {
+    question: "Project Mirror Labyrinthのデッキにカードを追加するにはどうすればよいですか？",
+    answer: "ダンジョン内での戦闘に勝利した後、カードをドラフトすることで新しいカードを獲得できます。デッキの永続的な強化は、Fragmentsを使用して新しいReflectionsやOutfitsを引くことで行われます。"
+  },
+  {
+    question: "初心者におすすめのカードは何ですか？",
+    answer: "一般的に「ヘビーブロック」カードが初心者には最適です。敵の行動パターンや、Outfitのパッシブとデッキの相互作用を学んでいる間の安全網となってくれます。"
+  },
+  {
+    question: "デッキシステムを理解するために『Library of Ruina』をプレイする必要はありますか？",
+    answer: "いいえ、必要ありません。このゲームはProject Moonのタイトルから強い影響を受けていますが、ゲームメカニクス自体は独立しています。原作の知識がなくてもデッキ構築をマスターすることができます。"
+  },
+  {
+    question: "ダンジョンに入れない、またはカードが使えないのはなぜですか？",
+    answer: "時間を確認してください。ゲームは毎週火曜日の午後2:00（P.M.）頃にメンテナンスを行います。また、ゲームへのフルアクセスの要件となっている場合があるため、公式Robloxコミュニティに参加していることを確認してください。"
+  }
+]} />
+
+<Callout type="success" title="最後のアドバイス">
+最も強力な**project mirror labyrinth deck**とは、あなたがプレイしていて一番楽しいデッキです。様々なOutfitとカードの組み合わせを試して、あなたの戦略スタイルに最適なリズムを見つけてください。
+</Callout>
+
+さらなる情報や最新のアップデートについては、[Official Project Mirror Labyrinth Roblox Page](https://www.roblox.com/games/116276659864007/Project-Mirror-Labyrinth)を訪問するか、[Community Discord](https://discord.com/invite/nGPyPyGBJA)に参加してください。
+
+</Section>

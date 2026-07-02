@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "project mirror labyrinth charge build: Guia de Configuração e Cartas",
+  description: "Domine a build de carga (charge build) no project mirror labyrinth. Aprenda a usar trajes da W-Corp, Overcharge, Rip Space e Dimension Shredder para dominar as masmorras.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/155e75/fff?text=Charge+Build+Guide",
+  date: "2026-07-02",
+  author: "Equipe da Wiki do project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build primária**: Otimize sua build de carga no project mirror labyrinth combinando trajes da W-Corp com cartas de alto impacto que consomem Carga.
+- **Traje principal**: Equipe o W-Corp L3 Cleanup Captain ou o altamente acessível Newbie Cleanup Agent para a melhor sinergia de baralho.
+- **Carta principal**: Use Overcharge para um dano explosivo massivo de 3 intenções com baixo acúmulo contra alvos de masmorras de elite.
+- **E.G.O. Suprema**: Integre Dimension Shredder para consumir a Carga acumulada e infligir debuffs devastadores de Dimensional Rift.
+- **Dica de recurso**: Resgate códigos ativos como Welcome ou OfficeDelay para garantir os Fragmentos necessários para sorteios de trajes.
+</Callout>
+
+<Section icon={Map} title="Introdução ao Arquétipo de Carga">
+
+A **build de carga (charge build) do project mirror labyrinth** é uma das configurações mais confiáveis e de alto desempenho neste deck builder roguelite do Roblox. Fortemente inspirado pela profundidade estratégica de *Library of Ruina* e *Limbus Company* da Project Moon, o jogo desafia os jogadores a navegar por masmorras labirínticas onde o confronto de cartas e a gestão de recursos ditam a sobrevivência. 
+
+Neste sistema, a "Carga" (Charge) atua como uma moeda única acumulada durante o combate. Ao jogar cartas geradoras específicas ou utilizar habilidades passivas, você acumula a Contagem de Carga. Você então gasta essa Carga acumulada para desencadear manobras ofensivas devastadoras, garantir valores altos de confronto ou alimentar poderosos ataques E.G.O. Este estilo de jogo recompensa a previsão, a construção cuidadosa do baralho e o tempo tático, em vez de apenas pressionar botões sem pensar.
+
+**Destaques do Vídeo:**
+- **Estilo de jogabilidade de fusão** misturando mecânicas de Slay the Spire com sistemas de confronto de Library of Ruina.
+- **Loop de combate tático** demonstrando como os custos de postura e a compra de cartas afetam a gestão do seu turno.
+- **Vitrine visual** de trajes, animações de combate especializadas e rotas de masmorras.
+
+<YouTubeEmbed videoId="UvVyOtvVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="tip" title="Confronto e Controle de Postura">
+Vencer confrontos (clashing) é a principal maneira de recuperar Postura (sanidade/energia) e manter o controle do turno. Como as principais cartas de Carga geralmente têm altos requisitos de postura, manter uma carta defensiva estável na mão é essencial para absorver ataques inimigos não contestados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Trajes para a Build de Carga">
+
+Sua escolha de traje define seu baralho inicial, estatísticas base e capacidades passivas. Para uma **build de carga do project mirror labyrinth** bem-sucedida, você deve buscar trajes pertencentes às facções W-Corp ou Cleanup Crew, pois eles facilitam diretamente a geração e o gasto de Carga.
+
+### W-Corp L3 Cleanup Captain (Super Raro)
+Este traje Super Raro é o auge absoluto para entusiastas de Carga no final do jogo. Sua carta assinatura, **Rip Space**, consome toda a Carga acumulada. Quando você joga Rip Space com 10 ou mais de Contagem de Carga, ela garante um confronto bem-sucedido e libera um dano astronômico que pode pular fases inteiras de chefes.
+
+### Newbie Cleanup Agent (Raro)
+Não deixe que o rótulo de "Novato" (Newbie) o engane; este traje é altamente competitivo e incrivelmente divertido de pilotar. Ele vem equipado com duas cópias de **Overcharge**, uma carta massiva de valor 15 que requer zero preparação. Também possui **Leap** para ciclagem rápida de baralho e **Energy Cycle** para punir oponentes atordoados.
+
+| Traje | Raridade | Principal Habilidade de Carga | Estilo de Jogo e Pontos Fortes |
+| :--- | :--- | :--- | :--- |
+| **W-Corp L3 Cleanup Captain** | Super Raro | Rip Space | Gasta toda a carga. Acumular 10+ de carga garante sucesso em valores altos. |
+| **Newbie Cleanup Agent** | Raro | Overcharge | Alto dano explosivo imediato. Apresenta excelente compra de cartas via Leap. |
+| **Starter Outfit** | Comum | Launch | Opção padrão. Carece de mecânicas de Carga, mas oferece confrontos básicos estáveis. |
+
+<Callout type="warning" title="Gerenciando Custos de Fragmentos">
+Sortear trajes Super Raros como o W-Corp L3 Cleanup Captain requer a utilização do Dispenser, que consome Fragmentos. Sempre resgate códigos ativos como `OfficeDelay` (1.620 Fragmentos) e `Welcome` antes de apostar seus recursos suadamente ganhos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Principais Cartas e Composição do Baralho">
+
+Uma **build de carga do project mirror labyrinth** bem-sucedida depende de um equilíbrio delicado entre geradores de Carga e gastadores de alto impacto. Se você encher seu baralho com muitos gastadores, sofrerá com valores baixos de confronto devido à Carga insuficiente. Por outro lado, carregar apenas geradores deixará você sem o poder ofensivo necessário para derrotar chefes de masmorras de elite.
+
+### Overcharge
+Overcharge é uma carta de 3 intenções que atinge até um valor de 15. Ela atinge três vezes (8 + 16 + 24) para um total base de 48 de dano, tornando-a uma mini-bomba gratuita contra inimigos que preparam habilidades de múltiplas intenções. Como não requer configuração prévia, é altamente confiável nos estágios iniciais das masmorras.
+
+### Rip Space
+O finalizador definitivo para o W-Corp L3 Cleanup Captain. Embora gaste toda a Carga, atingir o limite de 10 de carga transforma esta carta em uma força imparável que vence facilmente qualquer confronto no jogo.
+
+### Leap
+Uma carta de utilidade que é vital para comprar todo o seu baralho. A velocidade do baralho é incrivelmente importante em deck builders roguelite; Leap garante que você retorne rapidamente às suas poderosas cartas Overcharge e blocos defensivos.
+
+| Nome da Carta | Custo de Postura | Efeito Primário | Dica de Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Overcharge** | Baixo | Causa 8 + 16 + 24 de dano em 3 intenções. | Use para contra-atacar habilidades inimigas de múltiplas intenções. |
+| **Rip Space** | Médio | Gasta toda a Carga para dano massivo. | Só jogue quando a Contagem de Carga for 10 ou superior. |
+| **Leap** | Baixo | Alto poder de confronto e compra cartas. | Jogue cedo no turno para expandir suas opções de mão. |
+| **Energy Cycle** | Baixo | Causa dano bônus a inimigos atordoados. | Guarde para turnos em que a postura do inimigo estiver quebrada. |
+
+<Callout type="success" title="Dica de Redução de Baralho">
+Sempre remova cartas de bloqueio básicas e de baixo valor do seu baralho em lojas de masmorras ou locais de descanso. Embora o bloqueio seja útil para recuperar a postura, blocos básicos diluem seu baralho e impedem que você compre seus geradores de Carga de alto valor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Integração da E.G.O. Dimension Shredder">
+
+As habilidades E.G.O. atuam como ultimates poderosas de personagem que custam Postura, mas oferecem utilidade que muda o jogo e valores massivos de confronto. Para qualquer **build de carga do project mirror labyrinth**, a E.G.O. **Dimension Shredder** é uma adição indispensável ao seu arsenal.
+
+<CardGrid cols={3}>
+  <Card title="E.G.O. Dimension Shredder">
+    - **Custo**: 15 de Postura
+    - **Afinidade**: Orgulho (Pride)
+    - **Poder de Confronto**: 22-28
+    - **Poder Base**: 22
+  </Card>
+  <Card title="Mecânica Antes de Jogar">
+    - **Efeito**: Gasta toda a Carga acumulada.
+    - **Bônus**: Causa (Contagem de Carga * 3,5%) mais dano.
+    - **Segurança de Confronto**: O alto valor base garante o sucesso do confronto.
+  </Card>
+  <Card title="Passiva Dimensional Rift">
+    - **Ao Atingir**: Infringe Dimensional Rift no alvo igual a (Carga Gasta / 2).
+    - **Passiva**: Infringe Dimensional Rift igual a (Contagem de Carga / 8) arredondado para cima.
+  </Card>
+</CardGrid>
+
+Dimension Shredder escala diretamente com sua Contagem de Carga ativa, convertendo seus turnos de preparação em dano puro e absoluto. O debuff Dimensional Rift resultante enfraquece o alvo, tornando-o altamente vulnerável a ataques físicos subsequentes de cartas como Overcharge ou Energy Cycle.
+
+<Callout type="info" title="Gestão de Postura E.G.O.">
+Como a Dimension Shredder custa 15 de Postura, jogá-la quando sua Postura estiver baixa pode atordoar seu próprio personagem se você perder o confronto. Certifique-se de ter vencido confrontos anteriores ou ter uma passiva ativa que proteja sua Postura antes da ativação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração da Build Passo a Passo">
+
+Configurar uma **build de carga do project mirror labyrinth** altamente eficaz requer progressão tanto dentro quanto fora das explorações de masmorras. Siga esta progressão passo a passo para otimizar sua configuração.
+
+<Steps>
+  <Step num="1" title="Resgate os Códigos Iniciais">
+    Inicie o jogo e abra o menu de Códigos no lado esquerdo da tela. Resgate códigos ativos como `Welcome` e `OfficeDelay` para acumular Fragmentos iniciais, Condense e Seeds of Light.
+  </Step>
+  <Step num="2" title="Adquira um Traje de Limpeza">
+    Navegue até o Dispenser e tente obter o W-Corp L3 Cleanup Captain (Super Raro) ou o Newbie Cleanup Agent (Raro). Ambos os trajes fornecem o baralho base necessário para as mecânicas de Carga.
+  </Step>
+  <Step num="3" title="Desfragmente seu Traje">
+    Use seus Condense e Seeds of Light acumulados para Desfragmentar o traje escolhido até o Tier 4. A desfragmentação desbloqueia habilidades passivas críticas que aumentam sua Carga inicial ou aumentam seu poder de confronto.
+  </Step>
+  <Step num="4" title="Equipe a E.G.O. Dimension Shredder">
+    Obtenha e equipe a E.G.O. Dimension Shredder para utilizar suas cartas de afinidade de Orgulho e converter o excesso de Carga em dano massivo de Dimensional Rift.
+  </Step>
+  <Step num="5" title="Execute a Luxcavation e Masmorras">
+    Entre na masmorra através do menu TAB ou pelo portão NO ENTRY. Pratique a ciclagem do seu baralho com Leap, guardando Overcharge para turnos de explosão do inimigo e liberando Rip Space com 10+ de Carga.
+  </Step>
+</Steps>
+
+<Checklist
+  id="charge-build-milestones"
+  title="Marcos da Build de Carga:"
+  items={[
+    "Resgatar todos os códigos ativos de Fragmentos e Condense",
+    "Desfragmentar seu traje principal de Carga para o Tier 4",
+    "Equipar a E.G.O. Dimension Shredder",
+    "Limpar uma masmorra da Biblioteca de alto nível usando um combo de Rip Space com 10+ de Carga"
+  ]}
+/>
+
+<Callout type="success" title="Fique de Olho nas Atualizações do Servidor">
+Menus, códigos e portas de masmorras podem ocasionalmente apresentar atraso ou falhar em responder após uma nova atualização. Se você tiver problemas, basta entrar novamente em um servidor novo para garantir que todas as suas estatísticas, trajes e códigos ativos sejam carregados corretamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor traje para uma build de carga do project mirror labyrinth?",
+    answer: "O W-Corp L3 Cleanup Captain (Super Raro) é a melhor escolha para o final do jogo devido à sua carta Rip Space, que garante sucesso no confronto com 10+ de Carga. No entanto, o Newbie Cleanup Agent (Raro) é uma alternativa excepcional e altamente acessível que apresenta Overcharge e Leap."
+  },
+  {
+    question: "Como obtenho a E.G.O. Dimension Shredder?",
+    answer: "A Dimension Shredder é obtida através do sistema de extração de E.G.O. usando Bilhetes de E.G.O. ou Fragmentos coletados de códigos e limpezas de masmorras de alto nível."
+  },
+  {
+    question: "Por que minha carta Rip Space não está atingindo seu dano máximo?",
+    answer: "A Rip Space consome toda a Carga ativa. Se você a jogar com uma Contagem de Carga baixa, seu dano e taxa de sucesso no confronto diminuem significativamente. Sempre acumule pelo menos 10 de Carga antes de ativá-la."
+  },
+  {
+    question: "Preciso jogar Library of Ruina para entender esta build?",
+    answer: "Não. Embora o jogo apresente fortes referências estilísticas e mecânicas ao universo da Project Moon, o Project Mirror Labyrinth é completamente independente e não contém grandes spoilers de Library of Ruina."
+  }
+]} />
+
+<Callout type="info" title="Cronograma de Manutenção Semanal">
+De acordo com a descrição oficial do Roblox, a manutenção semanal agendada normalmente começa por volta das 14h00 de todas as terças-feiras. Evite iniciar explorações longas em masmorras ou usar o Dispenser durante este período para evitar a perda de progresso.
+</Callout>
+
+</Section>

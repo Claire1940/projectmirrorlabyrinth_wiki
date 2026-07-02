@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth ボス：進行ガイドと戦闘戦術",
+  description: "Robloxのローグライトデッキビルダー、Project Mirror Labyrinthのボス戦をマスターしましょう。ダンジョンルート、カードコンボ、衣装（Outfit）の進行方法を学びます。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Boss+Progression+Guide",
+  date: "2026-07-02",
+  author: "project mirror labyrinth Wikiチーム",
+  keywords: "Project Mirror Labyrinth, ボス攻略, Roblox, デッキビルダー, 進行ガイド"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な目的**: カードのシナジーをマスターして、**project mirror labyrinth boss**戦で手強いダンジョンボスを攻略しましょう。
+- **重要なメカニズム**: 強力なボスフェーズを生き残るために、攻撃的なカードコンボと強力な防御ブロックのバランスを取りましょう。
+- **効率的な進行**: **Welcome**や**OfficeDelay**などのスターターコードを引き換え、高ティアの衣装（Outfit）を引くためのフラグメント（Fragments）を確保しましょう。
+- **重要な戦略**: TABメニューまたはNO ENTRYゲートを使用してダンジョンに入り、デッキ構成をダイナミックに適応させましょう。
+</Callout>
+
+<Section icon={Map} title="ダンジョンへの入り方と動画解説">
+
+ロビーの移動は、**project mirror labyrinth boss**に挑む前の最初のハードルです。従来のRPGとは異なり、このRoblox体験ではランを開始するために特定のメニュー入力やロビーでのインタラクションが必要です。TABキーを押して**Play**を選択してゲーム内メニューを開くか、メインハブにある光る**NO ENTRY**ゲートを探してインタラクションすることで開始できます。
+
+**動画のハイライト:**
+- **ロビーの移動**: NO ENTRYゲートを見つけるためのクイックウォークスルー。
+- **デッキのドラフト**: バランスの取れたランのための初期カードの選択方法。
+- **戦闘の流れ**: 攻撃カードと防御カードの基本的な実行方法。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+| 入場方法 | 必要な入力 | 用途 |
+|---|---|---|
+| **TABメニュー** | TABキーを押す / Playをクリック | 素早いリスタートと高速なロビーマッチメイキング |
+| **NO ENTRYゲート** | 近づいてインタラクト | 没入感のある入場とパーティーの準備 |
+
+<Callout type="tip" title="サーバー更新のヒント">
+ゲームのアップデート後にUIボタンやNO ENTRYゲートが反応しない場合は、一度エクスペリエンスを終了し、新しいサーバーに入り直すことで解決します。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="戦闘メカニズムとカードのシナジー">
+
+Project Moonにインスパイアされたこの世界での戦闘には、慎重な手札管理が必要です。**project mirror labyrinth boss**を倒すには、高威力の攻撃カードと信頼性の高い防御ツールのバランスをデッキで取る必要があります。ボスはターンが経過するごとにダメージがスケールしていくため、攻撃一辺倒ではすぐに敗北してしまいます。
+
+<CardGrid cols={3}>
+  <Card title="攻撃カード">
+    - **高いダメージ出力**
+    - シールドを破壊するために不可欠
+    - 攻撃的なパッシブをトリガーする
+  </Card>
+  <Card title="防御カード">
+    - **一時的なブロックを生成**
+    - ボスの強力な攻撃を吸収する
+    - 早期の敗北を防ぐ
+  </Card>
+  <Card title="デッキコンボ">
+    - **相乗効果のあるプレイ**
+    - リソース獲得量を倍増させる
+    - ターンの効率を最大化する
+  </Card>
+</CardGrid>
+
+| カードタイプ | 主な用途 | スケーリング要素 | 推奨比率 |
+|---|---|---|---|
+| **攻撃** | シールド破壊と直接ダメージ | 筋力 / 攻撃レベル | デッキの50% |
+| **防御** | 高ダメージのボスフェーズの吸収 | ブロック / 防御レベル | デッキの30% |
+| **ユーティリティ** | ドローとリソース生成 | 速度 / エネルギースロット | デッキの20% |
+
+<Callout type="warning" title="防御の優先順位">
+画面上部に表示されるボスの次ターンのダメージを常に計算してください。純粋なダメージを与える前に、その数値と同等かそれ以上の防御カードをプレイすることを優先しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ボス攻略のためのステップバイステップ準備">
+
+ダンジョン内でうまくプレイするのと同じくらい、アカウントの準備も重要です。以下の手順に従ってリソースを最適化し、強力なパッシブを解放して、最強のボスに立ち向かう準備を整えましょう。
+
+<Steps>
+  <Step num="1" title="無料コード特典を受け取る">
+    ダンジョンに入る前に、公式Robloxコミュニティグループに参加し、ゲームに「いいね」をしたことを確認してください。画面左側のコードメニューを開き、**Welcome**や**OfficeDelay**などの有効なコードを入力して、初期フラグメントとアップグレード素材を確保しましょう。
+  </Step>
+  <Step num="2" title="リフレクションから衣装を引く">
+    獲得したフラグメントを「Standard Reflection」または「Targeted Reflection」バナーに使用します。高レアリティの衣装（Outfit）を引くことは非常に重要です。これらはゲーム終盤のボス戦を生き抜くために必要なステータス倍率や固有スキルを提供します。
+  </Step>
+  <Step num="3" title="最強の衣装をデフラグメントする">
+    **Condense**や**Seeds of Light**などの素材を使用して、メインで使用する衣装をデフラグメント（Defragment）します。このシステムにより、戦闘中に自動的に発動する強力なパッシブアビリティが解放され、ダンジョンボスに対して大きな優位性を得られます。
+  </Step>
+  <Step num="4" title="初期デッキを最適化する">
+    衣装のパッシブスキルを確認し、それをサポートするように初期デッキのアーキタイプを調整します。特定のカードタイプでスケールする衣装の場合、ランの早い段階で汎用カードをプールから削除しましょう。
+  </Step>
+</Steps>
+
+<Callout type="success" title="スターターコードブースト">
+コード **Welcome** を使用すると、350 Fragments、500 Condense、3 Seeds of Lightを獲得できます。これは衣装アップグレードを開始する最速の方法です。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="リソース管理とアップグレード">
+
+進行を維持し、安定してボスを倒すためには、通貨を効率的に管理する必要があります。高価値のチケットやアップグレードシャードを無計画に使わないでください。永続的なステータスブーストや高レアリティの確定入手につながるシステムにリソースを集中させましょう。
+
+| リソース | 主な入手先 | 最適な消費先 | 優先度 |
+|---|---|---|---|
+| **Fragments** | コード / ダンジョンクリア | ターゲット＆通常リフレクション | ★★★★★ |
+| **Condense** | スペシャルコード / マイルストーン | 衣装のデフラグメントとパッシブ解放 | ★★★★☆ |
+| **Seeds of Light** | 高ティアダンジョン / コード | 最終ティアのパッシブアップグレード | ★★★★☆ |
+| **Mega Ticket** | イベント報酬 / マイルストーン | 高価値バナーでのマルチプル | ★★★★★ |
+
+<Checklist
+  id="boss-prep-milestones"
+  title="必須進行チェックリスト:"
+  items={[
+    "すべての有効なコードを引き換えて初期フラグメントを獲得する",
+    "リフレクションから少なくとも1つ高ティアの衣装を入手する",
+    "メインの衣装をデフラグメントして最初のパッシブを解放する",
+    "基本的なLuxcavationランを完了して追加のアップグレードリソースを集める",
+    "序盤のダンジョンでのボスの攻撃パターンを学習する"
+  ]}
+/>
+
+<Callout type="info" title="メンテナンス時間">
+開発者は毎週**火曜日の午後2時（日本時間では水曜早朝など、地域により異なります）**頃にメンテナンスを行います。進行状況の損失を防ぐため、この時間の直前に重要なボス戦を開始するのは避けましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="ボス戦略 FAQ">
+
+よくある戦闘の問題を解決し、進行ルートを最適化し、迷宮をクリアするために必要なデッキ構築メカニズムをマスターするために、これらのよくある質問を確認してください。
+
+<Callout type="tip" title="最後の戦略ヒント">
+デッキはスリムに保ちましょう。状況に応じたカードを入れすぎてデッキを肥大化させると、ボスが壊滅的な究極攻撃を準備している時に、不可欠な防御手段を引き当てることが難しくなります。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "project mirror labyrinth bossと戦うためのダンジョンランはどうやって始めますか？",
+    answer: "キーボードのTABキーを押して「Play」をクリックするか、ロビーにある「NO ENTRY」ゲートに近づいてインタラクトすることで開始できます。"
+  },
+  {
+    question: "Standard ReflectionとTargeted Reflectionの違いは何ですか？",
+    answer: "Standard Reflectionは全衣装プールから抽選されますが、Targeted Reflectionは特定のピックアップ衣装に焦点を当てているため、特定のビルドを目指す場合に理想的です。"
+  },
+  {
+    question: "衣装のパッシブアビリティはどうやって解放しますか？",
+    answer: "デフラグメント（Defragment）システムを使用する必要があります。これにはCondenseやSeeds of Lightなどの進行素材を消費して、衣装の隠されたパッシブスキルを解放します。"
+  },
+  {
+    question: "カードやメニューが反応しなくなった場合はどうすればいいですか？",
+    answer: "これは通常、ライブアップデート後に発生します。一度ゲームを終了し、最新のパッチや修正が適用された新しいサーバーに参加してください。"
+  }
+]} />
+
+</Section>

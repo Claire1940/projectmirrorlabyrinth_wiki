@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Clock, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth EGOギア：2026年攻略ガイド",
+  description: "Project MoonにインスパイアされたRobloxのローグライトRPG『Project Mirror Labyrinth』のEGOギア、アクティブコード、デッキ構築戦略をマスターするための攻略ガイド。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Ego+Gear+Progression+Guide",
+  date: "2026-07-02",
+  author: "Project Mirror Labyrinth Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Project Mirror LabyrinthのEGOギア**とEGOギフトは、ゲーム終盤のダンジョン生存と高火力を出すために不可欠です。
+- 破片とEGOチケットを確保するために、`Welcome`や`OfficeDelay`などの**アクティブコードを今すぐ引き換えましょう**。
+- **Tabメニュー**と「NO ENTRY」ゲートをマスターして、探索を開始し、デッキ構築の旅を始めましょう。
+- EGOとのシナジーに必要なパッシブステータスを提供する高レアリティの衣装（Outfits）を引くために、**抽出（Reflections）に集中しましょう**。
+- サーバーリセット時の進行状況の損失を防ぐため、毎週火曜日の午後2:00（P.M.）の**メンテナンススケジュールを確認しておきましょう**。
+</Callout>
+
+<Section icon={Map} title="Project Mirror Labyrinthを始める">
+
+『Project Mirror Labyrinth』は、Project Moonの世界観（特に『Library of Ruina』や『Limbus Company』）から強いインスピレーションを受けた、洗練されたRobloxのローグライト・デッキ構築ゲームです。このゲームでは、プレイヤーは複雑な迷宮を探索し、カードベースの戦闘を行い、能力を強化する強力な**Project Mirror LabyrinthのEGOギア**やギフトを収集します。一般的なRPGとは異なり、攻略の成否はカードデッキ、選択した衣装、そして探索中に管理するEGOリソースの相乗効果（シナジー）に依存します。
+
+**動画の見どころ：**
+- **ゲームプレイの融合**: 『Library of Ruina』と『Limbus Company』のメカニクスがRobloxでどのように融合しているかをご覧ください。
+- **戦闘の流れ**: 探索フェーズからカードベースの戦闘フェーズへの移行を確認できます。
+- **UIナビゲーション**: コードの引き換え場所や抽出（Reflection）メニューの場所を学べます。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="tip" title="初心者向けのプロのコツ">
+最初のダンジョンに挑む前に、[公式Robloxコミュニティ](https://www.roblox.com/communities/127473071/Project-Mirror-Labyrinth)に参加していることを確認してください。価値の高いコードやEGO関連の報酬の多くは、コミュニティメンバーシップの認証が必須となっています。
+</Callout>
+
+### アクティブな特典コード（2026年7月）
+
+**Project Mirror Labyrinth of EGOギア**のコレクションをいち早く始めるために、以下のアクティブコードを使用してください。これらは、新しい衣装を抽出したり、ギアをアップグレードしたりするために必要な主要通貨「破片（Fragments）」を提供します。
+
+| コード | 報酬タイプ | 主なメリット |
+| :--- | :--- | :--- |
+| **Welcome** | 350破片、500凝縮（Condense） | 初期の抽出（Reflection）に不可欠 |
+| **OfficeDelay** | 1,620破片 | 序盤のアカウント進行を大幅にブースト |
+| **UrbanPlague** | 405破片 | 中層ギアのアップグレードに有用 |
+| **NepoOffice** | 405破片 | スキル習得のための追加通貨 |
+| **FauvistStudents** | 405破片 | 衣装のデフラグ（Defragmenting）コストをサポート |
+
+</Section>
+
+<Section icon={Zap} title="EGOギアとメカニクスの理解">
+
+『Project Mirror Labyrinth』において、**EGOギア**（主にEGOチケットやEGOギフトとして現れます）はプレイヤーの強さの頂点を表します。衣装（Outfits）が基礎ステータスやパッシブを提供するのに対し、EGO要素は困難なダンジョン戦の戦況を覆すことができる、ゲーム性を大きく変えるメカニクスを導入します。EGOチケットはこれらの高ティアアセットを抽出するための専用チケットであり、EGOギフトは探索中に発見され、その挑戦中にのみ即座に効果を発揮するバフアイテムです。
+
+<CardGrid cols={3}>
+  <Card title="EGOチケット">
+    - **目的**: EGO関連の抽出を行うための専用通貨。
+    - **入手方法**: レアなコード特典、または高難度ダンジョンのマイルストーン。
+    - **戦略**: 期間限定のEGOバナーのために温存しておく。
+  </Card>
+  <Card title="EGOギフト">
+    - **目的**: ダンジョン探索中に発見されるパッシブバフ。
+    - **入手方法**: 採光（Luxcavation）やエリート戦で獲得。
+    - **戦略**: 現在のカードデッキを補完するギフトを重ねがけする。
+  </Card>
+  <Card title="衣装＆パッシブ">
+    - **目的**: キャラクターのステータスの基礎。
+    - **入手方法**: 通常抽出およびターゲット抽出。
+    - **戦略**: 衣装をデフラグして、隠されたEGOシナジーを解放する。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="リソース管理">
+破片を通常抽出（Standard Reflections）だけに費やさないでください。特定の**Project Mirror LabyrinthのEGOギア**や高レアリティの衣装を狙う場合は、特定のビルドパーツの排出率が高くなるターゲット抽出（Targeted Reflections）を待ちましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ダンジョン入場と進行手順">
+
+ゲームの不気味で神秘的なロビーを考えると、最初の挑戦を始めるのは少し気後れするかもしれません。以下の手順に従って、カードバトルの試練に万全の準備をして迷宮に挑みましょう。
+
+<Steps>
+  <Step num="1" title="初期準備">
+    Robloxでゲームを起動し、すぐに画面左側のメニューにある「Codes」ボタンを確認します。アクティブなコードをすべて入力し、初期の破片を最大化しましょう。
+  </Step>
+  <Step num="2" title="抽出（ガチャ）を引く">
+    Reflections（抽出）メニューに移動します。破片を使って最初の数着の衣装（Outfits）を引きます。低レアリティの衣装であっても、最初の数階層を生き延びるためには、デフォルトの初期装備よりもはるかに優れています。
+  </Step>
+  <Step num="3" title="探索の開始">
+    選択肢は2つあります。**TAB**キーを押して**Play**を選択するか、ロビーにある物理的な**「NO ENTRY」**ゲートまで歩いていきます。どちらの方法でも、ダンジョンのマッチングプロセスが開始されます。
+  </Step>
+  <Step num="4" title="デッキ構築">
+    迷宮を進むにつれて、カードの選択を求められます。「都市疫病（Urban Plague）」レベルの敵から受ける大ダメージを軽減するため、デッキの少なくとも40%は防御カードでバランスを取るようにしてください。
+  </Step>
+  <Step num="5" title="EGOギフトの収集">
+    ダンジョン内にある「採光（Luxcavation）」や「ギフト（Gift）」と表示された特別なノードを探しましょう。これらは、ボス戦を突破するために必要な**Project Mirror LabyrinthのEGOギア**のバフを提供してくれます。
+  </Step>
+</Steps>
+
+<Callout type="success" title="戦闘戦略">
+探索の序盤は「防御（Block）」と「回避（Evade）」のカードを優先しましょう。戦闘の合間に体力が完全に回復するわけではないため、敵との削り合いに挑むよりも、ダメージを避ける方が持続可能です。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="主要ゲームシステムの比較">
+
+迷宮を攻略するには、さまざまなリソースがどのように相互作用するかを理解する必要があります。以下の表は、**Project Mirror LabyrinthのEGOギア**を探し求める際に出会う、主要なシステムをまとめたものです。
+
+| システム | 主なアクション | 実用的な用途 | 優先度 |
+| :--- | :--- | :--- | :--- |
+| **通常抽出（Standard Reflection）** | 破片を消費 | 全般的な衣装の獲得 | 中 |
+| **ターゲット抽出（Targeted Reflection）** | 破片を消費 | 特定のビルドの進行 | **高** |
+| **デフラグ（Defragmenting）** | 凝縮/種を消費 | パッシブ能力の解放 | **高** |
+| **EGOチケット** | 専用の抽出 | EGOティアのアセット獲得 | 最優先（Critical） |
+| **採光（Luxcavation）** | ダンジョンの分岐ルート | 強化素材の周回 | 中 |
+
+### 通貨と報酬の内訳
+
+デッキを管理するのと同様に、財布（リソース）を管理することも重要です。報酬を効果的に割り当てる方法は以下の通りです。
+
+| リソース | 主な入手源 | 最適な使い道 |
+| :--- | :--- | :--- |
+| **破片（Fragments）** | コード / ダンジョン | 抽出を引く、スキルの習得 |
+| **凝縮（Condense）** | コード `Welcome` | 衣装のデフラグ進行に必要 |
+| **光の種（Seeds of Light）** | マイルストーン | 価値の高いパッシブ能力の解放 |
+| **メガチケット** | イベントコード | 高レアリティ衣装の確定抽出 |
+
+<Callout type="info" title="システム要件に関する注意点">
+現在、Project Mirror Labyrinthはコントローラー操作に対応していません。カード選択のUIやTABメニューの操作を快適に行うため、標準的なキーボード and マウスでの操作を推奨します。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="デイリー＆ウィークリー目標">
+
+Project Mirror Labyrinthの急激な難易度の上昇を乗り越えるには、継続的なプレイが鍵となります。以下のチェックリストを活用して進捗を管理し、期間限定の報酬を見逃さないようにしましょう。
+
+<Checklist
+  id="labyrinth-goals"
+  title="重要な進行チェックリスト："
+  items={[
+    "破片とEGOチケットを獲得するために、すべてのアクティブコードを引き換える",
+    "コードの認証を行うため、Robloxコミュニティグループに参加する",
+    "敵のパターンを覚えるために、少なくとも1回はダンジョンを最後までクリアする",
+    "メインの衣装をレベル1までデフラグする",
+    "採光（Luxcavation）の探索中に、少なくとも1つのEGOギフトを装備する",
+    "新しいアップデート（例：雷横 ＋ Not ビナー）を確認するため、Robloxのタイトルタグをチェックする"
+  ]}
+/>
+
+<Callout type="tip" title="メンテナンスへの備え">
+開発者は通常、**毎週火曜日の午後2:00（P.M.）**にメンテナンスを実施します。この時間帯は、サーバーから切断されたり、ゲームが「非公開（Private）」になったりする可能性があります。メンテナンス開始の少なくとも30分前には、ダンジョンの探索を終えるようにしてください。
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="世界観とインスピレーション">
+
+Project Mirror Labyrinthは、『Library of Ruina』におけるアンジェラのストーリーの「バッドエンド」にインスパイアされた世界を舞台にしています。公式のProject Moon製品ではなくファンメイドの作品ですが、そのダークで戦術的な雰囲気を完璧に捉えています。
+
+原作をプレイしていなくてもゲームのシステムを楽しむことができますが、ファンであれば**Project Mirror LabyrinthのEGOギア**の命名規則や、特定のカードアーキタイプに気づくでしょう。ゲームは「重大なネタバレなし」のアプローチを強調しており、新規プレイヤーは原作の楽しみを損なうことなく、アイテムの説明や環境のストーリーテリングを通じて世界観を探索できます。
+
+<FAQ items={[
+  {
+    question: "Project Mirror LabyrinthのEGOギアをさらに増やすにはどうすればよいですか？",
+    answer: "EGOギアやギフトは、主に価値の高いEGOチケット（コードでよく配布されます）を使用するか、ダンジョン内の採光（Luxcavation）ルートを探索することで獲得できます。"
+  },
+  {
+    question: "Project Mirror Labyrinthは無料でプレイできますか？",
+    answer: "はい、Robloxで無料でプレイできるゲームです。コミュニティコードから提供される無料の破片やチケットを使用することで、十分にゲームを進めることができます。"
+  },
+  {
+    question: "コードが機能しない場合はどうすればよいですか？",
+    answer: "まず、ゲームに「いいね」をしてRobloxグループに参加していることを確認してください。次に、大文字と小文字が正しく入力されているかスペルを確認します。最後に、サーバーを再起動して最新バージョンに接続していることを確認してください。"
+  },
+  {
+    question: "抽出（Reflection）と衣装（Outfit）の違いは何ですか？",
+    answer: "抽出（Reflection）は「ガチャ」や「召喚」のプロセスそのものを指し、衣装（Outfit）はそのプロセスから実際に獲得するキャラクターのスキンやステータスブロックを指します。"
+  }
+]} />
+
+<Callout type="success" title="最終評価">
+Project Moonのベテランファンであれ、RobloxのRPG愛好家であれ、**Project Mirror LabyrinthのEGOギア**システムが持つ奥深さは、Robloxのプラットフォームの中でも際立つ、やりごたえのある戦略的挑戦を提供してくれます。
+</Callout>
+
+</Section>

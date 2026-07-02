@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Awal Game Project Mirror Labyrinth: Strategi Pemula Terbaik",
+  description: "Kuasai fase awal permainan di Project Mirror Labyrinth di Roblox. Pelajari pertarungan kartu, farming posture, rute back streets, dan cara membuka pasif library terbaik.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Early+Game+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki Project Mirror Labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan Utama**: Selesaikan tahap Back Streets dengan cepat untuk membuka pasif tingkat tinggi di Library.
+- **Inti Pertempuran**: Prioritaskan memenangkan clash untuk membangun sanity secara alami dan menghindari kehilangan posture.
+- **Farming Posture**: Gunakan kartu **Block** saat posture rendah untuk memulihkan poin dengan aman tanpa menghabiskan sumber daya aksi.
+- **Peningkatan Awal**: Segera klaim kode aktif seperti **Welcome** dan **OfficeDelay** untuk mendanai tarikan Outfit awal Anda.
+</Callout>
+
+<Section icon={Map} title="Panduan Awal Game Project Mirror Labyrinth: Peta Jalan Pemula">
+
+Memulai perjalanan Anda di Project Mirror Labyrinth bisa terasa membingungkan karena mekanismenya yang mendalam yang terinspirasi oleh Library of Ruina dan Limbus Company. Sebagai roguelite deck builder, kesuksesan awal Anda bergantung pada pemahaman tentang cara mengelola sumber daya, menggunakan kartu secara strategis, dan maju melalui tahap awal dengan efisien. Panduan ini menguraikan jalur optimal untuk bertransisi dari seorang pemula menjadi fixer yang tangguh.
+
+**Sorotan Video:**
+- **Mekanisme Clash**: Pelajari bagaimana memenangkan clash dapat membangun sanity dan mengamankan kondisi papan permainan Anda.
+- **Manajemen Posture**: Temukan cara menggunakan kartu pertahanan untuk mempertahankan posture Anda.
+- **Strategi Back Streets**: Tips untuk menyelesaikan zona utama pertama dan melangkah masuk ke Library.
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+Untuk memulai, Anda harus memahami siklus dasarnya: masuk ke dungeon, bertarung melalui pertempuran, kumpulkan Fragment, dan tingkatkan Outfit Anda. Tabel di bawah ini menguraikan fase gameplay inti yang akan Anda temui selama beberapa jam pertama bermain.
+
+| Fase Gameplay | Tujuan Utama | Sumber Daya Utama yang Terlibat |
+| :--- | :--- | :--- |
+| **Persiapan Lobi** | Klaim kode pemula, bergabung dengan grup Roblox, dan pilih Outfit awal Anda. | Fragment, Tiket Standar |
+| **Back Streets** | Pelajari dasar-dasar pertempuran, farm posture, dan kalahkan bos zona. | Condense, Pasif Dasar |
+| **The Library** | Kalahkan musuh tingkat lanjut untuk membuka pasif permanen tingkat tinggi. | Library Pass, Seed of Light |
+| **Pertumbuhan Outfit** | Lakukan Defragment pada Outfit favorit Anda untuk membuka kemampuan pasif yang kuat. | Fragment, Condense |
+
+<Callout type="tip" title="Tips Pro">
+Selalu pastikan untuk bergabung dengan komunitas Roblox resmi Project Mirror Labyrinth dan menyukai game tersebut sebelum mencoba mengklaim kode, karena sistem memerlukan langkah-langkah ini untuk memvalidasi hadiah Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dasar-Dasar Pertempuran: Sanity, Clash, dan Posture">
+
+Pertempuran di Project Mirror Labyrinth berputar di sekitar pertarungan (clash) berbasis kartu. Tidak seperti RPG tradisional di mana Anda hanya saling bertukar damage, setiap serangan dalam game ini dapat ditentang oleh musuh. Memenangkan clash ini adalah faktor terpenting untuk bertahan hidup di awal permainan.
+
+### Kekuatan Posture dan Memblokir (Blocking)
+Karakter Anda mengandalkan posture untuk melakukan aksi. Jika posture Anda turun hingga nol, Anda akan terkena stagger dan menjadi sangat rentan. Mengelola sumber daya ini sangat penting ketika pilihan dek Anda masih terbatas.
+
+<CardGrid cols={3}>
+  <Card title="Memenangkan Clash">
+    - **Generasi Sanity**: Memenangkan clash adalah cara utama untuk mendapatkan sanity.
+    - **Pencegahan Damage**: Mencegah efek kartu musuh agar tidak terpicu.
+    - **Momentum**: Menjaga tekanan ofensif Anda tetap tinggi.
+  </Card>
+  <Card title="Pertahanan Blok">
+    - **Tanpa Biaya Posture**: Blok standar membutuhkan nol posture untuk dimainkan.
+    - **Pemulihan Posture**: Memulihkan 3 poin posture saat digunakan (5 dengan perk tertentu).
+    - **Giliran Aman**: Sangat cocok untuk giliran bertahan saat pilihan kartu di tangan sedang buruk.
+  </Card>
+  <Card title="Poise & Crit">
+    - **Pengganda Damage**: Poise dapat meningkatkan total output Anda hingga 1,5x.
+    - **Sinergi Slash**: Bekerja sangat baik dengan Outfit yang berfokus pada serangan tebasan (slash).
+    - **Peringatan**: Jangan berinvestasi terlalu banyak pada Poise di awal; fokuslah pada kekuatan clash murni terlebih dahulu.
+  </Card>
+</CardGrid>
+
+Untuk memvisualisasikan bagaimana berbagai tindakan pertempuran memengaruhi sumber daya Anda, lihat tabel perbandingan di bawah ini:
+
+| Tindakan Pertempuran | Biaya Posture | Dampak Sanity | Paling Baik Digunakan Untuk |
+| :--- | :--- | :--- | :--- |
+| **Serangan Standar** | Bervariasi (Biasanya 1-3) | Meningkat saat menang clash | Memberikan damage dan memenangkan clash |
+| **Kartu Block** | 0 | Netral | Memulihkan posture dan menahan serangan |
+| **Skill E.G.O.** | Tinggi (12-15) | Biaya tinggi / Hadiah tinggi | Memenangkan clash dengan taruhan tinggi (high-rolling) |
+| **Aksi Discard** | Bervariasi | Netral | Memutar kartu di tangan dan memicu pasif discard |
+
+<Callout type="warning" title="Peringatan Stagger">
+Jangan pernah membiarkan posture Anda habis sepenuhnya. Jika Anda melihat musuh sedang mempersiapkan serangan high-rolling yang tidak bisa Anda kalahkan, gunakan kartu Block untuk menahan serangan tersebut alih-alih melawannya dengan serangan yang lemah.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Panduan Progres Awal Langkah demi Langkah">
+
+Untuk maju dengan efisien, Anda harus mengikuti jalur yang terstruktur. Jangan berlama-lama di Back Streets lebih dari yang diperlukan; lonjakan kekuatan yang sesungguhnya berada lebih dalam di dalam labirin.
+
+<Steps>
+  <Step num="1" title="Klaim Dana Awal Anda">
+    Tukarkan semua kode aktif (seperti **Welcome** dan **OfficeDelay**) di menu pengaturan untuk mendapatkan ribuan Fragment, Condense, dan Seed of Light.
+  </Step>
+  <Step num="2" title="Dapatkan Outfit Awal yang Solid">
+    Gunakan Fragment Anda pada Standard atau Targeted Reflection untuk mendapatkan Outfit yang andal. Carilah Outfit dengan nilai dasar (base roll) yang tinggi pada kartu mereka untuk mempermudah clash di awal game.
+  </Step>
+  <Step num="3" title="Selesaikan Back Streets">
+    Masuk ke dungeon Back Streets melalui menu TAB atau gerbang NO ENTRY. Fokuslah untuk mempelajari pola musuh dan melakukan farming posture menggunakan kartu block.
+  </Step>
+  <Step num="4" title="Incar Pasif Pemulihan HP">
+    Cari musuh tertentu seperti **Swaying Fixer** atau **Cape Goon** di Back Streets, karena mereka menjatuhkan pasif yang dapat meregenerasi HP Anda.
+  </Step>
+  <Step num="5" title="Maju ke Library">
+    Setelah Anda mengalahkan bos Back Streets, segera menuju ke Library. Zona ini menampilkan musuh-musuh yang menjatuhkan pasif permanen terbaik di dalam game.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tips Progres">
+Saat memilih hadiah sebelum pertarungan bos, prioritaskan regenerasi HP atau pemulihan Posture jika sumber daya Anda rendah. Hanya pilih opsi penghapusan/pembuangan kartu jika dek Anda terlalu penuh dengan kartu-kartu dasar yang tidak berguna.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pasif dan Outfit Awal Game Terbaik">
+
+Pasif dibuka dengan mengalahkan musuh tertentu di Back Streets dan Library. Melengkapi pasif yang tepat pada Outfit Anda dapat sepenuhnya mengubah cara dek Anda bekerja.
+
+| Nama Pasif | Musuh Sumber | Efek Inti | Tipe Build yang Direkomendasikan |
+| :--- | :--- | :--- | :--- |
+| **Lone Fixer** | Back Streets Office | Meningkatkan kekuatan ofensif saat bertarung sendirian | Build Solo/Pemula |
+| **Singing Through Weakness** | D7 Association | Meningkatkan kekuatan clash saat sanity rendah | Dek clash berisiko tinggi |
+| **Margin** | Musuh Discard Library | Menarik kartu saat tangan Anda kosong | Outfit yang berfokus pada discard |
+| **Prescript** | Musuh Index Library | Memberikan +1 slot aksi selama pertempuran | Semua build (Sangat Direkomendasikan) |
+
+### Strategi Pemilihan Outfit
+Saat memilih Outfit mana yang akan digunakan di awal permainan, fokuslah pada angka clash murni daripada efek status yang rumit seperti Burn atau Bleed. Kartu dengan kekuatan dasar tinggi akan membawa Anda melewati zona awal bahkan jika Anda tidak beruntung dengan lemparan koin.
+
+| Tingkat Outfit | Nama Outfit | Kekuatan Utama | Prioritas Upgrade |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | KO Plus Two Security Chief | Roll tinggi, aplikasi burn yang sangat baik, dan block yang kuat | Tinggi (Segera lakukan Defragment) |
+| **A-Tier** | Modern War Office 7 | Damage tebasan (slash) yang konsisten dan kekuatan clash yang solid | Sedang |
+| **B-Tier** | Office Grade 7 | Dek awal yang cukup bagus tetapi kekurangan pasif kelas atas | Rendah (Ganti jika memungkinkan) |
+
+<Callout type="success" title="Rekomendasi Upgrade">
+Gunakan Seed of Light dan Condense Anda untuk melakukan **Defragment** pada Outfit S-Tier Anda. Ini akan membuka kemampuan pasif tersembunyi mereka, yang akan tetap aktif sepanjang permainan dungeon Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Periksa Pencapaian Awal Game">
+
+Gunakan daftar periksa ini untuk melacak progres Anda saat Anda berjuang melalui tahap awal Project Mirror Labyrinth.
+
+<Checklist
+  id="early-game-milestones"
+  title="Daftar Periksa Progres Fixer:"
+  items={[
+    "Klaim kode Welcome untuk mendapatkan bahan awal",
+    "Buka Outfit A-Tier atau S-Tier pertama Anda melalui Reflection",
+    "Kalahkan bos Back Streets dan buka akses ke Library",
+    "Lengkapi setidaknya satu pasif regenerasi HP",
+    "Lakukan Defragment pada Outfit utama Anda untuk membuka pasif pertamanya",
+    "Mencapai sanity maksimum dalam satu pertempuran tunggal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara memulai permainan dungeon di Project Mirror Labyrinth?",
+    answer: "Anda dapat memulai permainan dungeon dengan menekan tombol TAB untuk membuka menu utama dan mengklik 'Play', atau dengan berjalan secara fisik ke dan berinteraksi dengan gerbang 'NO ENTRY' di lobi."
+  },
+  {
+    question: "Mengapa saya terus-menerus kalah dalam clash di awal permainan?",
+    answer: "Anda kemungkinan besar menggunakan kartu serangan dengan roll rendah atau bermain dengan sanity yang rendah. Cobalah menggunakan kartu Block Anda untuk membangun posture dengan aman, atau tingkatkan Outfit Anda untuk mengakses kartu dengan kekuatan dasar yang lebih tinggi."
+  },
+  {
+    question: "Untuk apa saya harus menghabiskan Fragment saya terlebih dahulu?",
+    answer: "Habiskan Fragment awal Anda pada Targeted Reflection untuk mengamankan Outfit S-Tier atau A-Tier yang kuat. Setelah Anda memiliki Outfit yang bagus, simpan Fragment Anda untuk mempelajari skill dan meningkatkan dek Anda."
+  },
+  {
+    question: "Bagaimana cara mendapatkan lebih banyak slot pasif untuk karakter saya?",
+    answer: "Anda dapat membuka lebih banyak slot pasif dan melengkapi pasif yang lebih kuat dengan maju ke zona Library dan mengalahkan musuh tingkat lanjut untuk mengumpulkan Library Pass mereka."
+  }
+]} />
+
+</Section>

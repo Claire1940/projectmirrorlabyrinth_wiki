@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "project-mirror-labyrinth-bamboo-hatted-kim",
+        "file": "project-mirror-labyrinth-bamboo-hatted-kim"
+      },
+      {
+        "slug": "project-mirror-labyrinth-boss",
+        "file": "project-mirror-labyrinth-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-drunk-driver",
+        "file": "project-mirror-labyrinth-drunk-driver"
+      },
+      {
+        "slug": "project-mirror-labyrinth-grade-2-boss",
+        "file": "project-mirror-labyrinth-grade-2-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-kromer",
+        "file": "project-mirror-labyrinth-kromer"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ricardo",
+        "file": "project-mirror-labyrinth-ricardo"
+      }
+    ],
+    "build": [
+      {
+        "slug": "project-mirror-labyrinth-build",
+        "file": "project-mirror-labyrinth-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-charge-build",
+        "file": "project-mirror-labyrinth-charge-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-deck",
+        "file": "project-mirror-labyrinth-deck"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gift",
+        "file": "project-mirror-labyrinth-ego-gift"
+      },
+      {
+        "slug": "project-mirror-labyrinth-good-build",
+        "file": "project-mirror-labyrinth-good-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-passives",
+        "file": "project-mirror-labyrinth-passives"
+      },
+      {
+        "slug": "project-mirror-labyrinth-poise-build",
+        "file": "project-mirror-labyrinth-poise-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-rupture-build",
+        "file": "project-mirror-labyrinth-rupture-build"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "project-mirror-labyrinth-codes",
+        "file": "project-mirror-labyrinth-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "project-mirror-labyrinth-beginner-guide",
+        "file": "project-mirror-labyrinth-beginner-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-dailies",
+        "file": "project-mirror-labyrinth-dailies"
+      },
+      {
+        "slug": "project-mirror-labyrinth-early-game-guide",
+        "file": "project-mirror-labyrinth-early-game-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-gameplay",
+        "file": "project-mirror-labyrinth-gameplay"
+      },
+      {
+        "slug": "project-mirror-labyrinth-guide",
+        "file": "project-mirror-labyrinth-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-play",
+        "file": "project-mirror-labyrinth-how-to-play"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-reflect",
+        "file": "project-mirror-labyrinth-how-to-reflect"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tutorial",
+        "file": "project-mirror-labyrinth-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "project-mirror-labyrinth-cosmetic-voucher",
+        "file": "project-mirror-labyrinth-cosmetic-voucher"
+      },
+      {
+        "slug": "project-mirror-labyrinth-defragment",
+        "file": "project-mirror-labyrinth-defragment"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gear",
+        "file": "project-mirror-labyrinth-ego-gear"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego",
+        "file": "project-mirror-labyrinth-ego"
+      },
+      {
+        "slug": "project-mirror-labyrinth-fragments",
+        "file": "project-mirror-labyrinth-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-gain-fragments",
+        "file": "project-mirror-labyrinth-how-to-gain-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-reward-bag",
+        "file": "project-mirror-labyrinth-reward-bag"
+      },
+      {
+        "slug": "project-mirror-labyrinth-seed-of-light",
+        "file": "project-mirror-labyrinth-seed-of-light"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "project-mirror-labyrinth-detour",
+        "file": "project-mirror-labyrinth-detour"
+      },
+      {
+        "slug": "project-mirror-labyrinth-library",
+        "file": "project-mirror-labyrinth-library"
+      },
+      {
+        "slug": "project-mirror-labyrinth-luxcavation",
+        "file": "project-mirror-labyrinth-luxcavation"
+      },
+      {
+        "slug": "project-mirror-labyrinth-upper-library",
+        "file": "project-mirror-labyrinth-upper-library"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "project-mirror-labyrinth-best-build",
+        "file": "project-mirror-labyrinth-best-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-best-outfits",
+        "file": "project-mirror-labyrinth-best-outfits"
+      },
+      {
+        "slug": "project-mirror-labyrinth-meta",
+        "file": "project-mirror-labyrinth-meta"
+      },
+      {
+        "slug": "project-mirror-labyrinth-outfit-tier-list",
+        "file": "project-mirror-labyrinth-outfit-tier-list"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tier-list",
+        "file": "project-mirror-labyrinth-tier-list"
+      }
+    ]
+  },
+  "id": {
+    "bosses": [
+      {
+        "slug": "project-mirror-labyrinth-bamboo-hatted-kim",
+        "file": "project-mirror-labyrinth-bamboo-hatted-kim"
+      },
+      {
+        "slug": "project-mirror-labyrinth-boss",
+        "file": "project-mirror-labyrinth-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-drunk-driver",
+        "file": "project-mirror-labyrinth-drunk-driver"
+      },
+      {
+        "slug": "project-mirror-labyrinth-grade-2-boss",
+        "file": "project-mirror-labyrinth-grade-2-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-kromer",
+        "file": "project-mirror-labyrinth-kromer"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ricardo",
+        "file": "project-mirror-labyrinth-ricardo"
+      }
+    ],
+    "build": [
+      {
+        "slug": "project-mirror-labyrinth-build",
+        "file": "project-mirror-labyrinth-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-charge-build",
+        "file": "project-mirror-labyrinth-charge-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-deck",
+        "file": "project-mirror-labyrinth-deck"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gift",
+        "file": "project-mirror-labyrinth-ego-gift"
+      },
+      {
+        "slug": "project-mirror-labyrinth-good-build",
+        "file": "project-mirror-labyrinth-good-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-passives",
+        "file": "project-mirror-labyrinth-passives"
+      },
+      {
+        "slug": "project-mirror-labyrinth-poise-build",
+        "file": "project-mirror-labyrinth-poise-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-rupture-build",
+        "file": "project-mirror-labyrinth-rupture-build"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "project-mirror-labyrinth-codes",
+        "file": "project-mirror-labyrinth-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "project-mirror-labyrinth-beginner-guide",
+        "file": "project-mirror-labyrinth-beginner-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-dailies",
+        "file": "project-mirror-labyrinth-dailies"
+      },
+      {
+        "slug": "project-mirror-labyrinth-early-game-guide",
+        "file": "project-mirror-labyrinth-early-game-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-gameplay",
+        "file": "project-mirror-labyrinth-gameplay"
+      },
+      {
+        "slug": "project-mirror-labyrinth-guide",
+        "file": "project-mirror-labyrinth-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-play",
+        "file": "project-mirror-labyrinth-how-to-play"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-reflect",
+        "file": "project-mirror-labyrinth-how-to-reflect"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tutorial",
+        "file": "project-mirror-labyrinth-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "project-mirror-labyrinth-cosmetic-voucher",
+        "file": "project-mirror-labyrinth-cosmetic-voucher"
+      },
+      {
+        "slug": "project-mirror-labyrinth-defragment",
+        "file": "project-mirror-labyrinth-defragment"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gear",
+        "file": "project-mirror-labyrinth-ego-gear"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego",
+        "file": "project-mirror-labyrinth-ego"
+      },
+      {
+        "slug": "project-mirror-labyrinth-fragments",
+        "file": "project-mirror-labyrinth-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-gain-fragments",
+        "file": "project-mirror-labyrinth-how-to-gain-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-reward-bag",
+        "file": "project-mirror-labyrinth-reward-bag"
+      },
+      {
+        "slug": "project-mirror-labyrinth-seed-of-light",
+        "file": "project-mirror-labyrinth-seed-of-light"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "project-mirror-labyrinth-detour",
+        "file": "project-mirror-labyrinth-detour"
+      },
+      {
+        "slug": "project-mirror-labyrinth-library",
+        "file": "project-mirror-labyrinth-library"
+      },
+      {
+        "slug": "project-mirror-labyrinth-luxcavation",
+        "file": "project-mirror-labyrinth-luxcavation"
+      },
+      {
+        "slug": "project-mirror-labyrinth-upper-library",
+        "file": "project-mirror-labyrinth-upper-library"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "project-mirror-labyrinth-best-build",
+        "file": "project-mirror-labyrinth-best-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-best-outfits",
+        "file": "project-mirror-labyrinth-best-outfits"
+      },
+      {
+        "slug": "project-mirror-labyrinth-meta",
+        "file": "project-mirror-labyrinth-meta"
+      },
+      {
+        "slug": "project-mirror-labyrinth-outfit-tier-list",
+        "file": "project-mirror-labyrinth-outfit-tier-list"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tier-list",
+        "file": "project-mirror-labyrinth-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "bosses": [
+      {
+        "slug": "project-mirror-labyrinth-bamboo-hatted-kim",
+        "file": "project-mirror-labyrinth-bamboo-hatted-kim"
+      },
+      {
+        "slug": "project-mirror-labyrinth-boss",
+        "file": "project-mirror-labyrinth-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-drunk-driver",
+        "file": "project-mirror-labyrinth-drunk-driver"
+      },
+      {
+        "slug": "project-mirror-labyrinth-grade-2-boss",
+        "file": "project-mirror-labyrinth-grade-2-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-kromer",
+        "file": "project-mirror-labyrinth-kromer"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ricardo",
+        "file": "project-mirror-labyrinth-ricardo"
+      }
+    ],
+    "build": [
+      {
+        "slug": "project-mirror-labyrinth-build",
+        "file": "project-mirror-labyrinth-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-charge-build",
+        "file": "project-mirror-labyrinth-charge-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-deck",
+        "file": "project-mirror-labyrinth-deck"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gift",
+        "file": "project-mirror-labyrinth-ego-gift"
+      },
+      {
+        "slug": "project-mirror-labyrinth-good-build",
+        "file": "project-mirror-labyrinth-good-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-passives",
+        "file": "project-mirror-labyrinth-passives"
+      },
+      {
+        "slug": "project-mirror-labyrinth-poise-build",
+        "file": "project-mirror-labyrinth-poise-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-rupture-build",
+        "file": "project-mirror-labyrinth-rupture-build"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "project-mirror-labyrinth-codes",
+        "file": "project-mirror-labyrinth-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "project-mirror-labyrinth-beginner-guide",
+        "file": "project-mirror-labyrinth-beginner-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-dailies",
+        "file": "project-mirror-labyrinth-dailies"
+      },
+      {
+        "slug": "project-mirror-labyrinth-early-game-guide",
+        "file": "project-mirror-labyrinth-early-game-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-gameplay",
+        "file": "project-mirror-labyrinth-gameplay"
+      },
+      {
+        "slug": "project-mirror-labyrinth-guide",
+        "file": "project-mirror-labyrinth-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-play",
+        "file": "project-mirror-labyrinth-how-to-play"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-reflect",
+        "file": "project-mirror-labyrinth-how-to-reflect"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tutorial",
+        "file": "project-mirror-labyrinth-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "project-mirror-labyrinth-cosmetic-voucher",
+        "file": "project-mirror-labyrinth-cosmetic-voucher"
+      },
+      {
+        "slug": "project-mirror-labyrinth-defragment",
+        "file": "project-mirror-labyrinth-defragment"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gear",
+        "file": "project-mirror-labyrinth-ego-gear"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego",
+        "file": "project-mirror-labyrinth-ego"
+      },
+      {
+        "slug": "project-mirror-labyrinth-fragments",
+        "file": "project-mirror-labyrinth-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-gain-fragments",
+        "file": "project-mirror-labyrinth-how-to-gain-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-reward-bag",
+        "file": "project-mirror-labyrinth-reward-bag"
+      },
+      {
+        "slug": "project-mirror-labyrinth-seed-of-light",
+        "file": "project-mirror-labyrinth-seed-of-light"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "project-mirror-labyrinth-detour",
+        "file": "project-mirror-labyrinth-detour"
+      },
+      {
+        "slug": "project-mirror-labyrinth-library",
+        "file": "project-mirror-labyrinth-library"
+      },
+      {
+        "slug": "project-mirror-labyrinth-luxcavation",
+        "file": "project-mirror-labyrinth-luxcavation"
+      },
+      {
+        "slug": "project-mirror-labyrinth-upper-library",
+        "file": "project-mirror-labyrinth-upper-library"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "project-mirror-labyrinth-best-build",
+        "file": "project-mirror-labyrinth-best-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-best-outfits",
+        "file": "project-mirror-labyrinth-best-outfits"
+      },
+      {
+        "slug": "project-mirror-labyrinth-meta",
+        "file": "project-mirror-labyrinth-meta"
+      },
+      {
+        "slug": "project-mirror-labyrinth-outfit-tier-list",
+        "file": "project-mirror-labyrinth-outfit-tier-list"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tier-list",
+        "file": "project-mirror-labyrinth-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "bosses": [
+      {
+        "slug": "project-mirror-labyrinth-bamboo-hatted-kim",
+        "file": "project-mirror-labyrinth-bamboo-hatted-kim"
+      },
+      {
+        "slug": "project-mirror-labyrinth-boss",
+        "file": "project-mirror-labyrinth-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-drunk-driver",
+        "file": "project-mirror-labyrinth-drunk-driver"
+      },
+      {
+        "slug": "project-mirror-labyrinth-grade-2-boss",
+        "file": "project-mirror-labyrinth-grade-2-boss"
+      },
+      {
+        "slug": "project-mirror-labyrinth-kromer",
+        "file": "project-mirror-labyrinth-kromer"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ricardo",
+        "file": "project-mirror-labyrinth-ricardo"
+      }
+    ],
+    "build": [
+      {
+        "slug": "project-mirror-labyrinth-build",
+        "file": "project-mirror-labyrinth-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-charge-build",
+        "file": "project-mirror-labyrinth-charge-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-deck",
+        "file": "project-mirror-labyrinth-deck"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gift",
+        "file": "project-mirror-labyrinth-ego-gift"
+      },
+      {
+        "slug": "project-mirror-labyrinth-good-build",
+        "file": "project-mirror-labyrinth-good-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-passives",
+        "file": "project-mirror-labyrinth-passives"
+      },
+      {
+        "slug": "project-mirror-labyrinth-poise-build",
+        "file": "project-mirror-labyrinth-poise-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-rupture-build",
+        "file": "project-mirror-labyrinth-rupture-build"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "project-mirror-labyrinth-codes",
+        "file": "project-mirror-labyrinth-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "project-mirror-labyrinth-beginner-guide",
+        "file": "project-mirror-labyrinth-beginner-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-dailies",
+        "file": "project-mirror-labyrinth-dailies"
+      },
+      {
+        "slug": "project-mirror-labyrinth-early-game-guide",
+        "file": "project-mirror-labyrinth-early-game-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-gameplay",
+        "file": "project-mirror-labyrinth-gameplay"
+      },
+      {
+        "slug": "project-mirror-labyrinth-guide",
+        "file": "project-mirror-labyrinth-guide"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-play",
+        "file": "project-mirror-labyrinth-how-to-play"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-reflect",
+        "file": "project-mirror-labyrinth-how-to-reflect"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tutorial",
+        "file": "project-mirror-labyrinth-tutorial"
+      }
+    ],
+    "items": [
+      {
+        "slug": "project-mirror-labyrinth-cosmetic-voucher",
+        "file": "project-mirror-labyrinth-cosmetic-voucher"
+      },
+      {
+        "slug": "project-mirror-labyrinth-defragment",
+        "file": "project-mirror-labyrinth-defragment"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego-gear",
+        "file": "project-mirror-labyrinth-ego-gear"
+      },
+      {
+        "slug": "project-mirror-labyrinth-ego",
+        "file": "project-mirror-labyrinth-ego"
+      },
+      {
+        "slug": "project-mirror-labyrinth-fragments",
+        "file": "project-mirror-labyrinth-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-how-to-gain-fragments",
+        "file": "project-mirror-labyrinth-how-to-gain-fragments"
+      },
+      {
+        "slug": "project-mirror-labyrinth-reward-bag",
+        "file": "project-mirror-labyrinth-reward-bag"
+      },
+      {
+        "slug": "project-mirror-labyrinth-seed-of-light",
+        "file": "project-mirror-labyrinth-seed-of-light"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "project-mirror-labyrinth-detour",
+        "file": "project-mirror-labyrinth-detour"
+      },
+      {
+        "slug": "project-mirror-labyrinth-library",
+        "file": "project-mirror-labyrinth-library"
+      },
+      {
+        "slug": "project-mirror-labyrinth-luxcavation",
+        "file": "project-mirror-labyrinth-luxcavation"
+      },
+      {
+        "slug": "project-mirror-labyrinth-upper-library",
+        "file": "project-mirror-labyrinth-upper-library"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "project-mirror-labyrinth-best-build",
+        "file": "project-mirror-labyrinth-best-build"
+      },
+      {
+        "slug": "project-mirror-labyrinth-best-outfits",
+        "file": "project-mirror-labyrinth-best-outfits"
+      },
+      {
+        "slug": "project-mirror-labyrinth-meta",
+        "file": "project-mirror-labyrinth-meta"
+      },
+      {
+        "slug": "project-mirror-labyrinth-outfit-tier-list",
+        "file": "project-mirror-labyrinth-outfit-tier-list"
+      },
+      {
+        "slug": "project-mirror-labyrinth-tier-list",
+        "file": "project-mirror-labyrinth-tier-list"
+      }
+    ]
+  }
+}

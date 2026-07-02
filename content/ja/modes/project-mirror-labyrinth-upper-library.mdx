@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Upper Library: EX+3 攻略・ビルドガイド",
+  description: "Project Mirror Labyrinthの「Upper Library（上層図書館）」EX+3ダンジョンを攻略。最適なTTL・Jugg人格ビルド、McKenzieデッキ、EGOギフト、戦闘立ち回り術を解説。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Upper+Library+Guide",
+  date: "2026-07-02",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **ダンジョンの要点**: 超高難易度の **project mirror labyrinth upper library** EX+3ステージをクリアするには、専用のチーム編成が不可欠です。
+- **編成のアーキタイプ**: 人形戦を耐え抜くために、**タンク2〜3体**と**破裂クラッシャー2〜3体**のバランスの取れた編成で挑みましょう。
+- **最適人格**: レベル100以上の **TTL人格**（McKenzieデッキ装備）と **Jugg人格**（Guidoデッキ装備）を編成します。
+- **核心EGOギフト**: 非常に強力な「Thrill（スリル）ハメ」を成立させるため、**Thrill EGOギフト**を最優先で確保してください。
+- **コード報酬**: `Welcome` や `OfficeDelay` などの有効なコードを使用し、キャラクターの育成資金を調達しましょう。
+</Callout>
+
+<Section icon={Map} title="上層図書館アップデートとダンジョンの仕組み">
+
+**project mirror labyrinth upper library（上層図書館）** アップデートは、このRoblox製ローグライト・デッキビルドゲームにおける最も過酷なエンドコンテンツの到達点です。『Library of Ruina（図書館）』のマッチ（Clash）メカニクスと『Slay the Spire』のゲーム進行に強くインスパイアされたこのダンジョンでは、プレイヤーのデッキ構築の限界と戦術的な先見性が試されます。
+
+Project Mirror Labyrinthにおける戦闘は「マッチ（Clash）」を中心に展開します。味方キャラクターと敵が互いをターゲットにすると、マッチが発生します。双方が使用したカードの値に基づいてダイスを振り、勝者はダメージを与えてステータス効果を付与しますが、敗者はカードが弾かれて無防備な状態（混乱など）になります。上層図書館ダンジョンはこのメカニクスを極限まで引き上げており、対策なしでは到底太刀打ちできないほどの圧倒的なダイス値を持つ「人形」たちが立ちはだかります。
+
+**動画の見どころ:**
+- **融合したメカニクス**: 『Library of Ruina』のマッチシステムと『Slay the Spire』のデッキ構築がどのように融合しているかを解説。
+- **戦闘の流れ**: リアルタイムでのカードプレイ、防御への切り替え、リソース管理の実例。
+- **ビジュアル解説**: ダンジョンに挑む前に、敵の攻撃パターンやUIレイアウトを予習。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+ダンジョン内では3つの熾烈な人形戦が繰り広げられ、緻密な連携が求められるボス戦でクライマックスを迎えます。ダンジョンには、[Project Mirror Labyrinth Roblox エクスペリエンスページ](https://www.roblox.com/games/116276659864007/Project-Mirror-Labyrinth) から直接ゲームを起動して入場できます。
+
+<Callout type="warning" title="期限切れコードに関する注意">
+プロモーションコード **UpperLibrary**（以前は「Mega Reflection Ticket」1枚を配布）は公式に期限切れとなっていますが、上層図書館ダンジョン自体およびそのEX+3チャレンジは現在もプレイ可能であり、エンドゲーム進行の最高峰として君臨しています。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="チーム編成と人格ビルド">
+
+**project mirror labyrinth upper library** EX+3チャレンジの過酷な人形戦を生き抜くためには、汎用的な編成では通用しません。攻略には高度に特化したチーム編成が必要です。最適なセットアップでは、部隊を2つの主要な役割に分割します。強力な単体攻撃を吸収する「高防御タンク」と、敵の体力ゲージを削り取る「高効率の破裂クラッシャー」です。
+
+<CardGrid cols={3}>
+  <Card title="破裂クラッシャー（TTL人格）">
+    - **メインデッキ**: McKenzieデッキ
+    - **核心戦略**: マッチ勝利を重ねて破裂（Rupture）ダメージを高速で累積させる。
+    - **レベル要件**: レベル100以上のバトルパス人格。
+  </Card>
+  <Card title="メインタンク（Jugg人格）">
+    - **メインデッキ**: Guidoデッキ
+    - **核心戦略**: 高火力の攻撃を引き受け、大量のシールドを生成する。
+    - **レベル要件**: レベル100以上のバトルパス人格。
+  </Card>
+  <Card title="ユーティリティ枠（Spicebush人格）">
+    - **メインデッキ**: Spicebushデッキ
+    - **核心戦略**: チームの共鳴を高め、広範囲の範囲（AoE）バースト攻撃を連携させる。
+    - **レベル要件**: レベル90以上の人格。
+  </Card>
+</CardGrid>
+
+TTL人格とMcKenzieデッキのシナジーは、攻撃の要（エンジン）となります。McKenzieのカードはマッチ勝利に特化しており、勝利するたびに破裂を累積させます。Guidoデッキを装備したJuggタンクと組み合わせることで、アタッカーは被弾を恐れることなく、攻撃的なマッチアップに完全に集中できます。
+
+| 役割 | 推奨人格 | デッキ | 主な役割 |
+| :--- | :--- | :--- | :--- |
+| **破裂クラッシャー** | TTL人格 | McKenzieデッキ | マッチ勝利時に累積可能な破裂ダメージを付与 |
+| **メインタンク** | Jugg人格 | Guidoデッキ | 敵の強力な単体攻撃を吸収 |
+| **バッファー / 自由枠** | Spicebush人格 | Spicebushデッキ | チームの共鳴を強化し、範囲攻撃を連携 |
+
+<Callout type="tip" title="育成の優先順位">
+まずはTTL人格を最優先でレベル100まで上げましょう。McKenzieカードの攻撃力のスケーリングが、タンクの防御リソースが尽きる前に人形戦を終わらせられるかどうかに直結します。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="EGOギフトとワークショップ強化">
+
+キャラクターレベルや人格の選択だけでなく、**project mirror labyrinth upper library** におけるローグライトな育成要素は、EGOギフトやワークショップ装備に大きく依存します。EGOギフトは、ダンジョン探索中に獲得できる特別なパッシブ遺物であり、戦闘に強力な補正をもたらします。難易度EX+3においては、適切なギフトの獲得は単なる助けではなく、生存のための「必須条件」です。
+
+必勝戦略の要となるのが **Thrill（スリル）EGOギフト** です。破裂クラッシャー編成と組み合わせることで、マッチに勝利するたびに防御不能の追加ダメージを大量に発生させることができます。これにより、人形たちの分厚い防御シールドを無視して、戦闘時間を大幅に短縮できます。
+
+| EGOギフト | タイプ | 戦闘効果 | シナジー |
+| :--- | :--- | :--- | :--- |
+| **Thrill** | 攻撃型 | マッチ中に追加ダメージを発生 | 破裂クラッシャービルドに不可欠 |
+| **Tango Marinade** | ユーティリティ | 敵の防御ダイスの値を一時的に低下 | マッチの勝利を容易にする |
+| **Thorny Rope Cuff** | 防御型 | 被弾時に束縛と出血を付与 | タンクが攻撃的な敵を妨害するのに有効 |
+| **Barbed Lasso** | 攻撃型 | 速度スロットと攻撃力を増加 | デッキの回転率を向上 |
+| **Dust to Dust** | 防御型 | 防御カード使用時にシールド値を生成 | Jugg人格の生存力に極めて重要 |
+
+この過酷なランに備えるため、ワークショップを利用して装備を強化（アグメント）しておきましょう。強化により、速度スロット、カードドロー、防御スケーリングを微調整できます。上層図書館EX+3に挑戦する前に、以下のチェックリストを必ず完了させてください。
+
+<Checklist
+  id="upper-library-prep"
+  title="上層図書館 挑戦前チェックリスト:"
+  items={[
+    "TTL人格およびJugg人格をレベル100+まで強化する",
+    "最適化されたティア強化を施したMcKenzieデッキとGuidoデッキを装備する",
+    "ダンジョンの序盤セクターでThrill EGOギフトを確保する",
+    "EGOギフト研究ポイントを蓄積し、第2パッシブスロットを解放する",
+    "有効なコードを引き換えて、特定抽出（Targeted Reflections）用の「Fragment」を確保する"
+  ]}
+/>
+
+<Callout type="success" title="シナジー確認">
+**Thrill** と **Tango Marinade** を組み合わせると、マッチでの勝利がほぼ確実になり、同時に破裂のダメージ出力が何倍にも跳ね上がります。休憩所や報酬ノードでは、常にこの2つのギフトを最優先で選択してください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="EX+3攻略ステップバイステップ">
+
+**project mirror labyrinth upper library** EX+3ダンジョンを攻略するには、厳格な戦術の実行が必要です。カードを適当にプレイしているだけでは勝てません。人形戦には複雑なギミックがあり、ミスは即座に壊滅へと繋がります。以下の戦闘ループに従って、確実な勝利を掴み取りましょう。
+
+<Steps>
+  <Step num="1" title="コード入力で強化資金を調達する">
+    迷宮に入る前に、すべての有効なコードを引き換えておきましょう。`Welcome` や `OfficeDelay` などのコードを使用することで、数千個の「Fragment（破片）」、「Condense（凝縮液）」、「Seed of Light（光の種）」を獲得できます。ロビーでこれらのリソースを消費し、人格レベルを最大まで引き上げ、パッシブスキルを解放してください。
+  </Step>
+  <Step num="2" title="速度スロットとデッキを最適化する">
+    ダンジョン内に入ったら、速度を上昇させるEGOギフトを優先的に確保します。速度はカードスロットの優先順位を決定します。マッチフェーズが始まる前に、Juggタンクが敵の致命的な攻撃を受け流せるよう、破裂クラッシャーよりも高い速度スロットを確保させる必要があります。
+  </Step>
+  <Step num="3" title="McKenzieデッキでマッチフェーズを開始する">
+    人形たちが強力な攻撃カードを用意してきたら、TTLクラッシャーのMcKenzieカードをぶつけます。自チームのダイス期待値が上回っている敵カードを的確に狙いましょう。これらのマッチに勝利することで、破裂の累積とThrillの追加ダメージが誘発されます。
+  </Step>
+  <Step num="4" title="Guidoデッキで防御へ切り替える">
+    敵の攻撃ダイス値が高すぎてクラッシャーでは勝てないと判断した場合は、無理にマッチを挑んではいけません。Juggタンクを防御カードに切り替え、Guidoカードを使用してシールドを生成し、攻撃を受け止めます。これにより、次のターンに向けてアタッカーの体力を温存できます。
+  </Step>
+</Steps>
+
+人形戦が進行するにつれて、戦況は目まぐるしく変化します。以下の表を参考に、各戦闘フェーズを管理してください。
+
+| フェーズ | 敵の行動 | プレイヤーの対策 | 優先度 |
+| :--- | :--- | :--- | :--- |
+| **フェーズ 1: セットアップ** | 雑魚人形が基本カードで攻撃 | Juggで防御カードを展開しつつ、McKenzieをドロー | 低 |
+| **フェーズ 2: マッチング** | 人形が強力な攻撃カードを使用 | McKenzieの破裂カードを使用してマッチを仕掛ける | 高 |
+| **フェーズ 3: 決着** | ボスが超強力な単体スキルを使用 | 攻撃をJuggに誘導し、Thrillの追加ダメージを誘発 | 極めて高い |
+
+<Callout type="info" title="マッチの鉄則">
+Project Mirror Labyrinthにおけるマッチは、勝者総取り（ゼロサムゲーム）です。一度でもマッチに敗北すると、積み上げた破裂スタックがリセットされ、耐久力の低いクラッシャーが致命的なカウンターに晒されることになります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="コード、ゲーム内通貨、メンテナンス">
+
+**project mirror labyrinth upper library** での進行は、ゲーム内リソースをいかに効率よく管理できるかにかかっています。「Fragment」は特定抽出（Targeted Reflections）や常設抽出から新しい人格を獲得するための主要通貨であり、「Condense」と「Seed of Light」は人格を「デフラグ（Defragmenting）」して強力なパッシブスキルを解放するために不可欠です。
+
+有効なプロモーションコードを引き換えることは、時間のかかる周回をすることなく、これらのリソースを最速で獲得する方法です。以下は2026年7月現在の最新コード一覧です。
+
+| コード | ステータス | 報酬 | 推奨される使い道 |
+| :--- | :--- | :--- | :--- |
+| **Welcome** | 有効 | 350 Fragments, 500 Condense, 3 Seeds of Light | 序盤の育成のために即座に使用 |
+| **OfficeDelay** | 有効 | 1,620 Fragments | 価値の高い特定抽出のために温存 |
+| **UrbanPlague** | 有効 | 405 Fragments | McKenzieデッキのアップグレードに消費 |
+| **NepoOffice** | 有効 | 405 Fragments | 大文字・小文字を正確に入力して使用 |
+| **FauvistStudents** | 有効 | 405 Fragments | 通常の育成ブースト用 |
+| **UpperLibrary** | 期限切れ | 1 Mega Reflection Ticket | 過去の上層図書館アップデート時に配布 |
+
+また、Robloxのエクスペリエンスは毎週定期メンテナンスが行われる点に注意してください。開発者によると、メンテナンスは通常 **毎週火曜日の午後2:00頃（P.M. 2:00）** に開始されます。この時間帯は、サーバーへのアクセス、コードの引き換え、ダンジョンへの入場が一時的に行えなくなる場合があります。メンテナンスについて他のプレイヤーと情報共有をしたり、マルチプレイの仲間を探したりするには、[Project Mirror Labyrinth 公式Discordコミュニティ](https://discord.com/invite/nGPyPyGBJA) を活用してください。
+
+<Callout type="tip" title="Robloxグループ加入の必須条件">
+上記の有効なコードを正常に引き換えるには、Roblox上でエクスペリエンスに「いいね」評価をし、公式の [Project Mirror Labyrinth Roblox グループ](https://www.roblox.com/communities/127473071/Project-Mirror-Labyrinth) に加入しておく必要があります。加入していない場合、正しいコードを入力しても引き換えメニューでエラーとなります。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Project Mirror Labyrinthで上層図書館ダンジョンを始めるには？",
+    answer: "ダンジョン挑戦を開始するには、キーボードの [TAB] キーを押してメインメニューを開き「Play」を選択するか、ロビーにある物理的な「NO ENTRY」ゲートに近づいてインタラクトしてください。"
+  },
+  {
+    question: "上層図書館 EX+3 をクリアするための最強ビルドは？",
+    answer: "最もクリア実績が多い編成は、Jugg人格（Guidoデッキ）を装備したタンク2〜3体と、TTL人格（McKenzieデッキ）を装備した破裂クラッシャー2〜3体の組み合わせです。これに、ダンジョン内で獲得できる「Thrill EGOギフト」を組み合わせる必要があります。"
+  },
+  {
+    question: "コードの引き換えに失敗するのはなぜですか？",
+    answer: "引き換えエラーの主な理由は3つあります。コードの期限が切れている場合（例：UpperLibraryコード）、入力ミス（大文字・小文字が厳密に区別されます）、または公式のRobloxグループにまだ加入していない場合です。"
+  },
+  {
+    question: "ゲームのアップデートやメンテナンスはいつ行われますか？",
+    answer: "定期的な週次メンテナンスは、毎週火曜日の午後2:00頃から開始されます。進行状況の消失を防ぐため、この時間直前に長時間のダンジョン挑戦を開始することは避けてください。"
+  }
+]} />
+
+</Section>

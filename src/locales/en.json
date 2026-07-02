@@ -10,7 +10,15 @@
       "twitterDescription": "Codes, builds, cards, outfits, Reflections, EGO and dungeon guides for Project Mirror Labyrinth on Roblox."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tierList": "Tier List",
+    "build": "Build",
+    "items": "Items",
+    "bosses": "Bosses",
+    "modes": "Modes"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -619,145 +627,125 @@
       "featured": "Featured Codes",
       "all": "All Code Articles"
     },
-    "beginner": {
-      "title": "Project Mirror Labyrinth Beginner Guide",
-      "description": "Learn how to start Project Mirror Labyrinth, enter dungeons, and use early rewards effectively.",
-      "metaTitle": "Project Mirror Labyrinth Beginner Guide - How to Start",
-      "metaDescription": "A beginner guide to Project Mirror Labyrinth covering first steps, dungeon entry, card combat basics, and early progression on Roblox.",
-      "categoryLabel": "BEGINNER GUIDES",
+    "guide": {
+      "title": "Project Mirror Labyrinth Guide",
+      "description": "Beginner tips, how-to-play steps, dungeon entry, and card combat basics for Project Mirror Labyrinth.",
+      "metaTitle": "Project Mirror Labyrinth Guide - Beginner Tips & How to Play",
+      "metaDescription": "A complete Project Mirror Labyrinth guide covering first steps, dungeon entry, card combat, Reflections, and early progression on Roblox.",
+      "categoryLabel": "GUIDES",
       "whatIs": "New to Project Mirror Labyrinth?",
-      "whatIsDescription": "These guides cover the first actions that matter after joining the Roblox experience, from redeeming codes to clearing your first dungeon.",
+      "whatIsDescription": "These guides cover everything from launching the Roblox experience and redeeming codes to entering your first dungeon and learning the card combat loop.",
       "why": "Why read a beginner guide?",
       "whySteps": {
         "step1Title": "Start Faster",
-        "step1Description": "Learn dungeon entry and the core deck-building loop up front",
+        "step1Description": "Learn dungeon entry via the TAB menu or NO ENTRY gate and the core deck-building loop up front",
         "step2Title": "Avoid Common Mistakes",
-        "step2Description": "Redeem codes correctly and spend rewards on the right systems",
+        "step2Description": "Redeem codes correctly and spend Fragments on the right progression systems",
         "step3Title": "Build a Foundation",
-        "step3Description": "Set up Reflections, Outfits, and card basics for long-term growth"
+        "step3Description": "Set up Reflections, Outfits, and card basics for long-term dungeon growth"
       },
-      "featured": "Featured Beginner Guides",
-      "all": "All Beginner Guides"
+      "featured": "Featured Guides",
+      "all": "All Guide Articles"
     },
     "tier-list": {
       "title": "Project Mirror Labyrinth Tier List",
-      "description": "Version-tagged priority guides for Outfits, Cards, and Reflections in Project Mirror Labyrinth.",
-      "metaTitle": "Project Mirror Labyrinth Tier List - Outfits, Cards & Reflections",
-      "metaDescription": "Browse Project Mirror Labyrinth tier lists and priority guides for Outfits, Cards, and Reflections, dated to the current game version.",
+      "description": "Version-tagged priority guides for Outfits, builds, and Reflections in Project Mirror Labyrinth.",
+      "metaTitle": "Project Mirror Labyrinth Tier List - Outfits, Builds & Reflections",
+      "metaDescription": "Browse Project Mirror Labyrinth tier lists and priority guides for Outfits, builds, and Reflections, dated to the current game version.",
       "categoryLabel": "TIER LISTS",
       "whatIs": "What is a tier list?",
-      "whatIsDescription": "Tier lists rank Outfits, Cards, and Reflections by general usefulness so players can plan progression and pulls.",
+      "whatIsDescription": "Tier lists rank Outfits, builds, and Reflections by general usefulness so players can plan progression, pulls, and deck choices.",
       "why": "Why use a tier list?",
       "whySteps": {
         "step1Title": "Plan Your Pulls",
-        "step1Description": "Prioritize high-value Outfits and Reflections for your goals",
+        "step1Description": "Prioritize high-value Outfits and Reflections for your dungeon goals",
         "step2Title": "Spend Wisely",
-        "step2Description": "Save Fragments and tickets for options that fit your strategy",
+        "step2Description": "Save Fragments and tickets for options that fit your build strategy",
         "step3Title": "Stay Version-Aware",
-        "step3Description": "Each tier list is dated to a specific game update"
+        "step3Description": "Each tier list is tagged to a specific game update for accurate ranking"
       },
       "featured": "Featured Tier Lists",
-      "all": "All Tier Lists"
+      "all": "All Tier List Articles"
     },
-    "reflections": {
-      "title": "Project Mirror Labyrinth Reflections",
-      "description": "How Targeted and Standard Reflections, tickets, and Fragments work in Project Mirror Labyrinth.",
-      "metaTitle": "Project Mirror Labyrinth Reflections - Draws, Tickets & Fragments",
-      "metaDescription": "Understand Project Mirror Labyrinth Reflections: Targeted vs Standard draws, Mega and SR Guaranteed tickets, and how Fragments are spent.",
-      "categoryLabel": "REFLECTIONS",
-      "whatIs": "What are Reflections?",
-      "whatIsDescription": "Reflections are the Outfit draw system in Project Mirror Labyrinth, powered by Fragments and tickets across Targeted and Standard pools.",
-      "why": "Why learn Reflections?",
+    "build": {
+      "title": "Project Mirror Labyrinth Build",
+      "description": "Build archetypes, decks, passives, and EGO Gift picks for Project Mirror Labyrinth dungeon runs.",
+      "metaTitle": "Project Mirror Labyrinth Build - Decks, Passives & EGO Gifts",
+      "metaDescription": "Learn Project Mirror Labyrinth build strategies including Rupture, Charge, and Poise decks, passive choices, EGO Gifts, and deck construction for dungeon runs.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What is a build?",
+      "whatIsDescription": "A build in Project Mirror Labyrinth is the combination of cards, passives, Outfits, and EGO Gifts you bring into a dungeon run. Archetypes like Rupture, Charge, and Poise shape how each run plays.",
+      "why": "Why plan a build?",
       "whySteps": {
-        "step1Title": "Draw Outfits",
-        "step1Description": "Reflections are the main route to acquiring Outfits",
-        "step2Title": "Use Tickets",
-        "step2Description": "Mega and SR Guaranteed tickets save Fragments on high-value pulls",
-        "step3Title": "Build Passives",
-        "step3Description": "Outfits feed into Defragmenting and passive ability growth"
-      },
-      "featured": "Featured Reflection Guides",
-      "all": "All Reflection Articles"
-    },
-    "outfits": {
-      "title": "Project Mirror Labyrinth Outfits",
-      "description": "Outfit acquisition, stats, rarity, and Defragmenting in Project Mirror Labyrinth.",
-      "metaTitle": "Project Mirror Labyrinth Outfits - Stats, Rarity & Defragment",
-      "metaDescription": "Guides to Project Mirror Labyrinth Outfits: how to get them, their stats and rarity, and how Defragmenting unlocks passive abilities.",
-      "categoryLabel": "OUTFITS",
-      "whatIs": "What are Outfits?",
-      "whatIsDescription": "Outfits are progression items drawn through Reflections that grant new stats and support build growth in Project Mirror Labyrinth.",
-      "why": "Why focus on Outfits?",
-      "whySteps": {
-        "step1Title": "Gain Stats",
-        "step1Description": "Outfits directly improve your dungeon performance",
-        "step2Title": "Defragment",
-        "step2Description": "Upgrade Outfits to unlock passive abilities with Condense and Seeds of Light",
-        "step3Title": "Match Your Build",
-        "step3Description": "Choose Outfits that fit your preferred deck strategy"
-      },
-      "featured": "Featured Outfit Guides",
-      "all": "All Outfit Articles"
-    },
-    "cards": {
-      "title": "Project Mirror Labyrinth Cards",
-      "description": "Card types, attack and defense options, and deck-building strategy for Project Mirror Labyrinth.",
-      "metaTitle": "Project Mirror Labyrinth Cards - Combat & Deck Building",
-      "metaDescription": "Learn Project Mirror Labyrinth card mechanics, attack and defense cards, common deck archetypes, and how to choose cards during runs.",
-      "categoryLabel": "CARDS & COMBAT",
-      "whatIs": "What are cards?",
-      "whatIsDescription": "Cards drive combat in Project Mirror Labyrinth. Attack and defense cards combine into the decks you use to survive dungeon encounters.",
-      "why": "Why study cards?",
-      "whySteps": {
-        "step1Title": "Build Combos",
-        "step1Description": "Synergize attack and defense cards for stable runs",
-        "step2Title": "Survive Longer",
-        "step2Description": "Balance damage with enough defense to avoid early losses",
+        "step1Title": "Synergize Cards",
+        "step1Description": "Match attack and defense cards so your deck performs reliably across encounters",
+        "step2Title": "Pick the Right Passives",
+        "step2Description": "Passives and EGO Gifts amplify your archetype and keep runs stable",
         "step3Title": "Adapt Each Run",
-        "step3Description": "Choose cards that fit the encounters and resources you find"
+        "step3Description": "Choose build pieces that fit the cards, enemies, and resources you find"
       },
-      "featured": "Featured Card Guides",
-      "all": "All Card Articles"
+      "featured": "Featured Build Guides",
+      "all": "All Build Articles"
     },
-    "ego": {
-      "title": "Project Mirror Labyrinth EGO",
-      "description": "EGO, EGO Tickets, and EGO Gifts and how they fit into Project Mirror Labyrinth builds.",
-      "metaTitle": "Project Mirror Labyrinth EGO - Tickets, Gifts & Builds",
-      "metaDescription": "Explore Project Mirror Labyrinth EGO mechanics: what EGO is, how EGO Tickets and EGO Gifts work, and how they connect to your dungeon builds.",
-      "categoryLabel": "EGO SYSTEM",
-      "whatIs": "What is EGO?",
-      "whatIsDescription": "EGO is a special progression layer in Project Mirror Labyrinth, supported by EGO Tickets and EGO Gifts that strengthen dungeon builds.",
-      "why": "Why use EGO?",
+    "items": {
+      "title": "Project Mirror Labyrinth Items",
+      "description": "Currencies, materials, Fragments, EGO Gear, Seeds of Light, and Defragmenting in Project Mirror Labyrinth.",
+      "metaTitle": "Project Mirror Labyrinth Items - Fragments, EGO Gear & Currencies",
+      "metaDescription": "Guides to Project Mirror Labyrinth items and currencies: Fragments, Condense, Seeds of Light, EGO Gear, Reward Bags, Cosmetic Vouchers, and Defragmenting.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are items and currencies?",
+      "whatIsDescription": "Items and currencies power progression in Project Mirror Labyrinth. Fragments drive Reflections, while Condense, Seeds of Light, and EGO Gear feed Defragmenting and passive growth.",
+      "why": "Why learn the item system?",
       "whySteps": {
-        "step1Title": "Strengthen Builds",
-        "step1Description": "EGO options add power beyond standard cards and Outfits",
-        "step2Title": "Use EGO Tickets",
-        "step2Description": "Spend limited EGO Tickets on high-impact choices",
-        "step3Title": "Pick EGO Gifts",
-        "step3Description": "Choose EGO Gifts that match your dungeon route and strategy"
+        "step1Title": "Spend Fragments Smartly",
+        "step1Description": "Fragments fund Reflections, Outfits, and skill growth, so plan where they go",
+        "step2Title": "Upgrade Through Defragment",
+        "step2Description": "Condense and Seeds of Light unlock passive abilities on Outfits worth improving",
+        "step3Title": "Track Rare Materials",
+        "step3Description": "EGO Gear and Reward Bags give high-value boosts when used at the right time"
       },
-      "featured": "Featured EGO Guides",
-      "all": "All EGO Articles"
+      "featured": "Featured Item Guides",
+      "all": "All Item Articles"
     },
-    "dungeons": {
-      "title": "Project Mirror Labyrinth Dungeons",
-      "description": "Dungeon routes, enemies, rewards, and entry methods for Project Mirror Labyrinth.",
-      "metaTitle": "Project Mirror Labyrinth Dungeons - Routes, Enemies & Rewards",
-      "metaDescription": "Guides to Project Mirror Labyrinth dungeons: how to start runs, route selection, enemy patterns, and reward priorities.",
-      "categoryLabel": "DUNGEONS",
-      "whatIs": "What are dungeons?",
-      "whatIsDescription": "Dungeons are the core runs of Project Mirror Labyrinth where you build decks, fight enemies, and earn progression rewards.",
-      "why": "Why run dungeons?",
+    "bosses": {
+      "title": "Project Mirror Labyrinth Bosses",
+      "description": "Boss encounter guides, attack patterns, and strategies for Project Mirror Labyrinth dungeon runs.",
+      "metaTitle": "Project Mirror Labyrinth Bosses - Attack Patterns & Strategies",
+      "metaDescription": "Beat every Project Mirror Labyrinth boss with guides covering attack patterns, weaknesses, recommended builds, and reward priorities for each encounter.",
+      "categoryLabel": "BOSSES",
+      "whatIs": "What are bosses?",
+      "whatIsDescription": "Bosses are the major encounters inside Project Mirror Labyrinth dungeons. Each boss has distinct attack patterns and timing that test your deck-building and defensive card play.",
+      "why": "Why study bosses?",
       "whySteps": {
-        "step1Title": "Build Your Deck",
-        "step1Description": "Each run is a fresh deck-building challenge",
-        "step2Title": "Earn Rewards",
-        "step2Description": "Dungeons drop Fragments, materials, and progression currency",
-        "step3Title": "Master Routes",
-        "step3Description": "Learn entry paths, enemy patterns, and reward priorities"
+        "step1Title": "Read Attack Patterns",
+        "step1Description": "Knowing boss tells helps you time defense cards and avoid early run losses",
+        "step2Title": "Pick the Right Build",
+        "step2Description": "Match your deck archetype and EGO picks to each boss's weaknesses",
+        "step3Title": "Earn Better Rewards",
+        "step3Description": "Boss clears drop Fragments, materials, and progression currency for deeper runs"
       },
-      "featured": "Featured Dungeon Guides",
-      "all": "All Dungeon Articles"
+      "featured": "Featured Boss Guides",
+      "all": "All Boss Articles"
+    },
+    "modes": {
+      "title": "Project Mirror Labyrinth Modes",
+      "description": "Game modes, dungeons, and routes including the Library, Upper Library, Detour, and Luxcavation.",
+      "metaTitle": "Project Mirror Labyrinth Modes - Library, Detour & Luxcavation",
+      "metaDescription": "Explore Project Mirror Labyrinth game modes and dungeon routes: the Library, Upper Library, Detour, and Luxcavation, with entry requirements, rewards, and clear priorities.",
+      "categoryLabel": "MODES",
+      "whatIs": "What are game modes?",
+      "whatIsDescription": "Game modes are the dungeon routes and content layers in Project Mirror Labyrinth. Each mode offers different entry rules, enemy layouts, and reward tiers for your runs.",
+      "why": "Why explore every mode?",
+      "whySteps": {
+        "step1Title": "Match Your Build",
+        "step1Description": "Different routes favor different deck archetypes and progression stages",
+        "step2Title": "Target Rewards",
+        "step2Description": "Luxcavation and Upper Library drop specific materials and tickets you need",
+        "step3Title": "Progress Steadily",
+        "step3Description": "Clearing each mode in order builds the resources for harder dungeon tiers"
+      },
+      "featured": "Featured Mode Guides",
+      "all": "All Mode Articles"
     }
   }
 }

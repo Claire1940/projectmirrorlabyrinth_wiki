@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Project Mirror Labyrinth: Kartu Terbaik & Tip Pemula",
+  description: "Kuasai Project Mirror Labyrinth di Roblox dengan panduan 2026 kami. Pelajari tentang Reflections, pertarungan kartu, rute dungeon, dan kode aktif untuk Fragments.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Project+Mirror+Labyrinth+Guide",
+  date: "2026-07-02",
+  author: "Tim Wiki Project Mirror Labyrinth",
+  keywords: "project mirror labyrinth, panduan roblox, pertarungan kartu, tips pemula, kode fragments"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Panduan Project Mirror Labyrinth**: Sebuah roguelite deck builder di Roblox yang terinspirasi oleh alam semesta Project Moon (Library of Ruina dan Limbus Company).
+- **Siklus Utama**: Masuk ke dungeon melalui **menu TAB**, bangun dek kartu, bertahan dalam pertemuan labirin, dan dapatkan Fragments.
+- **Progresi**: Gunakan Fragments dan Tiket untuk **Reflections** guna membuka Outfit baru dan kemampuan pasif.
+- **Strategi Utama**: Seimbangkan **Kartu Serangan** berdamage tinggi dengan **Kartu Pertahanan** yang berkelanjutan untuk bertahan di node dungeon akhir permainan.
+- **Pemeliharaan**: Server biasanya diperbarui setiap **Selasa pukul 14:00 (EST)**, yang dapat memengaruhi akses dungeon.
+</Callout>
+
+<Section icon={Map} title="Memulai di Project Mirror Labyrinth">
+
+Project Mirror Labyrinth adalah pengalaman Roblox unik yang memadukan pertarungan kartu taktis dengan eksplorasi roguelite yang atmosferik. Berbeda dengan RPG tradisional, kesuksesan Anda bergantung pada cara Anda menyusun dek di tengah permainan dan cara Anda mengelola sumber daya di antara percobaan. Sebelum terjun ke labirin, Anda harus memahami ekonomi dasar dan langkah-langkah awal yang diperlukan untuk mengamankan set hadiah pertama Anda.
+
+**Sorotan Video:**
+- Ikhtisar gameplay perpaduan Library of Ruina dan Limbus Company.
+- Panduan visual ke gerbang masuk dungeon dan UI lobi.
+- Demonstrasi sistem pertarungan berbasis kartu dalam aksi.
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth Gameplay" />
+
+Untuk memulai perjalanan Anda, Anda harus fokus mengumpulkan sumber daya awal. Game ini menyediakan beberapa mata uang yang penting untuk membuka sistem "Reflections", yang berfungsi sebagai mekanik progresi utama.
+
+| Sumber Daya | Tujuan Utama | Cara Mendapatkan |
+| :--- | :--- | :--- |
+| **Fragments** | Menarik Outfit dari Reflections | Kode, Run dungeon, Misi |
+| **Condense** | Mendekfragmentasi Outfit untuk pasif | Acara khusus, Kode awal |
+| **Seeds of Light** | Pertumbuhan Outfit tingkat tinggi | Hadiah pencapaian, Kode |
+| **Reflection Tickets** | Tarikan gratis di banner Standar/Targeted | Kompensasi pemeliharaan, Acara |
+
+<Callout type="tip" title="Tip Pro">
+Selalu bergabung dengan grup Roblox resmi Project Mirror Labyrinth dan "Like" game tersebut sebelum mencoba menukarkan kode. Banyak hadiah yang terkunci di balik persyaratan komunitas ini.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mekanik Pertarungan dan Strategi Membangun Dek">
+
+Pertarungan di Project Mirror Labyrinth berbasis giliran dan berputar di sekitar memainkan kartu dari tangan Anda untuk membalas tindakan musuh. Seiring kemajuan Anda melalui dungeon, Anda akan menambahkan kartu baru ke dek Anda, menciptakan sinergi yang dapat menentukan keberhasilan atau kegagalan run Anda. Memahami perbedaan antara jenis kartu adalah langkah pertama untuk menguasai meta.
+
+<CardGrid cols={3}>
+  <Card title="Build Ofensif">
+    - **Damage Tinggi**: Berfokus pada mengalahkan musuh dengan cepat.
+    - **Rapuh**: Membutuhkan waktu yang tepat untuk menghindari serangan balik yang mematikan.
+    - **Terbaik untuk**: Farming cepat dan lantai dungeon awal.
+  </Card>
+  <Card title="Build Defensif">
+    - **Keberlanjutan**: Menggunakan kartu Blok dan Elak untuk memitigasi damage.
+    - **Slow Burn**: Pertempuran berlangsung lebih lama tetapi jauh lebih aman.
+    - **Terbaik untuk**: Pertemuan bos dan labirin tingkat kesulitan tinggi.
+  </Card>
+  <Card title="Hibrida Utilitas">
+    - **Adaptabilitas**: Mencampur regenerasi sumber daya dengan damage moderat.
+    - **Kompleks**: Lebih sulit dikendalikan tetapi dapat menangani beragam jenis musuh.
+    - **Terbaik untuk**: Pemain berpengalaman yang mencari run dungeon yang dalam.
+  </Card>
+</CardGrid>
+
+Sistem kartu ini terinspirasi oleh *Slay the Spire*, yang berarti Anda perlu mengelola "Energi" atau "Biaya" Anda secara efektif. Memainkan terlalu banyak kartu serangan berbiaya tinggi mungkin membuat Anda tidak berdaya selama giliran musuh.
+
+| Kategori Kartu | Jenis Efek | Nilai Strategis |
+| :--- | :--- | :--- |
+| **Serangan** | Damage Langsung | **Tinggi**: Diperlukan untuk mengakhiri pertarungan dengan cepat. |
+| **Pertahanan** | Perisai / Blok | **Kritis**: Mencegah kehilangan HP selama giliran musuh. |
+| **Buff** | Peningkatan Stat | **Menengah**: Meningkatkan efisiensi pertarungan jangka panjang. |
+| **EGO** | Kemampuan Ultimate | **Tertinggi**: Dapat membalikkan keadaan dalam pertempuran yang kalah. |
+
+<Callout type="warning" title="Peringatan Pertarungan">
+Jangan abaikan kartu pertahanan. Di Project Mirror Labyrinth, kesehatan tidak beregenerasi sepenuhnya di antara setiap lantai. Build "glass cannon" seringkali akan gagal sebelum mencapai bos terakhir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eksplorasi Dungeon dan Pemeliharaan">
+
+Inti dari **panduan project mirror labyrinth** melibatkan navigasi dungeon yang seperti labirin. Ini dibuat secara prosedural, artinya jalur yang Anda ambil akan berubah setiap kali Anda bermain. Anda harus memilih di antara node yang berbeda, seperti Pertarungan, Pertemuan Elite, atau Tempat Istirahat.
+
+<Steps>
+  <Step num="1" title="Memulai Run">
+    Buka menu dalam game dengan menekan **TAB** dan pilih "Play," atau berjalanlah ke gerbang **NO ENTRY** di lobi untuk memulai.
+  </Step>
+  <Step num="2" title="Pilih Rute Anda">
+    Lihat peta dan rencanakan jalur Anda. Prioritaskan node yang menawarkan hadiah kartu di awal untuk menstabilkan dek Anda.
+  </Step>
+  <Step num="3" title="Kelola Pertemuan">
+    Terlibat dalam pertarungan kartu. Menangkan pertempuran untuk mendapatkan Fragments dan pilihan kartu baru.
+  </Step>
+  <Step num="4" title="Mencapai Luxcavation">
+    Navigasikan menuju lapisan yang lebih dalam untuk membuka hadiah tingkat tinggi dan pertarungan bos.
+  </Step>
+</Steps>
+
+Penting untuk dicatat bahwa game ini menjalani pemeliharaan rutin untuk memastikan stabilitas dan menambahkan konten baru seperti pembaruan "Lei Heng" atau "Not Binah". Selama waktu ini, akses dungeon mungkin dibatasi.
+
+| Acara | Waktu Umum (EST) | Dampak pada Pemain |
+| :--- | :--- | :--- |
+| **Pemeliharaan Mingguan** | Selasa 14:00 | Server offline, progres tidak tersimpan. |
+| **Penyebaran Patch** | Tidak teratur / Akhir pekan | Kode baru dirilis, perubahan meta. |
+| **Reset Harian** | 00:00 | Penyegaran misi, hadiah login. |
+
+<Callout type="info" title="Info Sistem">
+Jika Anda mengalami kesalahan "NO ENTRY" di luar jam pemeliharaan, cobalah bergabung kembali ke server baru. Pembaruan Roblox terkadang dapat menyebabkan instansi lobi tidak sinkron dengan backend game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reflections dan Progresi Outfit">
+
+Reflections adalah sistem gaya gacha di mana Anda menghabiskan Fragments untuk mendapatkan **Outfit**. Outfit lebih dari sekadar kosmetik; mereka memberikan peningkatan stat yang signifikan dan kemampuan pasif unik yang menentukan gaya bermain Anda. 
+
+<Checklist
+  id="progression-milestones"
+  title="Tujuan Progresi Penting:"
+  items={[
+    "Tukarkan kode 'Welcome' untuk Fragments awal",
+    "Lakukan tarikan Targeted Reflection pertama Anda",
+    "Dekfragmentasi Outfit untuk membuka pasif pertamanya",
+    "Selesaikan satu run Dungeon penuh tanpa mati",
+    "Simpan 1.600+ Fragments untuk Mega Reflection Tickets"
+  ]}
+/>
+
+Ada dua jenis utama banner Reflection: **Standar** dan **Targeted**. Banner Targeted memiliki peluang lebih tinggi untuk menjatuhkan Outfit tingkat tinggi tertentu, menjadikannya pilihan utama bagi pemain yang ingin mengoptimalkan build tertentu.
+
+| Mata Uang / Item | Perolehan | Penggunaan Terbaik |
+| :--- | :--- | :--- |
+| **Mega Ticket** | Kode Langka / Acara | Jaminan tarikan SR+ di Reflections. |
+| **EGO Ticket** | Dungeon tingkat tinggi | Membuka kemampuan EGO yang kuat. |
+| **Fragments** | Gameplay Umum | Membeli tarikan Reflection standar. |
+| **Seeds of Light** | Pencapaian Milestone | Dekfragmentasi Outfit tahap akhir. |
+
+<Callout type="success" title="Kesuksesan Progresi">
+Berfokus pada satu Outfit dan Mendekfragmentasinya sepenuhnya seringkali lebih baik daripada memiliki banyak Outfit level rendah. Kemampuan pasif yang dibuka melalui Dekfragmentasi adalah pengubah permainan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kode Aktif dan Penukaran Hadiah">
+
+Untuk mempercepat kemajuan Anda di tahun 2026, Anda harus menggunakan semua kode aktif. Kode-kode ini memberikan Fragments dan materi peningkatan dalam jumlah besar yang jika tidak, akan memakan waktu berjam-jam untuk dikumpulkan.
+
+| Kode Aktif | Hadiah | Persyaratan |
+| :--- | :--- | :--- |
+| **OfficeDelay** | 1.620 Fragments | Gabung Grup + Like |
+| **UrbanPlague** | 405 Fragments | Tidak ada |
+| **NepoOffice** | 405 Fragments | Peka Huruf Besar-Kecil |
+| **FauvistStudents** | 405 Fragments | Tidak ada |
+| **Welcome** | 350 Fragments, 500 Condense | Pemain Baru |
+
+Untuk menukarkan kode ini, cari ikon **Codes** di sisi kiri layar Anda saat berada di lobi. Masukkan teks persis seperti yang ditunjukkan, karena sistem ini peka terhadap huruf besar-kecil. Jika kode gagal, periksa apakah Anda telah bergabung dengan grup komunitas resmi, karena ini adalah persyaratan tersembunyi yang umum.
+
+<Callout type="tip" title="Tip Kode">
+Kode yang kedaluwarsa seperti **BambooHat** atau **5MVisits!** sudah tidak aktif lagi. Jangan buang waktu mencobanya; fokuslah pada daftar penyegaran Juli 2026 yang disediakan di atas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ Project Mirror Labyrinth">
+
+<FAQ items={[
+  {
+    question: "Bagaimana cara memulai run dungeon pertama saya?",
+    answer: "Anda dapat memulai run dengan menekan tombol TAB untuk membuka menu utama dan memilih 'Play', atau dengan berinteraksi dengan gerbang NO ENTRY yang terletak di lobi game."
+  },
+  {
+    question: "Apa cara terbaik untuk menghabiskan Fragments?",
+    answer: "Pemula harus menyimpan Fragments untuk Targeted Reflections guna mendapatkan Outfit tingkat tinggi. Setelah Anda memiliki Outfit yang solid, habiskan Fragments untuk Dekfragmentasi guna membuka kemampuan pasif yang kuat."
+  },
+  {
+    question: "Apakah Project Mirror Labyrinth adalah game resmi Project Moon?",
+    answer: "Tidak, ini adalah pengalaman Roblox buatan penggemar yang terinspirasi oleh alam semesta Project Moon, khususnya Library of Ruina dan Limbus Company. Ini dibuat oleh grup pengembangan Project Mirror Labyrinth."
+  },
+  {
+    question: "Mengapa kode saya tidak berfungsi?",
+    answer: "Kebanyakan kode mengharuskan Anda untuk bergabung dengan grup komunitas Roblox resmi dan 'Like' game tersebut. Selain itu, pastikan Anda mengetik kode dengan huruf besar-kecil yang benar, karena mereka peka terhadap huruf besar-kecil."
+  }
+]} />
+
+</Section>

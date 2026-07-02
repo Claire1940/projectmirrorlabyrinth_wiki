@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Key } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Library: 2026年攻略＆カードメカニクス解説",
+  description: "RobloxのProject Mirror Labyrinth Libraryを攻略しよう。有効なコードの入手、カード戦闘の仕組みの習得、Project Moonにインスパイアされたローグライトダンジョンの探索方法を紹介。",
+  category: "攻略ガイド",
+  image: "https://placehold.co/800x400/1b91a7/fff?text=Mirror+Labyrinth+Library+Guide",
+  date: "2026-07-02",
+  author: "project mirror labyrinth Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Project Mirror Labyrinth Library**: 『Library of Ruina』や『Slay the Spire』にインスパイアされた、Robloxのローグライトデッキ構築ゲーム。
+- **コアのゲームサイクル**: **TABメニュー**または**NO ENTRY（進入禁止）ゲート**からダンジョンに入り、カードデッキを構築して敵との遭遇を生き延びます。
+- **育成要素**: **Fragments（フラグメント）**を使用してOutfit（衣装）やReflection（鏡像）のガチャを引き、ステータスやパッシブ効果を強化します。
+- **有効なコード**: `UrbanPlague`や`Welcome`などのコードを使用して、すぐにリソースを獲得できます。
+- **メンテナンス**: サーバーは通常、毎週**火曜日の午後2:00（東部時間基準）**にアップデートされます。
+</Callout>
+
+<Section icon={BookOpen} title="Project Mirror Labyrinth Libraryの概要">
+
+**Project Mirror Labyrinth Library**は、カード型デッキ構築ゲームの戦略的な深みと、容赦のないローグライトダンジョン探索を融合させた洗練されたRobloxゲームです。Project Moonの世界観（特に『Library of Ruina』や『Limbus Company』）から強いインスピレーションを得ており、プレイヤーはカードの選択肢一つひとつが命取りになる神秘的な迷宮を探索します。従来のRPGとは異なり、迷宮内の脅威に合わせていかにデッキを適応させられるかが攻略の鍵となります。
+
+**動画ハイライト:**
+- **融合ゲームプレイ**: 『Library of Ruina』と『Limbus Company』のメカニクスがどのように融合しているかを紹介。
+- **戦闘の流れ**: 探索からカードバトルの移行を実演。
+- **Reflection（鏡像）システム**: ガチャによるOutfit（衣装）獲得のプレビュー。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina ＋ Limbus Company融合ゲーム？！" />
+
+<Callout type="success" title="没入感のある世界観">
+このゲームは『Library of Ruina』におけるアンジェラのバッドエンドの直後を舞台にしており、原作のファンにはたまらない重厚でダークな雰囲気を提供しつつ、新規プレイヤーにも遊びやすい設計になっています。
+</Callout>
+
+</Section>
+
+<Section icon={Key} title="有効なコードと報酬の受け取り方法">
+
+**Project Mirror Labyrinth Library**での進行を早めるためには、有効なコードの引き換えが不可欠です。これらの報酬からは、冒険の序盤で強力なOutfit（衣装）を解放するために必要なFragmentsや素材を入手できます。ほとんどのコードは、ゲーム内メニューで有効化する前に、公式のRobloxコミュニティに参加し、ゲームに「いいね！」を押しておく必要があります。
+
+| コード | 報酬 | タイプ |
+| :--- | :--- | :--- |
+| **OfficeDelay** | 1,620 Fragments | 高価値通貨 |
+| **UrbanPlague** | 405 Fragments | 育成素材 |
+| **NepoOffice** | 405 Fragments | 育成素材 |
+| **FauvistStudents** | 405 Fragments | 育成素材 |
+| **Welcome** | 350 Fragments, 500 Condense, 3 Seeds of Light | スターターバンドル |
+
+<Callout type="warning" title="大文字・小文字の区別">
+Project Mirror Labyrinthのすべてのコードは**大文字と小文字を区別**します。エラーを避けるため、大文字を含めて表示されている通りに正確に入力してください。
+</Callout>
+
+### コードの引き換え方法
+1. Robloxでゲームを起動します。
+2. 画面左側にある**Menu**を開きます。
+3. **Codes**アイコンを選択します。
+4. テキストボックスにコードを入力または貼り付けます。
+5. **Confirm**を押して報酬を受け取ります。
+
+</Section>
+
+<Section icon={Swords} title="戦闘メカニクスとカードの種類">
+
+迷宮での戦闘はターン制で、手札からカードを出して敵の行動に対処していきます。攻撃カードと防御カードのバランスを理解することが、ダンジョン攻略の成否を分けます。
+
+| カードカテゴリ | 主な機能 | 戦略的な用途 |
+| :--- | :--- | :--- |
+| **攻撃カード (Attack)** | 敵に直接ダメージを与える | 敵が脆弱な状態のときやHPが低いときに優先して使用。 |
+| **防御カード (Defense)** | 受けるダメージを軽減/ブロックする | エリートモンスターからの強力な攻撃を凌ぐために必須。 |
+| **ユーティリティカード (Utility)** | ステータスを強化、またはカードをドローする | 次のターン以降で強力なコンボを仕掛けるために使用。 |
+| **E.G.Oカード (EGO)** | 影響力の大きい特殊能力 | ボス戦や難しいウェーブを突破するために温存する。 |
+
+<CardGrid cols={2}>
+  <Card title="デッキのシナジー">
+    お互いを補完し合うカードに焦点を当てましょう。例えば、一定量のブロックが有効なときに追加ダメージを与えるカードなどがあります。
+  </Card>
+  <Card title="リソース管理">
+    エネルギーやカードのドロー上限に注意してください。1ターンで使いすぎると、次のターンで無防備になってしまう可能性があります。
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="プロの戦略">
+ダメージが最も高いカードばかりを選ばないようにしましょう。防御手段のないデッキは、長いダンジョンフロアを進むにつれて消耗戦で簡単に敗北してしまいます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ダンジョンへの進入と探索ガイド">
+
+**Project Mirror Labyrinth Library**のロビーは雰囲気重視でミニマルなデザインになっているため、最初の挑戦時は戸惑うかもしれません。迷宮へと降りるには、主に2つの方法があります。
+
+<Steps>
+  <Step num="1" title="TABメニューからのルート">
+    キーボードの**TABキー**を押してメインインターフェースを開きます。そこから**Play**ボタンを選択すると、ダンジョンの開始エリアにテレポートします。
+  </Step>
+  <Step num="2" title="NO ENTRY（進入禁止）ゲート">
+    没入感のあるスタートがお好みの場合は、ロビーを歩いて物理的な**NO ENTRY（進入禁止）ゲート**を調べます。これがローグライト体験への手動ポータルとなっています。
+  </Step>
+  <Step num="3" title="迷宮の探索">
+    内部に入ったら、カードを使って部屋をクリアしていきます。道中では、デッキに新しいカードを追加したり、既存のカードをアップグレードしたりできるノードが出現することがあります。
+  </Step>
+  <Step num="4" title="メンテナンスへの対応">
+    火曜日にダンジョンに入れなくなった場合は、時間を確認してください。ゲームは毎週**東部時間（EST）午後2:00頃**に定期メンテナンスを行います。
+  </Step>
+</Steps>
+
+<Callout type="info" title="コントローラー非対応">
+2026年現在のバージョンでは、Project Mirror Labyrinthは**キーボードとマウス**に最適化されています。コントローラーのサポートは公式には明記されていないため、環境を合わせてプレイしてください。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reflection（鏡像）、Outfit（衣装）、そして育成">
+
+ゲームの「ガチャ」要素は**Reflections（鏡像）**を通じて行われます。Fragmentsを消費して**Outfits（衣装）**を引くことができ、これらはキャラクターの「クラス」や「ビルド」として機能し、独自のステータスやパッシブスキルを提供します。
+
+### 育成用の通貨
+
+| 通貨 | 主な入手方法 | 主な用途 |
+| :--- | :--- | :--- |
+| **Fragments** | コード、ダンジョン攻略 | Reflection（鏡像）ガチャ、新スキルの習得。 |
+| **Condense** | 特別報酬、マイルストーン | Outfit（衣装）の**Defragmenting（デフラグメント）**プロセスに使用。 |
+| **Seeds of Light** | 高難易度の報酬 | 高度なパッシブ能力やアップグレードの解放。 |
+| **Reflection Tickets** | イベント、コード | ピックアップ（Targeted）または通常（Standard）ガチャの無料チケット。 |
+
+<CardGrid cols={3}>
+  <Card title="ピックアップガチャ (Targeted Reflections)">
+    特定のビルドを完成させるために**特定のOutfit（衣装）**を狙っているプレイヤーに最適です。ピックアップ対象の出現率がアップしています。
+  </Card>
+  <Card title="通常ガチャ (Standard Reflections)">
+    利用可能なすべてのOutfitが含まれる一般的なプールです。初期の手札を増やしたい新規プレイヤーに適しています。
+  </Card>
+  <Card title="デフラグメント (Defragmentation)">
+    強化システムです。Outfitを入手したら、CondenseとSeeds of Lightを使ってその潜在能力を最大限に引き出しましょう。
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="リソースの節約">
+**SR確定メガチケット（SR Guaranteed Mega Tickets）**は、大型アップデート時や、ピックアップガチャに非常に強力なOutfitが登場したときのために温存しておきましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="毎日の目標とチェックリスト">
+
+常に変化する**Project Mirror Labyrinth Library**の迷宮で後れを取らないよう、このチェックリストに従ってアカウントを安定して育成しましょう。
+
+<Checklist
+  id="labyrinth-goals"
+  title="プレイヤーの必須目標:"
+  items={[
+    "スターターFragmentsを入手するために、すべての有効なコードを引き換える",
+    "コード適用の条件を満たすため、公式Robloxグループに参加する",
+    "リソース獲得のため、毎日少なくとも1回はダンジョンをクリアする",
+    "メインで使用する戦闘用Outfitのデフラグメント（Defragmenting）に集中する",
+    "毎週火曜日にTABメニューでアップデート情報を確認する"
+  ]}
+/>
+
+<Callout type="success" title="コミュニティからのヒント">
+リアルタイムのアップデート通知や、コミュニティによるデッキ構築戦略の情報を得るために、公式Discordコミュニティへの参加を強くお勧めします。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="よくある質問 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "ストーリーを理解するために『Library of Ruina』をプレイする必要はありますか？",
+    answer: "いいえ。ゲームは世界観から強いインスピレーションを得ており、特定のエンディングの後の出来事を描いていますが、開発者はゲームシステムやプレイを楽しむために事前の知識は必要ないと明言しています。"
+  },
+  {
+    question: "「No Entry」ゲートが機能しない場合の対処法は？",
+    answer: "これは通常、火曜日のメンテナンス時間帯（午後2:00頃）に発生します。メンテナンス時間外の場合は、ゲームの状態を同期するために新しいサーバーに入り直してみてください。"
+  },
+  {
+    question: "Fragmentsを素早く集める一番の方法は何ですか？",
+    answer: "「OfficeDelay」などの有効なコードを引き換えることで、スタートダッシュを切ることができます。その後は、継続的なダンジョン攻略や高難易度の戦闘をクリアすることが主な入手源となります。"
+  },
+  {
+    question: "Project Moonのゲームに対するネタバレはありますか？",
+    answer: "公式の説明によると、ゲームには『Library of Ruina』の重大なネタバレは含まれていないため、原作をまだクリアしていないファンでも安心してプレイできます。"
+  }
+]} />
+
+</Section>

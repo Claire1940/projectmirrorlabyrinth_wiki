@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.projectmirrorlabyrinth.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 7 个分类一一对应）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
+	'codes': 0.9,
+	'guide': 0.9,
+	'tier-list': 0.8,
+	'build': 0.8,
 	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'bosses': 0.7,
+	'modes': 0.7,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（与 navigation.ts 7 个分类一一对应）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'tier-list': 'weekly',
+	'build': 'weekly',
 	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'bosses': 'monthly',
+	'modes': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

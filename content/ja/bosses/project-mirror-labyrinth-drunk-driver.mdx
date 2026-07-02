@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth 酔っ払い運転手：完全ボス攻略ガイド",
+  description: "Project Mirror Labyrinthの「酔っ払い運転手（Drunk Driver）」戦をマスターしましょう。ギミック、最適なデッキ構築、鏡映（Reflections）、生存戦略について解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/17c5d6/fff?text=Drunk+Driver+Boss+Guide",
+  date: "2026-07-02",
+  author: "project mirror labyrinth Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **ボス遭遇**: **project mirror labyrinth 酔っ払い運転手（Drunk Driver）**は、厳格な防御管理が求められる高ダメージの脅威です。
+- **戦闘ループ**: 高威力の物理攻撃を軽減するため、攻撃アクションと強力な防御（ブロック）カードのバランスをとりましょう。
+- **主要通貨**: 有効なコードから**Fragments（断片）**を集め、恒常またはピックアップ鏡映（Reflections）から防御的なOutfit（衣装）を引きましょう。
+- **核心戦略**: ダンジョンに入る前に、パッシブ生存スキルを解放するためデフラグメンテーション（Defragmentation）のアップグレードを優先してください。
+</Callout>
+
+<Section icon={Swords} title="戦闘の概要とビデオガイド">
+
+**project mirror labyrinth 酔っ払い運転手**との遭遇は、デッキ構築の効率と防御のペース配分を試す重要な試練です。Roblox上のProject Moonにインスパイアされたこのローグライト体験では、生存はボタン連打ではなく、カードのシナジーに完全にかかっています。プレイヤーは、ボスの高威力な攻撃フェーズに耐えるために、高ダメージの攻撃カードと強力な防御カードを慎重にバランスよく使う必要があります。
+
+**動画の見どころ:**
+- **デッキ構成**: 挑戦を開始する前に、攻撃と防御のオプションをどのようにバランスさせるか学びましょう。
+- **戦闘の流れ**: リアルタイムのカード選択、コンボ、防御のタイミングを確認できます。
+- **ボスのパターン**: 重い物理打撃や高脅威フェーズの予兆を特定しましょう。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="warning" title="ボスの脅威レベル">
+ボスを倒すには、慎重な戦術的アプローチが必要です。激しい攻撃フェーズ中に防御カードを軽視すると、すぐにダンジョン攻略が終了してしまいます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="有効なコードと進行経済">
+
+**project mirror labyrinth 酔っ払い運転手**戦に備えて、利用可能なすべての無料報酬を受け取り、Outfitをアップグレードして重要なパッシブを解放しましょう。有効なコードを使用することで、恒常またはピックアップ鏡映から保護装備を引くために必要なFragmentsや材料を入手できます。
+
+| コード | ステータス | 報酬 | 実用的な用途 |
+| --- | --- | --- | --- |
+| **UrbanPlague** | 有効 | 405 Fragments | 恒常またはピックアップ鏡映のために貯める |
+| **OfficeDelay** | 有効 | 1,620 Fragments | アカウント統計の初期進行を大幅にブースト |
+| **NepoOffice** | 有効 | 405 Fragments | カードの購入やスキルのアップグレードに使用 |
+| **FauvistStudents** | 有効 | 405 Fragments | デフラグメンテーションの進行用通貨 |
+| **Welcome** | 有効 | 350 Fragments, 500 Condense, 3 Seeds of Light | 即時のOutfitアップグレード用スターターパック |
+
+<Callout type="success" title="引き換え条件">
+左側のメニューでコードを引き換える前に、公式ゲームページに「いいね」をし、[Project Mirror Labyrinth Roblox Community](https://www.roblox.com/communities/127473071/Project-Mirror-Labyrinth)に参加していることを確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="ダンジョンの開始方法とボスへの到達">
+
+ロビーを移動して攻略を開始するのは簡単です。ダンジョンに突入してボスと対峙するには、主に2つのエントリー方法があります。
+
+<Steps>
+  <Step num="1" title="ロビーの移動">
+    現在コントローラーはサポートされていないため、キーボードとマウスを使用して、公式の[Project Mirror Labyrinth Robloxゲームページ](https://www.roblox.com/games/116276659864007/Project-Mirror-Labyrinth)からゲームを起動します。
+  </Step>
+  <Step num="2" title="入場経路の選択">
+    キーボードの**TAB**キーを押してメニューから**Play**を選択するか、ロビーにある物理的な**NO ENTRY**ゲートまで直接歩いて行って開始します。
+  </Step>
+  <Step num="3" title="初期デッキの構築">
+    ボスアリーナに到達する前の雑魚敵を生き抜くため、防御ツールを優先したバランスの良い初期カードを選択しましょう。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="サーバーメンテナンス">
+毎週のメンテナンスは**火曜日の午後2時（日本時間では水曜未明など、地域による）**頃に行われます。突然の切断を防ぐため、この時間帯の近くで重要なダンジョン攻略を開始するのは避けましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Outfitと鏡映（Reflection）の進行戦略">
+
+ボスによる高いダメージを軽減するためには、キャラクターのステータスとパッシブ能力のアップグレードが不可欠です。集めたリソースを使用して、Outfitを引き、精錬しましょう。
+
+<CardGrid cols={3}>
+  <Card title="ピックアップ鏡映">
+    - **集中ドロップ**: 特定の防御的なOutfitを狙うのに最適です。
+    - **リソースコスト**: Fragmentsまたは専用のチケットを消費します。
+    - **戦略的価値**: 特定のビルドを目指す際の効率が高いです。
+  </Card>
+  <Card title="恒常鏡映">
+    - **幅広いプール**: アカウント全体の進行に役立ちます。
+    - **リソースコスト**: 優先度は低めですが、非常に入手しやすいです。
+    - **戦略的価値**: 序盤のキャラクター層を広げるのに適しています。
+  </Card>
+  <Card title="デフラグシステム">
+    - **パッシブ解放**: CondenseとSeeds of Lightを使用します。
+    - **ステータス強化**: 防御能力を永続的に向上させます。
+    - **戦略的価値**: 終盤のボスフェーズを生き残るために不可欠です。
+  </Card>
+</CardGrid>
+
+| リソース | 主な入手ルート | 育成優先度 |
+| --- | --- | --- |
+| **Fragments** | コード / ダンジョン攻略 | **高** (ガチャの主要通貨) |
+| **Condense** | コード「Welcome」 / マイルストーン | **中** (デフラグに必要) |
+| **Seeds of Light** | コード「Welcome」 / 特殊ドロップ | **中** (パッシブ解放に必要) |
+
+<Callout type="info" title="デフラグの焦点">
+防御的なパッシブやブロック生成ブーストを付与するOutfitのデフラグを優先してください。これはボスの強力な物理攻撃を直接カウンターする手段となります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="ダンジョン挑戦前のチェックリスト">
+
+迷宮でボスに挑む前に、アカウントが十分に準備されているかこのリストで確認しましょう。
+
+<Checklist
+  id="boss-prep"
+  title="挑戦前のチェックリスト:"
+  items={[
+    "利用可能なすべてのコードを引き換え、無料のFragmentsと素材を入手した",
+    "高い防御ステータスや物理耐性パッシブを持つOutfitを装備した",
+    "主要なOutfitをデフラグし、ティア1のパッシブスキルを解放した",
+    "初期デッキに少なくとも40%以上のブロックまたは防御カードが含まれていることを確認した",
+    "サーバーが火曜日の定期メンテナンス時間近くではないことを確認した"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="よくある質問（FAQ）">
+
+<FAQ items={[
+  {
+    question: "酔っ払い運転手の高ダメージ物理フェーズを生き残るには？",
+    answer: "デッキ内のブロックカードと防御カードの健全なバランスを維持する必要があります。攻撃カードだけに固執せず、ボスの予兆がある高ダメージターンに備えて、最も強力な防御ツールを温存しておきましょう。"
+  },
+  {
+    question: "コードメニューが機能しない、またはコードが拒否される場合は？",
+    answer: "公式のProject Mirror Labyrinth Robloxコミュニティグループに参加し、ゲームに「いいね」をしているか確認してください。また、ロビーのセッションを再起動して、最新のサーバーにいることを確認してください。"
+  },
+  {
+    question: "コントローラーでプレイできますか？",
+    answer: "いいえ、現在のところRobloxの体験ページはコントローラー入力をサポートしていません。最適なカード選択速度を確保するため、標準的なキーボードとマウスでのプレイを強く推奨します。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth リカルド：最強ビルド＆カード戦略ガイド",
+  description: "Robloxのデッキ構築ゲーム『Project Mirror Labyrinth』のリカルドビルドをマスターするための2026年最新ガイド。有効なコード、人格（Outfit）抽出のコツ、ダンジョン攻略戦略を紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1b91a7/fff?text=Ricardo+Build+Guide",
+  date: "2026-07-02",
+  author: "Project Mirror Labyrinth Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Project Mirror Labyrinth リカルド**: 中指の兄「リカルド」にインスパイアされた、高火力の物理ダメージと混乱（Stagger）ビルドに焦点を当てています。
+- **有効なコード**: **UrbanPlague** や **Welcome** を使用して、無料の「破片（Fragments）」や「光の種（Seeds of Light）」を獲得しましょう。
+- **核心メカニクス**: ローグライトダンジョンを生き抜くために、**攻撃（Attack）**カードと**防御（Defense）**カードのバランスを取りましょう。
+- **育成のヒント**: 高ティアの人格（Outfit）を解放するために、**メガ抽出チケット（Mega Reflection Tickets）**は特定のターゲットバナー用に温存しておきましょう。
+- **メンテナンス**: サーバーは通常、毎週**火曜日の午後2:00（日本時間）**にアップデートされるため、計画的にダンジョンに挑戦しましょう。
+</Callout>
+
+<Section icon={Map} title="Project Mirror Labyrinth Ricardo: Getting Started">
+
+『Project Mirror Labyrinth』は、Project Moonの世界観（特に『Library of Ruina（図書館）』や『Limbus Company』）から強いインスピレーションを受けた、洗練されたRobloxのローグライトデッキ構築ゲームです。**Project Mirror Labyrinthのリカルド**ビルドを目指す場合、プレイヤーは中指の兄であるリカルドの圧倒的な物理的支配力と高プレッシャーな戦闘スタイルの再現を目指することになります。このゲームで成功するには、単なる運だけでなく、カードのシナジー、リソース管理、そして強力な人格（Outfit）を解放するための「破片（Fragments）」の戦術的な使用についての深い理解が必要です。
+
+**動画のハイライト:**
+- カードベースの戦闘システムの詳細な解説。
+- ダンジョンロビーの進み方と「NO ENTRY」ゲートの使い方。
+- 新しい人格（Outfit）を入手するための「抽出（Reflection）」ガチャシステムの紹介。
+- ゲーム序盤のダンジョン生存戦略。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="tip" title="初心者向け戦略">
+最初の挑戦を始める前に、公式のRobloxコミュニティに参加し、ゲームに「いいね」を押していることを確認してください。これは、最初の人格抽出に必要な「破片」を獲得できる、最も価値のあるコードを引き換えるための前提条件となっていることが多いです。
+</Callout>
+
+### 有効な特典コード（2026年7月）
+
+**Project Mirror Labyrinthのリカルド**の旅をスムーズに始めるには、利用可能な通貨コードを活用する必要があります。これらのリソースを使用することで、序盤の周回をスキップし、初期人格の「解析（Defragment）」をすぐに始めることができます。
+
+| コード | 報酬タイプ | 価値 | ステータス |
+| :--- | :--- | :--- | :--- |
+| **UrbanPlague** | 破片 | 405 | **有効** |
+| **OfficeDelay** | 破片 | 1,620 | **有効** |
+| **NepoOffice** | 破片 | 405 | **有効** |
+| **FauvistStudents** | 破片 | 405 | **有効** |
+| **Welcome** | スターターパック | 破片350 / 凝縮500 / 種3 | **有効** |
+| **BambooHat** | 破片 | 405 | 期限切れ |
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Ricardo Build Meta">
+
+『Project Mirror Labyrinth』の戦闘は、すべての選択が重要となるターン制カードシステムを中心に展開します。**Project Mirror Labyrinthのリカルド**風ビルドを目指す場合、プレイヤーは高い「混乱（Stagger）」ダメージと「打撃（Blunt）」耐性を提供するカードに焦点を当てる必要があります。出血や火傷などの効果に頼る標準的なビルドとは異なり、リカルドにインスパイアされたデッキは、圧倒的な力で敵のガードをできるだけ早く崩す（混乱させる）ことに特化しています。
+
+<Callout type="warning" title="マッチ（Clash）メカニクス">
+カードをプレイする前に、常に敵の予定している行動を確認してください。敵が強力な攻撃を仕掛けてくる場合は、**防御カード**を優先するか、出目の高い**攻撃カード**を使用して「マッチ（Clash）」に勝利し、大ダメージを回避する必要があります。
+</Callout>
+
+### カードタイプの比較
+
+長いダンジョン攻略においてHPを維持するには、異なるカードタイプ間のバランスを理解することが不可欠です。
+
+| カードカテゴリ | 主な機能 | リカルドシナジー | 最適な使用場面 |
+| :--- | :--- | :--- | :--- |
+| **攻撃** | 直接HPダメージを与える | 高（打撃重視） | 敵の速度が低い時 |
+| **防御** | 被ダメージを軽減する | 中 | ボスの高火力ターン時 |
+| **ユーティリティ** | カードを引く、またはリソースを得る | 低 | 手札が枯渇した時 |
+| **E.G.O** | 究極のパワーアップ | 極めて高 | エリート敵にトドメを刺す時 |
+
+基礎ステータスを強化する物理特化の人格（Outfit）に焦点を当てることで、標準的なデッキを迷宮の最深部をクリアできるほどの強力なデッキへと変貌させることができます。敵の難易度上昇に対応するため、攻略中に**凝縮（Condense）**を使用してこれらのカードをアップグレードすることを忘れないでください。
+
+</Section>
+
+<Section icon={Sparkles} title="Reflections and Outfit Progression">
+
+**抽出（Reflections）**と呼ばれるガチャシステムは、プレイスタイルを決定づける人格（Outfits）を入手する場所です。**Project Mirror Labyrinthのリカルド**ビルドを完成させるには、物理特化のキャラクターや、「中指」などの戦闘に特化した組織に所属するキャラクターがピックアップされている抽出を狙う必要があります。
+
+<CardGrid cols={2}>
+  <Card title="ターゲット抽出">
+    - **ピックアップ確率**: 特定の高ティア人格の出現確率が上昇します。
+    - **戦略**: 物理ダメージ特化のバナーが登場するまで、破片を温存しておきましょう。
+    - **リソース**: 通常の破片、またはターゲットチケットを消費します。
+  </Card>
+  <Card title="通常抽出">
+    - **恒常プール**: 現在ゲーム内に実装されているすべての非限定人格が含まれます。
+    - **戦略**: 初期の手札（人格）を揃えたい初心者に最適です。
+    - **リソース**: 通常の抽出チケットを使用します。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="解析（Defragment）のヒント">
+目的の人格を手に入れたら、**光の種**と**凝縮**を使ってそれを「解析（Defragment）」しましょう。このプロセスにより、カードをプレイするごとのダメージ増加や、敵を倒した際のHP回復など、ゲーム終盤のダンジョン生存に極めて重要なパッシブ能力が解放されます。
+</Callout>
+
+### 人格のレア度と育成
+
+| システム | 必要素材 | 効果 | 優先度 |
+| :--- | :--- | :--- | :--- |
+| **抽出** | 破片 / チケット | 新しい人格の解放 | 5/5 |
+| **解析** | 凝縮 / 種 | パッシブの解放 | 4/5 |
+| **スキル習得** | 破片 | カード性能の向上 | 3/5 |
+| **メガチケット** | レアイベントドロップ | SR/SSR確定 | 5/5 |
+
+</Section>
+
+<Section icon={Target} title="Dungeon Progression: Step-by-Step Guide">
+
+迷宮（ラビリンス）への進入は、このゲームの核心となるループです。破片を集めるためであれ、新しい**Project Mirror Labyrinthのリカルド**デッキをテストするためであれ、計画的なアプローチで各周回に臨むことで、効率を最大化できます。
+
+<Steps>
+  <Step num="1" title="ロビーでの準備">
+    まず、画面左側にある**Codes（コード）**メニューを確認します。有効なコードをすべて入力し、攻略中のアップグレードに必要な破片を十分に確保しておきましょう。また、使用中のアクティブな人格が、レベルアップさせたいものであることを確認してください。
+  </Step>
+  <Step num="2" title="迷宮への進入">
+    **TAB**キーを押してメインメニューを開き、**Play**を選択するか、キャラクターを「**NO ENTRY**」ゲートまで歩かせてください。これにより、初期デッキが生成されるダンジョンのスタートエリアにテレポートします。
+  </Step>
+  <Step num="3" title="ルート選択">
+    ダンジョンは一本道ではありません。序盤は**E.G.Oギフト**や**カードアップグレード**を獲得できるルートを選びましょう。デッキ内に強力なシナジーが少なくとも2〜3個確立されるまでは、エリート敵との遭遇は避けてください。
+  </Step>
+  <Step num="4" title="リソース管理">
+    攻略中、一時的な通貨を獲得できます。これを休息ポイントで使用して回復するか、リカルドビルドに合わない「不要な」カードをデッキから削除しましょう。カードが詰まった肥大化したデッキよりも、15〜20枚に絞り込まれたデッキの方が通常は強力です。
+  </Step>
+  <Step num="5" title="ボス戦">
+    ボスは独自のギミックを持っています。ボスの「パッシブ」バフを観察し、それに応じてカードの出し方を調整してください。ボスとのマッチに勝利すると、多くの場合「混乱（Stagger）」状態が誘発され、1ターンの間2倍のダメージを与えることができます。
+  </Step>
+</Steps>
+
+<Callout type="info" title="メンテナンスへの注意">
+攻略中に接続が切れた場合は、時間を確認してください。ゲームは毎週**火曜日の午後2:00（日本時間）**にメンテナンスを行います。この時間帯はダンジョンの進行状況が保存されない可能性があり、一時的にサーバーにアクセスできなくなります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Goals and Checklist">
+
+熱心なプレイヤーにとっての最終目標は、**Project Mirror Labyrinthのリカルド**構成を完成させ、最高難易度の「採光（Luxcavations）」をクリアすることです。これには、完全に解析された人格と、現在のメタに最適化されたデッキが必要です。
+
+<Checklist
+  id="ricardo-goals"
+  title="リカルドビルドのマイルストーン："
+  items={[
+    "「Welcome」と「OfficeDelay」のコードを引き換えて、2,000以上の破片を獲得する",
+    "ターゲット抽出から物理/打撃特化の人格を獲得する",
+    "メインのリカルド人格の解析レベルを3にする",
+    "HPを50%以上失うことなく、ダンジョンを完全にクリアする",
+    "物理ダメージを強化するE.G.Oパッシブを少なくとも3つ解放する"
+  ]}
+/>
+
+<Callout type="tip" title="コミュニティの知恵">
+「隠された」仕様に関する最新情報を得るために、公式のDiscordコミュニティに参加しましょう。開発者は、カードのダメージ値の変更や、リカルドビルドを大幅に強化できる新しい人格シナジーの詳細を記載したパッチノートを、Discordで最初に公開することがよくあります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Project Mirror Labyrinthで最強のリカルドビルドを作るにはどうすればいいですか？",
+    answer: "打撃ダメージボーナスと高い混乱耐性を提供する人格に焦点を当ててください。破片を使って物理特化キャラクターがピックアップされているバナーから抽出し、「マッチ（Clash）」値の高いカードのアップグレードを優先しましょう。"
+  },
+  {
+    question: "コードが使えない場合はどうすればいいですか？",
+    answer: "Project Mirror Labyrinthのコードは大文字と小文字を区別します。また、Robloxコミュニティへの参加やゲームへの「いいね」が条件となっていることが多いため、それらを満たしているか確認してください。それでも使えない場合は、直近の火曜日のメンテナンス時に期限切れになった可能性があります。"
+  },
+  {
+    question: "破片を最も効率よく集める方法は何ですか？",
+    answer: "最も早い方法は、「OfficeDelay」などの有効なコードを引き換えることです。それらを使い flattened（使い果たした）後は、日課のダンジョン攻略を完了し、「採光（Luxcavations）」に参加することで、抽出に必要な破片を安定して獲得できます。"
+  },
+  {
+    question: "Project Mirror LabyrinthはProject Moonの公式ゲームですか？",
+    answer: "いいえ、これは『Slay the Spire』やProject Moon作品にインスパイアされた、ファンメイドのRobloxゲームです。同様のテーマやメカニクスを採用していますが、Project Mirror Labyrinthのコミュニティグループによって運営されています。"
+  }
+]} />
+
+</Section>
