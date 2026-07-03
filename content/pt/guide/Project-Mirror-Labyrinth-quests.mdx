@@ -1,0 +1,116 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Missões do Project Mirror Labyrinth: Guia Completo e Recompensas de NPCs",
+  description: "Domine todas as missões do Project Mirror Labyrinth com nosso guia detalhado. Aprenda localizações de NPCs, linhas de missão e recompensas como Condense e fragmentos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Quests+and+Rewards+Guide",
+  date: "2026-07-03",
+  author: "Equipe da Wiki do Project Mirror Labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Complete as linhas de missão específicas de NPCs para desbloquear moedas de progressão essenciais, melhorias de entrega e níveis de pesquisa.
+- **Locais Chave**: Navegue até os centros principais, incluindo a Biblioteca Deici, Edifício Hana e Edifício Devyat para aceitar missões.
+- **Recompensas Cruciais**: Ganhe Condense, Fragmentos e expansões de Entrega valiosos para fortalecer suas capacidades de construção de deck.
+- **Estratégia de Combate**: Adapte os tamanhos do seu deck de cartas e táticas de batalha para atender às rigorosas condições de conclusão de missão.
+</Callout>
+
+<Section icon={Map} title="Visão Geral das Missões do Project Mirror Labyrinth">
+
+No rogue-lite do Roblox inspirado em Project Moon, **Project Mirror Labyrinth**, completar missões é a maneira mais rápida de garantir recursos vitais de progressão de personagem. As missões são entregues por representantes de facções distintas situados em marcos importantes nos distritos da cidade. Completar essas tarefas com sucesso concede materiais como Condense, Fragmentos e melhorias passivas de entrega.
+
+**Destaques do Vídeo:**
+- Aprenda como gerenciar combos de cartas durante encontros de combate.
+- Guia visual sobre como navegar pelos limites do deck de personagens para os testes da biblioteca.
+- Passo a passo de encontros com chefes de alto nível como Philip.
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="tip" title="Dica de Especialista">
+Antes de sair para caçar alvos, sempre otimize seu deck. Manter seu deck enxuto garante que você compre suas cartas de dano de alto valor com mais consistência durante encontros difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Localizações de NPCs e Linhas de Missão">
+
+Cada dador de missão pertence a uma facção ou local específico dentro do Project Mirror Labyrinth. Entender onde encontrá-los e quais requisitos eles exigem evitará tempo de viagem desperdiçado. 
+
+| NPC | Localização | Objetivos Principais da Missão | Recompensas Chave |
+| :--- | :--- | :--- | :--- |
+| **Deici Librarian** | Biblioteca Deici | Matar 10 inimigos, vencer 5 encontros, máx. 5 cartas no deck | Condense, Fragmentos |
+| **LCE Researcher** | Edifício Hana | Matar 1 Zayin, 5 Teth/He e 3 anormalidades Waw | Níveis de pesquisa |
+| **Devyat Rep** | Edifício Devyat | Vencer estágios, usar passiva da Devyat, completar em menos de 20 turnos | +1 Melhoria de Entrega |
+
+<Callout type="warning" title="Restrição Importante de Deck">
+A missão do Bibliotecário Deici exige que você tenha um **máximo de 5 cartas** em seu deck ativo. Tentar encontros com um deck maior desqualificará seu progresso nesta linha de missão específica.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia de Conclusão de Missão Passo a Passo">
+
+Para limpar eficientemente todas as três principais linhas de missão, siga este caminho estruturado para otimizar suas corridas de combate e minimizar a contagem de turnos.
+
+<Steps>
+  <Step num="1" title="Limpar os Testes da Biblioteca Deici">
+    Localize o Bibliotecário Deici dentro da Biblioteca Deici. Reduza seu deck para exatamente 5 cartas. Vá para os encontros nas Backstreets ou na Biblioteca para derrotar 10 inimigos e limpar 5 encontros no total.
+  </Step>
+  <Step num="2" title="Avançar a Pesquisa do Edifício Hana">
+    Visite o Pesquisador LCE dentro do Edifício Hana. Cace Anormalidades em diferentes classificações de dificuldade: derrote 1 Zayin, 5 Teth/He e 3 ameaças de nível Waw para desbloquear níveis de pesquisa mais altos.
+  </Step>
+  <Step num="3" title="Otimizar as Operações de Entrega da Devyat">
+    Fale com o Rep da Devyat dentro do Edifício Devyat. Complete qualquer estágio duas vezes, ative a passiva da Devyat para repetir o feito e otimize sua estratégia para terminar um estágio em menos de 20 turnos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Otimização de Recompensas">
+Completar a linha de missão do Rep da Devyat desbloqueia a passiva **Speedy Courier**. Esta passiva é altamente recomendada para jogadores que buscam acelerar suas corridas de estágio e maximizar a eficiência da entrega.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão de Missão">
+
+Acompanhe seus marcos de missão ativos para garantir que você não perca nenhum desbloqueio valioso ou melhoria passiva.
+
+<Checklist
+  id="pml-quest-tracker"
+  title="Marcos de Missão Ativos:"
+  items={[
+    "Derrotar 10 inimigos para o Bibliotecário Deici",
+    "Vencer 5 encontros com um deck de 5 cartas ou menos",
+    "Abater 1 Zayin, 5 Teth/He e 3 Anormalidades Waw",
+    "Completar qualquer estágio em menos de 20 turnos",
+    "Desbloquear a passiva de melhoria +1 de Entrega da Devyat"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar o Bibliotecário Deici?",
+    answer: "O Bibliotecário Deici está localizado dentro da Biblioteca Deici. Você pode obter Condense e Fragmentos completando seus testes de combate."
+  },
+  {
+    question: "Qual é a recompensa por completar as missões do Rep da Devyat?",
+    answer: "Completar a linha de missão do Rep da Devyat recompensa você com uma melhoria de +1 Entrega e desbloqueia a passiva Speedy Courier."
+  },
+  {
+    question: "Como completo o requisito de menos de 20 turnos para a Devyat?",
+    answer: "Foque em combos de cartas de alto dano, minimize ações defensivas a menos que seja necessário e mantenha o tamanho do seu deck otimizado para comprar suas melhores cartas ofensivas cedo no estágio."
+  }
+]} />
+
+</Section>

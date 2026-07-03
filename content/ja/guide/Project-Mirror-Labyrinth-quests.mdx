@@ -1,0 +1,116 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth クエスト：完全攻略ガイド＆NPC報酬",
+  description: "包括的な攻略ガイドで Project Mirror Labyrinth のすべてのクエストをマスターしましょう。NPCの場所、クエストライン、凝縮物（Condense）や欠片（Fragments）などの報酬について解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Quests+and+Rewards+Guide",
+  date: "2026-07-03",
+  author: "project mirror labyrinth Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要目的**: NPC専用のクエストラインを完了して、キャラクター進行に不可欠な通貨、配達アップグレード、研究レベルをアンロックします。
+- **主要な場所**: ディエチ図書館、ハナ協会ビル、デヴャーチ協会ビルなどの主要拠点を巡り、クエストを受注します。
+- **重要な報酬**: 貴重な凝縮物（Condense）、欠片（Fragments）、配達拡張を獲得し、デッキ構築能力を強化しましょう。
+- **戦闘戦略**: 厳格なクエスト完了条件を満たすために、カードデッキのサイズや戦闘戦術を調整してください。
+</Callout>
+
+<Section icon={Map} title="Project Mirror Labyrinth クエストの概要">
+
+Project MoonにインスパイアされたRobloxのローグライト **Project Mirror Labyrinth** において、クエストの完了はキャラクター進行に必要な重要リソースを確保する最速の方法です。クエストは、都市の各地区にある主要なランドマークに位置する、異なる派閥の代表者から与えられます。これらのタスクを正常に完了すると、凝縮物、欠片、パッシブ配達アップグレードなどの素材が報酬として与えられます。
+
+**動画の見どころ:**
+- 戦闘中のカードコンボの管理方法を学ぶ。
+- 図書館の試練におけるキャラクターのデッキ制限に関する視覚的ガイド。
+- フィリップなどの高ティアボス戦のウォークスルー。
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company が融合したゲーム？！" />
+
+<Callout type="tip" title="プロのヒント">
+ターゲットを狩りに出発する前に、必ずデッキを最適化してください。デッキをスリムに保つことで、厳しい戦闘中に高価値のダメージカードを一貫して引きやすくなります。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="NPCの場所とクエストライン">
+
+各クエスト依頼者は、Project Mirror Labyrinth 内の特定の派閥や場所に属しています。彼らがどこにいるのか、どのような要件を求めているのかを理解することで、移動時間の無駄を防ぐことができます。
+
+| NPC | 場所 | 主要なクエスト目標 | 重要な報酬 |
+| :--- | :--- | :--- | :--- |
+| **ディエチ図書館員** | ディエチ図書館 | 敵を10体倒す、エンカウントを5回クリアする、デッキ最大5枚 | 凝縮物、欠片 |
+| **LCE研究員** | ハナ協会ビル | Zayin級1体、Teth/He級5体、Waw級3体の幻想体を倒す | 研究レベル |
+| **デヴャーチ代表者** | デヴャーチ協会ビル | ステージをクリアする、デヴャーチのパッシブを使用する、20ターン以内でクリア | 配達アップグレード+1 |
+
+<Callout type="warning" title="重要なデッキ制限">
+ディエチ図書館員のクエストでは、アクティブなデッキの枚数を**最大5枚**にする必要があります。5枚より多いデッキでエンカウントに挑むと、この特定のクエストラインの進行状況はカウントされません。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="ステップバイステップ・クエスト完了ガイド">
+
+3つの主要なクエストラインを効率的にクリアするために、以下の構造化されたルートに従って戦闘ランを最適化し、ターン数を最小限に抑えましょう。
+
+<Steps>
+  <Step num="1" title="ディエチ図書館の試練をクリアする">
+    ディエチ図書館内にいるディエチ図書館員を見つけます。デッキをちょうど5枚まで削ります。裏路地または図書館のエンカウントに向かい、敵を10体倒し、合計5回のエンカウントをクリアします。
+  </Step>
+  <Step num="2" title="ハナ協会ビルの研究を進める">
+    ハナ協会ビル内のLCE研究員を訪ねます。異なる危険度の幻想体（Abnormalities）を狩ります。Zayin級1体、Teth/He級5体、Waw級3体の脅威を倒して、より高い研究ティアをアンロックしましょう。
+  </Step>
+  <Step num="3" title="デヴャーチの配達業務を最適化する">
+    デヴャーチ協会ビル内のデヴャーチ代表者と話します。任意のステージを2回クリアし、デヴャーチのパッシブを発動してその偉業を繰り返し、20ターン以内にステージをクリアできるよう戦略を最適化します。
+  </Step>
+</Steps>
+
+<Callout type="success" title="報酬の最適化">
+デヴャーチ代表者のクエストラインを完了すると、**迅速な運び屋（Speedy Courier）**パッシブがアンロックされます。このパッシブは、ステージ攻略をスピードアップし、配達効率を最大化したいプレイヤーに強く推奨されます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="クエスト進行チェックリスト">
+
+貴重なアンロックやパッシブアップグレードを見逃さないよう、アクティブなクエストのマイルストーンを追跡しましょう。
+
+<Checklist
+  id="pml-quest-tracker"
+  title="現在進行中のクエストマイルストーン:"
+  items={[
+    "ディエチ図書館員のために敵を10体倒す",
+    "5枚以下のデッキでエンカウントに5回勝利する",
+    "Zayin級1体、Teth/He級5体、Waw級3体の幻想体を討伐する",
+    "20ターン以内に任意のステージをクリアする",
+    "デヴャーチの配達アップグレード+1パッシブをアンロックする"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="よくある質問 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "ディエチ図書館員はどこにいますか？",
+    answer: "ディエチ図書館員はディエチ図書館の中にいます。彼らの戦闘試練を完了することで、凝縮物と欠片を獲得できます。"
+  },
+  {
+    question: "デヴャーチ代表者のクエストを完了する報酬は何ですか？",
+    answer: "デヴャーチ代表者のクエストラインを完了すると、配達アップグレード+1が与えられ、迅速な運び屋（Speedy Courier）パッシブがアンロックされます。"
+  },
+  {
+    question: "デヴャーチの20ターン以内クリアの要件はどうすれば達成できますか？",
+    answer: "高ダメージのカードコンボに集中し、必要のない限り防御アクションを最小限に抑えます。また、ステージの早い段階で最高の攻撃カードを引けるよう、デッキサイズを最適化しておきましょう。"
+  }
+]} />
+
+</Section>

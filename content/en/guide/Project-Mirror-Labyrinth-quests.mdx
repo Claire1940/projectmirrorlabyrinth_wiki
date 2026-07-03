@@ -1,0 +1,116 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Quests: Complete Walkthrough & NPC Rewards",
+  description: "Master all Project Mirror Labyrinth quests with our comprehensive walkthrough. Learn NPC locations, quest lines, and rewards like condense and fragments.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Quests+and+Rewards+Guide",
+  date: "2026-07-03",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Complete NPC-specific quest lines to unlock essential progression currencies, delivery upgrades, and research levels.
+- **Key Locations**: Navigate to key hubs including the Deici Library, Hana Building, and Devyat Building to accept quests.
+- **Crucial Rewards**: Earn valuable Condense, Fragments, and Delivery expansions to power up your deck-building capabilities.
+- **Combat Strategy**: Tailor your card deck sizes and battle tactics to meet strict quest completion conditions.
+</Callout>
+
+<Section icon={Map} title="Overview of Project Mirror Labyrinth Quests">
+
+In the Project Moon-inspired Roblox rogue-lite **Project Mirror Labyrinth**, completing quests is the fastest way to secure vital character progression resources. Quests are handed out by distinct faction representatives situated across key landmarks within the city districts. Successfully completing these tasks awards materials like Condense, Fragments, and passive delivery upgrades.
+
+**Video Highlights:**
+- Learn how to manage card combos during combat encounters.
+- Visual guide on navigating character deck limits for library trials.
+- Walkthrough of high-tier boss encounters like Philip.
+
+<YouTubeEmbed videoId="UvVyOdtVVvM" title="Roblox Project Mirror Labyrinth - Library of Ruina + Limbus Company Fusion Game?!" />
+
+<Callout type="tip" title="Pro Tip">
+Before heading out to hunt down targets, always optimize your deck. Keeping your deck lean ensures you draw your high-value damage cards more consistently during tough encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="NPC Locations and Quest Lines">
+
+Each quest-giver belongs to a specific faction or location within Project Mirror Labyrinth. Understanding where to find them and what requirements they demand will prevent wasted travel time. 
+
+| NPC | Location | Core Quest Objectives | Key Rewards |
+| :--- | :--- | :--- | :--- |
+| **Deici Librarian** | Deici Library | Kill 10 enemies, beat 5 encounters, max 5 cards in deck | Condense, Fragments |
+| **LCE Researcher** | Hana Building | Kill 1 Zayin, 5 Teth/He, and 3 Waw abnormalities | Research levels |
+| **Devyat Rep** | Devyat Building | Beat stages, use Devyat passive, complete under 20 turns | +1 Delivery upgrade |
+
+<Callout type="warning" title="Important Deck Restriction">
+The Deici Librarian quest requires you to have a **maximum of 5 cards** in your active deck. Attempting encounters with a larger deck will disqualify your progress toward this specific quest line.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Quest Completion Guide">
+
+To efficiently clear all three major quest lines, follow this structured path to optimize your combat runs and minimize turn counts.
+
+<Steps>
+  <Step num="1" title="Clear the Deici Library Trials">
+    Locate the Deici Librarian inside the Deici Library. Trim your deck down to exactly 5 cards. Head into the Backstreets or Library encounters to defeat 10 enemies and clear 5 total encounters.
+  </Step>
+  <Step num="2" title="Advance Hana Building Research">
+    Visit the LCE Researcher inside the Hana Building. Hunt down Abnormalities across different difficulty ratings: defeat 1 Zayin, 5 Teth/He, and 3 Waw-level threats to unlock higher research tiers.
+  </Step>
+  <Step num="3" title="Optimize Devyat Delivery Operations">
+    Speak with the Devyat Rep inside the Devyat Building. Complete any stage twice, activate the Devyat passive to repeat the feat, and optimize your strategy to finish a stage in under 20 turns.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Reward Optimization">
+Completing the Devyat Rep's quest line unlocks the **Speedy Courier** passive. This passive is highly recommended for players looking to speed up their stage runs and maximize delivery efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quest Progression Checklist">
+
+Track your active quest milestones to ensure you do not miss any valuable unlocks or passive upgrades.
+
+<Checklist
+  id="pml-quest-tracker"
+  title="Active Quest Milestones:"
+  items={[
+    "Defeat 10 enemies for the Deici Librarian",
+    "Win 5 encounters with a deck of 5 cards or fewer",
+    "Slay 1 Zayin, 5 Teth/He, and 3 Waw Abnormalities",
+    "Complete any stage in under 20 turns",
+    "Unlock the Devyat +1 Delivery upgrade passive"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Where can I find the Deici Librarian?",
+    answer: "The Deici Librarian is located inside the Deici Library. You can obtain Condense and Fragments by completing their combat trials."
+  },
+  {
+    question: "What is the reward for completing the Devyat Rep quests?",
+    answer: "Completing the Devyat Rep quest line rewards you with a +1 Delivery upgrade and unlocks the Speedy Courier passive."
+  },
+  {
+    question: "How do I complete the under 20 turns requirement for Devyat?",
+    answer: "Focus on high-damage card combos, minimize defensive actions unless necessary, and keep your deck size optimized to draw your best offensive cards early in the stage."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Abnormality Egg: Unlocking Secrets",
+  description: "Master the Project Mirror Labyrinth abnormality egg mechanics with our expert guide to incubation, rewards, and optimal strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Abnormality+Egg+Guide",
+  date: "2026-07-03",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Project Mirror Labyrinth abnormality egg** is a key progression item for character growth.
+- **Incubation timing** significantly impacts the rarity and stats of the resulting entity.
+- Proper **resource allocation** is mandatory to optimize the hatching process efficiently.
+- Players should prioritize **high-tier environments** to maximize the potential of the abnormality egg.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding the Abnormality Egg">
+
+The abnormality egg serves as a cornerstone of the progression system in Project Mirror Labyrinth. Unlike standard item drops, these eggs require active management and environmental setup to hatch successfully. Understanding the nuances of how these eggs interact with the game's labyrinthine architecture is essential for any player looking to optimize their power levels.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| Rarity Tier | Determines base stat potential | High |
+| Incubation Time | Duration required for hatching | Medium |
+| Environment | Location-based bonuses | Critical |
+| Resource Cost | Materials needed for activation | High |
+
+<Callout type="tip" title="Strategic Insight">
+Always inspect the environmental requirements of your abnormality egg before beginning the incubation process. Placing an egg in an incompatible zone can significantly reduce its final stat growth potential.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Incubation Process Steps">
+
+Successfully hatching an egg involves a precise sequence of actions. Follow these steps to ensure you get the best possible outcome from your Project Mirror Labyrinth abnormality egg.
+
+<Steps>
+  <Step num="1" title="Acquisition">
+    Locate and secure the egg from high-difficulty labyrinth chambers or event-specific rewards.
+  </Step>
+  <Step num="2" title="Environmental Calibration">
+    Navigate to a specialized incubation station that matches the egg's elemental affinity.
+  </Step>
+  <Step num="3" title="Resource Stabilization">
+    Inject the required stabilizing agents to prevent corruption during the incubation phase.
+  </Step>
+  <Step num="4" title="Final Hatching">
+    Wait for the timer to conclude and collect your reward from the incubation pod.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Stability Warning">
+Do not interrupt the incubation process once it has started. Interruption may lead to a corrupted entity, resulting in significantly lower performance stats compared to a fully stabilized hatch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimization Strategies">
+
+To maximize efficiency, players should treat the incubation process as a long-term investment. Using specific items can boost the "Growth Multiplier" of the egg, leading to stronger base stats upon hatching.
+
+| Optimization Item | Effect | Availability |
+| :--- | :--- | :--- |
+| Crystal Dust | Increases growth speed by 10% | Common |
+| Stabilizer Core | Prevents stat degradation | Rare |
+| Echo Essence | Enhances rare ability inheritance | Very Rare |
+
+<CardGrid cols={3}>
+  <Card title="Speed Focus">
+    - Prioritize Crystal Dust
+    - Best for low-tier eggs
+    - High-turnover strategy
+  </Card>
+  <Card title="Quality Focus">
+    - Prioritize Echo Essence
+    - Best for legendary eggs
+    - Long-term investment
+  </Card>
+  <Card title="Safe Progression">
+    - Prioritize Stabilizer Cores
+    - Minimize risk of failure
+    - Consistent results
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Efficiency Pro-Tip">
+Pairing your incubation with daily login bonuses often yields extra stabilizers, allowing you to run multiple high-tier eggs simultaneously without depleting your primary resource pool.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maintenance Checklist">
+
+Managing your incubator inventory is just as important as the hatching process itself. Keep this checklist to ensure you never waste an opportunity for a high-stat gain.
+
+<Checklist
+  id="egg-maintenance"
+  title="Daily Maintenance Goals:"
+  items={[
+    "Clear expired incubation pods",
+    "Restock stabilizing agents",
+    "Check for rare egg drops in daily dungeons",
+    "Upgrade incubation station levels"
+  ]}
+/>
+
+| Station Level | Max Simultaneous Eggs | Efficiency Bonus |
+| :--- | :--- | :--- |
+| Level 1 | 1 | 0% |
+| Level 2 | 2 | 5% |
+| Level 3 | 3 | 12% |
+| Level 4 | 5 | 25% |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase the rarity of a Project Mirror Labyrinth abnormality egg?",
+    answer: "Rarity is determined at the moment of acquisition. However, you can use high-tier environmental modifiers to influence the final stat rolls during incubation."
+  },
+  {
+    question: "Can I speed up the incubation process?",
+    answer: "Yes, using items like Crystal Dust or specific character buffs can reduce the required waiting time for your egg."
+  },
+  {
+    question: "What happens if I fail to provide enough stabilizers?",
+    answer: "The egg will likely hatch into a corrupted form, which possesses significantly lower base stats and fewer ability slots than a healthy counterpart."
+  }
+]} />
+
+</Section>
