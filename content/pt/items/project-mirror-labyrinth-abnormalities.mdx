@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anormalidades do Project Mirror Labyrinth: Guia de Derrota e Pesquisa",
+  description: "Domine as anormalidades do Project Mirror Labyrinth. Aprenda etapas táticas de missões, recompensas de tier e estratégias de combate de elite para otimizar suas incursões na biblioteca.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Abnormalities+Guide",
+  date: "2026-07-04",
+  author: "Equipe da Wiki do project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Mirar e derrotar **anormalidades do project mirror labyrinth** específicas para completar missões de facção.
+- **Mecânica Chave**: Os níveis de pesquisa aumentam ao caçar alvos designados por tier de perigo em ordem.
+- **Melhor Estratégia**: Equilibre seu deck com no máximo 5 cartas ao percorrer a biblioteca para satisfazer as condições da missão.
+- **Dica Crítica**: Priorize alvos de classe ZAYIN primeiro antes de avançar para ameaças TETH, HE e WAW mais difíceis.
+- **Melhor Escolha**: Utilize passivas da Devyat e limpe os estágios em menos de 20 turnos para maximizar sua classificação de entrega.
+</Callout>
+
+<Section icon={Map} title="Visão Geral das Missões de Facção e Alvos">
+
+Navegar pelos corredores mutáveis do labirinto requer uma compreensão profunda das facções locais e das entidades que residem neles. Várias organizações, como a Biblioteca Deici, a Associação Hana e a Associação Devyat, oferecem contratos lucrativos visando essas entidades anômalas. Gerenciar o tamanho do seu deck e selecionar os encontros certos são as chaves para sobreviver a essas caçadas.
+
+Para otimizar sua progressão, você deve alinhar suas incursões com os requisitos dos representantes locais. A tabela abaixo descreve as principais linhas de missão disponíveis dentro dos hubs do labirinto.
+
+| NPC da Facção | Localização | Recompensas Base | Requisitos Principais da Missão |
+|---|---|---|---|
+| **Bibliotecário da Deici** | Biblioteca Deici | Condensar, Fragmentos | Matar 10 inimigos, vencer 5 encontros, máx. 5 cartas no deck |
+| **Pesquisador da LCE** | Edifício Hana | Níveis de Pesquisa | Matar 1 anormalidade ZAYIN, 5 TETH/HE e 3 WAW |
+| **Rep. da Devyat** | Edifício Devyat | +1 Slot de Entrega | Vencer qualquer estágio duas vezes, usar passiva da Devyat, vencer em menos de 20 turnos |
+
+<Callout type="tip" title="Dica de Otimização de Deck">
+Ao trabalhar com o Bibliotecário da Deici, purgue as cartas mais fracas cedo. Manter seu deck com 5 cartas ou menos no total garante que você cumpra os requisitos da missão enquanto compra suas opções de combate mais poderosas de forma consistente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classificações de Ameaça de Anormalidades">
+
+Para completar com sucesso as linhas de pesquisa da Associação Hana, os jogadores devem caçar **anormalidades do project mirror labyrinth** em diferentes tiers de ameaça. Esses tiers ditam a complexidade mecânica e a produção de dano de cada encontro. Entender o que você está enfrentando evita a aniquilação repentina do esquadrão.
+
+Abaixo está uma análise das classificações de ameaça que você encontrará, seu perigo relativo e abordagens táticas recomendadas.
+
+| Tier de Ameaça | Perigo Relativo | Mecânicas Comuns | Nível de Esquadrão Recomendado |
+|---|---|---|---|
+| **ZAYIN** | Baixo | Ataques físicos básicos, padrões previsíveis | Nível 1-10 |
+| **TETH** | Moderado | Efeitos de status menores, mira de alvo básica | Nível 11-20 |
+| **HE** | Alto | Ataques de área de efeito, escudos defensivos | Nível 21-35 |
+| **WAW** | Extremo | Transições de fase, alto dano de sanidade, turnos de morte instantânea | Nível 36+ |
+
+<Callout type="warning" title="Aviso de Tier WAW">
+Entidades de classe WAW podem destruir os níveis de sanidade do seu esquadrão em três turnos. Certifique-se de que seus personagens de suporte carreguem cura passiva ou restauração de sanidade antes de enfrentá-los nos setores mais profundos.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Estratégia ZAYIN">
+    - Foque em dano físico bruto.
+    - Ignore preparações complexas.
+    - Ótimo para limpezas rápidas de turnos.
+  </Card>
+  <Card title="Táticas TETH e HE">
+    - Traga escudos defensivos.
+    - Limpe efeitos de status cedo.
+    - Foque em pontos fracos sistematicamente.
+  </Card>
+  <Card title="Gerenciamento WAW">
+    - Guarde habilidades de burst para a Fase 2.
+    - Mantenha reservas altas de sanidade.
+    - Utilize bônus passivos da Devyat.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Progressão de Pesquisa Hana Passo a Passo">
+
+Desbloquear tiers de pesquisa mais altos com o Pesquisador da LCE dentro do Edifício Hana é crucial para a progressão a longo prazo. Siga esta sequência de caça estruturada para completar a missão de pesquisa de forma eficiente sem desperdiçar chaves valiosas.
+
+<Steps>
+  <Step num="1" title="Localize o Pesquisador da LCE">
+    Viaje para o Edifício Hana e aceite o contrato de pesquisa ativo para começar a rastrear assinaturas de anormalidades.
+  </Step>
+  <Step num="2" title="Elimine Alvos ZAYIN">
+    Entre nos setores rasos do labirinto para encontrar e neutralizar um alvo de classe ZAYIN. Isso serve como seu teste de linha de base.
+  </Step>
+  <Step num="3" title="Cace Entidades TETH e HE">
+    Desça para os andares de tier médio. Derrote um total de 5 anormalidades TETH ou HE, focando em quebrar suas posturas defensivas.
+  </Step>
+  <Step num="4" title="Confronte as Ameaças WAW">
+    Prepare sua configuração ideal de deck de 5 cartas e desafie 3 anormalidades de classe WAW nos setores profundos para finalizar seus dados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensa de Conclusão de Missão">
+Terminar a linha de pesquisa Hana aumenta significativamente suas taxas de queda passiva para fragmentos de E.G.O. de alto tier em todo o labirinto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desafios de Entrega da Devyat">
+
+A Associação Devyat valoriza a eficiência acima de tudo. Seus contratos exigem velocidade, precisão e a aplicação inteligente de passivas específicas da facção. Dominar esses desafios desbloqueia slots de entrega adicionais, que são essenciais para a geração passiva de recursos.
+
+Consulte a lista de verificação abaixo para acompanhar seu progresso nos requisitos do representante da Devyat.
+
+<Checklist
+  id="devyat-challenges"
+  title="Checklist do Rep. da Devyat:"
+  items={[
+    "Limpe qualquer estágio do labirinto duas vezes usando configurações padrão",
+    "Equipe e ative uma habilidade passiva da Devyat durante uma incursão",
+    "Conclua uma limpeza total de estágio em menos de 20 turnos no total",
+    "Reivindique a recompensa permanente de +1 slot de Entrega"
+  ]}
+/>
+
+<Callout type="info" title="Estratégia de Speedrun">
+Para atingir facilmente o limite de menos de 20 turnos, combine habilidades de alvo único de alto dano com os bônus de velocidade da passiva Devyat. Evite táticas de enrolação e foque inteiramente em pressão ofensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar o Pesquisador da LCE para começar a caçar anormalidades do project mirror labyrinth?",
+    answer: "O Pesquisador da LCE está localizado dentro do Edifício Hana. Você pode acessar esta área de hub após completar os capítulos introdutórios do labirinto."
+  },
+  {
+    question: "Como cumpro o requisito de limite de deck de 5 cartas do Bibliotecário da Deici?",
+    answer: "Você deve gerenciar seu deck durante sua incursão visitando nós de exclusão ou recusando recompensas de cartas. Certifique-se de que o tamanho total do seu deck seja de 5 cartas ou menos ao completar o 5º encontro."
+  },
+  {
+    question: "As mortes de anormalidades TETH e HE contam para o mesmo pool de missão?",
+    answer: "Sim, a missão de pesquisa Hana permite que você derrote qualquer combinação de anormalidades de tier TETH e HE para atingir a contagem necessária de 5."
+  },
+  {
+    question: "Qual é a maneira mais rápida de limpar um estágio em menos de 20 turnos para o Rep. da Devyat?",
+    answer: "Use passivas ofensivas agressivas, foque nos pontos fracos do chefe principal e evite encontros secundários opcionais que inflam sua contagem total de turnos."
+  }
+]} />
+
+</Section>

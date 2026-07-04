@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Abnormalities: Defeat & Research Guide",
+  description: "Master project mirror labyrinth abnormalities. Learn tactical quest steps, tier rewards, and elite combat strategies to optimize your library runs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Abnormalities+Guide",
+  date: "2026-07-04",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Target and defeat specific **project mirror labyrinth abnormalities** to complete faction quests.
+- **Key Mechanic**: Research levels scale up by hunting down designated danger-tier targets in order.
+- **Best Strategy**: Balance your deck with a maximum of 5 cards when runing the library to satisfy quest conditions.
+- **Critical Tip**: Prioritize ZAYIN-class targets first before moving on to tougher TETH, HE, and WAW threats.
+- **Top Choice**: Utilize Devyat passives and clear stages under 20 turns to maximize your delivery rating.
+</Callout>
+
+<Section icon={Map} title="Overview of Faction Quests and Targets">
+
+Navigating the shifting corridors of the labyrinth requires a deep understanding of the local factions and the entities that reside within. Various organizations, such as the Deici Library, the Hana Association, and the Devyat Association, offer lucrative contracts targeting these anomalous entities. Managing your deck size and selecting the right encounters are key to surviving these hunts.
+
+To optimize your progression, you must align your runs with the requirements of local representatives. The table below outlines the primary quest lines available inside the labyrinth hubs.
+
+| Faction NPC | Location | Base Rewards | Primary Quest Requirements |
+|---|---|---|---|
+| **Deici Librarian** | Deici Library | Condense, Fragments | Kill 10 enemies, beat 5 encounters, max 5 cards in deck |
+| **LCE Researcher** | Hana Building | Research Levels | Kill 1 ZAYIN, 5 TETH/HE, and 3 WAW abnormalities |
+| **Devyat Rep** | Devyat Building | +1 Delivery slot | Beat any stage twice, use Devyat passive, beat in under 20 turns |
+
+<Callout type="tip" title="Deck Optimization Tip">
+When working with the Deici Librarian, purge weaker cards early. Keeping your deck at or below 5 cards total ensures you meet the quest requirements while drawing your most powerful combat options consistently.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Abnormality Threat Classifications">
+
+To successfully complete the Hana Association research lines, players must hunt down **project mirror labyrinth abnormalities** across different threat tiers. These tiers dictate the mechanical complexity and damage output of each encounter. Understanding what you are up against prevents sudden squad wipes.
+
+Below is a breakdown of the threat classifications you will encounter, their relative difficulty, and recommended tactical approaches.
+
+| Threat Tier | Relative Danger | Common Mechanics | Recommended Squad Level |
+|---|---|---|---|
+| **ZAYIN** | Low | Basic physical attacks, predictable patterns | Level 1-10 |
+| **TETH** | Moderate | Minor status effects, basic target targeting | Level 11-20 |
+| **HE** | High | Area-of-effect attacks, defensive shields | Level 21-35 |
+| **WAW** | Extreme | Phase transitions, high sanity damage, instakill turns | Level 36+ |
+
+<Callout type="warning" title="WAW Tier Warning">
+WAW-class entities can shred your squad's sanity levels within three turns. Ensure your support characters carry passive healing or sanity restoration before engaging them in the deeper sectors.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="ZAYIN Strategy">
+    - Focus on raw physical damage.
+    - Ignore complex setups.
+    - Great for fast turn clears.
+  </Card>
+  <Card title="TETH & HE Tactics">
+    - Bring defensive shields.
+    - Cleanse status effects early.
+    - Target weak points systematically.
+  </Card>
+  <Card title="WAW Management">
+    - Save burst skills for Phase 2.
+    - Maintain high sanity pools.
+    - Utilize Devyat passive boosts.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Hana Research Progression">
+
+Unlocking higher research tiers with the LCE Researcher inside the Hana Building is crucial for long-term progression. Follow this structured hunting sequence to complete the research quest efficiently without wasting valuable keys.
+
+<Steps>
+  <Step num="1" title="Locate the LCE Researcher">
+    Travel to the Hana Building and accept the active research contract to begin tracking abnormality signatures.
+  </Step>
+  <Step num="2" title="Eliminate ZAYIN Targets">
+    Enter the shallow sectors of the labyrinth to find and neutralize a ZAYIN-class target. This serves as your baseline test.
+  </Step>
+  <Step num="3" title="Hunt TETH and HE Entities">
+    Descend to the mid-tier floors. Defeat 5 total TETH or HE abnormalities, focusing on breaking their defensive stances.
+  </Step>
+  <Step num="4" title="Confront the WAW Threats">
+    Prepare your optimal 5-card deck setup and challenge 3 WAW-class abnormalities in the deep sectors to finalize your data.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Quest Completion Reward">
+Finishing the Hana research line significantly boosts your passive drop rates for high-tier E.G.O. fragments throughout the labyrinth.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Devyat Delivery Challenges">
+
+The Devyat Association values efficiency above all else. Their contracts demand speed, precision, and the smart application of faction-specific passives. Mastering these challenges unlocks additional delivery slots, which are essential for passive resource generation.
+
+Refer to the checklist below to track your progress through the Devyat representative's requirements.
+
+<Checklist
+  id="devyat-challenges"
+  title="Devyat Rep Checklist:"
+  items={[
+    "Clear any labyrinth stage twice using standard setups",
+    "Equip and activate a Devyat passive skill during a run",
+    "Complete a full stage clear in less than 20 total turns",
+    "Claim the permanent +1 Delivery slot reward"
+  ]}
+/>
+
+<Callout type="info" title="Speedrun Strategy">
+To easily hit the sub-20 turn limit, pair high-damage single-target skills with the Devyat passive's speed buffs. Avoid stalling tactics and focus entirely on offensive pressure.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Where can I find the LCE Researcher to start hunting project mirror labyrinth abnormalities?",
+    answer: "The LCE Researcher is located inside the Hana Building. You can access this hub area after completing the introductory chapters of the labyrinth."
+  },
+  {
+    question: "How do I fulfill the Deici Librarian's 5-card deck limit requirement?",
+    answer: "You must manage your deck during your run by visiting deletion nodes or declining card rewards. Ensure your total deck size is 5 cards or fewer when completing the 5th encounter."
+  },
+  {
+    question: "Do TETH and HE abnormality kills count toward the same quest pool?",
+    answer: "Yes, the Hana research quest allows you to defeat any combination of TETH and HE tier abnormalities to reach the required count of 5."
+  },
+  {
+    question: "What is the fastest way to clear a stage in under 20 turns for the Devyat Rep?",
+    answer: "Use aggressive offensive passives, focus down the main boss's weak points, and avoid optional side encounters that inflate your total turn count."
+  }
+]} />
+
+</Section>

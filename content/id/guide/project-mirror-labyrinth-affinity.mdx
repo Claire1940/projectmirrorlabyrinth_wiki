@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Afinitas Project Mirror Labyrinth: Panduan Progresi & Pertempuran",
+  description: "Optimalkan level afinitas dan kecocokan elemen Project Mirror Labyrinth Anda. Pelajari cara membuka bonus statistik, farming hadiah, dan menguasai mekanik pertempuran.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Affinity+Guide",
+  date: "2026-07-04",
+  author: "Tim Wiki Project Mirror Labyrinth",
+  keywords: "afinitas, pertempuran, progresi, panduan, project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Mekanik Inti**: Sistem **afinitas project mirror labyrinth** mendorong keuntungan pertempuran elemen dan progresi statistik karakter individu.
+- **Keuntungan Elemen**: Mencocokkan elemen yang tepat menghasilkan bonus kerusakan hingga lima puluh persen terhadap monster labirin.
+- **Strategi Hadiah**: Memberikan hadiah yang disukai kepada karakter memberikan poin ikatan dua kali lipat dibandingkan dengan item umum.
+- **Peningkatan Statistik**: Mencapai tonggak ikatan utama membuka peningkatan statistik permanen dan keterampilan pasif kritis.
+- **Rutinitas Harian**: Selesaikan pembersihan labirin harian dan interaksi pangkalan untuk memaksimalkan perolehan afinitas harian secara efisien.
+</Callout>
+
+<Section icon={Swords} title="Mekanisme Pertempuran Afinitas Elemen">
+
+Kecocokan elemen menentukan alur pertempuran di dalam labirin. Setiap karakter dan musuh diberi salah satu dari enam afinitas elemen: Pyro, Hydro, Aero, Geo, Light, atau Dark. Memahami hubungan ini memungkinkan pemain untuk melewati statistik pertahanan tinggi pada bos yang lebih tangguh dan menyelesaikan tahap jauh lebih cepat.
+
+Ketika karakter memiliki keuntungan elemen atas musuh, mereka memberikan kerusakan yang meningkat secara signifikan sambil memitigasi serangan yang datang. Sebaliknya, menyerang musuh dengan elemen yang tidak menguntungkan menghasilkan output kerusakan yang berkurang dan kerentanan yang meningkat.
+
+| Elemen Penyerang | Elemen Bertahan | Pengganda Kerusakan | Status Kecocokan |
+| :--- | :--- | :--- | :--- |
+| Pyro | Geo | 1.50x | Keuntungan |
+| Hydro | Pyro | 1.50x | Keuntungan |
+| Aero | Hydro | 1.50x | Keuntungan |
+| Geo | Aero | 1.50x | Keuntungan |
+| Light | Dark | 1.50x | Keuntungan Timbal Balik |
+| Dark | Light | 1.50x | Keuntungan Timbal Balik |
+| Pyro | Hydro | 0.75x | Kerugian |
+
+Elemen Light dan Dark beroperasi pada sistem keuntungan timbal balik. Mereka memberikan kerusakan yang meningkat satu sama lain tetapi tetap netral terhadap empat elemen dasar. Pengaturan ini membuat karakter Light dan Dark menjadi generalis yang sangat serbaguna untuk tahap elemen campuran.
+
+<Callout type="warning" title="Penalti Kerugian">
+Menyerang musuh saat berada dalam kerugian elemen mengurangi peluang serangan kritis Anda sebesar dua puluh lima persen. Hindari menggunakan tim elemen tunggal di tahap dengan komposisi musuh yang beragam untuk mencegah penurunan kerusakan yang parah.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistem Afinitas Ikatan Karakter">
+
+Selain kecocokan elemen, sistem **afinitas project mirror labyrinth** mencakup level ikatan khusus karakter. Meningkatkan level ikatan karakter membuka file cerita pribadi, baris suara unik, dan peningkatan statistik permanen yang berlaku di semua mode permainan. 
+
+Ada tiga metode utama untuk mengumpulkan poin afinitas untuk roster Anda. Menyeimbangkan metode-metode ini memastikan progresi yang stabil tanpa menghabiskan sumber daya yang berharga.
+
+<CardGrid cols={3}>
+  <Card title="Pemberian Hadiah Interaktif">
+    - **Item yang disukai** menghasilkan poin ganda
+    - Dibeli dari toko harian
+    - Dibatasi oleh batas hadiah harian
+  </Card>
+  <Card title="Eksplorasi Labirin">
+    - Dapatkan poin dengan menyelesaikan tahap
+    - Anggota party aktif menerima poin
+    - Menyapu tahap memberikan poin bersama
+  </Card>
+  <Card title="Kamar Asrama Pangkalan">
+    - Generasi pasif seiring waktu
+    - Memerlukan peningkatan kenyamanan kamar
+    - Interaksi harian memicu bonus
+  </Card>
+</CardGrid>
+
+Setiap karakter termasuk dalam faksi tertentu, yang menentukan jenis hadiah pilihan mereka. Memberikan item yang sesuai dengan minat faksi karakter akan mempercepat progresi level mereka.
+
+<Callout type="success" title="Tip Efisiensi Hadiah">
+Selalu periksa deskripsi item sebelum memberikan hadiah. Item yang ditandai dengan ikon bintang cocok dengan kategori pilihan karakter dan memberikan seratus poin ikatan, dibandingkan dengan lima puluh poin dasar dari hadiah standar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresi Level Afinitas dan Tonggak Pencapaian">
+
+Maju melalui peringkat afinitas memerlukan jumlah poin pengalaman yang meningkat. Setiap tonggak yang dicapai memberikan peningkatan permanen pada atribut inti karakter. Bonus ini ditambahkan langsung ke statistik dasar karakter sebelum pengganda perlengkapan diterapkan, menjadikannya sangat berharga.
+
+Sistem progresi menampilkan sepuluh level yang berbeda, dengan hadiah terobosan utama diposisikan pada level tiga, enam, dan sepuluh.
+
+| Level Afinitas | Pengalaman yang Dibutuhkan | Bonus Statistik Terbuka | Jenis Hadiah |
+| :--- | :--- | :--- | :--- |
+| Level 1 | 0 | Tidak ada | Level Dasar |
+| Level 2 | 200 | HP +1.5% | Peningkatan Kecil |
+| Level 3 | 500 | ATK +2.0% | Tonggak Utama |
+| Level 4 | 900 | DEF +2.0% | Peningkatan Kecil |
+| Level 5 | 1400 | HP +2.5% | Peningkatan Kecil |
+| Level 6 | 2000 | Critical Rate +3.0% | Tonggak Utama |
+| Level 7 | 2800 | ATK +3.0% | Peningkatan Kecil |
+| Level 8 | 3800 | DEF +3.0% | Peningkatan Kecil |
+| Level 9 | 5000 | HP +4.0% | Peningkatan Kecil |
+| Level 10 | 6500 | Keterampilan Pasif Unik | Tonggak Maksimal |
+
+Peningkatan statistik berskala berdasarkan peran pertempuran karakter. Defender menerima bonus kesehatan dan pertahanan yang lebih tinggi, sementara Attacker mendapatkan lebih banyak kekuatan ofensif dari tonggak pencapaian mereka.
+
+| Peran Karakter | Peningkatan HP (Level Maks) | Peningkatan ATK (Level Maks) | Peningkatan DEF (Level Maks) |
+| :--- | :--- | :--- | :--- |
+| Attacker | +8.0% | +10.0% | +5.0% |
+| Defender | +15.0% | +4.0% | +12.0% |
+| Support | +10.0% | +6.0% | +8.0% |
+
+<Callout type="info" title="Batasan Batas Level">
+Level afinitas dibatasi oleh level promosi bintang karakter saat ini. Karakter harus dipromosikan ke bintang tiga untuk membuka level afinitas di atas level lima, dan bintang lima untuk mencapai level sepuluh.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rute Farming Afinitas Langkah-demi-Langkah">
+
+Untuk memaksimalkan perolehan afinitas harian Anda tanpa membuang stamina, ikuti rutinitas terstruktur ini. Rute ini memprioritaskan aktivitas harian dengan hasil tinggi dan pembelian toko yang hemat biaya.
+
+<Steps>
+  <Step num="1" title="Kumpulkan Poin Asrama Pangkalan">
+    Kunjungi area asrama segera setelah masuk. Ketuk gelembung yang melayang di atas karakter Anda untuk mengklaim akumulasi poin afinitas pasif dan memicu acara obrolan harian acak.
+  </Step>
+  <Step num="2" title="Beli Hadiah Toko Harian">
+    Navigasikan ke toko umum dan beli tiga kotak hadiah diskon. Kotak-kotak ini berharga koin emas standar dan harus selalu dibeli sebelum reset toko harian.
+  </Step>
+  <Step num="3" title="Selesaikan Tahap Sumber Daya Harian">
+    Habiskan stamina harian Anda pada tahap sumber daya level tertinggi. Pastikan karakter yang ingin Anda naikkan levelnya ditempatkan di party tempur aktif, karena slot cadangan pasif menerima lebih sedikit poin.
+  </Step>
+  <Step num="4" title="Distribusikan Hadiah yang Ditargetkan">
+    Buka layar karakter Anda dan distribusikan hadiah yang Anda kumpulkan. Prioritaskan menaikkan level satu karakter ke tonggak tiga atau enam daripada menyebarkan hadiah secara merata ke seluruh roster Anda.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sapu Stamina (Stamina Sweeps)">
+Menggunakan tiket sapu pada tahap yang telah selesai tetap memberikan poin afinitas penuh kepada semua karakter yang saat ini ditempatkan di tim yang dipilih. Gunakan fitur ini untuk farming afinitas dengan cepat bagi karakter level rendah tanpa risiko kekalahan di tahap level tinggi.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tujuan Optimalisasi Harian dan Mingguan">
+
+Konsistensi adalah kunci untuk memaksimalkan manfaat dari sistem afinitas. Gunakan daftar periksa berikut untuk memastikan Anda tidak melewatkan sumber pengalaman ikatan dan materi progresi harian atau mingguan.
+
+<Checklist
+  id="affinity-daily-goals"
+  title="Tujuan Harian & Mingguan:"
+  items={[
+    "Berinteraksi dengan semua karakter yang ditempatkan di kamar asrama setiap hari",
+    "Beli semua kotak hadiah berbiaya emas yang tersedia dari pasar",
+    "Selesaikan tiga lari labirin manual dengan tim utama Anda",
+    "Selesaikan uji coba faksi mingguan untuk mendapatkan hadiah legendaris tingkat tinggi",
+    "Promosikan karakter untuk mengangkat batas level afinitas sebelum memberikan hadiah"
+  ]}
+/>
+
+<Callout type="warning" title="Kedaluwarsa Hadiah">
+Hadiah khusus acara yang diperoleh selama kampanye waktu terbatas harus digunakan sebelum toko acara ditutup. Item-item ini tidak dikonversi menjadi hadiah standar dan akan hilang dari inventaris Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+<FAQ items={[
+  {
+    question: "Apakah afinitas elemen memengaruhi keterampilan penyembuhan dan pendukung?",
+    answer: "Tidak. Keuntungan elemen hanya memodifikasi kerusakan yang diberikan dan kerusakan yang diterima. Output penyembuhan dan kekuatan perisai tetap konstan terlepas dari afinitas elemen target."
+  },
+  {
+    question: "Bisakah saya mereset level afinitas karakter untuk mengambil kembali hadiah?",
+    answer: "Tidak. Setelah hadiah diberikan dan level afinitas ditingkatkan, prosesnya tidak dapat dibatalkan. Rencanakan alokasi sumber daya Anda dengan hati-hati sebelum berinvestasi pada karakter tertentu."
+  },
+  {
+    question: "Apa yang terjadi pada kelebihan poin afinitas setelah mencapai level sepuluh?",
+    answer: "Setiap poin afinitas yang diperoleh di atas level sepuluh dikonversi menjadi token faksi. Token ini dapat ditukarkan di toko untuk materi promosi karakter dan item kosmetik langka."
+  },
+  {
+    question: "Apakah tingkat kenyamanan asrama memengaruhi kecepatan perolehan afinitas?",
+    answer: "Ya. Peringkat kenyamanan yang lebih tinggi di kamar asrama Anda meningkatkan tingkat generasi afinitas pasif. Hias kamar Anda dengan furnitur tingkat tinggi untuk memaksimalkan perolehan pasif ini."
+  }
+]} />
+
+<Callout type="info" title="Ringkasan Akhir">
+Menguasai sistem **afinitas project mirror labyrinth** membutuhkan keseimbangan strategi elemen dalam pertempuran aktif dengan progresi karakter harian yang konsisten. Fokus pada kecocokan elemen untuk menyelesaikan tahap yang sulit, dan gunakan hadiahnya untuk mendanai progresi level ikatan tim Anda.
+</Callout>
+
+</Section>

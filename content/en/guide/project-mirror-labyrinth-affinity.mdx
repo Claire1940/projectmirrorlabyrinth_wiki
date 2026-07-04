@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Project Mirror Labyrinth Affinity: Progression & Combat Guide",
+  description: "Optimize your Project Mirror Labyrinth affinity levels and elemental matchups. Learn how to unlock stat bonuses, farm gifts, and master combat mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Affinity+Guide",
+  date: "2026-07-04",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: The **project mirror labyrinth affinity** system drives both elemental combat advantages and individual character stat progression.
+- **Elemental Advantage**: Matching correct elements yields up to a fifty percent damage bonus against labyrinth monsters.
+- **Gifting Strategy**: Giving preferred gifts to characters provides double the bond points compared to generic items.
+- **Stat Upgrades**: Reaching key bond milestones unlocks permanent stat boosts and critical passive skills.
+- **Daily Routine**: Complete daily labyrinth sweeps and base interactions to maximize daily affinity gains efficiently.
+</Callout>
+
+<Section icon={Swords} title="Elemental Affinity Combat Mechanics">
+
+Elemental matchups dictate the flow of combat within the labyrinth. Every character and enemy is assigned one of six elemental affinities: Pyro, Hydro, Aero, Geo, Light, or Dark. Understanding these relationships allows players to bypass high defensive stats on tougher bosses and clear stages much faster.
+
+When a character holds an elemental advantage over an enemy, they deal significantly increased damage while mitigating incoming attacks. Conversely, attacking an enemy with a disadvantageous element results in reduced damage output and increased vulnerability.
+
+| Attacking Element | Defending Element | Damage Multiplier | Matchup Status |
+| :--- | :--- | :--- | :--- |
+| Pyro | Geo | 1.50x | Advantage |
+| Hydro | Pyro | 1.50x | Advantage |
+| Aero | Hydro | 1.50x | Advantage |
+| Geo | Aero | 1.50x | Advantage |
+| Light | Dark | 1.50x | Mutual Advantage |
+| Dark | Light | 1.50x | Mutual Advantage |
+| Pyro | Hydro | 0.75x | Disadvantage |
+
+Light and Dark elements operate on a mutual advantage system. They deal increased damage to each other but remain neutral against the four basic elements. This setup makes Light and Dark characters highly versatile generalists for mixed-element stages.
+
+<Callout type="warning" title="Disadvantage Penalties">
+Attacking an enemy while at an elemental disadvantage reduces your critical strike chance by twenty-five percent. Avoid using single-element teams in stages with diverse enemy compositions to prevent severe damage drop-offs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Character Bond Affinity System">
+
+Beyond elemental matchups, the **project mirror labyrinth affinity** system includes a character-specific bond level. Raising a character's bond level unlocks private story files, unique voice lines, and permanent stat upgrades that apply across all game modes. 
+
+There are three primary methods to accumulate affinity points for your roster. Balancing these methods ensures steady progression without depleting valuable resources.
+
+<CardGrid cols={3}>
+  <Card title="Interactive Gifting">
+    - **Preferred items** yield double points
+    - Purchased from the daily shop
+    - Limited by daily gift limits
+  </Card>
+  <Card title="Labyrinth Exploration">
+    - Earn points by clearing stages
+    - Active party members receive points
+    - Sweeping stages grants shared points
+  </Card>
+  <Card title="Base Dormitory Rooms">
+    - Passive generation over time
+    - Requires room comfort upgrades
+    - Daily interactions trigger bonuses
+  </Card>
+</CardGrid>
+
+Each character belongs to a specific faction, which determines their preferred gift types. Giving a character an item that matches their faction interests accelerates their level progression.
+
+<Callout type="success" title="Gift Efficiency Tip">
+Always check the item description before gifting. Items marked with a star icon match the character's preferred category and grant one hundred bond points, compared to the base fifty points from standard gifts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Affinity Level Progression and Milestones">
+
+Advancing through the affinity ranks requires increasing amounts of experience points. Every milestone reached provides a permanent boost to the character's core attributes. These bonuses are added directly to the character's base stats before gear multipliers are applied, making them highly valuable.
+
+The progression system features ten distinct levels, with major breakthrough rewards positioned at levels three, six, and ten.
+
+| Affinity Level | Experience Required | Stat Bonus Unlocked | Reward Type |
+| :--- | :--- | :--- | :--- |
+| Level 1 | 0 | None | Base Level |
+| Level 2 | 200 | HP +1.5% | Minor Boost |
+| Level 3 | 500 | ATK +2.0% | Major Milestone |
+| Level 4 | 900 | DEF +2.0% | Minor Boost |
+| Level 5 | 1400 | HP +2.5% | Minor Boost |
+| Level 6 | 2000 | Critical Rate +3.0% | Major Milestone |
+| Level 7 | 2800 | ATK +3.0% | Minor Boost |
+| Level 8 | 3800 | DEF +3.0% | Minor Boost |
+| Level 9 | 5000 | HP +4.0% | Minor Boost |
+| Level 10 | 6500 | Unique Passive Skill | Max Milestone |
+
+Stat increases scale based on the character's combat role. Defenders receive higher health and defense bonuses, while Attackers gain more offensive power from their milestones.
+
+| Character Role | HP Boost (Max Level) | ATK Boost (Max Level) | DEF Boost (Max Level) |
+| :--- | :--- | :--- | :--- |
+| Attacker | +8.0% | +10.0% | +5.0% |
+| Defender | +15.0% | +4.0% | +12.0% |
+| Support | +10.0% | +6.0% | +8.0% |
+
+<Callout type="info" title="Level Cap Restrictions">
+Affinity levels are capped by the character's current star promotion level. A character must be promoted to three stars to unlock affinity levels beyond level five, and five stars to reach level ten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Affinity Farming Route">
+
+To maximize your daily affinity gains without wasting stamina, follow this structured routine. This route prioritizes high-yield daily activities and cost-effective shop purchases.
+
+<Steps>
+  <Step num="1" title="Collect Base Dormitory Points">
+    Visit the dormitory area immediately after logging in. Tap on the floating bubbles above your characters to claim accumulated passive affinity points and trigger random daily chat events.
+  </Step>
+  <Step num="2" title="Purchase Daily Shop Gifts">
+    Navigate to the general store and purchase the three discounted gift boxes. These boxes cost standard gold coins and should always be purchased before the daily shop reset.
+  </Step>
+  <Step num="3" title="Clear Daily Resource Stages">
+    Spend your daily stamina on the highest level resource stages. Ensure the characters you want to level up are placed in the active combat party, as passive reserve slots receive fewer points.
+  </Step>
+  <Step num="4" title="Distribute Targeted Gifts">
+    Open your character screen and distribute your collected gifts. Prioritize leveling one character to milestone three or six rather than spreading gifts evenly across your entire roster.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Stamina Sweeps">
+Using sweep tickets on completed stages still awards full affinity points to all characters currently slotted in the selected team. Use this feature to quickly farm affinity for low-level characters without risking defeat in high-level stages.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Daily and Weekly Optimization Goals">
+
+Consistency is key to maximizing the benefits of the affinity system. Use the following checklist to ensure you do not miss daily or weekly sources of bond experience and progression materials.
+
+<Checklist
+  id="affinity-daily-goals"
+  title="Daily & Weekly Objectives:"
+  items={[
+    "Interact with all characters placed in the dormitory rooms daily",
+    "Buy all available gold-cost gift boxes from the market",
+    "Complete three manual labyrinth runs with your primary team",
+    "Clear the weekly faction trial to earn high-tier legendary gifts",
+    "Promote characters to lift affinity level caps before gifting"
+  ]}
+/>
+
+<Callout type="warning" title="Gift Expiration">
+Event-specific gifts obtained during limited-time campaigns must be used before the event store closes. These items do not convert to standard gifts and will disappear from your inventory.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does elemental affinity affect healing and support skills?",
+    answer: "No. Elemental advantage only modifies damage dealt and damage taken. Healing output and shield strength remain constant regardless of the target's elemental affinity."
+  },
+  {
+    question: "Can I reset a character's affinity level to reclaim gifts?",
+    answer: "No. Once gifts are given and affinity levels are increased, the process cannot be reversed. Plan your resource allocation carefully before investing in specific characters."
+  },
+  {
+    question: "What happens to excess affinity points after reaching level ten?",
+    answer: "Any affinity points earned beyond level ten are converted into faction tokens. These tokens can be exchanged in the shop for character promotion materials and rare cosmetic items."
+  },
+  {
+    question: "Do dormitory comfort levels affect the speed of affinity gain?",
+    answer: "Yes. Higher comfort ratings in your dormitory rooms increase the passive affinity generation rate. Decorate your rooms with high-tier furniture to maximize these passive gains."
+  }
+]} />
+
+<Callout type="info" title="Final Summary">
+Mastering the **project mirror labyrinth affinity** system requires balancing elemental strategies in active combat with consistent daily character progression. Focus on elemental matchups to clear difficult stages, and use the rewards to fund your team's bond level progression.
+</Callout>
+
+</Section>

@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abnormalitas Project Mirror Labyrinth: Panduan Mengalahkan & Riset",
+  description: "Kuasai abnormalitas project mirror labyrinth. Pelajari langkah-langkah misi taktis, hadiah tingkat, dan strategi pertempuran elit untuk mengoptimalkan penjelajahan perpustakaan Anda.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Abnormalities+Guide",
+  date: "2026-07-04",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Tujuan Utama**: Targetkan dan kalahkan abnormalitas **project mirror labyrinth** tertentu untuk menyelesaikan misi faksi.
+- **Mekanisme Utama**: Level riset meningkat dengan memburu target tingkat bahaya yang ditentukan secara berurutan.
+- **Strategi Terbaik**: Seimbangkan dek Anda dengan maksimal 5 kartu saat menjelajahi perpustakaan untuk memenuhi kondisi misi.
+- **Tip Penting**: Prioritaskan target kelas ZAYIN terlebih dahulu sebelum beralih ke ancaman TETH, HE, dan WAW yang lebih tangguh.
+- **Pilihan Utama**: Manfaatkan pasif Devyat dan selesaikan tahap dalam waktu kurang dari 20 giliran untuk memaksimalkan peringkat pengiriman Anda.
+</Callout>
+
+<Section icon={Map} title="Ikhtisar Misi Faksi dan Target">
+
+Menavigasi koridor labirin yang terus berubah membutuhkan pemahaman mendalam tentang faksi-faksi lokal dan entitas yang tinggal di dalamnya. Berbagai organisasi, seperti Perpustakaan Deici, Asosiasi Hana, dan Asosiasi Devyat, menawarkan kontrak yang menguntungkan yang menargetkan entitas abnormal ini. Mengelola ukuran dek Anda dan memilih pertempuran yang tepat adalah kunci untuk bertahan hidup dalam perburuan ini.
+
+Untuk mengoptimalkan progres Anda, Anda harus menyelaraskan penjelajahan Anda dengan persyaratan perwakilan lokal. Tabel di bawah ini menguraikan lini misi utama yang tersedia di dalam hub labirin.
+
+| NPC Faksi | Lokasi | Hadiah Dasar | Persyaratan Misi Utama |
+|---|---|---|---|
+| **Pustakawan Deici** | Perpustakaan Deici | Kondensasi, Fragmen | Bunuh 10 musuh, kalahkan 5 pertempuran, maks 5 kartu di dek |
+| **Peneliti LCE** | Gedung Hana | Level Riset | Bunuh 1 ZAYIN, 5 TETH/HE, dan 3 abnormalitas WAW |
+| **Perwakilan Devyat** | Gedung Devyat | +1 Slot pengiriman | Kalahkan tahap apa pun dua kali, gunakan pasif Devyat, kalahkan dalam waktu kurang dari 20 giliran |
+
+<Callout type="tip" title="Tip Optimalisasi Dek">
+Saat bekerja dengan Pustakawan Deici, hapus kartu yang lebih lemah sejak awal. Menjaga total dek Anda pada atau di bawah 5 kartu memastikan Anda memenuhi persyaratan misi sambil menarik opsi pertempuran terkuat Anda secara konsisten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Klasifikasi Ancaman Abnormalitas">
+
+Untuk berhasil menyelesaikan lini riset Asosiasi Hana, pemain harus memburu **abnormalitas project mirror labyrinth** di berbagai tingkat ancaman. Tingkat ini menentukan kompleksitas mekanis dan output kerusakan dari setiap pertempuran. Memahami apa yang Anda hadapi dapat mencegah kekalahan skuad yang tiba-tiba.
+
+Di bawah ini adalah rincian klasifikasi ancaman yang akan Anda temui, tingkat kesulitan relatifnya, dan pendekatan taktis yang direkomendasikan.
+
+| Tingkat Ancaman | Bahaya Relatif | Mekanisme Umum | Level Skuad yang Direkomendasikan |
+|---|---|---|---|
+| **ZAYIN** | Rendah | Serangan fisik dasar, pola yang dapat diprediksi | Level 1-10 |
+| **TETH** | Sedang | Efek status minor, penargetan target dasar | Level 11-20 |
+| **HE** | Tinggi | Serangan area (AoE), perisai pertahanan | Level 21-35 |
+| **WAW** | Ekstrem | Transisi fase, kerusakan sanity tinggi, giliran instakill | Level 36+ |
+
+<Callout type="warning" title="Peringatan Tingkat WAW">
+Entitas kelas WAW dapat menghancurkan tingkat sanity skuad Anda dalam tiga giliran. Pastikan karakter pendukung Anda membawa pemulihan pasif atau restorasi sanity sebelum melawan mereka di sektor yang lebih dalam.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Strategi ZAYIN">
+    - Fokus pada kerusakan fisik murni.
+    - Abaikan persiapan yang rumit.
+    - Sangat baik untuk penyelesaian giliran cepat.
+  </Card>
+  <Card title="Taktik TETH & HE">
+    - Bawa perisai pertahanan.
+    - Bersihkan efek status sejak dini.
+    - Targetkan titik lemah secara sistematis.
+  </Card>
+  <Card title="Manajemen WAW">
+    - Simpan skill burst untuk Fase 2.
+    - Pertahankan cadangan sanity yang tinggi.
+    - Manfaatkan peningkatan pasif Devyat.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Progres Riset Hana Langkah demi Langkah">
+
+Membuka tingkat riset yang lebih tinggi dengan Peneliti LCE di dalam Gedung Hana sangat penting untuk progres jangka panjang. Ikuti urutan perburuan terstruktur ini untuk menyelesaikan misi riset secara efisien tanpa membuang kunci berharga.
+
+<Steps>
+  <Step num="1" title="Temukan Peneliti LCE">
+    Pergilah ke Gedung Hana dan terima kontrak riset aktif untuk mulai melacak tanda-tanda abnormalitas.
+  </Step>
+  <Step num="2" title="Eliminasi Target ZAYIN">
+    Masuki sektor labirin yang dangkal untuk menemukan dan menetralisir target kelas ZAYIN. Ini berfungsi sebagai pengujian dasar Anda.
+  </Step>
+  <Step num="3" title="Buru Entitas TETH dan HE">
+    Turun ke lantai tingkat menengah. Kalahkan total 5 abnormalitas TETH atau HE, fokus pada menghancurkan sikap pertahanan mereka.
+  </Step>
+  <Step num="4" title="Hadapi Ancaman WAW">
+    Siapkan pengaturan dek 5 kartu optimal Anda dan tantang 3 abnormalitas kelas WAW di sektor dalam untuk menyelesaikan data Anda.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hadiah Penyelesaian Misi">
+Menyelesaikan lini riset Hana secara signifikan meningkatkan tingkat drop pasif Anda untuk fragmen E.G.O. tingkat tinggi di seluruh labirin.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tantangan Pengiriman Devyat">
+
+Asosiasi Devyat sangat menghargai efisiensi di atas segalanya. Kontrak mereka menuntut kecepatan, presisi, dan penerapan cerdas dari pasif khusus faksi. Menguasai tantangan ini akan membuka slot pengiriman tambahan, yang penting untuk pembuatan sumber daya pasif.
+
+Referensikan daftar periksa di bawah ini untuk melacak progres Anda melalui persyaratan perwakilan Devyat.
+
+<Checklist
+  id="devyat-challenges"
+  title="Daftar Periksa Perwakilan Devyat:"
+  items={[
+    "Selesaikan tahap labirin apa pun dua kali menggunakan pengaturan standar",
+    "Lengkapi dan aktifkan keterampilan pasif Devyat selama penjelajahan",
+    "Selesaikan pembersihan tahap penuh dalam waktu kurang dari 20 total giliran",
+    "Klaim hadiah permanen +1 Slot pengiriman"
+  ]}
+/>
+
+<Callout type="info" title="Strategi Speedrun">
+Untuk dengan mudah mencapai batas di bawah 20 giliran, pasangkan keterampilan target tunggal dengan kerusakan tinggi dengan peningkatan kecepatan pasif Devyat. Hindari taktik menunda dan fokus sepenuhnya pada tekanan ofensif.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Di mana saya bisa menemukan Peneliti LCE untuk mulai memburu abnormalitas project mirror labyrinth?",
+    answer: "Peneliti LCE terletak di dalam Gedung Hana. Anda dapat mengakses area hub ini setelah menyelesaikan bab pengantar labirin."
+  },
+  {
+    question: "Bagaimana cara memenuhi persyaratan batas dek 5 kartu dari Pustakawan Deici?",
+    answer: "Anda harus mengelola dek Anda selama penjelajahan dengan mengunjungi node penghapusan atau menolak hadiah kartu. Pastikan ukuran dek total Anda adalah 5 kartu atau kurang saat menyelesaikan pertempuran ke-5."
+  },
+  {
+    question: "Apakah pembunuhan abnormalitas TETH dan HE dihitung dalam kumpulan misi yang sama?",
+    answer: "Ya, misi riset Hana memungkinkan Anda untuk mengalahkan kombinasi apa pun dari abnormalitas tingkat TETH dan HE untuk mencapai jumlah 5 yang diperlukan."
+  },
+  {
+    question: "Apa cara tercepat untuk menyelesaikan tahap dalam waktu kurang dari 20 giliran untuk Perwakilan Devyat?",
+    answer: "Gunakan pasif ofensif yang agresif, fokus pada titik lemah bos utama, dan hindari pertempuran sampingan opsional yang meningkatkan total jumlah giliran Anda."
+  }
+]} />
+
+</Section>

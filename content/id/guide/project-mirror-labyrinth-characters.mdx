@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Karakter project mirror labyrinth: Daftar Tier & Peringkat",
+  description: "Temukan karakter project mirror labyrinth terbaik. Jelajahi daftar tier terperinci kami, panduan sinergi tim, dan strategi progres untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Tier+List",
+  date: "2026-07-04",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Fokus Utama**: Prioritaskan **karakter project mirror labyrinth** Tier-S untuk mengoptimalkan penjelajahan dungeon dan kecepatan pembersihan labirin.
+- **Mekanik Sinergi**: Selalu pasangkan Mirror Duelist dengan Echo Mage untuk memicu efek Shatter Resonance.
+- **Manajemen Sumber Daya**: Fokuskan sumber daya peningkatan level Anda pada karakter DPS utama sebelum meningkatkan unit pendukung.
+- **Kelangsungan Hidup Labirin**: Pertahankan setidaknya satu Reflection Tank dalam susunan aktif Anda untuk memitigasi ledakan damage musuh yang tinggi.
+</Callout>
+
+<Section icon={Swords} title="Memahami Arketipe Karakter project mirror labyrinth">
+
+Menavigasi koridor labirin yang terus berubah membutuhkan pemahaman mendalam tentang jajaran karakter Anda. Setiap karakter dalam game ini termasuk dalam arketipe tertentu, yang menentukan gaya bertarung mereka, penskalaan statistik, dan peran mereka dalam tim Anda. Memilih kombinasi kelas yang tepat sangat penting untuk mengatasi tantangan tingkat tinggi.
+
+Game ini menampilkan tiga arketipe utama: unit Ofensif yang fokus pada menghasilkan burst damage tinggi atau damage berkelanjutan, unit Defensif yang dirancang untuk menyerap damage dan melindungi sekutu, dan unit Pendukung yang menyediakan utilitas, penyembuhan, dan crowd control.
+
+|Kelas|Peran|Atribut Utama|Kesulitan|
+|---|---|---|---|
+|Mirror Duelist|DPS Utama|Shatter Rate|Sedang|
+|Echo Mage|Sihir AoE|Resonance|Tinggi|
+|Reflection Tank|Pertahanan|Shield Capacity|Rendah|
+|Chronos Support|Utilitas/Penyembuhan|Cooldown Speed|Sedang|
+
+<CardGrid cols={3}>
+  <Card title="Arketipe Ofensif">
+    - **Burst target tunggal yang tinggi**
+    - Berfokus pada Shatter damage
+    - Kelangsungan hidup sedang
+  </Card>
+  <Card title="Arketipe Defensif">
+    - **Kapasitas perisai tinggi**
+    - Mekanik pengalihan aggro
+    - Output damage rendah
+  </Card>
+  <Card title="Arketipe Pendukung">
+    - **Buff pengurangan cooldown**
+    - Output penyembuhan yang konsisten
+    - Keterampilan utilitas penting
+  </Card>
+</CardGrid>
+
+Memahami peran-peran ini memungkinkan Anda membangun tim yang seimbang. Kesalahan umum adalah menumpuk terlalu banyak karakter dengan damage tinggi sambil mengabaikan pertahanan dan penyembuhan, yang sering kali berujung pada kekalahan di tahap-tahap selanjutnya.
+
+<Callout type="warning" title="Peringatan Keseimbangan Kelas">
+Hindari menjalankan tim dengan tiga karakter dari arketipe yang sama. Ini menciptakan kerentanan parah yang akan dengan mudah dieksploitasi oleh bos di lapisan labirin yang lebih dalam.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daftar Tier Karakter dan Peringkat Meta">
+
+Memilih **karakter project mirror labyrinth** terbaik adalah kunci untuk maju melalui kampanye game yang menantang dan konten endgame. Daftar tier kami memeringkat karakter berdasarkan utilitas keseluruhan, output damage, dan kelangsungan hidup mereka dalam meta saat ini.
+
+Meta saat ini menyukai karakter yang dapat memanipulasi urutan giliran, menerapkan debuff kerentanan, atau melindungi sekutu mereka dari serangan area-of-effect yang menghancurkan.
+
+### Karakter Tier-S
+
+Karakter-karakter ini mewakili puncak mutlak dari meta saat ini. Mereka menawarkan utilitas yang tak terkandingi, damage yang luar biasa, atau kemampuan defensif yang membuat mereka sangat diperlukan untuk konten tingkat tinggi.
+
+|Karakter|Kelas|Keterampilan Kunci|Mitra Sinergi|
+|---|---|---|---|
+|Kaelen|Mirror Duelist|Shatter Strike|Eldrin|
+|Seraphina|Echo Mage|Refracted Storm|Lyra|
+|Varian|Reflection Tank|Aegis Dome|Kaelen|
+
+### Karakter Tier-A
+
+Unit yang sangat kompeten yang berkinerja sangat baik di sebagian besar konten. Mereka mungkin memerlukan pengaturan khusus atau komposisi tim tertentu untuk mencapai potensi penuh mereka, tetapi tetap merupakan investasi yang sangat baik.
+
+|Karakter|Kelas|Keterampilan Kunci|Mitra Sinergi|
+|---|---|---|---|
+|Lyra|Chronos Support|Temporal Haste|Seraphina|
+|Zephyr|Mirror Duelist|Gale Blades|Varian|
+|Eldrin|Chronos Support|Echoing Mend|Kaelen|
+
+<Callout type="success" title="Strategi Investasi">
+Prioritaskan peningkatan karakter Tier-S ke level maksimum terlebih dahulu. Jika Anda kekurangan unit Tier-S, karakter Tier-A seperti Lyra dan Eldrin adalah alternatif yang sangat andal yang berskala baik hingga endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Komposisi Tim dan Strategi Sinergi">
+
+Membangun tim yang kohesif di dalam labirin lebih dari sekadar memilih unit dengan peringkat tertinggi Anda. Anda harus mempertimbangkan bagaimana keterampilan mereka berinteraksi untuk menciptakan sinergi elemen dan mekanik yang kuat.
+
+Tim yang paling efektif memanfaatkan mekanik Shatter Resonance, yang terpicu ketika Echo Mage menerapkan efek status dan Mirror Duelist menindaklanjutinya dengan serangan fisik.
+
+<Steps>
+  <Step num="1" title="Pilih DPS Utama Anda">
+    Pilih karakter dengan damage tinggi seperti Kaelen atau Zephyr untuk berfungsi sebagai sumber damage utama Anda.
+  </Step>
+  <Step num="2" title="Tambahkan Jangkar Defensif">
+    Masukkan tank seperti Varian untuk menyerap damage yang masuk dan melindungi dealer damage Anda yang rapuh.
+  </Step>
+  <Step num="3" title="Integrasikan Dukungan Utilitas">
+    Tambahkan unit pendukung seperti Eldrin atau Lyra untuk memberikan penyembuhan, membersihkan debuff, dan mengurangi cooldown keterampilan.
+  </Step>
+  <Step num="4" title="Aktifkan Bonus Resonansi">
+    Pastikan karakter yang Anda pilih memiliki elemen atau arketipe yang kompatibel untuk memicu buff pasif di seluruh tim.
+  </Step>
+</Steps>
+
+Ketika komponen-komponen ini bekerja secara harmonis, tim Anda dapat memutar keterampilan dengan cepat, menjaga perisai tetap aktif sambil terus memberikan damage besar kepada musuh.
+
+<Callout type="info" title="Tip Bonus Resonansi">
+Mencocokkan dua karakter dengan elemen yang sama memberikan peningkatan pasif sebesar 15% pada output damage elemen tersebut, yang sangat bermanfaat bagi tim elemen khusus.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progres Karakter dan Jalur Peningkatan">
+
+Untuk mengimbangi kesulitan labirin yang terus meningkat, Anda harus terus meningkatkan karakter Anda. Progres melibatkan peningkatan level, peningkatan keterampilan, dan melengkapi set perlengkapan yang kuat.
+
+Setiap karakter membutuhkan bahan khusus yang dikumpulkan dari dungeon harian dan bos labirin untuk membuka potensi maksimal mereka.
+
+<Checklist
+  id="progression-milestones"
+  title="Daftar Prioritas Peningkatan Karakter:"
+  items={[
+    "Mencapai batas level karakter untuk tier saat ini",
+    "Memaksimalkan keterampilan aktif utama",
+    "Melengkapi set perlengkapan empat bagian yang cocok",
+    "Membuka node kenaikan (ascension) pasif"
+  ]}
+/>
+
+Farming di dungeon yang tepat sangat penting untuk mengamankan bahan yang dibutuhkan untuk peningkatan ini. Gunakan tabel di bawah ini untuk merencanakan penggunaan stamina harian Anda.
+
+|Jenis Bahan|Sumber Utama|Kekuatan yang Direkomendasikan|Batas Harian|
+|---|---|---|---|
+|Mirror Shards|Uji Coba Harian: Shard Dungeon|12.000|3 Entri|
+|Ascension Orbs|Bos Labirin (Lapisan 3-5)|15.000|Tidak ada|
+|Gear Upgrade Dust|Mendaur Ulang Peralatan yang Tidak Diinginkan|N/A|Tidak ada|
+
+<Callout type="tip" title="Optimalisasi Sumber Daya">
+Hanya daur ulang perlengkapan yang tidak cocok dengan statistik pilihan karakter utama Anda. Simpan perlengkapan dengan peningkatan statistik berbasis persentase, karena skalanya jauh lebih baik di akhir permainan (late game).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Berikut adalah jawaban atas beberapa pertanyaan paling umum mengenai pembangunan tim dan manajemen karakter.
+
+<FAQ items={[
+  {
+    question: "Karakter project mirror labyrinth mana yang harus saya reroll?",
+    answer: "Anda harus mengincar Kaelen atau Seraphina selama tarikan awal Anda. Kedua karakter menawarkan damage dan utilitas luar biasa yang akan membawa Anda melewati awal permainan dengan mudah."
+  },
+  {
+    question: "Bagaimana cara memicu efek Shatter Resonance?",
+    answer: "Terapkan kondisi status dengan Echo Mage, lalu segera serang target yang sama dengan Mirror Duelist. Ini memicu ledakan damage area-of-effect."
+  },
+  {
+    question: "Apakah Varian diperlukan untuk penjelajahan labirin tingkat tinggi?",
+    answer: "Meskipun Varian adalah tank utama, Anda dapat berhasil menyelesaikan konten menggunakan opsi defensif lainnya seperti Valerie, asalkan karakter pendukung Anda menawarkan penyembuhan yang cukup."
+  },
+  {
+    question: "Seberapa sering saya harus meningkatkan perlengkapan karakter saya?",
+    answer: "Tingkatkan perlengkapan DPS utama Anda setiap kali Anda menemui hambatan progres. Untuk unit pendukung dan tank, meningkatkan perlengkapan setiap sepuluh level umumnya sudah cukup."
+  }
+]} />
+
+<Callout type="info" title="Saran Terakhir">
+Selalu bereksperimen dengan kombinasi karakter yang berbeda. Sifat labirin yang terus berubah berarti bahwa komposisi tim tertentu mungkin berkinerja lebih baik pada lapisan tertentu.
+</Callout>
+
+</Section>

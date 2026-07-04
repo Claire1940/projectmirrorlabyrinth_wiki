@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Afinidade em Project Mirror Labyrinth: Guia de Progressão e Combate",
+  description: "Otimize seus níveis de afinidade e confrontos elementais em Project Mirror Labyrinth. Saiba como desbloquear bônus de atributos, farmar presentes e dominar as mecânicas de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Affinity+Guide",
+  date: "2026-07-04",
+  author: "Equipe do Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Central**: O sistema de **afinidade de project mirror labyrinth** impulsiona tanto as vantagens de combate elemental quanto a progressão individual de atributos dos personagens.
+- **Vantagem Elemental**: Combinar os elementos corretos concede até cinquenta por cento de bônus de dano contra os monstros do labirinto.
+- **Estratégia de Presentes**: Entregar presentes preferidos aos personagens concede o dobro de pontos de vínculo em comparação com itens genéricos.
+- **Melhorias de Atributos**: Alcançar marcos importantes de vínculo desbloqueia aumentos permanentes de atributos e habilidades passivas cruciais.
+- **Rotina Diária**: Conclua varreduras diárias no labirinto e interações na base para maximizar os ganhos diários de afinidade com eficiência.
+</Callout>
+
+<Section icon={Swords} title="Mecânicas de Combate de Afinidade Elemental">
+
+Os confrontos elementais ditam o fluxo do combate dentro do labirinto. Cada personagem e inimigo possui uma de seis afinidades elementais: Pyro, Hydro, Aero, Geo, Light ou Dark. Compreender essas relações permite que os jogadores ignorem altos atributos de defesa de chefes difíceis e concluam as fases muito mais rápido.
+
+Quando um personagem possui vantagem elemental sobre um inimigo, ele causa significativamente mais dano e mitiga os ataques recebidos. Por outro lado, atacar um inimigo com um elemento desvantajoso resulta em redução de dano causado e maior vulnerabilidade.
+
+| Elemento Atacante | Elemento Defensor | Multiplicador de Dano | Status do Confronto |
+| :--- | :--- | :--- | :--- |
+| Pyro | Geo | 1.50x | Vantagem |
+| Hydro | Pyro | 1.50x | Vantagem |
+| Aero | Hydro | 1.50x | Vantagem |
+| Geo | Aero | 1.50x | Vantagem |
+| Light | Dark | 1.50x | Vantagem Mútua |
+| Dark | Light | 1.50x | Vantagem Mútua |
+| Pyro | Hydro | 0.75x | Desvantagem |
+
+Os elementos Light e Dark operam em um sistema de vantagem mútua. Eles causam mais dano um ao outro, mas permanecem neutros contra os quatro elementos básicos. Essa configuração torna os personagens de Light e Dark generalistas altamente versáteis para fases com elementos mistos.
+
+<Callout type="warning" title="Penalidades de Desvantagem">
+Atacar um inimigo sob desvantagem elemental reduz sua chance de acerto crítico em vinte e cinco por cento. Evite usar equipes de elemento único em fases com composições de inimigos variadas para prevenir quedas severas de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistema de Afinidade de Vínculo de Personagem">
+
+Além dos confrontos elementais, o sistema de **afinidade de project mirror labyrinth** inclui um nível de vínculo específico de cada personagem. Aumentar o nível de vínculo de um personagem desbloqueia arquivos de história privados, falas de voz exclusivas e melhorias permanentes de atributos que se aplicam a todos os modos de jogo.
+
+Existem três métodos principais para acumular pontos de afinidade para seus personagens. Equilibrar esses métodos garante uma progressão constante sem esgotar recursos valiosos.
+
+<CardGrid cols={3}>
+  <Card title="Presentes Interativos">
+    - **Itens preferidos** rendem o dobro de pontos
+    - Comprados na loja diária
+    - Limitados pelos limites diários de presentes
+  </Card>
+  <Card title="Exploração do Labirinto">
+    - Ganhe pontos ao concluir fases
+    - Membros ativos da equipe recebem pontos
+    - Varrer fases concede pontos compartilhados
+  </Card>
+  <Card title="Quartos do Dormitório da Base">
+    - Geração passiva ao longo do tempo
+    - Requer melhorias de conforto no quarto
+    - Interações diárias ativam bônus
+  </Card>
+</CardGrid>
+
+Cada personagem pertence a uma facção específica, o que determina seus tipos de presentes preferidos. Dar a um personagem um item que corresponda aos interesses de sua facção acelera a progressão de nível dele.
+
+<Callout type="success" title="Dica de Eficiência de Presentes">
+Sempre verifique a descrição do item antes de presentear. Itens marcados com um ícone de estrela correspondem à categoria de preferência do personagem e concedem cem pontos de vínculo, em comparação com os cinquenta pontos base de presentes comuns.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão de Nível de Afinidade e Marcos">
+
+Avançar pelos níveis de afinidade exige quantidades crescentes de pontos de experiência. Cada marco alcançado fornece um aumento permanente aos atributos principais do personagem. Esses bônus são adicionados diretamente aos atributos base do personagem antes da aplicação de multiplicadores de equipamentos, tornando-os altamente valiosos.
+
+O sistema de progressão apresenta dez níveis distintos, com recompensas de marcos principais posicionadas nos níveis três, seis e dez.
+
+| Nível de Afinidade | Experiência Necessária | Bônus de Atributo Desbloqueado | Tipo de Recompensa |
+| :--- | :--- | :--- | :--- |
+| Nível 1 | 0 | Nenhum | Nível Base |
+| Nível 2 | 200 | PV +1.5% | Pequeno Aumento |
+| Nível 3 | 500 | ATQ +2.0% | Marco Principal |
+| Nível 4 | 900 | DEF +2.0% | Pequeno Aumento |
+| Nível 5 | 1400 | PV +2.5% | Pequeno Aumento |
+| Nível 6 | 2000 | Taxa Crítica +3.0% | Marco Principal |
+| Nível 7 | 2800 | ATQ +3.0% | Pequeno Aumento |
+| Nível 8 | 3800 | DEF +3.0% | Pequeno Aumento |
+| Nível 9 | 5000 | PV +4.0% | Pequeno Aumento |
+| Nível 10 | 6500 | Habilidade Passiva Única | Marco Máximo |
+
+Os aumentos de atributos escalam com base na função de combate do personagem. Defensores recebem bônus maiores de vida e defesa, enquanto Atacantes ganham mais poder ofensivo em seus marcos.
+
+| Função do Personagem | Bônus de PV (Nível Máx) | Bônus de ATQ (Nível Máx) | Bônus de DEF (Nível Máx) |
+| :--- | :--- | :--- | :--- |
+| Atacante | +8.0% | +10.0% | +5.0% |
+| Defensor | +15.0% | +4.0% | +12.0% |
+| Suporte | +10.0% | +6.0% | +8.0% |
+
+<Callout type="info" title="Restrições de Limite de Nível">
+Os níveis de afinidade são limitados pelo nível atual de promoção de estrelas do personagem. Um personagem deve ser promovido a três estrelas para desbloquear níveis de afinidade além do nível cinco, e a cinco estrelas para alcançar o nível dez.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rota Passo a Passo para Farmar Afinidade">
+
+Para maximizar seus ganhos diários de afinidade sem desperdiçar estamina, siga esta rotina estruturada. Esta rota prioriza atividades diárias de alto rendimento e compras econômicas na loja.
+
+<Steps>
+  <Step num="1" title="Coletar Pontos do Dormitório da Base">
+    Visite a área do dormitório imediatamente após fazer login. Toque nos balões flutuantes acima de seus personagens para resgatar os pontos de afinidade passiva acumulados e ativar eventos de conversa diários aleatórios.
+  </Step>
+  <Step num="2" title="Comprar Presentes na Loja Diária">
+    Navegue até a loja geral e compre as três caixas de presente com desconto. Essas caixas custam moedas de ouro padrão e devem ser sempre adquiridas antes da redefinição diária da loja.
+  </Step>
+  <Step num="3" title="Concluir Fases Diárias de Recursos">
+    Gaste sua estamina diária nas fases de recursos de nível mais alto. Certifique-se de que os personagens que deseja subir de nível estejam posicionados na equipe de combate ativa, pois as vagas de reserva passiva recebem menos pontos.
+  </Step>
+  <Step num="4" title="Distribuir Presentes Direcionados">
+    Abra a tela de personagens e distribua os presentes coletados. Priorize subir um único personagem até o marco três ou seis em vez de distribuir os presentes de forma igual por todo o seu elenco.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Varreduras de Estamina">
+Usar tíquetes de varredura em fases concluídas ainda concede pontos de afinidade totais para todos os personagens atualmente escalados na equipe selecionada. Use esse recurso para farmar afinidade rapidamente para personagens de nível baixo sem arriscar derrotas em fases de nível alto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Metas de Otimização Diárias e Semanais">
+
+A consistência é fundamental para maximizar os benefícios do sistema de afinidade. Use a lista de verificação a seguir para garantir que você não perca as fontes diárias ou semanais de experiência de vínculo e materiais de progressão.
+
+<Checklist
+  id="affinity-daily-goals"
+  title="Objetivos Diários e Semanais:"
+  items={[
+    "Interagir diariamente com todos os personagens colocados nos quartos do dormitório",
+    "Comprar todas as caixas de presente disponíveis por ouro no mercado",
+    "Concluir três execuções manuais do labirinto com sua equipe principal",
+    "Concluir a provação de facção semanal para ganhar presentes lendários de alto nível",
+    "Promover personagens para liberar os limites de nível de afinidade antes de presentear"
+  ]}
+/>
+
+<Callout type="warning" title="Expiração de Presentes">
+Presentes específicos de eventos obtidos durante campanhas de tempo limitado devem ser usados antes do fechamento da loja do evento. Esses itens não se convertem em presentes padrão e desaparecerão do seu inventário.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A afinidade elemental afeta habilidades de cura e suporte?",
+    answer: "Não. A vantagem elemental modifica apenas o dano causado e o dano recebido. A quantidade de cura realizada e a força do escudo permanecem constantes, independentemente da afinidade elemental do alvo."
+  },
+  {
+    question: "Posso redefinir o nível de afinidade de um personagem para recuperar os presentes?",
+    answer: "Não. Uma vez que os presentes são entregues e os níveis de afinidade aumentam, o processo não pode ser revertido. Planeje cuidadosamente a alocação de seus recursos antes de investir em personagens específicos."
+  },
+  {
+    question: "O que acontece com os pontos de afinidade excedentes após atingir o nível dez?",
+    answer: "Quaisquer pontos de afinidade obtidos além do nível dez são convertidos em fichas de facção. Essas fichas podem ser trocadas na loja por materiais de promoção de personagem e itens cosméticos raros."
+  },
+  {
+    question: "Os níveis de conforto do dormitório afetam a velocidade de ganho de afinidade?",
+    answer: "Sim. Níveis mais altos de conforto nos quartos do seu dormitório aumentam a taxa de geração passiva de afinidade. Decore seus quartos com móveis de alto nível para maximizar esses ganhos passivos."
+  }
+]} />
+
+<Callout type="info" title="Resumo Final">
+Dominar o sistema de **afinidade de project mirror labyrinth** exige o equilíbrio entre estratégias elementais em combate ativo e uma progressão diária consistente de personagens. Foque nos confrontos elementais para concluir fases difíceis e use as recompensas para financiar a progressão de nível de vínculo da sua equipe.
+</Callout>
+
+</Section>
