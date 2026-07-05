@@ -1,0 +1,222 @@
+import { Map, Target, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth farm: Fast Route & Yield Tips",
+  description: "Learn project mirror labyrinth farm routes, target priorities, and repeatable loop tips to raise yield and cut wasted time in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Farm+Route+Guide",
+  date: "2026-07-06",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **project mirror labyrinth farm** works best when you optimize repeatability, not one-time luck spikes.
+- **Shortest viable route** usually beats a longer path if the rewards per minute stay close.
+- **Core upgrade materials** should come first because they unlock stable progression.
+- **One change at a time** makes it easier to measure whether a route is actually improving.
+</Callout>
+
+<Section icon={Map} title="project mirror labyrinth Farming Route Fundamentals">
+
+A strong **project mirror labyrinth farm** starts with route discipline. Your goal is to create a loop you can repeat with minimal hesitation, then push efficiency through density, clean resets, and low downtime. In practice, that means picking the route you can clear reliably before you chase the route with the largest possible reward ceiling.
+
+**Route types at a glance**
+
+<CardGrid cols={3}>
+  <Card title="Short Loop">
+    - **Best for:** quick sessions
+    - Low travel time
+    - Easy to repeat
+  </Card>
+  <Card title="Dense Loop">
+    - **Best for:** stacked rewards
+    - Higher encounter count
+    - Better when you can clear fast
+  </Card>
+  <Card title="Mixed Loop">
+    - **Best for:** flexible farming
+    - Balances speed and reward
+    - Good for early testing
+  </Card>
+</CardGrid>
+
+| Route Type | Best For | Strength | Trade-Off |
+|---|---|---|---|
+| Short Loop | Currency, basic mats | Lowest travel time | Fewer total drops |
+| Dense Loop | XP, common materials | High encounter volume | Higher risk |
+| Mixed Loop | General farming | Flexible reward mix | Needs more routing work |
+
+<Callout type="tip" title="Route Selection Rule">
+If two routes look similar, choose the one you can complete five times in a row without mental strain.
+</Callout>
+
+For terminology and page structure, it helps to keep one reference page open while you test routes in game. Use the unofficial project mirror labyrinth Wiki as a naming check, then confirm any route labels against your own run data instead of trusting memory alone.
+
+| Reference | Why It Helps | Link | Accessed |
+|---|---|---|---|
+| Unofficial project mirror labyrinth Wiki | Terminology, page names, route labels | [Open wiki](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki) | 2026-07-06 |
+
+</Section>
+
+<Section icon={Target} title="What to Farm First">
+
+<Callout type="warning" title="Priority Warning">
+Do not chase rare drops before your loop is stable. A consistent mid-tier farm often outperforms a shaky high-variance route.
+</Callout>
+
+The first decision in any farming plan is not what looks valuable; it is what removes bottlenecks. A good route should solve progression blockers first, then build toward better profit. If your inventory fills too fast, your combat time matters less than your reset time. If your upgrades stall, raw currency can be more valuable than a rare drop.
+
+**Priority ladder**
+
+| Priority | Target | Why It Matters | Best Time |
+|---|---|---|---|
+| 1 | Core upgrade materials | Unlocks stable progression | Early and mid game |
+| 2 | Currency or vendor items | Funds upkeep and rerolls | Every session |
+| 3 | Bottleneck resources | Removes a hard stop | When progression slows |
+| 4 | Rare drops | Long-term power gains | After the loop is stable |
+
+**Farm goals to lock in before you start**
+
+<Checklist
+  id="farm-goals"
+  title="Essential Farming Targets:"
+  items={[
+    "Choose one primary resource to focus on",
+    "Set a minimum acceptable run time",
+    "Track the value of each run",
+    "Leave enough inventory space for a full loop",
+    "Stop changing routes until you have a sample set"
+  ]}
+/>
+
+Another useful rule is to ignore any target that forces too much travel for too little value. If a node, chest, or fight adds only a small reward but breaks your rhythm, it is probably hurting the route more than helping it.
+
+| Decision | Keep It? | Reason |
+|---|---|---|
+| High-density fight | Yes | Better yield per minute |
+| Long detour for one chest | Usually no | Travel cost is too high |
+| Common material loop | Yes | Stable baseline income |
+| Rare target with weak drop rate | Later | Better after efficiency is solved |
+
+<Callout type="info" title="Practical Filter">
+When in doubt, farm the resource that appears in multiple upgrades, not the one that only helps once.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Farm Loop">
+
+<Callout type="success" title="Execution Goal">
+A good loop should feel almost boring. That is usually the sign that your route is efficient and repeatable.
+</Callout>
+
+Use the same structure for every test run. That keeps your results comparable and makes it easier to see whether you are improving or just getting lucky.
+
+<Steps>
+  <Step num="1" title="Prepare the loadout">
+    Bring the setup that clears your chosen route with the least friction. Favor consistency, safe clears, and enough sustain to finish every run.
+  </Step>
+  <Step num="2" title="Run the shortest viable path">
+    Start with the route that removes the most travel time. If rewards are close, the shorter loop usually wins over time.
+  </Step>
+  <Step num="3" title="Clear in the same order every time">
+    Keep your path predictable. Fixed routing makes it easier to measure drop differences and identify weak points.
+  </Step>
+  <Step num="4" title="Reset quickly and log the result">
+    Record what you gained, how long it took, and whether inventory, safety, or travel became the limiting factor.
+  </Step>
+  <Step num="5" title="Adjust only one variable">
+    Change one thing at a time, such as route length, target density, or difficulty. That is the fastest way to find the real upgrade.
+  </Step>
+</Steps>
+
+| Step | Action | What to Watch |
+|---|---|---|
+| 1 | Set loadout | Damage, sustain, mobility |
+| 2 | Enter route | Travel time, encounter spacing |
+| 3 | Clear loop | Death risk, clear speed |
+| 4 | Reset | Menu time, transition time |
+| 5 | Review results | Drops, currency, consistency |
+
+A smart sample size matters. Test a route long enough to see a pattern, then compare it with another route using the same rules. If you swap too many variables, the numbers stop meaning much.
+
+<Callout type="tip" title="Testing Rule">
+Do not judge a route after one lucky run or one bad run. Use a small sample, then compare averages.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="How to Improve Yield per Run">
+
+<Callout type="info" title="Optimization Focus">
+The best gains usually come from faster resets, denser routes, and safer clears, not from a single dramatic upgrade.
+</Callout>
+
+Yield is a three-part problem: combat speed, route structure, and downtime control. If you improve only one of those, gains can stall quickly. The most reliable progress comes from tightening all three just enough that every run is smoother than the last.
+
+| Lever | What to Change | Result |
+|---|---|---|
+| Route density | Favor clustered fights or pickups | Better drops per minute |
+| Reset speed | Cut menu and loading downtime | More runs per session |
+| Loadout balance | Mix damage with safety tools | Fewer failed runs |
+| Inventory control | Start with enough space | Less interruption |
+| Difficulty choice | Use the lowest efficient tier | More consistent clears |
+
+**Common mistakes and fixes**
+
+| Mistake | Why It Hurts | Fix |
+|---|---|---|
+| Farming rare targets too early | Low consistency | Build a stable loop first |
+| Ignoring travel time | Wastes the session | Re-route for tighter spacing |
+| Changing too many variables | Hard to read results | Adjust one factor at a time |
+| Overfilling inventory | Breaks rhythm | Leave buffer space before runs |
+
+For players who want a simple rule, choose the route that gives the highest reliable return with the least friction. Not the flashiest route, not the hardest route, just the one that keeps producing useful results without forcing extra effort.
+
+| Benchmark | Good Sign | Better Sign |
+|---|---|---|
+| Run consistency | Similar clear times | Tight time spread |
+| Reward mix | Useful every run | Multiple upgrade paths |
+| Effort level | Focused but manageable | Easy to repeat for long sessions |
+| Session quality | Few pauses | Near-zero wasted movement |
+
+<Callout type="success" title="Best Improvement Habit">
+Track one route for several runs, then improve only the weakest part of the loop.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ and Fast Answers">
+
+<Callout type="tip" title="FAQ Shortcut">
+If your farming plan is confusing, return to one question: does this route save time while keeping the rewards useful?
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best project mirror labyrinth farm method for beginners?",
+    answer: "Start with the shortest route you can clear reliably. Early farming should prioritize consistency, simple routing, and resources that unlock upgrades."
+  },
+  {
+    question: "Should I farm rare drops first?",
+    answer: "Usually no. Build a stable loop first, then chase rare drops after your clear speed and reset time are already under control."
+  },
+  {
+    question: "How many runs should I test before changing a route?",
+    answer: "Use a small sample of several runs, then compare averages. One lucky run or one bad run is not enough to judge a route."
+  },
+  {
+    question: "Can I use the unofficial wiki as a farming reference?",
+    answer: "Yes, but treat it as a naming and reference tool. Always confirm the route in your own runs before committing to a long farming session."
+  }
+]} />
+
+**Final rule:** the best **project mirror labyrinth farm** is the one you can repeat cleanly, measure honestly, and improve one step at a time.
+
+</Section>

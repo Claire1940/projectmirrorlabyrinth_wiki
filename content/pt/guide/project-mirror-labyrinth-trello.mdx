@@ -1,0 +1,192 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth trello: Guia de Configuração e Dicas do Quadro",
+  description: "Organize um quadro do Project Mirror Labyrinth no Trello com listas limpas, rótulos e etapas de revisão para acelerar a produção da wiki e deixar a responsabilidade pelas tarefas mais clara.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Setup+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth trello** funciona melhor como uma central viva para pesquisa, redação, revisão e publicação.
+- **Um design limpo de listas** mantém as tarefas da wiki visíveis, enquanto **rótulos simples** evitam confusão de status.
+- **Um cartão, um resultado** é a forma mais fácil de acompanhar páginas, recursos e etapas de verificação.
+- **Revisões semanais** evitam que tarefas antigas se acumulem e mantêm o quadro alinhado às prioridades atuais.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Quadro project mirror labyrinth trello">
+
+O Project Mirror Labyrinth Trello funciona melhor quando atua como uma central da wiki, e não como um depósito desorganizado. O quadro deve mostrar o que está sendo pesquisado, o que está sendo escrito, o que ainda precisa de checagem de fatos e o que já está pronto para publicar. Essa estrutura mantém a equipe em movimento sem obrigar ninguém a vasculhar longas cadeias de comentários.
+
+<CardGrid cols={3}>
+  <Card title="Fila de Pesquisa">
+    - **Coleta de fontes**
+    - Notas de capturas de tela
+    - Referências de chefes, itens e missões
+  </Card>
+  <Card title="Fila de Rascunho">
+    - **Redação de páginas**
+    - Esboços estruturados
+    - Texto inicial para os editores
+  </Card>
+  <Card title="Fila de Revisão">
+    - **Checagem de fatos**
+    - Validação de links
+    - Polimento final antes da publicação
+  </Card>
+</CardGrid>
+
+| Área do Quadro | Melhor Uso | Exemplos de Cartões |
+|---|---|---|
+| Pesquisa | Reunir notas e referências brutas | Nomes de chefes, detalhes de mapas, dados de itens |
+| Rascunho | Construir a primeira versão da página | Resumo da lore, rascunho de mecânicas, rascunho de tabela |
+| Revisão | Verificar fatos e enxugar o texto | Links ausentes, seções pouco claras, informações duplicadas |
+| Publicação | Guardar o trabalho finalizado e tarefas de manutenção | Registro de atualização, verificação de redirecionamento, nota de arquivo |
+
+<Callout type="tip" title="Dica de Design do Quadro">
+Mantenha o quadro enxuto. Se uma lista começar a guardar cartões demais e sem relação entre si, separe-a por etapa do fluxo em vez de adicionar mais rótulos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Etapas de Configuração e Sistema de Rótulos">
+
+Uma boa configuração do Trello é construída em camadas pequenas. Comece pela estrutura do quadro, depois adicione os rótulos e, por fim, defina o que cada cartão precisa conter. Essa ordem evita o problema comum de montar um quadro colorido que ainda assim falha em acompanhar o trabalho real.
+
+<Steps>
+  <Step num="1" title="Crie as listas principais">
+    Use primeiro quatro listas: Pesquisa, Rascunho, Revisão e Publicação. Só adicione listas extras se a equipe conseguir explicar exatamente por que elas são necessárias.
+  </Step>
+  <Step num="2" title="Defina a paleta de rótulos">
+    Use rótulos para o tipo de conteúdo, não para cada pequeno status. Por exemplo, separe páginas de missões, páginas de chefes, páginas de itens e páginas de mapas.
+  </Step>
+  <Step num="3" title="Estabeleça um modelo único de cartão">
+    Todo cartão deve trazer um resumo curto, o responsável pela tarefa, links de fonte e uma condição clara de conclusão.
+  </Step>
+  <Step num="4" title="Fixe um ritmo de revisão">
+    Escolha um horário semanal de auditoria para manter o quadro atualizado e evitar que cartões inativos poluam as listas ativas.
+  </Step>
+</Steps>
+
+| Rótulo | Significado | Melhor Exemplo |
+|---|---|---|
+| **Quest** | Conteúdo de história ou missão | Rascunho da página da missão principal |
+| **Boss** | Conteúdo de inimigo ou encontro | Entrada de chefe de raid |
+| **Item** | Equipamentos, drops ou materiais | Registro de drop raro |
+| **Map** | Conteúdo de local, área ou rota | Nota do layout da zona |
+| **Pending** | Aguardando verificação | Falta checar o status |
+
+<Callout type="warning" title="Aviso sobre Rótulos">
+Não use rótulos para substituir listas. Os rótulos devem descrever o que o cartão é, enquanto as listas devem descrever em que ponto do fluxo o cartão está.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modelos de Cartão, Responsabilidade e Verificações">
+
+Depois que a estrutura do quadro estiver pronta, cada cartão precisa das mesmas informações mínimas. Essa consistência é o que transforma o Trello de um simples quadro de tarefas em um sistema de produção confiável. Um bom modelo de cartão também torna as entregas mais rápidas, porque todo editor vê os mesmos campos na mesma ordem.
+
+<Callout type="info" title="Regra do Modelo de Cartão">
+Trate cada cartão como um briefing de página reutilizável. Se um colega conseguir abrir o cartão e entender a tarefa em dez segundos, o modelo está funcionando.
+</Callout>
+
+| Campo | O que Escrever | Por que Importa |
+|---|---|---|
+| Título | Nome da página ou da tarefa | Facilita a busca e a organização |
+| Resumo | Finalidade em uma linha | Mantém o cartão focado |
+| Responsável | Uma pessoa responsável | Evita repasses pouco claros |
+| Fontes | Links, notas ou capturas de tela | Acelera a checagem de fatos |
+| Definição de Pronto | Regra clara de conclusão | Evita trabalho incompleto |
+
+<Checklist
+  id="pm-trello-goals"
+  title="Checklist de Prontidão do Quadro:"
+  items={[
+    "Criar as quatro listas base",
+    "Atribuir um responsável a cada cartão ativo",
+    "Adicionar uma legenda de rótulos para os tipos de conteúdo",
+    "Anexar links de fonte ou notas a cada rascunho",
+    "Revisar cartões antigos uma vez por semana"
+  ]}
+/>
+
+| Nível de Responsabilidade | Melhor Prática | Exemplo |
+|---|---|---|
+| Responsável Único | Uma pessoa cuida do resultado final | Um editor para uma página |
+| Entrada Compartilhada | Outros podem comentar, mas não encerrar | Ajuda de pesquisa de colegas |
+| Revisão Final | Revisor sênior aprova | Checagem de precisão antes da publicação |
+
+<Callout type="success" title="Quando Há Responsabilidade, Tudo Flui Melhor">
+Um cartão com um responsável e uma regra de conclusão é mais fácil de gerenciar do que um cartão compartilhado com responsabilidade vaga.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fluxo de Trabalho, Publicação e Manutenção">
+
+Um bom fluxo de trabalho é mais importante do que um quadro colorido. Mova os cartões apenas quando a próxima etapa realmente estiver pronta e mantenha a lista de publicação reservada para trabalhos que já passaram pela revisão. Essa disciplina mantém o quadro honesto e protege a equipe de um progresso falso.
+
+| Etapa | Condição de Entrada | Condição de Saída |
+|---|---|---|
+| Rascunho | A pesquisa já é suficiente para começar a escrever | O texto principal está completo |
+| Revisão | O rascunho está legível e estruturado | Fatos, links e termos foram verificados |
+| Pronto | O revisor aprova o cartão | Agendado ou publicado |
+| Arquivo | A tarefa está concluída ou foi descontinuada | O cartão é guardado como referência |
+
+| Cadência de Revisão | Melhor Uso | Resultado |
+|---|---|---|
+| Verificação diária | Sprint ativo | Identificação rápida de problemas |
+| Auditoria semanal | Trabalho contínuo da wiki | Backlog mais limpo |
+| Limpeza mensal | Manutenção de quadros grandes | Menos cartões antigos |
+
+Em 2026-07-06, as referências oficiais mais úteis sobre o comportamento atual do Trello são [Atlassian's Trello Docs](https://support.atlassian.com/trello/docs/) e [Using labels in Trello](https://support.atlassian.com/trello/docs/using-labels-in-trello/). Elas ajudam a confirmar o comportamento dos recursos antes de você padronizar um processo de quadro.
+
+<Callout type="success" title="Regra de Publicação">
+Só mova um cartão para Publicação quando o conteúdo estiver verificado, o título corresponder à página-alvo e o responsável final tiver aprovado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Problemas Comuns e FAQ">
+
+Pequenos problemas no quadro geralmente vêm de nomes de cartões pouco claros, rótulos sobrecarregados ou etapas demais. Corrija isso cedo e o quadro ficará muito mais fácil de manter ao longo do tempo.
+
+| Problema | Causa Provável | Melhor Correção |
+|---|---|---|
+| Cartões se perdem | As listas são amplas demais | Separe por etapa do fluxo |
+| Os rótulos ficam confusos | Status e categoria estão misturados | Reserve os rótulos para o tipo de conteúdo |
+| As revisões travam | Não há responsável ou prazo | Atribua um responsável e um prazo |
+| Aparecem tarefas duplicadas | A nomeação é inconsistente | Use um formato compartilhado para títulos de cartão |
+
+<Callout type="tip" title="Dica de Manutenção">
+Se o quadro parecer barulhento, remova complexidade antes de adicionar mais cartões. Um quadro mais simples normalmente também é um quadro mais rápido.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor estrutura inicial para project mirror labyrinth trello?",
+    answer: "Comece com quatro listas: Pesquisa, Rascunho, Revisão e Publicação. Isso dá ao quadro um fluxo claro sem exagerar no design."
+  },
+  {
+    question: "Os rótulos ou as listas devem carregar o status principal?",
+    answer: "As listas devem carregar o status, enquanto os rótulos devem descrever o tipo de conteúdo. Essa separação mantém o quadro legível e evita excesso de rótulos."
+  },
+  {
+    question: "Quão detalhado deve ser cada cartão do Trello?",
+    answer: "Cada cartão deve incluir um título, um resumo curto, um responsável, notas de fonte e uma definição clara de pronto. Isso basta para repasses rápidos."
+  },
+  {
+    question: "Com que frequência o quadro deve ser revisado?",
+    answer: "Uma revisão semanal é uma base sólida para a maioria das equipes. Projetos mais dinâmicos também podem se beneficiar de uma checagem diária curta."
+  }
+]} />
+
+</Section>

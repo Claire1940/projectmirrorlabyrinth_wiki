@@ -1,0 +1,222 @@
+import { Map, Target, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth farm: Rotas Rápidas e Dicas de Rendimento",
+  description: "Aprenda rotas de farm em project mirror labyrinth, prioridades de alvo e dicas de ciclos repetíveis para aumentar o rendimento e reduzir tempo desperdiçado em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Farm+Route+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth farm** funciona melhor quando você otimiza a repetibilidade, e não picos de sorte isolados.
+- **A rota viável mais curta** geralmente vence um caminho mais longo se o rendimento por minuto for parecido.
+- **Materiais essenciais de melhoria** devem vir primeiro, porque desbloqueiam um progresso estável.
+- **Uma mudança por vez** facilita medir se uma rota está realmente melhorando.
+</Callout>
+
+<Section icon={Map} title="Fundamentos da Rota de Farm em project mirror labyrinth">
+
+Um **project mirror labyrinth farm** forte começa com disciplina de rota. Seu objetivo é criar um ciclo que você consiga repetir com o mínimo de hesitação e, então, aumentar a eficiência por meio de densidade, resets limpos e pouco tempo parado. Na prática, isso significa escolher a rota que você consegue limpar com confiabilidade antes de perseguir a rota com o maior teto de recompensa possível.
+
+**Tipos de rota em resumo**
+
+<CardGrid cols={3}>
+  <Card title="Ciclo Curto">
+    - **Melhor para:** sessões rápidas
+    - Menor tempo de deslocamento
+    - Fácil de repetir
+  </Card>
+  <Card title="Ciclo Denso">
+    - **Melhor para:** recompensas acumuladas
+    - Maior número de encontros
+    - Melhor quando você consegue limpar rápido
+  </Card>
+  <Card title="Ciclo Misto">
+    - **Melhor para:** farm flexível
+    - Equilibra velocidade e recompensa
+    - Bom para testes iniciais
+  </Card>
+</CardGrid>
+
+| Tipo de Rota | Melhor para | Ponto forte | Compromisso |
+|---|---|---|---|
+| Ciclo Curto | Moeda, materiais básicos | Menor tempo de deslocamento | Menos drops no total |
+| Ciclo Denso | XP, materiais comuns | Alto volume de encontros | Maior risco |
+| Ciclo Misto | Farm geral | Mistura de recompensas flexível | Exige mais trabalho de roteamento |
+
+<Callout type="tip" title="Regra de Seleção de Rota">
+Se duas rotas parecerem semelhantes, escolha a que você consegue concluir cinco vezes seguidas sem desgaste mental.
+</Callout>
+
+Para terminologia e estrutura da página, ajuda manter uma página de referência aberta enquanto você testa rotas no jogo. Use a Wiki não oficial de project mirror labyrinth como verificação de nomes e, depois, confirme qualquer rótulo de rota com os dados das suas próprias runs em vez de confiar só na memória.
+
+| Referência | Por que ajuda | Link | Acessado em |
+|---|---|---|---|
+| Wiki não oficial de project mirror labyrinth | Terminologia, nomes de páginas, rótulos de rotas | [Abrir wiki](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki) | 2026-07-06 |
+
+</Section>
+
+<Section icon={Target} title="O Que Farmar Primeiro">
+
+<Callout type="warning" title="Alerta de Prioridade">
+Não persiga drops raros antes de estabilizar seu ciclo. Um farm consistente de nível intermediário muitas vezes supera uma rota instável e de alta variância.
+</Callout>
+
+A primeira decisão em qualquer plano de farm não é o que parece valioso; é o que remove gargalos. Uma boa rota deve resolver primeiro os bloqueios de progressão e, depois, avançar para um lucro melhor. Se seu inventário enche rápido demais, o tempo de combate importa menos do que o tempo de reset. Se suas melhorias travam, moeda direta pode ser mais valiosa do que um drop raro.
+
+**Escada de prioridades**
+
+| Prioridade | Alvo | Por que importa | Melhor momento |
+|---|---|---|---|
+| 1 | Materiais essenciais de melhoria | Desbloqueia progresso estável | Início e meio do jogo |
+| 2 | Moeda ou itens de vendedor | Financia manutenção e rerolls | Toda sessão |
+| 3 | Recursos de gargalo | Remove um ponto de travamento | Quando a progressão desacelera |
+| 4 | Drops raros | Ganhos de poder no longo prazo | Depois que o ciclo estiver estável |
+
+**Metas de farm para definir antes de começar**
+
+<Checklist
+  id="farm-goals"
+  title="Metas Essenciais de Farm:"
+  items={[
+    "Escolher um recurso principal para focar",
+    "Definir um tempo mínimo aceitável por run",
+    "Registrar o valor de cada run",
+    "Deixar espaço suficiente no inventário para um ciclo completo",
+    "Parar de trocar de rota até ter um conjunto de amostras"
+  ]}
+/>
+
+Outra regra útil é ignorar qualquer alvo que exija deslocamento demais para valor de menos. Se um nó, baú ou combate adiciona apenas uma pequena recompensa, mas quebra seu ritmo, ele provavelmente está prejudicando a rota mais do que ajudando.
+
+| Decisão | Manter? | Motivo |
+|---|---|---|
+| Combate de alta densidade | Sim | Melhor rendimento por minuto |
+| Desvio longo para um baú | Geralmente não | O custo de deslocamento é alto demais |
+| Ciclo de materiais comuns | Sim | Renda base estável |
+| Alvo raro com taxa de drop fraca | Depois | Melhor após resolver a eficiência |
+
+<Callout type="info" title="Filtro Prático">
+Na dúvida, faça farm do recurso que aparece em várias melhorias, não daquele que só ajuda uma vez.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ciclo de Farm Passo a Passo">
+
+<Callout type="success" title="Objetivo de Execução">
+Um bom ciclo deve parecer quase entediante. Normalmente, esse é o sinal de que sua rota é eficiente e repetível.
+</Callout>
+
+Use a mesma estrutura em toda run de teste. Isso mantém seus resultados comparáveis e facilita ver se você está melhorando ou apenas dando sorte.
+
+<Steps>
+  <Step num="1" title="Prepare o loadout">
+    Leve a configuração que limpa a rota escolhida com o menor atrito possível. Priorize consistência, limpezas seguras e sustain suficiente para terminar todas as runs.
+  </Step>
+  <Step num="2" title="Execute o caminho viável mais curto">
+    Comece pela rota que reduz mais tempo de deslocamento. Se as recompensas forem parecidas, o ciclo mais curto normalmente vence no longo prazo.
+  </Step>
+  <Step num="3" title="Limpe sempre na mesma ordem">
+    Mantenha seu caminho previsível. Um roteamento fixo facilita medir diferenças de drop e identificar pontos fracos.
+  </Step>
+  <Step num="4" title="Faça o reset rápido e registre o resultado">
+    Anote o que você ganhou, quanto tempo levou e se inventário, segurança ou deslocamento virou o fator limitante.
+  </Step>
+  <Step num="5" title="Ajuste apenas uma variável">
+    Mude uma coisa por vez, como comprimento da rota, densidade de alvos ou dificuldade. Esse é o jeito mais rápido de achar a melhoria real.
+  </Step>
+</Steps>
+
+| Etapa | Ação | O que observar |
+|---|---|---|
+| 1 | Definir loadout | Dano, sustain, mobilidade |
+| 2 | Entrar na rota | Tempo de deslocamento, espaçamento dos encontros |
+| 3 | Limpar o ciclo | Risco de morte, velocidade de limpeza |
+| 4 | Resetar | Tempo de menu, tempo de transição |
+| 5 | Revisar resultados | Drops, moeda, consistência |
+
+Um tamanho de amostra inteligente importa. Teste uma rota por tempo suficiente para ver um padrão e, depois, compare com outra rota usando as mesmas regras. Se você trocar variáveis demais, os números deixam de significar muita coisa.
+
+<Callout type="tip" title="Regra de Teste">
+Não julgue uma rota depois de uma run sortuda ou de uma run ruim. Use uma pequena amostra e compare as médias.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Como Melhorar o Rendimento por Run">
+
+<Callout type="info" title="Foco da Otimização">
+Os melhores ganhos normalmente vêm de resets mais rápidos, rotas mais densas e limpezas mais seguras, não de uma única melhoria dramática.
+</Callout>
+
+Rendimento é um problema de três partes: velocidade de combate, estrutura da rota e controle do tempo parado. Se você melhorar só uma delas, os ganhos podem estagnar rápido. O progresso mais confiável vem de ajustar as três o suficiente para que cada run fique mais fluida que a anterior.
+
+| Alavanca | O que mudar | Resultado |
+|---|---|---|
+| Densidade da rota | Priorize lutas ou pickups agrupados | Melhor drop por minuto |
+| Velocidade de reset | Reduza o tempo parado em menus e carregamentos | Mais runs por sessão |
+| Equilíbrio do loadout | Misture dano com ferramentas de segurança | Menos runs falhadas |
+| Controle do inventário | Comece com espaço suficiente | Menos interrupções |
+| Escolha de dificuldade | Use o tier mais baixo que seja eficiente | Limpezas mais consistentes |
+
+**Erros comuns e correções**
+
+| Erro | Por que atrapalha | Correção |
+|---|---|---|
+| Farmar alvos raros cedo demais | Baixa consistência | Construa primeiro um ciclo estável |
+| Ignorar o tempo de deslocamento | Desperdiça a sessão | Refaça a rota para espaçamentos menores |
+| Trocar variáveis demais | Difícil ler os resultados | Ajuste um fator por vez |
+| Encher demais o inventário | Quebra o ritmo | Deixe espaço de sobra antes das runs |
+
+Para quem quer uma regra simples, escolha a rota que ofereça o maior retorno confiável com o menor atrito. Não a rota mais chamativa, nem a mais difícil, apenas a que continua gerando resultados úteis sem exigir esforço extra.
+
+| Referência | Bom sinal | Sinal melhor ainda |
+|---|---|---|
+| Consistência das runs | Tempos de limpeza parecidos | Variação de tempo pequena |
+| Mistura de recompensas | Útil em toda run | Múltiplos caminhos de melhoria |
+| Nível de esforço | Focado, mas administrável | Fácil de repetir por longas sessões |
+| Qualidade da sessão | Poucas pausas | Quase nenhum movimento desperdiçado |
+
+<Callout type="success" title="Melhor Hábito de Melhoria">
+Acompanhe uma rota por várias runs e, depois, melhore apenas a parte mais fraca do ciclo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Respostas Rápidas">
+
+<Callout type="tip" title="Atalho do FAQ">
+Se seu plano de farm estiver confuso, volte a uma pergunta: essa rota economiza tempo sem deixar as recompensas inúteis?
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor método de farm em project mirror labyrinth para iniciantes?",
+    answer: "Comece pela rota mais curta que você consiga limpar com confiabilidade. O farm inicial deve priorizar consistência, roteamento simples e recursos que desbloqueiam melhorias."
+  },
+  {
+    question: "Devo farmar drops raros primeiro?",
+    answer: "Geralmente não. Construa primeiro um ciclo estável e, depois, persiga drops raros quando sua velocidade de limpeza e seu tempo de reset já estiverem sob controle."
+  },
+  {
+    question: "Quantas runs devo testar antes de mudar uma rota?",
+    answer: "Use uma pequena amostra de várias runs e, depois, compare as médias. Uma run sortuda ou uma run ruim não basta para julgar uma rota."
+  },
+  {
+    question: "Posso usar a wiki não oficial como referência de farm?",
+    answer: "Sim, mas trate-a como uma ferramenta de nomenclatura e referência. Sempre confirme a rota nas suas próprias runs antes de se comprometer com uma sessão longa de farm."
+  }
+]} />
+
+**Regra final:** o melhor **project mirror labyrinth farm** é aquele que você consegue repetir com limpeza, medir com honestidade e melhorar um passo de cada vez.
+
+</Section>

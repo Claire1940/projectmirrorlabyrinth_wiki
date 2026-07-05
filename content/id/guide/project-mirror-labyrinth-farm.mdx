@@ -1,0 +1,222 @@
+import { Map, Target, Swords, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth farm: Tips Rute Cepat & Hasil",
+  description: "Pelajari rute project mirror labyrinth farm, prioritas target, dan tips loop berulang untuk meningkatkan hasil dan mengurangi waktu terbuang di 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Farm+Route+Guide",
+  date: "2026-07-06",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **project mirror labyrinth farm** bekerja paling baik saat Anda mengoptimalkan keterulangan, bukan lonjakan keberuntungan sekali pakai.
+- **Rute layak terpendek** biasanya mengalahkan jalur yang lebih panjang jika hasil per menitnya tidak jauh berbeda.
+- **Material peningkatan inti** harus diprioritaskan lebih dulu karena membuka progres yang stabil.
+- **Satu perubahan setiap kali** memudahkan Anda mengukur apakah suatu rute benar-benar membaik.
+</Callout>
+
+<Section icon={Map} title="Dasar-Dasar Rute Farming project mirror labyrinth">
+
+Sebuah **project mirror labyrinth farm** yang kuat dimulai dari disiplin rute. Tujuan Anda adalah membuat loop yang bisa diulang dengan ragu-ragu minimal, lalu meningkatkan efisiensi lewat kepadatan, reset yang rapi, dan downtime yang rendah. Dalam praktiknya, itu berarti memilih rute yang bisa Anda bersihkan dengan andal sebelum mengejar rute dengan plafon hadiah setinggi mungkin.
+
+**Jenis rute secara singkat**
+
+<CardGrid cols={3}>
+  <Card title="Loop Pendek">
+    - **Cocok untuk:** sesi singkat
+    - Waktu tempuh rendah
+    - Mudah diulang
+  </Card>
+  <Card title="Loop Padat">
+    - **Cocok untuk:** hadiah yang menumpuk
+    - Jumlah pertemuan lebih tinggi
+    - Lebih baik saat Anda bisa membersihkan dengan cepat
+  </Card>
+  <Card title="Loop Campuran">
+    - **Cocok untuk:** farming fleksibel
+    - Menyeimbangkan kecepatan dan hadiah
+    - Bagus untuk pengujian awal
+  </Card>
+</CardGrid>
+
+| Jenis Rute | Cocok Untuk | Kelebihan | Kekurangan |
+|---|---|---|---|
+| Loop Pendek | Mata uang, material dasar | Waktu tempuh paling rendah | Total drop lebih sedikit |
+| Loop Padat | XP, material umum | Volume pertemuan tinggi | Risiko lebih tinggi |
+| Loop Campuran | Farming umum | Campuran hadiah fleksibel | Butuh lebih banyak pengerjaan rute |
+
+<Callout type="tip" title="Aturan Pemilihan Rute">
+Jika dua rute terlihat mirip, pilih yang bisa Anda selesaikan lima kali berturut-turut tanpa beban mental.
+</Callout>
+
+Untuk terminologi dan struktur halaman, ada baiknya menjaga satu halaman referensi tetap terbuka saat Anda menguji rute di dalam game. Gunakan project mirror labyrinth Wiki tidak resmi sebagai pemeriksa nama, lalu konfirmasi label rute apa pun dengan data run Anda sendiri alih-alih hanya mengandalkan ingatan.
+
+| Referensi | Mengapa Membantu | Tautan | Diakses |
+|---|---|---|---|
+| project mirror labyrinth Wiki tidak resmi | Terminologi, nama halaman, label rute | [Buka wiki](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki) | 2026-07-06 |
+
+</Section>
+
+<Section icon={Target} title="Apa yang Harus Difarm Lebih Dulu">
+
+<Callout type="warning" title="Peringatan Prioritas">
+Jangan mengejar drop langka sebelum loop Anda stabil. Farming menengah yang konsisten sering kali mengungguli rute bervariasi tinggi yang goyah.
+</Callout>
+
+Keputusan pertama dalam rencana farming apa pun bukan apa yang terlihat bernilai; melainkan apa yang menghilangkan hambatan. Rute yang baik harus menyelesaikan penghambat progres terlebih dahulu, lalu membangun ke profit yang lebih baik. Jika inventaris Anda cepat penuh, waktu bertarung jadi kurang penting dibanding waktu reset. Jika peningkatan Anda tersendat, mata uang mentah bisa lebih berharga daripada drop langka.
+
+**Tangga prioritas**
+
+| Prioritas | Target | Mengapa Penting | Waktu Terbaik |
+|---|---|---|---|
+| 1 | Material peningkatan inti | Membuka progres yang stabil | Awal dan pertengahan game |
+| 2 | Mata uang atau item vendor | Membiayai biaya berkelanjutan dan reroll | Setiap sesi |
+| 3 | Sumber daya penghambat | Menghilangkan titik berhenti keras | Saat progres melambat |
+| 4 | Drop langka | Peningkatan kekuatan jangka panjang | Setelah loop stabil |
+
+**Target farming yang harus ditetapkan sebelum mulai**
+
+<Checklist
+  id="farm-goals"
+  title="Target Farming Esensial:"
+  items={[
+    "Pilih satu sumber daya utama untuk difokuskan",
+    "Tetapkan waktu run minimum yang dapat diterima",
+    "Lacak nilai dari setiap run",
+    "Sisakan ruang inventaris yang cukup untuk satu loop penuh",
+    "Berhenti mengubah rute sampai Anda punya set sampel"
+  ]}
+/>
+
+Aturan berguna lainnya adalah mengabaikan target apa pun yang memaksa terlalu banyak perjalanan untuk nilai yang terlalu kecil. Jika sebuah node, peti, atau pertarungan hanya memberi hadiah kecil tetapi merusak ritme Anda, kemungkinan besar itu lebih merugikan rute daripada membantu.
+
+| Keputusan | Dipertahankan? | Alasan |
+|---|---|---|
+| Pertarungan padat | Ya | Hasil per menit lebih baik |
+| Memutar jauh untuk satu peti | Biasanya tidak | Biaya perjalanan terlalu tinggi |
+| Loop material umum | Ya | Pendapatan dasar yang stabil |
+| Target langka dengan drop rate lemah | Nanti | Lebih baik setelah efisiensi terselesaikan |
+
+<Callout type="info" title="Penyaring Praktis">
+Saat ragu, farm sumber daya yang muncul di beberapa peningkatan, bukan yang hanya berguna satu kali.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Loop Farm Langkah demi Langkah">
+
+<Callout type="success" title="Tujuan Eksekusi">
+Loop yang baik seharusnya terasa hampir membosankan. Biasanya itu tanda bahwa rute Anda efisien dan bisa diulang.
+</Callout>
+
+Gunakan struktur yang sama untuk setiap run uji. Itu membuat hasil Anda bisa dibandingkan dan memudahkan melihat apakah Anda benar-benar membaik atau hanya sedang beruntung.
+
+<Steps>
+  <Step num="1" title="Siapkan loadout">
+    Bawa setup yang membersihkan rute pilihan Anda dengan hambatan paling sedikit. Utamakan konsistensi, clear yang aman, dan sustain yang cukup untuk menyelesaikan setiap run.
+  </Step>
+  <Step num="2" title="Jalankan jalur layak terpendek">
+    Mulailah dengan rute yang menghapus waktu perjalanan paling banyak. Jika hadiahnya dekat, loop yang lebih pendek biasanya menang seiring waktu.
+  </Step>
+  <Step num="3" title="Bersihkan dengan urutan yang sama setiap kali">
+    Jaga agar jalur Anda tetap dapat diprediksi. Routing yang tetap memudahkan pengukuran perbedaan drop dan membantu menemukan titik lemah.
+  </Step>
+  <Step num="4" title="Reset cepat dan catat hasilnya">
+    Catat apa yang Anda dapat, berapa lama waktu yang dibutuhkan, dan apakah inventaris, keamanan, atau perjalanan menjadi faktor pembatas.
+  </Step>
+  <Step num="5" title="Sesuaikan hanya satu variabel">
+    Ubah satu hal saja setiap kali, seperti panjang rute, kepadatan target, atau tingkat kesulitan. Itu cara tercepat untuk menemukan peningkatan yang nyata.
+  </Step>
+</Steps>
+
+| Langkah | Aksi | Hal yang Perlu Diperhatikan |
+|---|---|---|
+| 1 | Atur loadout | Damage, sustain, mobilitas |
+| 2 | Masuk ke rute | Waktu perjalanan, jarak antar pertemuan |
+| 3 | Bersihkan loop | Risiko mati, kecepatan clear |
+| 4 | Reset | Waktu menu, waktu transisi |
+| 5 | Tinjau hasil | Drop, mata uang, konsistensi |
+
+Ukuran sampel yang cerdas itu penting. Uji sebuah rute cukup lama untuk melihat polanya, lalu bandingkan dengan rute lain menggunakan aturan yang sama. Jika Anda menukar terlalu banyak variabel, angka-angkanya jadi tidak terlalu bermakna.
+
+<Callout type="tip" title="Aturan Pengujian">
+Jangan menilai rute setelah satu run beruntung atau satu run buruk. Gunakan sampel kecil, lalu bandingkan rata-ratanya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cara Meningkatkan Hasil per Run">
+
+<Callout type="info" title="Fokus Optimasi">
+Keuntungan terbaik biasanya datang dari reset yang lebih cepat, rute yang lebih padat, dan clear yang lebih aman, bukan dari satu peningkatan dramatis.
+</Callout>
+
+Hasil adalah masalah tiga bagian: kecepatan bertarung, struktur rute, dan kontrol downtime. Jika Anda hanya meningkatkan salah satunya, keuntungan bisa cepat mandek. Progres yang paling andal datang dari memperketat ketiganya secukupnya sehingga setiap run terasa lebih mulus daripada sebelumnya.
+
+| Tuas | Apa yang Diubah | Hasil |
+|---|---|---|
+| Kepadatan rute | Utamakan pertarungan atau pickup yang berkelompok | Drop per menit lebih baik |
+| Kecepatan reset | Kurangi waktu menu dan loading | Lebih banyak run per sesi |
+| Keseimbangan loadout | Gabungkan damage dengan alat keselamatan | Run gagal lebih sedikit |
+| Kontrol inventaris | Mulai dengan ruang yang cukup | Gangguan lebih sedikit |
+| Pilihan kesulitan | Gunakan tier efisien terendah | Clear lebih konsisten |
+
+**Kesalahan umum dan perbaikannya**
+
+| Kesalahan | Mengapa Merugikan | Perbaikan |
+|---|---|---|
+| Farming target langka terlalu awal | Konsistensi rendah | Bangun loop stabil terlebih dahulu |
+| Mengabaikan waktu perjalanan | Memboroskan sesi | Atur ulang rute agar jaraknya lebih rapat |
+| Mengubah terlalu banyak variabel | Sulit membaca hasil | Sesuaikan satu faktor setiap kali |
+| Inventaris terlalu penuh | Merusak ritme | Sisakan ruang cadangan sebelum run |
+
+Bagi pemain yang ingin aturan sederhana, pilih rute yang memberi return paling tinggi dan andal dengan hambatan paling sedikit. Bukan rute paling mencolok, bukan rute tersulit, hanya yang terus menghasilkan hasil berguna tanpa memaksa usaha ekstra.
+
+| Tolok Ukur | Tanda Bagus | Tanda Lebih Baik |
+|---|---|---|
+| Konsistensi run | Waktu clear serupa | Sebaran waktu rapat |
+| Campuran hadiah | Berguna di setiap run | Beberapa jalur peningkatan |
+| Tingkat usaha | Fokus tetapi masih terkelola | Mudah diulang untuk sesi panjang |
+| Kualitas sesi | Sedikit jeda | Hampir tidak ada gerakan terbuang |
+
+<Callout type="success" title="Kebiasaan Peningkatan Terbaik">
+Lacak satu rute selama beberapa run, lalu perbaiki hanya bagian terlemah dari loop.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dan Jawaban Cepat">
+
+<Callout type="tip" title="Jalan Pintas FAQ">
+Jika rencana farming Anda membingungkan, kembali ke satu pertanyaan: apakah rute ini menghemat waktu sambil tetap menjaga hadiahnya berguna?
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa metode project mirror labyrinth farm terbaik untuk pemula?",
+    answer: "Mulailah dengan rute terpendek yang bisa Anda bersihkan dengan andal. Farming awal harus memprioritaskan konsistensi, routing sederhana, dan sumber daya yang membuka peningkatan."
+  },
+  {
+    question: "Haruskah saya memfarming drop langka lebih dulu?",
+    answer: "Biasanya tidak. Bangun loop stabil terlebih dahulu, lalu kejar drop langka setelah kecepatan clear dan waktu reset Anda sudah terkendali."
+  },
+  {
+    question: "Berapa banyak run yang harus saya uji sebelum mengganti rute?",
+    answer: "Gunakan sampel kecil berisi beberapa run, lalu bandingkan rata-ratanya. Satu run beruntung atau satu run buruk tidak cukup untuk menilai rute."
+  },
+  {
+    question: "Bisakah saya memakai wiki tidak resmi sebagai referensi farming?",
+    answer: "Ya, tetapi perlakukan itu sebagai alat penamaan dan referensi. Selalu konfirmasi rute tersebut dalam run Anda sendiri sebelum berkomitmen ke sesi farming yang panjang."
+  }
+]} />
+
+**Aturan akhir:** **project mirror labyrinth farm** terbaik adalah yang bisa Anda ulang dengan bersih, ukur dengan jujur, dan tingkatkan satu langkah demi satu langkah.
+
+</Section>

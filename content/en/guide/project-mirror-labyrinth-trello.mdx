@@ -1,0 +1,192 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth trello: Setup Guide & Board Tips",
+  description: "Organize a Project Mirror Labyrinth Trello board with clean lists, labels, and review steps for faster wiki production and clearer task ownership.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Setup+Guide",
+  date: "2026-07-06",
+  author: "project mirror labyrinth Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **project mirror labyrinth trello** works best as a living control room for research, drafting, review, and publishing.
+- **Clean list design** keeps wiki tasks visible, while **simple labels** prevent status confusion.
+- **One card, one outcome** is the easiest way to track pages, assets, and verification steps.
+- **Weekly reviews** stop stale tasks from piling up and keep the board aligned with current priorities.
+</Callout>
+
+<Section icon={Map} title="project mirror labyrinth trello Board Overview">
+
+Project Mirror Labyrinth Trello works best when it acts as a wiki control room, not a dumping ground. The board should show what is being researched, what is being written, what still needs fact-checking, and what is ready to publish. That structure keeps the team moving without forcing anyone to search through long comment chains.
+
+<CardGrid cols={3}>
+  <Card title="Research Queue">
+    - **Source gathering**
+    - Screenshot notes
+    - Boss, item, and quest references
+  </Card>
+  <Card title="Draft Queue">
+    - **Page writing**
+    - Structured outlines
+    - First-pass copy for editors
+  </Card>
+  <Card title="Review Queue">
+    - **Fact checking**
+    - Link validation
+    - Final polish before publishing
+  </Card>
+</CardGrid>
+
+| Board Area | Best Use | Example Cards |
+|---|---|---|
+| Research | Collect raw notes and references | Boss names, map details, item data |
+| Draft | Build the first version of the page | Lore summary, mechanics draft, table draft |
+| Review | Verify facts and tighten wording | Missing links, unclear sections, duplicate info |
+| Publish | Store finished work and maintenance tasks | Update log, redirect check, archive note |
+
+<Callout type="tip" title="Board Design Tip">
+Keep the board narrow. If a list starts holding too many unrelated cards, split it by workflow stage instead of adding more labels.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Setup Steps and Label System">
+
+A strong Trello setup is built in small layers. Start with the board shape, then add labels, then define what each card must contain. That order avoids the common problem of building a colorful board that still fails to track real work.
+
+<Steps>
+  <Step num="1" title="Create the core lists">
+    Use four lists first: Research, Draft, Review, and Publish. Only add extra lists if the team can explain exactly why they are needed.
+  </Step>
+  <Step num="2" title="Define the label palette">
+    Use labels for content type, not for every tiny status. For example, separate quest pages, boss pages, item pages, and map pages.
+  </Step>
+  <Step num="3" title="Set one card template">
+    Every card should carry a short summary, task owner, source links, and a clear finish condition.
+  </Step>
+  <Step num="4" title="Lock in a review rhythm">
+    Pick a weekly audit time so the board stays current and inactive cards do not clutter active lists.
+  </Step>
+</Steps>
+
+| Label | Meaning | Best Example |
+|---|---|---|
+| **Quest** | Story or mission content | Main quest page draft |
+| **Boss** | Enemy or encounter content | Raid boss entry |
+| **Item** | Gear, drops, or materials | Rare drop record |
+| **Map** | Location, area, or route content | Zone layout note |
+| **Pending** | Waiting on verification | Missing stat check |
+
+<Callout type="warning" title="Label Warning">
+Do not use labels to replace lists. Labels should describe what the card is, while lists should describe where the card sits in the workflow.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Card Templates, Ownership, and Checks">
+
+Once the board structure is in place, each card needs the same minimum information. That consistency is what turns Trello from a simple task board into a reliable production system. A good card template also makes handoffs faster, because every editor sees the same fields in the same order.
+
+<Callout type="info" title="Card Template Rule">
+Treat each card as a reusable page brief. If a teammate can open the card and understand the task in ten seconds, the template is working.
+</Callout>
+
+| Field | What to Write | Why It Matters |
+|---|---|---|
+| Title | Page name or task name | Makes search and sorting easier |
+| Summary | One-line purpose | Keeps the card focused |
+| Owner | One responsible person | Prevents unclear handoffs |
+| Sources | Links, notes, or screenshots | Speeds up fact checking |
+| Definition of Done | Clear completion rule | Avoids half-finished work |
+
+<Checklist
+  id="pm-trello-goals"
+  title="Board Readiness Checklist:"
+  items={[
+    "Create the four base lists",
+    "Assign one owner to every active card",
+    "Add a label legend for content types",
+    "Attach source links or notes to each draft",
+    "Review stale cards once per week"
+  ]}
+/>
+
+| Ownership Level | Best Practice | Example |
+|---|---|---|
+| Single Owner | One person handles the final result | One editor for one page |
+| Shared Input | Others can comment, not close | Research help from teammates |
+| Final Review | Senior reviewer signs off | Accuracy check before publish |
+
+<Callout type="success" title="Ownership Wins">
+A card with one owner and one finish rule is easier to manage than a shared card with vague responsibility.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Workflow, Publishing, and Maintenance">
+
+A good workflow is more important than a colorful board. Move cards only when the next stage is truly ready, and keep the publish list reserved for work that has already cleared review. That discipline keeps the board honest and protects the team from false progress.
+
+| Stage | Entry Condition | Exit Condition |
+|---|---|---|
+| Draft | Research is enough to start writing | Core text is complete |
+| Review | Draft is readable and structured | Facts, links, and terms are checked |
+| Ready | Reviewer approves the card | Scheduled or published |
+| Archive | Task is finished or deprecated | Card is stored for reference |
+
+| Review Cadence | Best Use | Result |
+|---|---|---|
+| Daily check | Active sprint | Fast issue spotting |
+| Weekly audit | Ongoing wiki work | Cleaner backlog |
+| Monthly cleanup | Large board maintenance | Fewer stale cards |
+
+As of 2026-07-06, the most useful official references for current Trello behavior are [Atlassian's Trello Docs](https://support.atlassian.com/trello/docs/) and [Using labels in Trello](https://support.atlassian.com/trello/docs/using-labels-in-trello/). These help confirm feature behavior before you standardize a board process.
+
+<Callout type="success" title="Publish Rule">
+Only move a card to Publish when the content is verified, the title matches the target page, and the final owner has signed off.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Common Problems and FAQ">
+
+Small board problems usually come from unclear card names, overloaded labels, or too many stages. Fix those early and the board becomes much easier to maintain over time.
+
+| Problem | Likely Cause | Best Fix |
+|---|---|---|
+| Cards get lost | Lists are too broad | Split by workflow stage |
+| Labels feel messy | Status and category are mixed | Reserve labels for content type |
+| Reviews stall | No owner or due date | Assign one owner and one deadline |
+| Duplicate tasks appear | Naming is inconsistent | Use a shared card title format |
+
+<Callout type="tip" title="Maintenance Tip">
+If the board feels noisy, remove complexity before adding more cards. A simpler board is usually the faster board.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is the best starting structure for project mirror labyrinth trello?",
+    answer: "Start with four lists: Research, Draft, Review, and Publish. That gives the board a clear flow without overengineering the layout."
+  },
+  {
+    question: "Should labels or lists carry the main status?",
+    answer: "Lists should carry status, while labels should describe the content type. That split keeps the board readable and prevents label overload."
+  },
+  {
+    question: "How detailed should each Trello card be?",
+    answer: "Each card should include a title, short summary, owner, source notes, and a clear definition of done. That is enough for fast handoffs."
+  },
+  {
+    question: "How often should the board be reviewed?",
+    answer: "A weekly review is a solid baseline for most teams. Fast-moving projects may also benefit from a short daily check."
+  }
+]} />
+
+</Section>

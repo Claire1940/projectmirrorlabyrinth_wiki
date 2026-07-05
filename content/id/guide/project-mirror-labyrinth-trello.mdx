@@ -1,0 +1,192 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth trello: Panduan Penyiapan & Tips Papan",
+  description: "Atur papan Trello Project Mirror Labyrinth dengan daftar yang rapi, label yang jelas, dan langkah peninjauan agar produksi wiki lebih cepat serta kepemilikan tugas lebih tegas.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Board+Setup+Guide",
+  date: "2026-07-06",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **project mirror labyrinth trello** paling efektif jika digunakan sebagai pusat kendali hidup untuk riset, penulisan draft, peninjauan, dan publikasi.
+- **Desain daftar yang rapi** menjaga tugas wiki tetap terlihat, sementara **label yang sederhana** mencegah kebingungan status.
+- **Satu kartu, satu hasil** adalah cara termudah untuk melacak halaman, aset, dan langkah verifikasi.
+- **Tinjauan mingguan** mencegah tugas lama menumpuk dan menjaga papan tetap selaras dengan prioritas saat ini.
+</Callout>
+
+<Section icon={Map} title="Tinjauan Papan project mirror labyrinth trello">
+
+Project Mirror Labyrinth Trello paling efektif ketika berfungsi sebagai ruang kendali wiki, bukan tempat penumpukan. Papan harus menampilkan apa yang sedang diteliti, apa yang sedang ditulis, apa yang masih perlu dicek faktanya, dan apa yang siap dipublikasikan. Struktur itu menjaga tim tetap bergerak tanpa memaksa siapa pun mencari lewat rangkaian komentar yang panjang.
+
+<CardGrid cols={3}>
+  <Card title="Antrian Riset">
+    - **Pengumpulan sumber**
+    - Catatan tangkapan layar
+    - Referensi bos, item, dan quest
+  </Card>
+  <Card title="Antrian Draft">
+    - **Penulisan halaman**
+    - Kerangka terstruktur
+    - Draf awal untuk editor
+  </Card>
+  <Card title="Antrian Tinjau">
+    - **Pemeriksaan fakta**
+    - Validasi tautan
+    - Polesan akhir sebelum publikasi
+  </Card>
+</CardGrid>
+
+| Area Papan | Kegunaan Terbaik | Contoh Kartu |
+|---|---|---|
+| Riset | Mengumpulkan catatan mentah dan referensi | Nama bos, detail peta, data item |
+| Draft | Menyusun versi pertama halaman | Ringkasan lore, draf mekanik, draf tabel |
+| Tinjau | Memverifikasi fakta dan merapikan bahasa | Tautan yang hilang, bagian yang tidak jelas, info duplikat |
+| Publikasi | Menyimpan pekerjaan selesai dan tugas pemeliharaan | Log pembaruan, pengecekan redirect, catatan arsip |
+
+<Callout type="tip" title="Tips Desain Papan">
+Jaga papan tetap ramping. Jika satu daftar mulai menampung terlalu banyak kartu yang tidak saling berkaitan, pisahkan berdasarkan tahap alur kerja, bukan dengan menambah lebih banyak label.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Langkah Penyiapan dan Sistem Label">
+
+Penyiapan Trello yang kuat dibangun dalam lapisan-lapisan kecil. Mulailah dari bentuk papan, lalu tambahkan label, lalu tentukan apa saja yang harus ada di setiap kartu. Urutan itu mencegah masalah umum berupa papan yang penuh warna tetapi tetap gagal melacak pekerjaan nyata.
+
+<Steps>
+  <Step num="1" title="Buat daftar inti">
+    Gunakan empat daftar terlebih dahulu: Riset, Draft, Tinjau, dan Publikasi. Tambahkan daftar ekstra hanya jika tim bisa menjelaskan dengan tepat mengapa daftar itu diperlukan.
+  </Step>
+  <Step num="2" title="Tentukan palet label">
+    Gunakan label untuk jenis konten, bukan untuk setiap status kecil. Misalnya, pisahkan halaman quest, halaman bos, halaman item, dan halaman peta.
+  </Step>
+  <Step num="3" title="Tetapkan satu templat kartu">
+    Setiap kartu harus memuat ringkasan singkat, pemilik tugas, tautan sumber, dan kondisi selesai yang jelas.
+  </Step>
+  <Step num="4" title="Tetapkan ritme peninjauan">
+    Tentukan waktu audit mingguan agar papan tetap mutakhir dan kartu yang tidak aktif tidak memenuhi daftar aktif.
+  </Step>
+</Steps>
+
+| Label | Arti | Contoh Terbaik |
+|---|---|---|
+| **Quest** | Konten cerita atau misi | Draf halaman quest utama |
+| **Boss** | Konten musuh atau encounter | Entri bos raid |
+| **Item** | Perlengkapan, drop, atau material | Catatan drop langka |
+| **Map** | Konten lokasi, area, atau rute | Catatan tata letak zona |
+| **Pending** | Menunggu verifikasi | Pemeriksaan stat yang hilang |
+
+<Callout type="warning" title="Peringatan Label">
+Jangan gunakan label untuk menggantikan daftar. Label harus menjelaskan apa isi kartu, sedangkan daftar harus menjelaskan kartu itu berada di mana dalam alur kerja.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Templat Kartu, Kepemilikan, dan Pemeriksaan">
+
+Setelah struktur papan siap, setiap kartu membutuhkan informasi minimum yang sama. Konsistensi itulah yang mengubah Trello dari papan tugas sederhana menjadi sistem produksi yang andal. Templat kartu yang baik juga membuat serah terima lebih cepat, karena setiap editor melihat kolom yang sama dalam urutan yang sama.
+
+<Callout type="info" title="Aturan Templat Kartu">
+Anggap setiap kartu sebagai ringkasan halaman yang bisa dipakai ulang. Jika rekan tim bisa membuka kartu dan memahami tugasnya dalam sepuluh detik, berarti templatenya sudah bekerja.
+</Callout>
+
+| Kolom | Apa yang Harus Ditulis | Mengapa Penting |
+|---|---|---|
+| Judul | Nama halaman atau nama tugas | Memudahkan pencarian dan pengurutan |
+| Ringkasan | Tujuan satu baris | Menjaga kartu tetap fokus |
+| Pemilik | Satu orang yang bertanggung jawab | Mencegah serah terima yang tidak jelas |
+| Sumber | Tautan, catatan, atau tangkapan layar | Mempercepat pemeriksaan fakta |
+| Definisi Selesai | Aturan penyelesaian yang jelas | Menghindari pekerjaan setengah jadi |
+
+<Checklist
+  id="pm-trello-goals"
+  title="Checklist Kesiapan Papan:"
+  items={[
+    "Buat empat daftar dasar",
+    "Tetapkan satu pemilik untuk setiap kartu aktif",
+    "Tambahkan legenda label untuk jenis konten",
+    "Lampirkan tautan sumber atau catatan ke setiap draft",
+    "Tinjau kartu yang lama sekali seminggu"
+  ]}
+/>
+
+| Tingkat Kepemilikan | Praktik Terbaik | Contoh |
+|---|---|---|
+| Pemilik Tunggal | Satu orang menangani hasil akhir | Satu editor untuk satu halaman |
+| Input Bersama | Orang lain boleh berkomentar, bukan menutup | Bantuan riset dari rekan tim |
+| Tinjauan Akhir | Reviewer senior memberi persetujuan | Pemeriksaan akurasi sebelum publikasi |
+
+<Callout type="success" title="Kepemilikan Itu Unggul">
+Kartu dengan satu pemilik dan satu aturan selesai lebih mudah dikelola daripada kartu bersama dengan tanggung jawab yang samar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Alur Kerja, Publikasi, dan Pemeliharaan">
+
+Alur kerja yang baik lebih penting daripada papan yang penuh warna. Pindahkan kartu hanya ketika tahap berikutnya benar-benar siap, dan simpan daftar publikasi hanya untuk pekerjaan yang sudah lolos tinjauan. Disiplin itu menjaga papan tetap jujur dan melindungi tim dari kemajuan palsu.
+
+| Tahap | Syarat Masuk | Syarat Keluar |
+|---|---|---|
+| Draft | Riset sudah cukup untuk mulai menulis | Teks inti sudah selesai |
+| Tinjau | Draft dapat dibaca dan terstruktur | Fakta, tautan, dan istilah sudah dicek |
+| Siap | Reviewer menyetujui kartu | Dijadwalkan atau dipublikasikan |
+| Arsip | Tugas sudah selesai atau sudah tidak dipakai | Kartu disimpan sebagai referensi |
+
+| Ritme Tinjau | Kegunaan Terbaik | Hasil |
+|---|---|---|
+| Pengecekan harian | Sprint aktif | Masalah cepat ditemukan |
+| Audit mingguan | Pekerjaan wiki yang berkelanjutan | Backlog lebih rapi |
+| Pembersihan bulanan | Pemeliharaan papan besar | Lebih sedikit kartu lama |
+
+Per 2026-07-06, referensi resmi paling berguna untuk perilaku Trello saat ini adalah [Dokumentasi Trello Atlassian](https://support.atlassian.com/trello/docs/) dan [Menggunakan label di Trello](https://support.atlassian.com/trello/docs/using-labels-in-trello/). Ini membantu memastikan perilaku fitur sebelum Anda menstandardisasi proses papan.
+
+<Callout type="success" title="Aturan Publikasi">
+Pindahkan kartu ke Publikasi hanya ketika kontennya sudah diverifikasi, judulnya cocok dengan halaman target, dan pemilik akhir sudah menyetujui.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Masalah Umum dan FAQ">
+
+Masalah kecil pada papan biasanya berasal dari nama kartu yang tidak jelas, label yang terlalu padat, atau terlalu banyak tahap. Selesaikan hal-hal itu sejak awal, dan papan akan jauh lebih mudah dipelihara dari waktu ke waktu.
+
+| Masalah | Penyebab Kemungkinan | Solusi Terbaik |
+|---|---|---|
+| Kartu hilang | Daftar terlalu luas | Pisahkan berdasarkan tahap alur kerja |
+| Label terasa berantakan | Status dan kategori tercampur | Sisakan label untuk jenis konten |
+| Tinjauan macet | Tidak ada pemilik atau tenggat | Tetapkan satu pemilik dan satu tenggat |
+| Tugas duplikat muncul | Penamaan tidak konsisten | Gunakan format judul kartu bersama |
+
+<Callout type="tip" title="Tips Pemeliharaan">
+Jika papan terasa terlalu ramai, kurangi kerumitan sebelum menambah kartu. Papan yang lebih sederhana biasanya justru lebih cepat.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa struktur awal terbaik untuk project mirror labyrinth trello?",
+    answer: "Mulailah dengan empat daftar: Riset, Draft, Tinjau, dan Publikasi. Itu memberi alur yang jelas tanpa membuat tata letaknya terlalu rumit."
+  },
+  {
+    question: "Seharusnya label atau daftar yang membawa status utama?",
+    answer: "Daftar harus membawa status, sedangkan label harus menjelaskan jenis konten. Pemisahan itu menjaga papan tetap mudah dibaca dan mencegah label berlebihan."
+  },
+  {
+    question: "Seberapa detail setiap kartu Trello seharusnya?",
+    answer: "Setiap kartu harus berisi judul, ringkasan singkat, pemilik, catatan sumber, dan definisi selesai yang jelas. Itu sudah cukup untuk serah terima yang cepat."
+  },
+  {
+    question: "Seberapa sering papan harus ditinjau?",
+    answer: "Tinjauan mingguan adalah baseline yang kuat untuk sebagian besar tim. Proyek yang bergerak cepat juga bisa mendapat manfaat dari pengecekan harian singkat."
+  }
+]} />
+
+</Section>
