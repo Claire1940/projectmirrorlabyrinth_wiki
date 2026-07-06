@@ -1,0 +1,192 @@
+import { Map, Target, BookOpen, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth fathoms: Guia de Rastreamento de Progresso",
+  description: "Organize project mirror labyrinth fathoms com um sistema de progresso limpo para missões, anotações de história, marcadores de mapa e revisão semanal.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progress+Tracking+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth fathoms** funciona melhor como um sistema de verificação de profundidade para anotações, marcadores e acompanhamento de marcos.
+- **Rastreie missões, episódios, capítulos de livro e brinquedos** em uma única planilha para manter o progresso legível.
+- **Use o mapa interativo** para objetivos de localização, pontos de boss e buscas por colecionáveis.
+- **Revise semanalmente** para que sua fila de pendências continue limpa antes da próxima sessão.
+</Callout>
+
+<Section icon={Map} title="Modelo de Referência de project mirror labyrinth fathoms">
+
+Use o hub da wiki como ponto de partida e, em seguida, monte um modelo simples de progresso em torno dos principais tipos de conteúdo do jogo. O objetivo não é complicar demais o sistema. É tornar mais fácil revisitar cada partida, missão e descoberta depois.
+
+Uma boa base de referência é a [página inicial da Project Mirror Labyrinth Wiki](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki). A partir daí, organize suas anotações por profundidade: o que você já concluiu, o que ainda precisa de atenção e o que vale a pena revisitar.
+
+<CardGrid cols={3}>
+  <Card title="Profundidade de Missão">
+    - **Melhor para acompanhar objetivos**
+    - Status claro de vitória/derrota
+    - Fácil de atualizar após cada run
+  </Card>
+  <Card title="Profundidade da História">
+    - **Melhor para o progresso narrativo**
+    - Anotações de episódios e capítulos
+    - Útil para planejar reprises
+  </Card>
+  <Card title="Profundidade da Coleção">
+    - **Melhor para metas de longo prazo**
+    - Acompanhe roupas, EGOs e colecionáveis
+    - Ajuda a evitar caça duplicada
+  </Card>
+</CardGrid>
+
+| Área de Referência | Melhor Uso | Por que Isso Importa |
+| --- | --- | --- |
+| Missão | Objetivos principais | Mantém as metas de combate visíveis |
+| Episódio | Progresso da história | Ajuda a seguir a ordem narrativa |
+| Capítulo do livro | Marcos escritos | Bom para revisão detalhada |
+| Brinquedo | Rastreamento de coleção | Útil para completude baseada em itens |
+
+<Callout type="tip" title="Dica Editorial">
+Mantenha cada linha curta. Um objetivo, um status, uma observação. Essa estrutura é mais fácil de escanear do que um parágrafo longo com detalhes misturados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração de Rastreamento Passo a Passo">
+
+Se você quer que project mirror labyrinth fathoms pareça administrável, comece com uma rotina repetível. Uma rotina estável importa mais do que um modelo perfeito. O melhor sistema é aquele que você consegue atualizar sem atrasar sua sessão de jogo.
+
+<Steps>
+  <Step num="1" title="Escolha Uma Planilha Principal">
+    Escolha um único lugar para suas anotações de progresso. Use-o para objetivos, pontos da história e metas de coleção.
+  </Step>
+  <Step num="2" title="Registre Apenas Itens Açãoáveis">
+    Escreva entradas que possam ser concluídas, verificadas ou revisitadas. Evite notas vagas que não levam a uma decisão.
+  </Step>
+  <Step num="3" title="Anexe Marcadores de Mapa">
+    Adicione locais para recompensas escondidas, bosses ou pontos de missão para que suas anotações correspondam ao layout do mundo.
+  </Step>
+  <Step num="4" title="Revise e Enxugue">
+    Remova tarefas antigas, una entradas duplicadas e mantenha a lista focada na próxima sessão.
+  </Step>
+</Steps>
+
+| Etapa | Ação | Resultado |
+| --- | --- | --- |
+| 1 | Escolha um único rastreador | Menos duplicação |
+| 2 | Registre itens açãoáveis | Prioridades claras |
+| 3 | Adicione marcadores de mapa | Planejamento de rota mais rápido |
+| 4 | Enxugue notas antigas | Painel mais limpo |
+
+<Callout type="warning" title="Erro Comum">
+Não divida o mesmo objetivo em três listas diferentes. Isso normalmente cria confusão em vez de uma organização melhor.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="O Que Rastrear Primeiro">
+
+A maneira mais rápida de ganhar ritmo é priorizar o conteúdo que muda sua rota de jogo. Progresso da história, status de missão e metas de coleção merecem espaço nas suas notas, mas não devem ter o mesmo peso.
+
+| Tipo de Conteúdo | O que Registrar | Melhor Prioridade |
+| --- | --- | --- |
+| Missão | Meta, boss, recompensa | Alta |
+| Episódio | Ponto atual, cenas bloqueadas | Alta |
+| Capítulo do livro | Número do capítulo, evento-chave | Média |
+| Brinquedo | Nome do item, nota de aquisição | Média |
+| Roupas | Possuídas, faltando, planejadas | Média |
+
+O layout da wiki já sugere um modelo amplo de progresso, então sua tarefa é reduzi-lo a uma checklist prática. Isso significa transformar categorias gerais em ações claras. Quando uma nota não ajuda você a escolher o próximo passo, provavelmente ela está ampla demais.
+
+<Callout type="success" title="Configuração Forte">
+Uma ordem simples de prioridade funciona bem: conclua primeiro os objetivos urgentes, depois as notas da história e, por fim, a limpeza da coleção.
+</Callout>
+
+| Regra de Prioridade | Use Quando | Resultado |
+| --- | --- | --- |
+| Alta primeiro | O progresso principal está bloqueado | Desbloqueios mais rápidos |
+| Média depois | Você está transitando entre sessões | Melhor ritmo |
+| Baixa por último | Você está limpando extras | Menos bagunça |
+
+</Section>
+
+<Section icon={Shield} title="Mapa Interativo e Higiene das Anotações">
+
+O mapa interativo é mais útil quando suas anotações já têm estrutura. Trate cada marcador como uma ferramenta de decisão, não apenas como um alfinete na tela. Isso facilita voltar ao lugar certo sem reler tudo.
+
+| Tipo de Marcador | O que Capturar | Quando Usar |
+| --- | --- | --- |
+| Local do boss | Nome, nível de ameaça | Antes da preparação para combate |
+| Tesouro escondido | Ponto, caminho de acesso | Durante a exploração |
+| NPC da missão | Nome do NPC, tipo de tarefa | Quando o objetivo começa |
+| Ponto de retorno | Porta trancada, nota para revisita | Para limpeza posterior |
+
+Você também pode usar um pequeno conjunto de regras de higiene para cada anotação que adicionar. Mantenha os nomes consistentes, use sempre a mesma abreviação e evite rótulos misturados para o mesmo objetivo. Essa é a diferença entre um arquivo útil e um monte de lembretes pela metade.
+
+<Callout type="info" title="Melhor Prática">
+Se um marcador não ajuda você a viajar, lutar ou concluir uma tarefa, ele deve ser resumido ou fundido com uma anotação melhor.
+</Callout>
+
+| Hábito de Anotação | Versão Boa | Por que Ajuda |
+| --- | --- | --- |
+| Nomeação | Mesmo rótulo sempre | Pesquisa mais fácil |
+| Status | Aberto, concluído, revisitar | Escaneamento mais rápido |
+| Localização | Referência exata do marcador | Melhor roteamento |
+| Limpeza | Enxugue semanalmente | Menos bagunça |
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Semanal e FAQ">
+
+Uma revisão semanal evita que project mirror labyrinth fathoms vire uma longa parede de entradas desatualizadas. Use a mesma janela de revisão toda semana para que as atualizações pareçam rotina, e não algo aleatório.
+
+<Checklist
+  id="weekly-progress-review"
+  title="Metas da Revisão Semanal:"
+  items={[
+    "Confirmar quais missões foram concluídas",
+    "Atualizar notas da história e dos episódios",
+    "Marcar pins de mapa que não importam mais",
+    "Registrar novos alvos de colecionáveis",
+    "Enxugar entradas duplicadas ou desatualizadas"
+  ]}
+/>
+
+| Item da Revisão | Alvo | Resultado |
+| --- | --- | --- |
+| Missões | Verificar status | Próxima ação clara |
+| Episódios | Atualizar progresso | Melhor ordem da história |
+| Pins do mapa | Verificar relevância | Navegação mais limpa |
+| Coleções | Anotar itens faltantes | Farm mais focado |
+
+<Callout type="tip" title="Ritmo de Revisão">
+Uma revisão curta após cada sessão de jogo funciona melhor do que uma limpeza longa no fim do mês.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de usar project mirror labyrinth fathoms?",
+    answer: "Use-o como um sistema de progresso baseado em profundidade. Acompanhe o que foi concluído, o que está pendente e o que precisa de uma visita de retorno."
+  },
+  {
+    question: "Devo rastrear missões e notas da história separadamente?",
+    answer: "Sim, mas mantenha tudo em um único sistema principal. Seções separadas funcionam bem desde que a informação continue fácil de escanear."
+  },
+  {
+    question: "Por que usar o mapa interativo?",
+    answer: "Ele ajuda a conectar suas anotações a locais reais, o que torna corridas contra bosses, buscas por tesouros e o roteamento de missões muito mais rápidos."
+  },
+  {
+    question: "Com que frequência devo limpar minhas anotações?",
+    answer: "Semanalmente é um bom ritmo. Isso mantém seu rastreador atualizado sem transformar a manutenção em uma tarefa chata."
+  }
+]} />
+
+</Section>

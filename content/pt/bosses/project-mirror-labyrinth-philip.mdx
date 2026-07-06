@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth philip: Guia de Build e Dicas",
+  description: "Aprenda a organizar o caminho de build do Philip, acompanhar outfits e EGOs e usar uma checklist de progressão limpa em project mirror labyrinth.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Philip+Build+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth philip** funciona melhor como uma página focada em planejamento de build, outfit e EGO.
+- **Acompanhe os marcos cedo** para que os leitores possam ver o progresso sem precisar vasculhar notas longas.
+- **Use tabelas para comparações** para manter a página legível no desktop e no mobile.
+- **Combine marcadores de mapa com notas de progresso** para reduzir idas e voltas e entradas perdidas.
+- **Revise a página após atualizações** para que a estrutura continue atual e fácil de manter.
+</Callout>
+
+<Section icon={Target} title="Philip em Resumo">
+
+Philip funciona melhor quando a página se mantém prática. Comece com o básico e depois expanda a partir de outfits, EGOs e marcadores de progresso. Se você quiser um hub de referência limpo, vincule-o à página inicial da wiki e mantenha o layout consistente: [The unofficial project mirror labyrinth Wiki](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki).
+
+<CardGrid cols={3}>
+  <Card title="Foco Principal">
+    - **Clareza de função**
+    - Leitura rápida
+    - Apresentação sem ruído
+  </Card>
+  <Card title="Melhor Ângulo da Página">
+    - **Notas de build**
+    - Acompanhamento de outfits
+    - Acompanhamento de EGO
+  </Card>
+  <Card title="Valor para o Leitor">
+    - **Comparações rápidas**
+    - Visibilidade da progressão
+    - Atualizações mais fáceis
+  </Card>
+</CardGrid>
+
+| Topic | Priority | Why it matters |
+| --- | --- | --- |
+| Visão geral do Philip | High | Gives readers an immediate anchor |
+| Outfits | High | Helps compare variants at a glance |
+| EGOs | High | Keeps power options easy to track |
+| Marcadores de progresso | Medium | Supports navigation and completion |
+| Lore extra | Low | Add after the practical details |
+
+<Callout type="tip" title="Dica Editorial">
+Mantenha a abertura enxuta. Os leitores devem saber o que é Philip, o que acompanhar e onde olhar em seguida já na primeira tela.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuração de Build Passo a Passo">
+
+A forma mais limpa de montar uma página do Philip é tratá-la como uma referência de build viva. Comece com o caso de uso mais forte e só então adicione notas secundárias quando elas ajudarem na tomada de decisão.
+
+<Callout type="warning" title="Evite Este Erro">
+Não sobrecarregue a página com texto de flavor antes dos detalhes funcionais. Uma página de build deve responder primeiro às perguntas práticas.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Defina a função principal">
+    Decida se o Philip será apresentado com foco em ofensiva, defesa ou utilidade. Essa única escolha deve moldar todas as notas posteriores.
+  </Step>
+  <Step num="2" title="Registre a configuração atual">
+    Anote o outfit atual, quaisquer notas de EGO disponíveis e as situações em que a configuração performa melhor.
+  </Step>
+  <Step num="3" title="Compare alternativas">
+    Adicione uma comparação curta para cada opção para que os leitores vejam por que uma escolha é melhor para uma missão, episódio ou chefe.
+  </Step>
+  <Step num="4" title="Teste com conteúdo real">
+    Use a página para refletir as necessidades reais de gameplay e depois corte tudo o que não melhorar a tomada de decisão.
+  </Step>
+</Steps>
+
+| Stage | Focus | What to document |
+| --- | --- | --- |
+| Inicial | Configuração base | Função principal, primeiro outfit, primeira nota de EGO |
+| Meio | Comparação | Builds alternativas, pontos fortes situacionais |
+| Final | Otimização | Escolhas ideais para encontros mais difíceis |
+| Passagem de atualização | Limpeza | Remover notas desatualizadas ou duplicadas |
+
+As páginas do Philip ficam mais fortes quando cada etapa responde a uma pergunta específica. Se a nota não ajuda o leitor a escolher, equipar ou progredir, ela provavelmente deve ficar mais abaixo na página.
+
+</Section>
+
+<Section icon={Sparkles} title="Outfits, EGOs e Tabelas de Comparação">
+
+Um bom guia do Philip deve separar o acompanhamento cosmético do acompanhamento de desempenho, mesmo que ambos vivam no mesmo artigo. Isso facilita a atualização sem reescrever a página inteira.
+
+<Callout type="success" title="O Que Funciona Melhor">
+Use blocos curtos de comparação para cada outfit e EGO. Assim, os leitores podem avaliar valor, disponibilidade e encaixe sem rolar por parágrafos densos.
+</Callout>
+
+| Category | Track These Details | Reader Benefit |
+| --- | --- | --- |
+| Outfit | Nome, variante, disponibilidade | Comparação visual mais rápida |
+| EGO | Efeito, gatilho, notas | Resumo de poder mais claro |
+| Compatibilidade | Adequação à missão, adequação à função | Melhores escolhas de build |
+| Status da atualização | Novo, revisado, verificado | Manutenção mais fácil |
+
+| Entry Type | Suggested Note Format | Example Use |
+| --- | --- | --- |
+| Outfit | Nome / variante / melhor uso | Referência rápida de estilo e função |
+| EGO | Gatilho / timing / valor | Resumir como ele muda a jogabilidade |
+| Pareamento | Sinergia entre outfit + EGO | Mostrar combinações que parecem consistentes |
+| Prioridade | Essencial / opcional | Dizer ao leitor o que ler primeiro |
+
+| Comparison Point | Better Choice When... | Keep in Mind |
+| --- | --- | --- |
+| Configuração ofensiva | Você quer limpadas mais rápidas | O valor depende do tipo de encontro |
+| Configuração defensiva | Você precisa de estabilidade | Pode trocar dano por segurança |
+| Configuração utilitária | Você precisa de flexibilidade | Muitas vezes é melhor para conteúdo misto |
+| Configuração equilibrada | Você quer uma página para todas as situações | Boa opção padrão para novos leitores |
+
+Quando a página tem tabelas de comparação limpas, os leitores conseguem entender as opções do Philip em segundos. Isso geralmente é melhor do que blocos narrativos longos, especialmente em uma página de wiki que pode ser atualizada com frequência.
+
+</Section>
+
+<Section icon={Map} title="Acompanhamento de Progresso e Notas de Mapa">
+
+A estrutura da wiki já aponta para uma direção útil: progresso de missão, progresso de episódio, notas de capítulos de livro e entradas de coleção no estilo toy. Use essa mesma lógica para manter a página do Philip organizada e pesquisável.
+
+<Callout type="info" title="Regra de Acompanhamento">
+Se um detalhe ajuda o leitor a voltar mais rápido ao lugar certo, ele pertence à seção de progresso. Se não ajudar, mova-o para uma nota de prioridade menor.
+</Callout>
+
+| Progress Type | What to Log | Why It Helps |
+| --- | --- | --- |
+| Missão | Local, objetivo, recompensa | Facilita seguir as repetições |
+| Episódio | Evento principal, link do capítulo, nota de data | Mantém a progressão da história organizada |
+| Capítulo de livro | Número da página, virada importante | Ajuda o leitor a ir direto à seção certa |
+| Toy / colecionável | Nome do item, origem, status | Dá suporte ao acompanhamento de conclusão |
+
+Mapas interativos são especialmente úteis quando você quer marcar locais de chefes, NPCs de missão, tesouros escondidos ou pontos seguros de retorno. Mantenha as notas curtas e consistentes para que o mapa permaneça legível.
+
+| Map Marker | Use Case | Suggested Note |
+| --- | --- | --- |
+| Local do chefe | Preparação e planejamento de rota | Registre a abordagem e o resultado |
+| NPC de missão | Roteamento de tarefas | Anote as condições de desbloqueio |
+| Tesouro escondido | Runs de coleta | Adicione os requisitos de acesso |
+| Zona segura | Suporte a tentativas repetidas | Marque o ponto de recuperação mais próximo |
+
+<Checklist
+  id="philip-maintenance"
+  title="Checklist de Manutenção da Página do Philip:"
+  items={[
+    "Adicione uma entrada para cada novo outfit",
+    "Adicione uma entrada para cada nova nota de EGO",
+    "Confirme as referências de missão e episódio",
+    "Verifique se os marcadores de mapa têm rotas desatualizadas",
+    "Revise links e rótulos após atualizações"
+  ]}
+/>
+
+O melhor hábito de manutenção é simples: atualize a página sempre na mesma ordem. Isso facilita a auditoria das mudanças e ajuda os leitores a confiarem na estrutura.
+
+</Section>
+
+<Section icon={Shield} title="Como Manter a Página Limpa">
+
+Uma boa página de wiki deve parecer estável, mesmo quando o conteúdo cresce. Para o Philip, isso significa proteger a página contra excesso de informação e repetição. Comece com um resumo compacto e só expanda quando o novo detalhe melhorar a clareza.
+
+<Callout type="tip" title="Dica Prática de Edição">
+Use uma frase para a ideia principal, uma tabela para a comparação e uma checklist para o ciclo de manutenção. Essa estrutura continua legível com o tempo.
+</Callout>
+
+| Section Element | Best Practice | Result |
+| --- | --- | --- |
+| Resumo | Mantenha curto e direto | Leitura mais rápida |
+| Tabelas | Use-as para comparações | Melhor leitura dinâmica |
+| Listas | Use-as para passos ou tarefas | Itens de ação mais claros |
+| Notas | Adicione apenas quando úteis | Menos poluição visual |
+
+Se você espera que a página cresça, mantenha nomes, rótulos e categorias consistentes desde o início. Em uma página de wiki, consistência importa mais do que volume, porque os leitores voltam em busca de respostas rápidas, não de blocos intermináveis de texto.
+
+Uma página limpa também facilita a localização depois. Como o site oferece suporte a vários idiomas, rótulos claros e frases curtas reduzem o atrito de tradução e mantêm a estrutura intacta entre as versões.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="tip" title="Foco do FAQ">
+Estas respostas foram pensadas para combinar com a estrutura acima, para que os leitores possam ir da pergunta à solução sem precisar procurar mais.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Em que uma página de project mirror labyrinth philip deve focar primeiro?",
+    answer: "Comece com a função principal do Philip e depois adicione detalhes de outfit, EGO e acompanhamento de progresso que ajudem os leitores a fazer escolhas mais rápidas."
+  },
+  {
+    question: "Com que frequência devo atualizar as notas de outfit e EGO do Philip?",
+    answer: "Atualize sempre que uma nova opção mudar a comparação ou quando uma nota existente deixar de estar correta."
+  },
+  {
+    question: "Preciso de um mapa interativo para cada entrada relacionada ao Philip?",
+    answer: "Não. Use notas de mapa apenas quando localização, rota ou acompanhamento de conclusão melhorarem a página."
+  },
+  {
+    question: "O que torna um bom guia de project mirror labyrinth philip?",
+    answer: "Um bom guia é curto, estruturado e prático, com tabelas para comparações e notas claras para progressão."
+  }
+]} />
+
+</Section>

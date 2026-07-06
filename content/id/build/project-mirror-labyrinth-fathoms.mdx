@@ -1,0 +1,192 @@
+import { Map, Target, BookOpen, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth fathoms: Panduan Pelacakan Progres",
+  description: "Atur project mirror labyrinth fathoms dengan sistem progres yang rapi untuk misi, catatan cerita, penanda peta, dan tinjauan mingguan.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Progress+Tracking+Guide",
+  date: "2026-07-06",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Singkat">
+- **project mirror labyrinth fathoms** paling cocok digunakan sebagai sistem pemeriksaan kedalaman untuk catatan, penanda, dan pelacakan pencapaian.
+- **Lacak misi, episode, bab buku, dan mainan** dalam satu lembar agar progres tetap mudah dibaca.
+- **Gunakan peta interaktif** untuk tujuan lokasi, titik bos, dan perburuan koleksi.
+- **Tinjau setiap minggu** agar daftar tugas tetap rapi sebelum sesi berikutnya.
+</Callout>
+
+<Section icon={Map} title="Model Referensi project mirror labyrinth fathoms">
+
+Gunakan hub wiki sebagai titik awal, lalu bangun model progres sederhana di sekitar jenis konten utama game. Tujuannya bukan untuk membuat sistem terlalu rumit. Tujuannya adalah agar setiap run, quest, dan penemuan lebih mudah ditinjau lagi nanti.
+
+Basis referensi yang baik adalah [beranda Wiki Project Mirror Labyrinth](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki). Dari sana, atur catatanmu berdasarkan kedalaman: apa yang sudah kamu selesaikan, apa yang masih perlu perhatian, dan apa yang layak dikunjungi lagi.
+
+<CardGrid cols={3}>
+  <Card title="Kedalaman Misi">
+    - **Terbaik untuk pelacakan tujuan**
+    - Status menang/kalah yang jelas
+    - Mudah diperbarui setelah setiap run
+  </Card>
+  <Card title="Kedalaman Cerita">
+    - **Terbaik untuk progres naratif**
+    - Catatan episode dan bab
+    - Berguna untuk perencanaan ulang main
+  </Card>
+  <Card title="Kedalaman Koleksi">
+    - **Terbaik untuk tujuan jangka panjang**
+    - Lacak kostum, EGO, dan koleksi
+    - Membantu menghindari perburuan ganda
+  </Card>
+</CardGrid>
+
+| Area Referensi | Kegunaan Terbaik | Mengapa Penting |
+| --- | --- | --- |
+| Misi | Tujuan utama | Menjaga tujuan pertarungan tetap terlihat |
+| Episode | Progres cerita | Membantu mengikuti urutan narasi |
+| Bab buku | Milestone tertulis | Bagus untuk tinjauan detail |
+| Mainan | Pelacakan koleksi | Berguna untuk penyelesaian berbasis item |
+
+<Callout type="tip" title="Tips Editorial">
+Jaga setiap baris tetap singkat. Satu tujuan, satu status, satu catatan. Struktur seperti itu lebih mudah dipindai daripada paragraf panjang berisi detail campuran.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pengaturan Pelacakan Langkah demi Langkah">
+
+Jika kamu ingin project mirror labyrinth fathoms terasa lebih mudah dikelola, mulailah dengan rutinitas yang bisa diulang. Rutinitas yang stabil lebih penting daripada template yang sempurna. Sistem terbaik adalah yang bisa kamu perbarui tanpa memperlambat sesi bermainmu.
+
+<Steps>
+  <Step num="1" title="Pilih Satu Lembar Utama">
+    Pilih satu tempat untuk catatan progresmu. Gunakan untuk tujuan, momen cerita, dan target koleksi.
+  </Step>
+  <Step num="2" title="Catat Hanya Item yang Bisa Ditindaklanjuti">
+    Tulis entri yang bisa diselesaikan, dicek, atau dikunjungi lagi. Hindari catatan samar yang tidak mengarah ke keputusan.
+  </Step>
+  <Step num="3" title="Tambahkan Penanda Peta">
+    Tambahkan lokasi untuk hadiah tersembunyi, bos, atau titik quest agar catatanmu sesuai dengan tata letak dunia.
+  </Step>
+  <Step num="4" title="Tinjau dan Pangkas">
+    Hapus tugas yang sudah usang, gabungkan entri duplikat, dan jaga daftar tetap fokus pada sesi berikutnya.
+  </Step>
+</Steps>
+
+| Langkah | Aksi | Hasil |
+| --- | --- | --- |
+| 1 | Pilih satu pelacak | Lebih sedikit duplikasi |
+| 2 | Catat item yang bisa ditindaklanjuti | Prioritas lebih jelas |
+| 3 | Tambahkan penanda peta | Perencanaan rute lebih cepat |
+| 4 | Pangkas catatan lama | Dasbor lebih rapi |
+
+<Callout type="warning" title="Kesalahan Umum">
+Jangan memecah tujuan yang sama ke dalam tiga daftar berbeda. Itu biasanya malah menimbulkan kebingungan, bukan organisasi yang lebih baik.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Apa yang Harus Dilacak Terlebih Dahulu">
+
+Cara tercepat untuk membangun momentum adalah dengan memprioritaskan konten yang mengubah rute bermainmu. Progres cerita, status misi, dan target koleksi semuanya layak masuk ke catatanmu, tetapi tidak semuanya harus diberi bobot yang sama.
+
+| Jenis Konten | Apa yang Dicatat | Prioritas Terbaik |
+| --- | --- | --- |
+| Misi | Tujuan, bos, hadiah | Tinggi |
+| Episode | Titik saat ini, adegan terkunci | Tinggi |
+| Bab buku | Nomor bab, peristiwa kunci | Sedang |
+| Mainan | Nama item, catatan perolehan | Sedang |
+| Kostum | Dimiliki, belum ada, direncanakan | Sedang |
+
+Tata letak wiki sendiri sudah menyarankan model progres yang luas, jadi tugasmu adalah menyempitkannya menjadi checklist yang praktis. Artinya, mengubah kategori umum menjadi item tindakan yang jelas. Saat sebuah catatan tidak bisa membantumu memilih langkah berikutnya, kemungkinan catatan itu terlalu luas.
+
+<Callout type="success" title="Pengaturan yang Kuat">
+Urutan prioritas sederhana bekerja dengan baik: selesaikan tujuan mendesak terlebih dahulu, lalu catatan cerita, lalu pembersihan koleksi.
+</Callout>
+
+| Aturan Prioritas | Gunakan Saat | Hasil |
+| --- | --- | --- |
+| Tinggi dulu | Progres utama terhambat | Unlock lebih cepat |
+| Sedang kedua | Kamu berpindah antar sesi | Ritme lebih baik |
+| Rendah terakhir | Kamu sedang merapikan tambahan | Lebih sedikit kekacauan |
+
+</Section>
+
+<Section icon={Shield} title="Peta Interaktif dan Kebersihan Catatan">
+
+Peta interaktif paling berguna ketika catatanmu sudah memiliki struktur. Anggap setiap penanda sebagai alat pengambilan keputusan, bukan sekadar pin di layar. Itu membuatmu lebih mudah kembali ke tempat yang tepat tanpa harus membaca ulang semuanya.
+
+| Jenis Penanda | Apa yang Dicatat | Kapan Digunakan |
+| --- | --- | --- |
+| Lokasi bos | Nama, tingkat ancaman | Sebelum persiapan bertarung |
+| Harta tersembunyi | Titik, jalur akses | Saat eksplorasi |
+| Pemberi quest | Nama NPC, jenis tugas | Saat tujuan dimulai |
+| Titik kembali | Pintu terkunci, catatan kunjungan ulang | Untuk pembersihan nanti |
+
+Kamu juga bisa memakai aturan kebersihan kecil untuk setiap catatan yang kamu tambahkan. Jaga konsistensi nama, gunakan singkatan yang sama setiap kali, dan hindari label campuran untuk tujuan yang sama. Itulah perbedaan antara arsip yang berguna dan tumpukan pengingat setengah jadi.
+
+<Callout type="info" title="Praktik Terbaik">
+Jika sebuah penanda tidak membantumu berjalan, bertarung, atau menyelesaikan tugas, penanda itu sebaiknya dipersingkat atau digabungkan dengan catatan yang lebih baik.
+</Callout>
+
+| Kebiasaan Catatan | Versi yang Baik | Mengapa Membantu |
+| --- | --- | --- |
+| Penamaan | Label yang sama setiap kali | Lebih mudah dicari |
+| Status | Terbuka, selesai, tinjau lagi | Pemindaian lebih cepat |
+| Lokasi | Referensi penanda yang tepat | Rute lebih baik |
+| Pembersihan | Pemangkasan mingguan | Lebih sedikit kekacauan |
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Mingguan dan FAQ">
+
+Tinjauan mingguan mencegah project mirror labyrinth fathoms berubah menjadi deretan panjang entri usang. Gunakan jendela tinjauan yang sama setiap minggu agar pembaruan terasa rutin, bukan acak.
+
+<Checklist
+  id="weekly-progress-review"
+  title="Tujuan Tinjauan Mingguan:"
+  items={[
+    "Konfirmasi misi mana yang sudah selesai",
+    "Perbarui catatan cerita dan episode",
+    "Tandai pin peta yang sudah tidak relevan",
+    "Catat target koleksi baru",
+    "Pangkas entri duplikat atau usang"
+  ]}
+/>
+
+| Item Tinjauan | Target | Hasil |
+| --- | --- | --- |
+| Misi | Periksa status | Aksi berikutnya jelas |
+| Episode | Perbarui progres | Urutan cerita lebih baik |
+| Pin peta | Verifikasi relevansi | Navigasi lebih rapi |
+| Koleksi | Catat item yang belum ada | Farming lebih terfokus |
+
+<Callout type="tip" title="Ritme Tinjauan">
+Tinjauan singkat setelah setiap sesi bermain bekerja lebih baik daripada pembersihan panjang di akhir bulan.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Apa cara terbaik untuk menggunakan project mirror labyrinth fathoms?",
+    answer: "Gunakan sebagai sistem progres berbasis kedalaman. Lacak apa yang sudah selesai, apa yang masih tertunda, dan apa yang perlu dikunjungi lagi."
+  },
+  {
+    question: "Haruskah saya melacak misi dan catatan cerita secara terpisah?",
+    answer: "Ya, tetapi tetap dalam satu sistem utama. Bagian yang terpisah tidak masalah selama informasinya tetap mudah dipindai."
+  },
+  {
+    question: "Mengapa perlu memakai peta interaktif sama sekali?",
+    answer: "Karena peta itu membantu menghubungkan catatanmu dengan lokasi nyata, sehingga run bos, perburuan harta, dan rute quest jadi jauh lebih cepat."
+  },
+  {
+    question: "Seberapa sering saya harus merapikan catatan saya?",
+    answer: "Mingguan adalah ritme yang kuat. Itu menjaga pelacakmu tetap terbaru tanpa mengubah perawatan menjadi beban."
+  }
+]} />
+
+</Section>

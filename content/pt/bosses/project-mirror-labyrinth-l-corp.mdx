@@ -1,0 +1,209 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "project mirror labyrinth l corp: Pistas de lore e guia",
+  description: "Acompanhe referências a Project Mirror Labyrinth L Corp, organize entradas da wiki e use um fluxo simples de revisão para criar páginas de lore mais claras.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4338ca/fff?text=L+Corp+Lore+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth l corp** é mais fácil de gerenciar com um registro de fontes limpo e um escopo de página restrito.
+- **Use a estrutura da wiki** para separar missões, episódios, capítulos, mídias e entradas no estilo colecionável.
+- **Trate o vídeo como um marcador de referência** para tom e identidade visual, não como uma transcrição aprofundada de lore.
+- **Construa cada página com foco em escaneabilidade** para que os leitores encontrem o ponto principal em segundos.
+- **Revise as entradas quanto à consistência** antes de publicar ou expandir o conjunto de páginas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral de Project Mirror Labyrinth L Corp">
+
+As páginas de Project Mirror Labyrinth L Corp funcionam melhor quando permanecem bem organizadas e fáceis de escanear. O conjunto atual de referências é enxuto, então a abordagem mais segura é construir com base em categorias claras, rótulos reutilizáveis e resumos concisos. Isso mantém a página útil mesmo quando novos materiais surgirem depois.
+
+**Destaques do Vídeo:**
+- O clipe tem título direto de Project Mirror Labyrinth.
+- O transcript é extremamente curto, então mantenha as expectativas voltadas para a apresentação.
+- Use-o como referência de mídia, não como citação pesada de lore.
+- Combine o clipe com o hub da wiki para estrutura e navegação.
+- Trate motivos recorrentes como tags de nota, não como prova definitiva da história.
+
+<YouTubeEmbed videoId="txAzEBS_Hzk" title="Project Mirror Labyrinth | Roteiro" />
+
+<CardGrid cols={3}>
+  <Card title="Índice de Lore">
+    - **Melhor para**: facções nomeadas, termos recorrentes e referências a personagens  
+    - **Use quando**: precisar de uma página central à qual outras entradas possam se conectar  
+    - **Valor**: reduz a duplicação entre artigos relacionados
+  </Card>
+  <Card title="Índice de Mídia">
+    - **Melhor para**: trailers, clipes e referências enviadas  
+    - **Use quando**: quiser acompanhar mídias rapidamente e registrar rótulos de fonte  
+    - **Valor**: ajuda os leitores a separar elementos visuais de notas escritas
+  </Card>
+  <Card title="Rastreador de Progresso">
+    - **Melhor para**: missões, capítulos e status de conclusão de páginas  
+    - **Use quando**: precisar de uma checklist rápida para cobertura  
+    - **Valor**: facilita a construção de páginas a longo prazo
+  </Card>
+</CardGrid>
+
+| Fonte | Relevância | Melhor Uso |
+|---|---|---|
+| [Wiki Não Oficial de Project Mirror Labyrinth](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki) | Alta | Use como estrutura de página e modelo de navegação |
+| [Project Mirror Labyrinth | Roteiro](https://www.youtube.com/watch?v=txAzEBS_Hzk) | Média | Use como referência de mídia e ativo com título confirmado |
+
+<Callout type="tip" title="Dica Editorial">
+Mantenha a página geral ampla o suficiente para descoberta, mas restrita o bastante para que cada subpágina vinculada tenha uma função clara.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Ler Referências de L Corp do Jeito Certo">
+
+A forma mais segura de lidar com material de L Corp é classificar cada menção antes de escrever um parágrafo longo. Esse método evita sinais mistos e torna atualizações futuras muito mais fáceis. Se uma nota pertence a uma missão, a um capítulo ou a uma entrada de mídia, coloque-a lá primeiro e resuma depois.
+
+<Callout type="warning" title="Aviso de Escopo">
+Não junte todas as pistas em um único bloco de texto. As referências de L Corp são mais úteis quando separadas por tipo, contexto e qualidade da fonte.
+</Callout>
+
+| Tipo de Entrada | O Que Registrar | Melhor Formato |
+|---|---|---|
+| Missão | Objetivo, local, recompensa, status de conclusão | Resumo curto mais uma linha no rastreador |
+| Episódio | Elenco principal, acontecimento-chave, data, desfecho | Recapitulação concisa com notas |
+| Capítulo do livro | Tema do capítulo, mudança de trama, revelação principal | Um parágrafo e uma nota de spoiler |
+| Brinquedo | Conexão com personagem, nota de produto, valor para colecionador | Listagem no estilo de produto |
+| Trajes | Tema visual, nome da variante, método de desbloqueio | Entrada no estilo galeria |
+| EGOS | Tema do efeito, vínculo com usuário, raridade ou nível | Tabela de referência com tags |
+| Mídia | Título, plataforma, duração, relevância | Linha de índice de mídia |
+| Mapa Interativo | Pontos de interesse, marcadores, pontos ausentes | Tabela de localização e notas do mapa |
+
+| Sinal | O Que Significa | Ação |
+|---|---|---|
+| Nome repetido | O termo provavelmente importa em várias páginas | Vincule-o à página central de L Corp |
+| Motivo visual | O design pode ser recorrente ou simbólico | Adicione uma nota de imagem ou uma tag de galeria |
+| Diálogo escasso | A pista pode ser atmosférica, não explícita | Mantenha a interpretação cautelosa |
+| Rótulo compartilhado | O termo pode conectar vários tipos de página | Use a mesma convenção de nomenclatura em todo lugar |
+
+Ao escrever a página, mantenha a linguagem neutra. Uma entrada forte de wiki diz ao leitor o que é conhecido, o que é implícito e o que ainda precisa de confirmação. Essa estrutura é especialmente útil quando o material disponível é limitado.
+
+<Callout type="info" title="Regra de Referência">
+Uma pista fica mais forte quando pode ser colocada em uma categoria, um contexto e uma página vinculada sem forçar o significado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrutura de Página Recomendada">
+
+A estrutura mais limpa é uma introdução curta, uma tabela de fontes e depois alguns subtítulos focados. Isso dá aos leitores um caminho rápido da descoberta até o detalhe. Também facilita edições futuras, porque você pode atualizar um bloco sem reescrever a página inteira.
+
+<Steps>
+  <Step num="1" title="Defina o escopo da página">
+    Decida se a página cobre a facção, o nome, a mídia ou uma referência específica dentro do universo.
+  </Step>
+  <Step num="2" title="Reúna as entradas úteis">
+    Junte todas as menções em uma única lista e depois rotule cada item por tipo, fonte e nível de confiança.
+  </Step>
+  <Step num="3" title="Agrupe as entradas">
+    Separe missões, episódios, capítulos, colecionáveis e mídias para manter a página legível.
+  </Step>
+  <Step num="4" title="Escreva primeiro o resumo">
+    Comece com a explicação mais simples e depois adicione detalhes abaixo para leitores que quiserem contexto.
+  </Step>
+  <Step num="5" title="Publique e revise novamente">
+    Deixe espaço para fontes futuras e retorne à página quando novas referências aparecerem.
+  </Step>
+</Steps>
+
+| Bloco da Seção | Finalidade | Benefício para o Leitor |
+|---|---|---|
+| Introdução curta | Indica o escopo da página em uma ou duas linhas | Orientação mais rápida |
+| Tabela de fontes | Mostra onde cada referência se encaixa | Verificação mais limpa |
+| Seção de notas | Registra detalhes incertos ou implícitos | Melhor controle editorial |
+| Links relacionados | Conecta L Corp a outras páginas | Navegação mais fácil |
+
+| Regra de Conteúdo | Versão Boa | Versão Fraca |
+|---|---|---|
+| Nomenclatura | Use um rótulo estável por entrada | Mude o rótulo a cada atualização |
+| Resumos | Mantenha-os breves e específicos | Empilhe várias ideias em um parágrafo |
+| Citações | Vincule apenas fontes relevantes | Adicione todas as fontes a todas as seções |
+| Tags | Mantenha o mesmo sistema de categorias | Invente novos rótulos para itens semelhantes |
+
+<Callout type="success" title="Vitória na Construção da Página">
+Uma página que começa com estrutura geralmente precisa de menos reescritas depois, porque cada nova pista já tem um lugar para ir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist de Controle de Qualidade e Acompanhamento">
+
+Depois que a estrutura estiver definida, o verdadeiro trabalho é o controle de qualidade. O objetivo não é deixar a página maior. O objetivo é tornar cada linha mais útil. Um artigo compacto e bem marcado muitas vezes funciona melhor do que uma página extensa com organização fraca.
+
+<Checklist
+  id="l-corp-page-checklist"
+  title="Checklist de Publicação:"
+  items={[
+    "Confirmar que cada termo-chave tem uma categoria clara",
+    "Verificar se as páginas vinculadas usam o mesmo estilo de nomenclatura",
+    "Manter o resumo curto e sem enrolação",
+    "Separar detalhes confirmados de interpretação",
+    "Adicionar uma nota de acompanhamento para futuras atualizações"
+  ]}
+/>
+
+| Verificação | Condição de Aprovação | Risco Se Pular |
+|---|---|---|
+| Alinhamento do título | O título da página corresponde ao tema principal | Os leitores perdem o foco |
+| Adequação da fonte | Cada fonte dá suporte à seção em que aparece | Citações fracas ou confusas |
+| Clareza da tabela | As linhas continuam curtas e legíveis | A página fica difícil de escanear |
+| Qualidade dos links | As páginas relacionadas estão conectadas de forma lógica | Os usuários não conseguem navegar pelo tema |
+| Prontidão para atualização | Novas informações podem ser adicionadas sem reescritas | A página fica bagunçada rápido |
+
+| Problema | Melhor Abordagem | Por Que Funciona |
+|---|---|---|
+| Especulação em excesso | Rotule claramente os itens incertos | Os leitores confiam mais na página |
+| Categorias misturadas | Separe o conteúdo por tipo de entrada | O layout continua fácil de navegar |
+| Parágrafos longos | Substitua-os por tabelas ou listas | Leitura mais rápida em desktop e celular |
+| Rótulos duplicados | Use uma regra de nomenclatura em todo o site | Melhor consistência na wiki |
+
+<Callout type="success" title="Meta de Qualidade">
+Se um leitor consegue encontrar o ponto central, a nota de apoio e o link relacionado em menos de um minuto, a página está cumprindo sua função.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+Use esta seção para responder às perguntas que os leitores mais provavelmente farão depois de chegar à página. As respostas devem permanecer curtas, práticas e alinhadas com a estrutura da página acima.
+
+<Callout type="info" title="Nota do FAQ">
+Mantenha as respostas alinhadas aos rótulos das tabelas, aos itens da checklist e às categorias da página para que tudo pareça consistente.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que project mirror labyrinth l corp deve cobrir?",
+    answer: "Funciona melhor como uma página de referência focada em menções relacionadas a L Corp, com seções separadas para fontes, tipos de página e notas de acompanhamento."
+  },
+  {
+    question: "O vídeo deve ser tratado como evidência de lore?",
+    answer: "Use-o primeiro como referência de mídia e marcador de tom. Se um detalhe não puder ser sustentado em outro lugar, rotule-o com cautela."
+  },
+  {
+    question: "Quais tipos de página são mais importantes para este tema?",
+    answer: "Missão, episódio, capítulo do livro, mídia, trajes, EGOS e entradas de mapa são os mais úteis porque separam o conteúdo por função."
+  },
+  {
+    question: "Com que frequência a página deve ser atualizada?",
+    answer: "Atualize-a sempre que uma nova referência mudar a categoria, adicionar uma fonte mais forte ou esclarecer uma nota antiga."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth w corp: Guia de Configuração e Dicas Principais",
+  description: "Aprenda a estruturar notas de project mirror labyrinth w corp, comparar opções e criar uma referência em estilo wiki fácil de ler.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/334155/fff?text=W+Corp+Wiki+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **project mirror labyrinth w corp** funciona melhor como uma referência estruturada, não como um despejo solto de notas.
+- **Comece pelo escopo**: decida se a página cobre lore, progressão ou acompanhamento prático.
+- **Use tabelas desde cedo** para manter as atualizações legíveis e fáceis de comparar.
+- **Trate links como âncoras**: uma referência principal mantém as edições consistentes.
+- **Revise a cada atualização** para que a página permaneça limpa à medida que novos detalhes são adicionados.
+</Callout>
+
+<Section icon={Map} title="Mapa de Cobertura de project mirror labyrinth w corp">
+
+Para **project mirror labyrinth w corp**, a forma mais rápida de se manter organizado é criar uma página que responda claramente a uma pergunta: o que este tópico precisa ajudar os jogadores a fazer? Comece com a [wiki não oficial de project mirror labyrinth](https://the-unofficial-project-mirror-labyrinth.fandom.com/wiki/The_unofficial_project_mirror_labyrinth_Wiki) como base e, então, organize suas notas em torno do que os leitores procurarão primeiro.
+
+As páginas em estilo wiki mais úteis permanecem simples no topo e expansíveis abaixo. Se o tópico mais tarde precisar de rastreamento de missões, notas de localização ou marcadores de progressão, o layout já deve oferecer suporte a essa estrutura.
+
+<Callout type="info" title="Primeiro o Escopo">
+Mantenha a seção inicial enxuta. Uma página focada é mais fácil de escanear, mais fácil de editar e mais fácil de expandir sem quebrar a consistência.
+</Callout>
+
+| Elemento da Página | O Que Deve Fazer | Por Que Isso Importa |
+|---|---|---|
+| Visão Geral | Explicar o tópico em um bloco curto | Dá contexto imediato aos leitores |
+| Status | Marcar detalhes confirmados, provisórios ou inacabados | Evita confusão durante as edições |
+| Termos-Chave | Definir rótulos e abreviações | Mantém a página legível |
+| Links Relacionados | Apontar para páginas conectadas | Melhora a navegação |
+
+Se o seu objetivo é clareza a longo prazo, mantenha a estrutura da página mais parecida com um rastreador do que com um muro de texto. Essa abordagem se encaixa melhor na edição de wiki e torna futuras atualizações muito mais rápidas.
+
+</Section>
+
+<Section icon={Sparkles} title="Melhores Formas de Organizar Notas de W Corp">
+
+<Callout type="tip" title="Dica de Organização">
+Use um layout principal para a página e um layout secundário para os detalhes. Formatos demais em um único artigo geralmente tornam o tópico mais difícil de manter.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Lore Primeiro">
+    - **Melhor para contexto**
+    - Bom para referências de história
+    - Funciona bem com resumos curtos
+  </Card>
+  <Card title="Gameplay Primeiro">
+    - **Melhor para uso prático**
+    - Útil para rotas, desbloqueios ou condições
+    - Mantém os pontos de ação fáceis de encontrar
+  </Card>
+  <Card title="Rastreador Híbrido">
+    - **Melhor equilíbrio**
+    - Combina contexto e utilidade
+    - Mais fácil de expandir com o tempo
+  </Card>
+</CardGrid>
+
+Uma referência limpa de W Corp normalmente precisa de legibilidade rápida e profundidade. A forma mais rápida de alcançar isso é separar o que os jogadores precisam agora do que podem querer depois. Coloque primeiro o resumo de maior valor e, depois, avance para notas, comparações e detalhes de apoio.
+
+| Método de Organização | Melhor Para | Ponto Forte | Limitação |
+|---|---|---|---|
+| Bloco de resumo curto | Novos leitores | Leitura rápida | Detalhes limitados |
+| Tabela comparativa | Opções semelhantes | Fácil de comparar | Exige manutenção cuidadosa |
+| Seção de notas | Edições contínuas | Flexível e expansível | Pode ficar bagunçada |
+| Rastreador híbrido | Uso de longo prazo | Estrutura equilibrada | Exige mais planejamento |
+
+Se você quer que a página envelheça bem, mantenha a redação neutra e factual. Isso facilita as atualizações quando novos detalhes são adicionados ou pressupostos antigos precisam ser corrigidos.
+
+</Section>
+
+<Section icon={Target} title="Fluxo de Trabalho da Página Passo a Passo">
+
+<Callout type="warning" title="Evite Este Erro">
+Não misture detalhes confirmados com suposições na mesma linha. Separe notas verificadas de perguntas em aberto para que a página continue confiável.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Defina o propósito da página">
+    Decida se a página serve para lore, acompanhamento de gameplay ou ambos. Um objetivo restrito mantém o esboço enxuto e as edições focadas.
+  </Step>
+  <Step num="2" title="Reúna os campos principais">
+    Liste primeiro os fatos que você quer preservar: nomes, links, rótulos de status e quaisquer termos recorrentes. Mantenha cada campo curto e consistente.
+  </Step>
+  <Step num="3" title="Monte a camada de resumo">
+    Adicione uma visão geral curta no topo e, abaixo, coloque tabelas para comparações, notas ou marcadores de progresso. Isso cria um fluxo de leitura rápida.
+  </Step>
+  <Step num="4" title="Revise e refine">
+    Verifique repetições, rótulos pouco claros e seções que precisam de renomeação. Uma passada rápida de limpeza torna a página muito mais fácil de manter.
+  </Step>
+</Steps>
+
+| Campo Editorial | Finalidade | Regra de Atualização |
+|---|---|---|
+| Título | Identificar o tópico | Mantenha direto |
+| Visão Geral | Explicar a página em um parágrafo | Reescreva apenas quando o escopo mudar |
+| Tags | Agrupar conteúdo relacionado | Use nomenclatura consistente |
+| Notas | Registrar perguntas em aberto | Separe dos fatos confirmados |
+
+O fluxo de trabalho acima funciona melhor quando cada edição tem um único propósito. Se uma mudança adicionar ruído demais, divida-a em uma segunda passada em vez de forçar tudo para uma única revisão.
+
+</Section>
+
+<Section icon={Shield} title="Checklist para uma Página de W Corp Mais Limpa">
+
+<Callout type="success" title="Manutenção Bem-Sucedida">
+Pequenas edições regulares geralmente produzem uma página melhor do que uma grande limpeza feita depois.
+</Callout>
+
+<Checklist
+  id="w-corp-page-checklist"
+  title="Antes de Publicar:"
+  items={[
+    "Confirme que a página tem um único propósito claro",
+    "Mantenha a visão geral curta e legível",
+    "Use tabelas para comparações e notas de progresso",
+    "Separe detalhes verificados de perguntas em aberto",
+    "Verifique links e rótulos quanto à consistência"
+  ]}
+/>
+
+| Problema Comum | Causa Provável | Correção Simples |
+|---|---|---|
+| Texto repetitivo | Muitas notas semelhantes | Una linhas sobrepostas |
+| Página difícil de escanear | Nenhuma hierarquia visual | Adicione títulos e tabelas |
+| Terminologia pouco clara | Rótulos misturados | Padronize os nomes |
+| Atualizações lentas | Detalhe demais em um bloco | Divida o conteúdo em seções |
+
+Quando a página começar a crescer, priorize estrutura em vez de volume. Um artigo mais curto e melhor organizado costuma ter melhor desempenho do que uma página longa e difícil de escanear.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Notas do FAQ">
+Estas respostas foram criadas para manter a página prática, legível e fácil de expandir conforme o conteúdo de project mirror labyrinth w corp cresce.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor forma de começar uma página de project mirror labyrinth w corp?",
+    answer: "Comece com uma visão geral focada e, depois, adicione tabelas para os detalhes que os leitores mais precisam. Um layout simples é mais fácil de expandir depois."
+  },
+  {
+    question: "Devo usar uma página longa ou várias seções menores?",
+    answer: "Use uma página principal quando o tópico estiver fortemente conectado. Se o conteúdo crescer demais, divida os detalhes em páginas relacionadas e crie links entre elas."
+  },
+  {
+    question: "Como mantenho as notas de W Corp legíveis ao longo do tempo?",
+    answer: "Use rótulos consistentes, parágrafos curtos e tabelas para comparações. Revise cada edição em busca de repetições e termos अस्प? "
+  },
+  {
+    question: "O que devo fazer quando alguns detalhes ainda não foram confirmados?",
+    answer: "Marque-os como provisórios ou perguntas em aberto e mantenha-os separados das informações verificadas. Isso mantém a página útil sem gerar confusão."
+  }
+]} />
+
+</Section>
