@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Build e Configuração do Aspecto Ciborgue em Project Mirror Labyrinth",
+  description: "Desbloqueie todo o potencial do Aspecto Ciborgue em Project Mirror Labyrinth. Descubra as melhores builds, configurações de módulos e caminhos de melhoria.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Cyborg+Aspect+Build",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A build do Aspecto Ciborgue** baseia-se no equilíbrio entre escudos de energia, aprimoramentos mecânicos e sistemas de armas de energia de alta frequência.
+- **A configuração do módulo principal** exige priorizar o Reator de Microfusão e a Matriz de Reparo de Nanites para obter a melhor sobrevivência.
+- **A progressão passo a passo** envolve o desbloqueio do chassi cibernético básico antes de farmar materiais de melhoria nos setores de alto nível do labirinto.
+- **A rotação ideal de combate** foca em manter o escudo ativo enquanto utiliza habilidades de dispersão de calor para causar dano explosivo.
+</Callout>
+
+<Section icon={Sparkles} title="Desbloqueando o Aspecto Ciborgue em Project Mirror Labyrinth">
+
+O **aspecto ciborgue em project mirror labyrinth** destaca-se como um dos caminhos de progressão mais versáteis e duráveis do meta atual. Ao fundir a resiliência orgânica com aprimoramentos mecânicos de alta tecnologia, este caminho de build permite que os jogadores suportem uma quantidade imensa de dano enquanto desferem ataques consistentes baseados em energia. Compreender as mecânicas fundamentais deste aspecto é crucial para navegar pelas camadas mais profundas e perigosas do labirinto. Ao contrário de builds puramente biológicas ou mágicas, esta configuração depende fortemente do gerenciamento de energia, da capacidade do escudo e de sistemas de resfriamento modulares para manter o pico de eficiência em combate.
+
+Para utilizar este sistema com sucesso, os jogadores devem dominar o equilíbrio entre a geração de calor e a regeneração do escudo. À medida que você instala componentes cibernéticos mais avançados, sua defesa passiva aumenta, mas sua vulnerabilidade a perturbações eletromagnéticas também cresce. Este guia detalha os atributos principais, as configurações de módulos e as abordagens táticas necessárias para dominar o labirinto. A integração de partes mecânicas altera a forma como seu personagem interage com os perigos ambientais, tornando-o imune a gases tóxicos, mas mais suscetível a armadilhas elétricas.
+
+| Atributo | Valor Base | Fator de Escala | Benefício Primário |
+| Escudo de Energia | 500 | 1.5 por Nível | Absorve dano físico e elemental recebido |
+| Capacidade de Calor | 100 | 0.8 por Mód | Determina a duração do disparo contínuo de armas |
+| Reparo de Nanites | 15/s | 1.2 por Melhoria | Regeneração passiva de vida durante o combate ativo |
+| Poder Tecnológico | 120 | 2.0 por Nó | Aumenta o dano de todas as habilidades cibernéticas |
+
+Escolher este caminho exige o compromisso de obter componentes tecnológicos específicos. Enquanto as builds biológicas oferecem maior velocidade de movimento, a rota mecânica proporciona uma utilidade defensiva incomparável e uma geração sustentada de energia. Conforme avança, você desbloqueará nós especializados que permitem personalizar seus limites defensivos e seu poder ofensivo para enfrentar os desafios dos setores mais profundos.
+
+<Callout type="info" title="Requisito de Sistema">
+Certifique-se de que seu personagem atingiu pelo menos o nível 35 e completou o terceiro setor antes de tentar desbloquear este caminho mecânico.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Variantes de Build do Aspecto Ciborgue e Configurações de Módulos">
+
+Configurar seu inventário exige uma compreensão clara dos módulos ativos disponíveis no sistema. Dependendo do seu estilo de jogo preferido, você pode orientar sua build para defesa máxima, alto dano explosivo ou controle de grupo focado em utilidade. Cada configuração altera a forma como você interage com o ambiente e com os inimigos dentro do labirinto. Selecionar os módulos certos dita o seu desempenho nos setores de nível alto.
+
+As três builds principais detalhadas abaixo representam as configurações mais eficazes descobertas pelos jogadores de melhor ranque durante a temporada atual. Cada build enfatiza um aspecto diferente dos sistemas cibernéticos, permitindo que você se adapte a desafios solo ou incursões em grupo.
+
+<CardGrid cols={3}>
+  <Card title="Build Sentinela do Escudo">
+    - **Foco Principal**: Maximizar a capacidade do escudo e a absorção de dano.
+    - **Módulo Principal**: Projetor de Campo Égide.
+    - **Estilo de Jogo**: Focado em tanque, lento porém altamente resiliente.
+  </Card>
+  <Card title="Build Atacante Sobrecarregado">
+    - **Foco Principal**: Alto dano explosivo por meio de armas de energia.
+    - **Módulo Principal**: Acelerador de Dispersão de Plasma.
+    - **Estilo de Jogo**: Agressivo, alto risco, velocidade de limpeza rápida.
+  </Card>
+  <Card title="Build Tático de Nanites">
+    - **Foco Principal**: Regeneração de vida e efeitos de status.
+    - **Módulo Principal**: Enxame de Nanites de Mente Coletiva.
+    - **Estilo de Jogo**: Dano contínuo (DoT), alta utilidade, ideal para jogar solo.
+  </Card>
+</CardGrid>
+
+O Sentinela do Escudo é ideal para jogadores que preferem um estilo de jogo defensivo, permitindo-lhes absorver golpes massivos de chefes enquanto os desgastam lentamente. O Atacante Sobrecarregado, por outro lado, depende de um tempo preciso e de um gerenciamento rápido de recarga para obliterar grupos de inimigos antes que eles possam reagir. Por fim, o Tático de Nanites oferece uma abordagem híbrida, usando drones para distrair os inimigos enquanto cura danos passivos ao longo do tempo.
+
+| Nome do Módulo | Custo de Energia | Tempo de Recarga | Espaço Ideal | Classificação de Compatibilidade |
+| Projetor Égide | 45 | 12s | Defensivo | 5/5 para Sentinela |
+| Dispersor de Plasma | 60 | 8s | Ofensivo | 5/5 para Atacante |
+| Enxame de Nanites | 50 | 15s | Utilidade | 4/5 para Tático |
+| Dissipador Térmico | 30 | 6s | Auxiliar | 3/5 para Uso Geral |
+
+Ao equipar esses módulos, preste muita atenção ao custo de energia. Ativar vários módulos de alto custo simultaneamente pode levar ao esgotamento rápido da energia, deixando você incapaz de conjurar escudos defensivos cruciais em momentos críticos da batalha.
+
+<Callout type="tip" title="Bônus de Sinergia">
+Combinar o Projetor de Campo Égide com o Acelerador de Dispersão de Plasma concede um aumento temporário de 10% no dano sempre que seu escudo quebrar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear e Melhorar o Aspecto Ciborgue">
+
+Adquirir e maximizar esta build exige seguir um caminho de progressão estruturado. Você não pode simplesmente equipar essas melhorias imediatamente; é necessário coletar diagramas e recursos específicos espalhados pelos setores do labirinto. Seguir uma abordagem sistemática garante que você não desperdice materiais valiosos em melhorias abaixo do ideal no início da sua jornada.
+
+As etapas a seguir descrevem a rota mais eficiente para desbloquear totalmente o seu potencial cibernético, desde a coleta dos componentes iniciais até a instalação de módulos lendários de alto nível.
+
+<Steps>
+  <Step num="1" title="Adquira o Diagrama do Núcleo Cibernético">
+    Derrote o chefe do Setor 3 para obter o diagrama básico necessário para construir o chassi principal.
+  </Step>
+  <Step num="2" title="Colete Ligas Raras e Nanites">
+    Farme nós de recursos no Setor 4 para coletar 50 Ligas de Alto Grau e 200 Recipientes de Nanites.
+  </Step>
+  <Step num="3" title="Monte o Núcleo no Fabricador">
+    Leve os materiais ao fabricador do hub central e construa sua estrutura mecânica básica.
+  </Step>
+  <Step num="4" title="Instale Módulos Primários e Secundários">
+    Equipe seu primeiro conjunto de módulos no menu de personalização de personagem para ativar bônus passivos.
+  </Step>
+  <Step num="5" title="Calibre os Sistemas de Dissipação de Calor">
+    Realize testes de simulação nos campos de treinamento para otimizar suas taxas de conversão de calor em dano.
+  </Step>
+</Steps>
+
+Cada etapa deste processo exige dedicação e uma alocação cuidadosa de recursos. Não tenha pressa durante as fases de farming, pois ter módulos de nível baixo nos setores avançados prejudicará significativamente o seu progresso. Certifique-se de melhorar seu chassi principal antes de investir pesadamente em módulos secundários, pois o núcleo fornece a reserva de energia básica necessária para alimentar todos os outros sistemas.
+
+| Nível de Melhoria | Ligas Necessárias | Custo de Nanites | Créditos Necessários | Taxa de Sucesso |
+| Nível 1 | 10 | 50 | 5.000 | 100% |
+| Nível 2 | 25 | 120 | 15.000 | 100% |
+| Nível 3 | 50 | 300 | 40.000 | 85% |
+| Nível 4 | 100 | 750 | 100.000 | 60% |
+
+Como a taxa de sucesso diminui nos níveis mais altos, é altamente recomendável usar catalisadores de estabilização para evitar a perda de progresso ou de recursos durante o processo de melhoria. Esses catalisadores podem ser obtidos por meio de desafios semanais ou espólios de chefes de alto nível.
+
+<Callout type="warning" title="Gerenciamento de Recursos">
+Não gaste seus Recipientes de Nanites em melhorias de nível baixo. Economize-os para os módulos de Nível 3 para evitar gargalos na sua progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Combate no Labirinto e Otimização">
+
+Operar com aprimoramentos mecânicos muda a forma como você aborda o combate. Em vez de depender de vigor ou mana tradicionais, você deve monitorar seu medidor de calor. O superaquecimento desativa seus módulos ativos por vários segundos, deixando você altamente vulnerável a contra-ataques inimigos. Portanto, manter uma rotação constante de habilidades e ciclos de resfriamento é fundamental.
+
+Ao enfrentar inimigos elites ou chefes, utilize a capacidade do seu escudo para absorver o dano explosivo inicial. Assim que o inimigo entrar na fase de recuperação, ative seus módulos ofensivos para causar dano massivo e, em seguida, recue para permitir que seus sistemas de resfriamento reiniciem.
+
+<Checklist
+  id="combat-checklist"
+  title="Objetivos Diários de Combate:"
+  items={[
+    "Manter a capacidade do escudo acima de 50% durante os confrontos",
+    "Executar três ciclos perfeitos de resfriamento em uma única partida",
+    "Derrotar um inimigo elite usando apenas ataques baseados em energia",
+    "Limpar uma câmara do Setor 4 sem superaquecer o núcleo",
+    "Melhorar pelo menos um módulo passivo para o próximo nível"
+  ]}
+/>
+
+Compreender as vantagens contra diferentes tipos de inimigos também é crítico. Alguns inimigos no labirinto possuem resistências específicas a danos de energia, exigindo que você adapte sua estratégia e dependa mais de módulos de utilidade ou de armas secundárias físicas.
+
+| Tipo de Inimigo | Nível de Perigo | Módulo Recomendado | Abordagem Tática |
+| Bestas Orgânicas | Baixo | Dispersor de Plasma | Queime-as rapidamente antes que elas diminuam a distância |
+| Drones Robóticos | Médio | Disruptor PEM | Desative os escudos deles primeiro e depois use ataques físicos |
+| Guardiões do Labirinto | Alto | Projetor Égide | Foque na defesa e ataque apenas durante as janelas de recarga deles |
+| Sentinelas Corrompidas | Alto | Enxame de Nanites | Aplique dano contínuo (DoT) e mantenha distância |
+
+Ao analisar a composição dos inimigos antes de entrar em uma câmara, você pode trocar seus módulos para maximizar sua vantagem tática. Certifique-se sempre de que seu sistema de resfriamento esteja totalmente otimizado antes de enfrentar ameaças de nível de chefe.
+
+<Callout type="success" title="Eficiência em Combate">
+Ciclos de resfriamento perfeitos reduzem o tempo de recarga do seu próximo módulo ativo em 20%, permitindo rotações de habilidades mais rápidas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Navegar pelas complexidades das melhorias cibernéticas pode ser desafiador tanto para jogadores novos quanto para os que estão retornando. Abaixo estão as respostas para as perguntas mais comuns sobre a otimização deste caminho de build.
+
+<FAQ items={[
+  {
+    question: "Como faço para evitar que minha build do aspecto ciborgue em project mirror labyrinth superaqueça constantemente?",
+    answer: "Equipe módulos auxiliares de Dissipador Térmico e evite usar habilidades ativas de alto custo consecutivamente de forma repetida. Foque em uma rotação equilibrada de ataques físicos e habilidades de energia."
+  },
+  {
+    question: "Posso voltar para uma build orgânica após instalar partes cibernéticas?",
+    answer: "Sim, você pode redefinir suas modificações no fabricador do hub central por uma pequena taxa em créditos. No entanto, você perderá os bônus dos módulos ativos."
+  },
+  {
+    question: "Qual é o melhor lugar para farmar Ligas de Alto Grau?",
+    answer: "Os nós de mineração do Setor 4 e as tabelas de espólios de elites oferecem a maior concentração de Ligas de Alto Grau. Realizar desafios cooperativos também aumenta as taxas de obtenção."
+  },
+  {
+    question: "O poder tecnológico afeta o dano das minhas armas padrão?",
+    answer: "O poder tecnológico apenas melhora habilidades que utilizam sistemas de energia ou de nanites. Armas físicas padrão não se beneficiam de melhorias de poder tecnológico."
+  }
+]} />
+
+<Callout type="info" title="Suporte da Comunidade">
+Para mais discussões sobre builds e estratégias de otimização, junte-se aos canais oficiais da comunidade e compartilhe suas configurações.
+</Callout>
+
+</Section>

@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth middle aspect: Guia de Configuração",
+  description: "Domine a progressão do meio de jogo, configurações de espelho e builds de personagem na fase do project mirror labyrinth middle aspect.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Middle+Aspect+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki do project mirror labyrinth"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Domine as mecânicas do project mirror labyrinth middle aspect para transicionar eficientemente da sobrevivência no início do jogo para a dominância no fim do jogo.
+- **Sinergia de Build**: Priorize a taxa de reflexão e a resistência elemental em vez do poder de ataque físico bruto durante esta fase.
+- **Recurso Chave**: Farm Estilhaços de Espelho (Mirror Shards) e Poeira de Aspecto (Aspect Dust) nas câmaras de nível médio para aprimorar seu conjunto de equipamentos principais.
+- **Prioridade de Etapas**: Conclua os Ensaios de Reflexão (Reflection Trials) antes de tentar as lutas contra chefes nas profundezas do labirinto.
+</Callout>
+
+<Section icon={Map} title="Compreendendo o project mirror labyrinth middle aspect">
+
+A fase de meio de jogo (mid-game) do labirinto apresenta aos jogadores quebra-cabeças espaciais complexos e mecânicas de escalonamento agressivas. Alcançar esta zona requer uma sólida compreensão de como os reflexos dos espelhos interagem com o posicionamento do jogador e a conjuração de habilidades. Ao contrário das zonas externas, onde o dano bruto pode carregar você pelos encontros, o aspecto médio exige caminhos de build estratégicos e um gerenciamento cuidadoso dos perigos ambientais.
+
+Os perigos ambientais nesta zona incluem o decaimento temporal e os reflexos de espelho. O decaimento temporal drena lentamente sua reserva de recursos se você ficar parado por muito tempo, incentivando a mobilidade constante. Os reflexos de espelho, por outro lado, copiam seus ataques e os projetam de volta contra você se você falhar em alinhar seu personagem com os nós de prisma ativos espalhados pelos pisos das câmaras.
+
+| Zona | Faixa de Nível | Perigo Chave | Material Primário |
+| Outer Aspect | 1-30 | Armadilhas Básicas | Poeira de Estilhaço |
+| Middle Aspect | 31-70 | Reflexo de Espelho, Decaimento Temporal | Quartzo Refinado, Núcleo de Aspecto |
+| Inner Aspect | 71-100 | Colapso do Vazio | Cristal do Vazio |
+
+Para contornar esses perigos, você deve localizar os nós de prisma em cada câmara e ativá-los na sequência correta. A ativação de um nó desativa temporariamente o perigo de reflexão, oferecendo uma janela curta para liberar suas habilidades de alto dano. É altamente recomendável priorizar habilidades utilitárias focadas em mobilidade durante esta fase para evitar tanto o decaimento temporal quanto os projéteis refletidos.
+
+<Callout type="warning" title="Alerta de Perigo">
+Não tente lutar contra os chefes Eco sem pelo menos 40% de Resistência à Reflexão, ou sua própria produção de dano derrotará você.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds Ideais para a Fase do Aspecto Médio">
+
+Para sobreviver à dificuldade aumentada do aspecto médio, a build do seu personagem deve se adaptar. As builds iniciais padrão carecem das camadas defensivas necessárias para lidar com o dano de reflexão e os ataques de alta frequência dos monstros do meio de jogo. Compilamos três builds especializadas que se destacam na navegação por esses desafios específicos.
+
+<CardGrid cols={3}>
+  <Card title="Sentinela Reflexivo">
+    - **Alta sobrevivência**
+    - Foca em atributos de deflexão
+    - Excelente para jogadores solo
+  </Card>
+  <Card title="Atacante Fantasma">
+    - **Alta produção de dano**
+    - Usa mobilidade para desviar de reflexos
+    - Requer tempo preciso
+  </Card>
+  <Card title="Tecelão Crono">
+    - **Abordagem equilibrada**
+    - Manipula temporizadores de decaimento temporal
+    - Alta utilidade de controle de grupo
+  </Card>
+</CardGrid>
+
+Cada build utiliza um mecanismo único para combater os perigos do labirinto. O Sentinela Reflexivo depende de devolver o dano refletido do inimigo de volta para ele, tornando-se uma escolha segura para jogadores que têm dificuldade com a esquiva ativa. O Atacante Fantasma utiliza alta chance de acerto crítico e habilidades de movimento rápido para contornar completamente as armadilhas. O Tecelão Crono controla o campo de batalha desacelerando os movimentos dos inimigos e resetando tempos de recarga.
+
+| Build | Atributo Primário | Atributo Secundário | Estilo de Jogo |
+| Sentinela Reflexivo | Deflexão | Vitalidade | Contra-atacante |
+| Atacante Fantasma | Destreza | Taxa Crítica | Alta mobilidade |
+| Tecelão Crono | Inteligência | Redução de Tempo de Recarga | Controle de grupo |
+
+Ao escolher seus equipamentos, procure por atributos que complementem essas builds. For exemplo, o Sentinela Reflexivo se beneficia muito de escudos que aumentam a taxa de deflexão, enquanto o Tecelão Crono requer equipamentos que reduzam o consumo de mana para sustentar a conjuração contínua de feitiços.
+
+<Callout type="tip" title="Otimização de Build">
+Combine a redução de tempo de recarga do Tecelão Crono com as habilidades de mobilidade do Atacante Fantasma para criar uma build híbrida altamente versátil.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão Passo a Passo">
+
+Navegar pelo caminho de progressão do aspecto médio requer a conclusão de marcos específicos em uma ordem definida. Pular etapas pode levar a personagens com equipamentos insuficientes enfrentando barreiras intransponíveis contra os guardiões da zona. Siga esta rota de progressão para garantir que seu personagem permaneça devidamente escalonado.
+
+<Steps>
+  <Step num="1" title="Desbloqueando os Portões do Meio">
+    Localize as três chaves dos portões escondidas dentro das câmaras externas e insira-as no pedestal central para desbloquear a zona do aspecto médio.
+  </Step>
+  <Step num="2" title="Sintonizando o Prisma de Espelho">
+    Conclua os ensaios de sintonização no Salão Ecoante para alinhar seu dispositivo de espelho com a ressonância local do labirinto.
+  </Step>
+  <Step num="3" title="Fazendo Farm nas Câmaras de Eco">
+    Realize limpezas repetidas da Câmara de Espelhos para coletar Quartzo Refinado e Núcleos de Aspecto necessários para atualizações de equipamentos.
+  </Step>
+  <Step num="4" title="Derrotando o Eco Guardião">
+    Desafie o chefe da zona assim que o nível médio do seu equipamento atingir pelo menos 50 e sua resistência à reflexão estiver no limite máximo.
+  </Step>
+</Steps>
+
+Fazer farm nas Câmaras de Eco é a parte mais demorada desta fase. Você precisará otimizar seus tempos de limpeza agrupando os inimigos perto de nós de prisma ativos antes de ativar suas habilidades de área de efeito. Essa estratégia maximiza sua produção de dano enquanto mantém você seguro contra o dano refletido.
+
+| Câmara | Chefe Chave | Drop Único | Taxa de Drop |
+| Chamber of Mirrors | Doppelganger do Espelho | Semblante Refletido | 15% |
+| Echoing Hall | Tecelão do Som | Sino de Ressonância | 10% |
+| Temporal Rift | Guardião Crono | Núcleo de Ampulheta | 5% |
+
+Fique atento a drops raros como o Núcleo de Ampulheta, que pode ser usado para criar itens de utilidade de alto nível. Esses itens fornecem imunidade temporária ao decaimento temporal, permitindo que você permaneça imóvel durante fases intensas de chefes onde o movimento é restrito por perigos da arena.
+
+<Callout type="info" title="Dica de Progressão">
+Explore as câmaras da Fenda Temporal em grupo para aumentar a taxa geral de drop de componentes raros de criação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Otimização de Equipamentos">
+
+Otimizar seus equipamentos é crucial antes de transicionar para o aspecto interno do labirinto. O custo de aprimoramento de equipamentos aumenta significativamente durante esta fase, tornando o gerenciamento de recursos um componente chave da sua estratégia de progressão. Foque em aprimorar sua arma principal primeiro, seguida por sua armadura de peito e escudo.
+
+<Checklist
+  id="middle-aspect-milestones"
+  title="Objetivos Essenciais de Progressão:"
+  items={[
+    "Adquirir um conjunto completo de equipamentos de Espelho de Tier 4",
+    "Aprimorar sua arma principal para +10 de taxa de deflexão",
+    "Desbloquear todas as três habilidades de especialização do Aspecto Médio",
+    "Derrotar o Doppelganger do Espelho em menos de cinco minutos"
+  ]}
+/>
+
+Aprimorar equipamentos requer uma combinação de ouro e Poeira de Aspecto. Embora a taxa de sucesso dos aprimoramentos iniciais seja alta, os níveis posteriores trazem um risco significativo de falha. É aconselhável usar amuletos de segurança ao tentar aprimoramentos além de +8 para evitar que seus itens percam durabilidade ou quebrem.
+
+| Nível de Aprimoramento | Custo em Ouro | Poeira de Aspecto | Taxa de Sucesso |
+| +6 para +7 | 50000 | 10 | 80% |
+| +7 para +8 | 75000 | 15 | 60% |
+| +8 para +9 | 100000 | 25 | 40% |
+| +9 para +10 | 150000 | 40 | 25% |
+
+Se você ficar sem ouro, pode desmantelar equipamentos excedentes obtidos em câmaras de nível inferior. O desmantelamento de equipamentos também rende uma pequena quantidade de Poeira de Aspecto, ajudando a manter um suprimento constante de materiais de aprimoramento sem ter que farmar continuamente nas zonas de fenda de alta dificuldade.
+
+<Callout type="success" title="Sucesso no Aprimoramento">
+Alcançar +10 em sua arma primária desbloqueia uma habilidade passiva única que aumenta sua resistência geral à reflexão em 10%.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Navegar pelo meio de jogo pode ser confuso devido à variedade de mecânicas introduzidas simultaneamente. Abaixo estão as respostas para as perguntas mais comuns que os jogadores encontram durante esta fase de sua jornada.
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de farmar recursos no project mirror labyrinth middle aspect?",
+    answer: "Concentre-se em limpar a Câmara de Espelhos diariamente e participar de eventos de fenda cronometrados para maximizar sua aquisição de Quartzo Refinado e Núcleo de Aspecto."
+  },
+  {
+    question: "Posso ignorar os requisitos de resistência à reflexão?",
+    answer: "É altamente desaconselhável. Sem a resistência à reflexão adequada, o dano que você causa aos inimigos refletirá de volta e derrotará você quase instantaneamente."
+  },
+  {
+    question: "Qual subclasse é a melhor para jogadores solo no aspecto médio?",
+    answer: "O Sentinela Reflexivo é a subclasse mais tolerante devido às suas altas taxas naturais de deflexão e bônus passivos de sobrevivência."
+  },
+  {
+    question: "Como faço para impedir que o decaimento temporal drene minha mana?",
+    answer: "Mantenha-se em movimento durante o combate e use habilidades que ativem movimento, ou equipe itens que concedam imunidade a efeitos temporais."
+  }
+]} />
+
+<Callout type="info" title="Guia da Comunidade">
+Para mais atualizações e discussões de estratégia, consulte os fóruns oficiais da comunidade e coordene com outros jogadores em sua guilda.
+</Callout>
+
+</Section>

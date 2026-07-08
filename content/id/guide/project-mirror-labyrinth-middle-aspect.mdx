@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "project mirror labyrinth middle aspect: Panduan Setup",
+  description: "Kuasai progres mid-game, konfigurasi cermin, dan build karakter dalam fase project mirror labyrinth middle aspect.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Middle+Aspect+Guide",
+  date: "2026-07-08",
+  author: "Tim Wiki project mirror labyrinth"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Fokus Utama**: Kuasai mekanik project mirror labyrinth middle aspect untuk bertransisi secara efisien dari bertahan hidup di awal permainan (early-game) ke dominasi di akhir permainan (end-game).
+- **Sinergi Build**: Prioritaskan peringkat refleksi (reflection rating) dan ketahanan elemen (elemental resistance) daripada kekuatan serangan fisik murni selama fase ini.
+- **Sumber Daya Utama**: Lakukan farming Mirror Shard dan Aspect Dust di ruang tingkat menengah untuk meningkatkan set perlengkapan inti Anda.
+- **Prioritas Langkah**: Selesaikan Uji Coba Refleksi (Reflection Trials) sebelum mencoba pertarungan bos labirin dalam.
+</Callout>
+
+<Section icon={Map} title="Memahami project mirror labyrinth middle aspect">
+
+Fase pertengahan permainan (mid-game) dari labirin memperkenalkan pemain pada teka-teki spasial yang kompleks dan mekanik penskalaan yang agresif. Mencapai zona ini membutuhkan pemahaman yang kuat tentang bagaimana refleksi cermin berinteraksi dengan posisi pemain dan penggunaan skill. Berbeda dengan zona luar di mana damage murni dapat membawa Anda melewati pertempuran, middle aspect menuntut jalur build yang strategis dan pengelolaan bahaya lingkungan yang cermat.
+
+Bahaya lingkungan di zona ini meliputi pembusukan temporal (temporal decay) dan refleksi cermin. Pembusukan temporal secara perlahan menghabiskan sumber daya Anda jika Anda berdiri diam terlalu lama, mendorong mobilitas yang konstan. Di sisi lain, refleksi cermin menyalin serangan Anda dan memproyeksikannya kembali ke Anda jika Anda gagal menyelaraskan karakter Anda dengan simpul prisma (prism node) aktif yang tersebar di lantai ruangan.
+
+| Zona | Rentang Level | Bahaya Utama | Material Utama |
+| :--- | :--- | :--- | :--- |
+| Outer Aspect | 1-30 | Perangkap Dasar | Shard Dust |
+| Middle Aspect | 31-70 | Mirror Reflection, Temporal Decay | Refined Quartz, Aspect Core |
+| Inner Aspect | 71-100 | Void Collapse | Void Crystal |
+
+Untuk menghindari bahaya ini, Anda harus menemukan simpul prisma di setiap ruangan dan mengaktifkannya dalam urutan yang benar. Mengaktifkan simpul untuk sementara menonaktifkan bahaya refleksi, memberikan Anda jendela waktu singkat untuk melepaskan skill damage tinggi Anda. Sangat disarankan untuk memprioritaskan skill utilitas yang berfokus pada mobilitas selama fase ini untuk menghindari pembusukan temporal dan proyektil yang direfleksikan.
+
+<Callout type="warning" title="Peringatan Bahaya">
+Jangan mencoba melawan bos Echo tanpa setidaknya 40% Reflection Resistance, atau output damage Anda sendiri yang akan mengalahkan Anda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Build Optimal untuk Fase Middle Aspect">
+
+Untuk bertahan dari peningkatan kesulitan di middle aspect, build karakter Anda harus beradaptasi. Build awal standar kekurangan lapisan pertahanan yang diperlukan untuk menangani damage refleksi dan serangan berfrekuensi tinggi dari monster mid-game. Kami telah menyusun tiga build khusus yang unggul dalam menghadapi tantangan spesifik ini.
+
+<CardGrid cols={3}>
+  <Card title="Reflective Sentinel">
+    - **Kelangsungan hidup tinggi**
+    - Berfokus pada statistik defleksi
+    - Sangat bagus untuk pemain solo
+  </Card>
+  <Card title="Phantom Striker">
+    - **Output damage tinggi**
+    - Menggunakan mobilitas untuk menghindari refleksi
+    - Membutuhkan waktu yang presisi
+  </Card>
+  <Card title="Chrono Weaver">
+    - **Pendekatan seimbang**
+    - Memanipulasi pengukur waktu pembusukan temporal
+    - Utilitas kontrol kerumunan yang tinggi
+  </Card>
+</CardGrid>
+
+Setiap build menggunakan mekanisme unik untuk melawan bahaya labirin. Reflective Sentinel mengandalkan pengembalian damage refleksi musuh kembali ke mereka, menjadikannya pilihan aman bagi pemain yang kesulitan melakukan hindaran aktif. Phantom Striker menggunakan peluang serangan kritis yang tinggi dan skill gerakan cepat untuk melewati perangkap sepenuhnya. Chrono Weaver mengendalikan medan perang dengan memperlambat gerakan musuh dan mengatur ulang cooldown.
+
+| Build | Statistik Utama | Statistik Sekunder | Gaya Bermain |
+| :--- | :--- | :--- | :--- |
+| Reflective Sentinel | Deflection | Vitality | Counter-attacker |
+| Phantom Striker | Dexterity | Critical Rate | Mobilitas tinggi |
+| Chrono Weaver | Intelligence | Cooldown Reduction | Crowd control |
+
+Saat memilih perlengkapan Anda, cari atribut yang melengkapi build ini. Sebagai contoh, Reflective Sentinel sangat diuntungkan dari perisai yang meningkatkan peringkat defleksi, sedangkan Chrono Weaver membutuhkan perlengkapan yang mengurangi konsumsi mana untuk mempertahankan perapalan mantra yang terus-menerus.
+
+<Callout type="tip" title="Optimalisasi Build">
+Gabungkan pengurangan cooldown dari Chrono Weaver dengan skill mobilitas Phantom Striker untuk membuat build hibrida yang sangat serbaguna.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rute Progres Langkah demi Langkah">
+
+Menavigasi jalur progres middle aspect membutuhkan penyelesaian pencapaian (milestone) tertentu dalam urutan yang ditetapkan. Melewati langkah dapat menyebabkan karakter kekurangan perlengkapan yang memadai saat menghadapi dinding yang tidak dapat diatasi melawan penjaga zona. Ikuti rute progres ini untuk memastikan karakter Anda tetap berskala dengan benar.
+
+<Steps>
+  <Step num="1" title="Membuka Gerbang Tengah">
+    Temukan tiga kunci gerbang yang tersembunyi di dalam ruang luar dan masukkan ke dalam tumpuan tengah untuk membuka zona middle aspect.
+  </Step>
+  <Step num="2" title="Menyelaraskan Mirror Prism">
+    Selesaikan uji coba penyelarasan di Echoing Hall untuk menyelaraskan perangkat cermin Anda dengan resonansi lokal labirin.
+  </Step>
+  <Step num="3" title="Melakukan Farming di Echo Chambers">
+    Lakukan pembersihan berulang di Chamber of Mirrors untuk mengumpulkan Refined Quartz dan Aspect Core yang dibutuhkan untuk peningkatan perlengkapan.
+  </Step>
+  <Step num="4" title="Mengalahkan Guardian Echo">
+    Tantang bos zona setelah tingkat perlengkapan rata-rata Anda mencapai setidaknya 50 dan ketahanan refleksi Anda maksimal.
+  </Step>
+</Steps>
+
+Melakukan farming di Echo Chambers adalah bagian yang paling memakan waktu dalam fase ini. Anda perlu mengoptimalkan waktu pembersihan Anda dengan mengumpulkan musuh bersama-sama di dekat simpul prisma aktif sebelum mengaktifkan skill area-of-effect Anda. Strategi ini memaksimalkan output damage Anda sekaligus menjaga Anda tetap aman dari damage refleksi.
+
+| Ruang | Bos Utama | Drop Unik | Tingkat Drop |
+| :--- | :--- | :--- | :--- |
+| Chamber of Mirrors | Mirror Doppelganger | Reflected Visage | 15% |
+| Echoing Hall | Sound Weaver | Resonance Bell | 10% |
+| Temporal Rift | Chrono Warden | Hourglass Core | 5% |
+
+Perhatikan drop langka seperti Hourglass Core, yang dapat digunakan untuk membuat item utilitas tingkat tinggi. Item ini memberikan kekebalan sementara terhadap pembusukan temporal, memungkinkan Anda berdiri diam selama fase bos yang intensif di mana gerakan dibatasi oleh bahaya arena.
+
+<Callout type="info" title="Tips Progres">
+Jalankan ruang Temporal Rift bersama kelompok untuk meningkatkan tingkat drop keseluruhan dari komponen kerajinan langka.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pencapaian dan Optimalisasi Perlengkapan">
+
+Mengoptimalkan perlengkapan Anda sangat penting sebelum bertransisi ke inner aspect dari labirin. Biaya untuk meningkatkan perlengkapan meningkat secara signifikan selama fase ini, menjadikan manajemen sumber daya sebagai komponen kunci dari strategi progres Anda. Fokuslah pada peningkatan senjata utama Anda terlebih dahulu, diikuti oleh pelindung dada dan perisai Anda.
+
+<Checklist
+  id="middle-aspect-milestones"
+  title="Tujuan Progres Esensial:"
+  items={[
+    "Dapatkan set lengkap perlengkapan Mirror Tier 4",
+    "Tingkatkan senjata utama Anda ke peringkat defleksi +10",
+    "Buka ketiga skill spesialisasi Middle Aspect",
+    "Kalahkan Mirror Doppelganger dalam waktu kurang dari lima menit"
+  ]}
+/>
+
+Meningkatkan perlengkapan membutuhkan kombinasi emas dan Aspect Dust. Meskipun tingkat keberhasilan peningkatan awal cukup tinggi, level yang lebih tinggi membawa risiko kegagalan yang signifikan. Disarankan untuk menggunakan jimat keselamatan (safety charms) saat mencoba peningkatan di atas +8 untuk mencegah item Anda kehilangan durabilitas atau hancur.
+
+| Tingkat Peningkatan | Biaya Emas | Aspect Dust | Tingkat Keberhasilan |
+| :--- | :--- | :--- | :--- |
+| +6 ke +7 | 50000 | 10 | 80% |
+| +7 ke +8 | 75000 | 15 | 60% |
+| +8 ke +9 | 100000 | 25 | 40% |
+| +9 ke +10 | 150000 | 40 | 25% |
+
+Jika Anda kehabisan emas, Anda dapat membongkar perlengkapan berlebih yang diperoleh dari ruang level lebih rendah. Membongkar perlengkapan juga menghasilkan sejumlah kecil Aspect Dust, membantu Anda mempertahankan pasokan bahan peningkatan yang stabil tanpa harus terus-menerus melakukan farming di zona celah berkesulitan tinggi.
+
+<Callout type="success" title="Keberhasilan Peningkatan">
+Mencapai +10 pada senjata utama Anda akan membuka skill pasif unik yang meningkatkan ketahanan refleksi keseluruhan Anda sebesar 10%.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pertanyaan yang Sering Diajukan">
+
+Menavigasi pertengahan permainan bisa membingungkan karena berbagai mekanik yang diperkenalkan secara bersamaan. Di bawah ini adalah jawaban untuk pertanyaan paling umum yang ditemui pemain selama fase perjalanan ini.
+
+<FAQ items={[
+  {
+    question: "Apa cara tercepat untuk melakukan farming sumber daya di project mirror labyrinth middle aspect?",
+    answer: "Fokuslah untuk menyelesaikan Chamber of Mirrors setiap hari dan berpartisipasi dalam event celah berwaktu untuk memaksimalkan perolehan Refined Quartz dan Aspect Core Anda."
+  },
+  {
+    question: "Bisakah saya melewati persyaratan ketahanan refleksi?",
+    answer: "Sangat tidak disarankan. Tanpa ketahanan refleksi yang memadai, damage yang Anda berikan kepada musuh akan memantul kembali dan mengalahkan Anda hampir seketika."
+  },
+  {
+    question: "Subkelas mana yang terbaik untuk pemain solo di middle aspect?",
+    answer: "Reflective Sentinel adalah subkelas yang paling toleran karena peringkat defleksi alami yang tinggi dan peningkatan kelangsungan hidup pasifnya."
+  },
+  {
+    question: "Bagaimana cara menghentikan pembusukan temporal agar tidak menguras mana saya?",
+    answer: "Tetaplah bergerak selama pertempuran dan gunakan skill yang memicu gerakan, atau gunakan perlengkapan yang memberikan kekebalan terhadap efek temporal."
+  }
+]} />
+
+<Callout type="info" title="Panduan Komunitas">
+Untuk pembaruan lebih lanjut dan diskusi strategi, konsultasikan dengan forum komunitas resmi dan koordinasikan dengan pemain lain di guild Anda.
+</Callout>
+
+</Section>
